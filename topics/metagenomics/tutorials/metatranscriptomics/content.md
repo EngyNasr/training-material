@@ -81,7 +81,7 @@ A graphical representation of the ASaiM workflow which we will be using today is
 >    {% snippet faqs/galaxy/histories_create_new.md %}
 >    {% snippet faqs/galaxy/histories_rename.md %}
 >
-> 2. [Import](upload1) `T1A_forward` and `T1A_reverse` from [Zenodo]({{ page.zenodo_link }}) or from the data library (ask your instructor)
+> 2. {% tool [Import](upload1) %} `T1A_forward` and `T1A_reverse` from [Zenodo]({{ page.zenodo_link }}) or from the data library (ask your instructor)
 >
 >    ```
 >    {{ page.zenodo_link }}/files/T1A_forward.fastqsanger
