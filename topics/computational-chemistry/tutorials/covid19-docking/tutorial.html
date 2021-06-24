@@ -126,23 +126,25 @@
 
             <div id="lang-selector">
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
+                <strong>Automatic Translations</strong>
+
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
                 Français
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
                 日本語
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
                 Español
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
                 Português
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html&edit-text=&act=url">
                 العربية
                 </a>
                 
@@ -154,7 +156,7 @@
 
         <div class="dropdown-item">
             <div>
-                Theme
+                <i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Theme
             </div>
 
             <div id="theme-selector" data-toggle="buttons">
@@ -170,6 +172,9 @@
                 <label data-value="rainbow" class="btn btn-secondary">
                     <input type="radio" name="options" id="rainbow" autocomplete="off"> Rainbow
                 </label>
+                <label data-value="progress" class="btn btn-secondary">
+                    <input type="radio" name="options" id="progress" autocomplete="off">🏳️‍🌈
+                </label>
                 <label data-value="halloween" class="btn btn-secondary">
                     <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
                 </label>
@@ -179,6 +184,26 @@
             </div>
 
         </div>
+
+        <div class="dropdown-item">
+            <div>
+                <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
+            </div>
+
+            
+            <div id="archive-selector">
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html" title="Version 2021-05-01">2021-05-01</a>
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-04-01/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html" title="Version 2021-04-01">2021-04-01</a>
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-03-01/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html" title="Version 2021-03-01">2021-03-01</a>
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/" title="Older Versions">Older Versions</a>
+            </div>
+
+        </div>
+
     </div>
 </li>
 
@@ -345,7 +370,7 @@
 }
     </script>
 
-    <section class="tutorial">
+    <section class="tutorial topic-computational-chemistry">
         <h1 data-toc-skip>Virtual screening of the SARS-CoV-2 main protease with rDock and pose scoring</h1>
         
 
@@ -440,24 +465,24 @@
             
 
             
-            <p><strong><i class="fas fa-hourglass-half" aria-hidden="true"></i><span class="visually-hidden">time</span> Time estimation:</strong> 2 hours</p>
+            <div><strong><i class="fas fa-hourglass-half" aria-hidden="true"></i><span class="visually-hidden">time</span> Time estimation:</strong> 2 hours</div>
             
 
             
-            <p><strong><i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> Level: </strong>
+            <div><strong><i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> Level: </strong>
              Intermediate 
 <span class="level intermediate" title="Intermediate Tutorial">
   <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
 </span>
 
-</p>
+</div>
             
 
             
             
 
             
-            <p id="supporting-materials"><strong><i class="fa fa-external-link" aria-hidden="true"></i> Supporting Materials</strong></p>
+            <div id="supporting-materials"><strong><i class="fa fa-external-link" aria-hidden="true"></i> Supporting Materials</strong></div>
             <ul>
                 <div class="supporting_material">
                 
@@ -500,8 +525,6 @@
             </a>
         </li>
     
-    
-        
     
         
     
@@ -622,10 +645,6 @@
         
     
         
-    
-        
-    
-        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -661,6 +680,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -670,7 +691,7 @@
             </ul>
             
 
-            <p><strong> <i class="far fa-calendar" aria-hidden="true"></i><span class="visually-hidden">last_modification</span> Last modification:</strong> Mar 12, 2021 </p>
+            <div><strong> <i class="far fa-calendar" aria-hidden="true"></i><span class="visually-hidden">last_modification</span> Last modification:</strong> Mar 12, 2021 </div>
         </blockquote>
 
         <div class="container">
@@ -780,7 +801,7 @@ https://zenodo.org/record/3730474/files/hits.sdf
 </code></pre></div>      </div>
 
       <!--SNIPPET-->
-      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-importing-via-links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing via links</h3>  <ul>    <li>Copy the link location</li>    <li>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</li>    <li>Select <strong>Paste/Fetch Data</strong></li>    <li>Paste the link into the text field</li>    <li>Press <strong>Start</strong></li>    <li><strong>Close</strong> the windowBy default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</li>  </ul></blockquote>
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-importing-via-links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing via links</h3>  <ul>    <li>Copy the link location</li>    <li>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</li>    <li>Select <strong>Paste/Fetch Data</strong></li>    <li>Paste the link into the text field</li>    <li>Press <strong>Start</strong></li>    <li><strong>Close</strong> the window</li>    <li>By default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</li>  </ul></blockquote>
     </li>
     <li>Rename the datasets <code class="language-plaintext highlighter-rouge">Candidates SMILES</code>, <code class="language-plaintext highlighter-rouge">Receptor PDB</code> and <code class="language-plaintext highlighter-rouge">Hits SDF</code> respectively.</li>
     <li>
@@ -1210,6 +1231,8 @@ See <a href="https://covid19.galaxyproject.org/cheminformatics/3-Docking/">here<
 </li></ol>
                     
 
+                    
+
                     <h1>Feedback</h1>
                     <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.</p>
 
@@ -1246,7 +1269,7 @@ See <a href="https://covid19.galaxyproject.org/cheminformatics/3-Docking/">here<
                     <h1>Citing this Tutorial</h1>
                     <p>
                         <ol>
-                            <li id="citation-text">Simon Bray, 2021 <b>Virtual screening of the SARS-CoV-2 main protease with rDock and pose scoring (Galaxy Training Materials)</b>. <a href="/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html">/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html</a> Online; accessed TODAY
+                            <li id="citation-text">Simon Bray, 2021 <b>Virtual screening of the SARS-CoV-2 main protease with rDock and pose scoring (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html">https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html</a> Online; accessed TODAY
                             </li>
                             <li>
                             Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -1266,7 +1289,7 @@ See <a href="https://covid19.galaxyproject.org/cheminformatics/3-Docking/">here<
     year = "2021",
     month = "03",
     day = "12"
-    url = "\url{/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html}",
+    url = "\url{https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html}",
     note = "[Online; accessed TODAY]"
 }
 @article{Batut_2018,
@@ -1294,15 +1317,15 @@ document.getElementById("citation-code").innerHTML = document.getElementById("ci
 document.getElementById("citation-text").innerHTML = document.getElementById("citation-text").innerHTML.replace("TODAY", d.toDateString());
 </script>
 
+                    <h3><i class="far fa-thumbs-up" aria-hidden="true"></i><span class="visually-hidden">congratulations</span> Congratulations on successfully completing this tutorial!</h3>
+
+                    
+
+                    
+
                 </div>
             </div>
         </div>
-
-        <h3><i class="far fa-thumbs-up" aria-hidden="true"></i><span class="visually-hidden">congratulations</span> Congratulations on successfully completing this tutorial!</h3>
-
-        
-
-        
     </section>
 </div>
 

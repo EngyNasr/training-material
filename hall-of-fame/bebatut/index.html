@@ -101,23 +101,25 @@
 
             <div id="lang-selector">
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
+                <strong>Automatic Translations</strong>
+
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
                 Français
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
                 日本語
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
                 Español
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
                 Português
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
+<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/hall-of-fame/bebatut/&edit-text=&act=url">
                 العربية
                 </a>
                 
@@ -129,7 +131,7 @@
 
         <div class="dropdown-item">
             <div>
-                Theme
+                <i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Theme
             </div>
 
             <div id="theme-selector" data-toggle="buttons">
@@ -145,6 +147,9 @@
                 <label data-value="rainbow" class="btn btn-secondary">
                     <input type="radio" name="options" id="rainbow" autocomplete="off"> Rainbow
                 </label>
+                <label data-value="progress" class="btn btn-secondary">
+                    <input type="radio" name="options" id="progress" autocomplete="off">🏳️‍🌈
+                </label>
                 <label data-value="halloween" class="btn btn-secondary">
                     <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
                 </label>
@@ -154,6 +159,26 @@
             </div>
 
         </div>
+
+        <div class="dropdown-item">
+            <div>
+                <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
+            </div>
+
+            
+            <div id="archive-selector">
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/hall-of-fame/bebatut/" title="Version 2021-05-01">2021-05-01</a>
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-04-01/hall-of-fame/bebatut/" title="Version 2021-04-01">2021-04-01</a>
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-03-01/hall-of-fame/bebatut/" title="Version 2021-03-01">2021-03-01</a>
+            
+                <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/" title="Older Versions">Older Versions</a>
+            </div>
+
+        </div>
+
     </div>
 </li>
 
@@ -285,23 +310,17 @@
 						
 					
 						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
+						<li>
+							
+							
+							<a href="/training-material/topics/introduction">
+								Introduction to Galaxy Analyses
+							</a>
+							/
+							<a href="/training-material//topics/introduction/tutorials/r-basics/tutorial.html">
+							R basics in Galaxy
+							</a>
+						</li>
 						
 					
 						
@@ -312,18 +331,14 @@
 						<li>
 							
 							
-							<a href="/training-material/topics/transcriptomics">
-								Transcriptomics
+							<a href="/training-material/topics/introduction">
+								Introduction to Galaxy Analyses
 							</a>
 							/
-							<a href="/training-material//topics/transcriptomics/tutorials/scrna-preprocessing/tutorial.html">
-							Pre-processing of Single-Cell RNA Data
+							<a href="/training-material//topics/introduction/tutorials/r-advanced/tutorial.html">
+							Advanced R in Galaxy
 							</a>
 						</li>
-						
-					
-						
-					
 						
 					
 						
@@ -332,90 +347,14 @@
 						<li>
 							
 							
-							<a href="/training-material/topics/transcriptomics">
-								Transcriptomics
+							<a href="/training-material/topics/introduction">
+								Introduction to Galaxy Analyses
 							</a>
 							/
-							<a href="/training-material//topics/transcriptomics/tutorials/clipseq/tutorial.html">
-							CLIP-Seq data analysis from pre-processing to motif detection
+							<a href="/training-material//topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html">
+							From peaks to genes
 							</a>
 						</li>
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/transcriptomics">
-								Transcriptomics
-							</a>
-							/
-							<a href="/training-material//topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html">
-							Clustering 3K PBMCs with Scanpy
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/transcriptomics">
-								Transcriptomics
-							</a>
-							/
-							<a href="/training-material//topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html">
-							RNA Seq Counts to Viz in R
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/transcriptomics">
-								Transcriptomics
-							</a>
-							/
-							<a href="/training-material//topics/transcriptomics/tutorials/ref-based/tutorial.html">
-							Reference-based RNA-Seq data analysis
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
 						
 					
 						
@@ -436,8 +375,8 @@
 								Teaching and Hosting Galaxy training
 							</a>
 							/
-							<a href="/training-material//topics/instructors/tutorials/organize-workshop/tutorial.html">
-							Organizing a workshop
+							<a href="/training-material//topics/instructors/tutorials/running-workshop/tutorial.html">
+							Running a workshop as instructor
 							</a>
 						</li>
 						
@@ -464,38 +403,18 @@
 								Teaching and Hosting Galaxy training
 							</a>
 							/
-							<a href="/training-material//topics/instructors/tutorials/running-workshop/tutorial.html">
-							Running a workshop as instructor
+							<a href="/training-material//topics/instructors/tutorials/organize-workshop/tutorial.html">
+							Organizing a workshop
 							</a>
 						</li>
 						
 					
 						
-						<li>
-							
-							
-							<a href="/training-material/topics/sequence-analysis">
-								Sequence analysis
-							</a>
-							/
-							<a href="/training-material//topics/sequence-analysis/tutorials/mapping/tutorial.html">
-							Mapping
-							</a>
-						</li>
+					
 						
 					
 						
-						<li>
-							
-							
-							<a href="/training-material/topics/sequence-analysis">
-								Sequence analysis
-							</a>
-							/
-							<a href="/training-material//topics/sequence-analysis/tutorials/quality-control/tutorial.html">
-							Quality Control
-							</a>
-						</li>
+					
 						
 					
 						
@@ -521,17 +440,81 @@
 						
 					
 						
-						<li>
-							
-							
-							<a href="/training-material/topics/ecology">
-								Ecology
-							</a>
-							/
-							<a href="/training-material//topics/ecology/tutorials/species-distribution-modeling/tutorial.html">
-							Species distribution modeling
-							</a>
-						</li>
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
 						
 					
 						
@@ -555,43 +538,45 @@
 						
 					
 						
-					
+						<li>
+							
+							
+							<a href="/training-material/topics/ecology">
+								Ecology
+							</a>
+							/
+							<a href="/training-material//topics/ecology/tutorials/species-distribution-modeling/tutorial.html">
+							Species distribution modeling
+							</a>
+						</li>
 						
 					
 						
-					
+						<li>
+							
+							
+							<a href="/training-material/topics/epigenetics">
+								Epigenetics
+							</a>
+							/
+							<a href="/training-material//topics/epigenetics/tutorials/formation_of_super-structures_on_xi/tutorial.html">
+							Formation of the Super-Structures on the Inactive X
+							</a>
+						</li>
 						
 					
 						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
+						<li>
+							
+							
+							<a href="/training-material/topics/epigenetics">
+								Epigenetics
+							</a>
+							/
+							<a href="/training-material//topics/epigenetics/tutorials/estrogen-receptor-binding-site-identification/tutorial.html">
+							Identification of the binding sites of the Estrogen receptor
+							</a>
+						</li>
 						
 					
 						
@@ -651,359 +636,19 @@
 						
 					
 						
-						<li>
-							
-							
-							<a href="/training-material/topics/metagenomics">
-								Metagenomics
-							</a>
-							/
-							<a href="/training-material//topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html">
-							Metatranscriptomics analysis using microbiome RNA-seq data (short)
-							</a>
-						</li>
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/metagenomics">
-								Metagenomics
-							</a>
-							/
-							<a href="/training-material//topics/metagenomics/tutorials/general-tutorial/tutorial.html">
-							Analyses of metagenomics data - The global picture
-							</a>
-						</li>
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/metagenomics">
-								Metagenomics
-							</a>
-							/
-							<a href="/training-material//topics/metagenomics/tutorials/metatranscriptomics/tutorial.html">
-							Metatranscriptomics analysis using microbiome RNA-seq data
-							</a>
-						</li>
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/metagenomics">
-								Metagenomics
-							</a>
-							/
-							<a href="/training-material//topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html">
-							16S Microbial Analysis with mothur (short)
-							</a>
-						</li>
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/metagenomics">
-								Metagenomics
-							</a>
-							/
-							<a href="/training-material//topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html">
-							16S Microbial Analysis with mothur (extended)
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/statistics">
-								Statistics and machine learning
-							</a>
-							/
-							<a href="/training-material//topics/statistics/tutorials/classification_regression/tutorial.html">
-							Machine learning: classification and regression
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/genome-annotation">
-								Genome Annotation
-							</a>
-							/
-							<a href="/training-material//topics/genome-annotation/tutorials/tnseq/tutorial.html">
-							Essential genes detection with Transposon insertion sequencing
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/variant-analysis">
-								Variant Analysis
-							</a>
-							/
-							<a href="/training-material//topics/variant-analysis/tutorials/exome-seq/tutorial.html">
-							Exome sequencing data analysis for diagnosing a genetic disease
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/epigenetics">
-								Epigenetics
-							</a>
-							/
-							<a href="/training-material//topics/epigenetics/tutorials/formation_of_super-structures_on_xi/tutorial.html">
-							Formation of the Super-Structures on the Inactive X
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
 					
 						
-						<li>
-							
-							
-							<a href="/training-material/topics/epigenetics">
-								Epigenetics
-							</a>
-							/
-							<a href="/training-material//topics/epigenetics/tutorials/estrogen-receptor-binding-site-identification/tutorial.html">
-							Identification of the binding sites of the Estrogen receptor
-							</a>
-						</li>
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
 					
 						
 					
 						
 					
 						
-						<li>
-							
-							
-							<a href="/training-material/topics/introduction">
-								Introduction to Galaxy Analyses
-							</a>
-							/
-							<a href="/training-material//topics/introduction/tutorials/r-basics/tutorial.html">
-							R basics in Galaxy
-							</a>
-						</li>
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/introduction">
-								Introduction to Galaxy Analyses
-							</a>
-							/
-							<a href="/training-material//topics/introduction/tutorials/r-advanced/tutorial.html">
-							Advanced R in Galaxy
-							</a>
-						</li>
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/introduction">
-								Introduction to Galaxy Analyses
-							</a>
-							/
-							<a href="/training-material//topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html">
-							From peaks to genes
-							</a>
-						</li>
-						
-					
-						
 					
 						
 					
 						
-						<li>
-							
-							
-							<a href="/training-material/topics/contributing">
-								Contributing to the Galaxy Training Material
-							</a>
-							/
-							<a href="/training-material//topics/contributing/tutorials/create-new-topic/tutorial.html">
-							Including a new topic
-							</a>
-						</li>
-						
 					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/contributing">
-								Contributing to the Galaxy Training Material
-							</a>
-							/
-							<a href="/training-material//topics/contributing/tutorials/create-new-tutorial-technical/tutorial.html">
-							Tools, Data, and Workflows for tutorials
-							</a>
-						</li>
 						
 					
 						
@@ -1016,6 +661,22 @@
 							/
 							<a href="/training-material//topics/contributing/tutorials/create-new-tutorial-tours/tutorial.html">
 							Creating Interactive Galaxy Tours
+							</a>
+						</li>
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/contributing">
+								Contributing to the Galaxy Training Material
+							</a>
+							/
+							<a href="/training-material//topics/contributing/tutorials/generating-pdf/tutorial.html">
+							Generating PDF artefacts of the website
 							</a>
 						</li>
 						
@@ -1056,6 +717,36 @@
 								Contributing to the Galaxy Training Material
 							</a>
 							/
+							<a href="/training-material//topics/contributing/tutorials/github-command-line-contribution/tutorial.html">
+							Contributing with GitHub via command-line
+							</a>
+						</li>
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/contributing">
+								Contributing to the Galaxy Training Material
+							</a>
+							/
+							<a href="/training-material//topics/contributing/tutorials/create-new-topic/tutorial.html">
+							Including a new topic
+							</a>
+						</li>
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/contributing">
+								Contributing to the Galaxy Training Material
+							</a>
+							/
 							<a href="/training-material//topics/contributing/tutorials/create-new-tutorial/tutorial.html">
 							Creating a new tutorial
 							</a>
@@ -1070,24 +761,8 @@
 								Contributing to the Galaxy Training Material
 							</a>
 							/
-							<a href="/training-material//topics/contributing/tutorials/github-command-line-contribution/tutorial.html">
-							Contributing with GitHub via command-line
-							</a>
-						</li>
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/contributing">
-								Contributing to the Galaxy Training Material
-							</a>
-							/
-							<a href="/training-material//topics/contributing/tutorials/generating-pdf/tutorial.html">
-							Generating PDF artefacts of the website
+							<a href="/training-material//topics/contributing/tutorials/create-new-tutorial-technical/tutorial.html">
+							Tools, Data, and Workflows for tutorials
 							</a>
 						</li>
 						
@@ -1104,6 +779,388 @@
 							Running the Galaxy Training material website locally
 							</a>
 						</li>
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/statistics">
+								Statistics and machine learning
+							</a>
+							/
+							<a href="/training-material//topics/statistics/tutorials/classification_regression/tutorial.html">
+							Machine learning: classification and regression
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/variant-analysis">
+								Variant Analysis
+							</a>
+							/
+							<a href="/training-material//topics/variant-analysis/tutorials/exome-seq/tutorial.html">
+							Exome sequencing data analysis for diagnosing a genetic disease
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/transcriptomics">
+								Transcriptomics
+							</a>
+							/
+							<a href="/training-material//topics/transcriptomics/tutorials/ref-based/tutorial.html">
+							Reference-based RNA-Seq data analysis
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/transcriptomics">
+								Transcriptomics
+							</a>
+							/
+							<a href="/training-material//topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html">
+							Clustering 3K PBMCs with Scanpy
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/transcriptomics">
+								Transcriptomics
+							</a>
+							/
+							<a href="/training-material//topics/transcriptomics/tutorials/clipseq/tutorial.html">
+							CLIP-Seq data analysis from pre-processing to motif detection
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/transcriptomics">
+								Transcriptomics
+							</a>
+							/
+							<a href="/training-material//topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html">
+							RNA Seq Counts to Viz in R
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/transcriptomics">
+								Transcriptomics
+							</a>
+							/
+							<a href="/training-material//topics/transcriptomics/tutorials/scrna-preprocessing/tutorial.html">
+							Pre-processing of Single-Cell RNA Data
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/metagenomics">
+								Metagenomics
+							</a>
+							/
+							<a href="/training-material//topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html">
+							16S Microbial Analysis with mothur (short)
+							</a>
+						</li>
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/metagenomics">
+								Metagenomics
+							</a>
+							/
+							<a href="/training-material//topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html">
+							16S Microbial Analysis with mothur (extended)
+							</a>
+						</li>
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/metagenomics">
+								Metagenomics
+							</a>
+							/
+							<a href="/training-material//topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html">
+							Metatranscriptomics analysis using microbiome RNA-seq data (short)
+							</a>
+						</li>
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/metagenomics">
+								Metagenomics
+							</a>
+							/
+							<a href="/training-material//topics/metagenomics/tutorials/general-tutorial/tutorial.html">
+							Analyses of metagenomics data - The global picture
+							</a>
+						</li>
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/metagenomics">
+								Metagenomics
+							</a>
+							/
+							<a href="/training-material//topics/metagenomics/tutorials/metatranscriptomics/tutorial.html">
+							Metatranscriptomics analysis using microbiome RNA-seq data
+							</a>
+						</li>
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/sequence-analysis">
+								Sequence analysis
+							</a>
+							/
+							<a href="/training-material//topics/sequence-analysis/tutorials/quality-control/tutorial.html">
+							Quality Control
+							</a>
+						</li>
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/sequence-analysis">
+								Sequence analysis
+							</a>
+							/
+							<a href="/training-material//topics/sequence-analysis/tutorials/mapping/tutorial.html">
+							Mapping
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li>
+							
+							
+							<a href="/training-material/topics/genome-annotation">
+								Genome Annotation
+							</a>
+							/
+							<a href="/training-material//topics/genome-annotation/tutorials/tnseq/tutorial.html">
+							Essential genes detection with Transposon insertion sequencing
+							</a>
+						</li>
+						
+					
+						
+					
+						
+					
 						
 					
 					</ul>
@@ -1133,12 +1190,12 @@
 						<li>
 							
 							
-							<a href="/training-material/topics/transcriptomics">
-								Transcriptomics
+							<a href="/training-material/topics/introduction">
+								Introduction to Galaxy Analyses
 							</a>
 							/
-							<a href="/training-material//topics/transcriptomics/slides/introduction.html">
-							Introduction to Transcriptomics
+							<a href="/training-material//topics/introduction/slides/introduction.html">
+							Introduction to Galaxy
 							</a>
 						</li>
 						
@@ -1165,12 +1222,12 @@
 						<li>
 							
 							
-							<a href="/training-material/topics/metagenomics">
-								Metagenomics
+							<a href="/training-material/topics/contributing">
+								Contributing to the Galaxy Training Material
 							</a>
 							/
-							<a href="/training-material//topics/metagenomics/slides/introduction.html">
-							Introduction to metagenomics
+							<a href="/training-material//topics/contributing/slides/introduction.html">
+							Overview of the Galaxy Training Material
 							</a>
 						</li>
 						
@@ -1194,17 +1251,15 @@
 						
 					
 						
-					
-						
 						<li>
 							
 							
-							<a href="/training-material/topics/introduction">
-								Introduction to Galaxy Analyses
+							<a href="/training-material/topics/transcriptomics">
+								Transcriptomics
 							</a>
 							/
-							<a href="/training-material//topics/introduction/slides/introduction.html">
-							Introduction to Galaxy
+							<a href="/training-material//topics/transcriptomics/slides/introduction.html">
+							Introduction to Transcriptomics
 							</a>
 						</li>
 						
@@ -1213,12 +1268,12 @@
 						<li>
 							
 							
-							<a href="/training-material/topics/contributing">
-								Contributing to the Galaxy Training Material
+							<a href="/training-material/topics/metagenomics">
+								Metagenomics
 							</a>
 							/
-							<a href="/training-material//topics/contributing/slides/introduction.html">
-							Overview of the Galaxy Training Material
+							<a href="/training-material//topics/metagenomics/slides/introduction.html">
+							Introduction to metagenomics
 							</a>
 						</li>
 						
@@ -1227,38 +1282,6 @@
 					
 						
 					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-						<li>
-							
-							
-							<a href="/training-material/topics/sequence-analysis">
-								Sequence analysis
-							</a>
-							/
-							<a href="/training-material//topics/sequence-analysis/tutorials/quality-control/slides.html">
-							Quality Control
-							</a>
-						</li>
 						
 					
 						
@@ -1285,6 +1308,10 @@
 							Galaxy Interactive Tours
 							</a>
 						</li>
+						
+					
+						
+					
 						
 					
 						
@@ -1366,20 +1393,6 @@
 						
 					
 						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
-					
-						
 						<li>
 							
 							
@@ -1391,6 +1404,16 @@
 							Docker and Galaxy
 							</a>
 						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
 						
 					
 						
@@ -1428,15 +1451,17 @@
 						
 					
 						
-					
-						
-					
-						
-					
-						
-					
-						
-					
+						<li>
+							
+							
+							<a href="/training-material/topics/contributing">
+								Contributing to the Galaxy Training Material
+							</a>
+							/
+							<a href="/training-material//topics/contributing/tutorials/github-command-line-contribution/slides.html">
+							Contributing with GitHub via command-line
+							</a>
+						</li>
 						
 					
 						
@@ -1454,17 +1479,57 @@
 						
 					
 						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
 						<li>
 							
 							
-							<a href="/training-material/topics/contributing">
-								Contributing to the Galaxy Training Material
+							<a href="/training-material/topics/sequence-analysis">
+								Sequence analysis
 							</a>
 							/
-							<a href="/training-material//topics/contributing/tutorials/github-command-line-contribution/slides.html">
-							Contributing with GitHub via command-line
+							<a href="/training-material//topics/sequence-analysis/tutorials/quality-control/slides.html">
+							Quality Control
 							</a>
 						</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
 						
 					
 					</ul>
@@ -1486,23 +1551,9 @@ var topics = [
 	
 
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
+		
+		
+		"Introduction to Galaxy Analyses",
 	
 
 	
@@ -1512,35 +1563,7 @@ var topics = [
 	
 		
 		
-		"Transcriptomics",
-	
-
-	
-
-	
-
-	
-
-	
-		
-		
-		"Transcriptomics",
-	
-
-	
-		
-		
-		"Transcriptomics",
-	
-
-	
-
-	
-
-	
-
-	
-
+		"Introduction to Galaxy Analyses",
 	
 
 	
@@ -1548,35 +1571,7 @@ var topics = [
 	
 		
 		
-		"Transcriptomics",
-	
-
-	
-
-	
-
-	
-
-	
-		
-		
-		"Transcriptomics",
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
+		"Introduction to Galaxy Analyses",
 	
 
 	
@@ -1608,15 +1603,11 @@ var topics = [
 	
 
 	
-		
-		
-		"Sequence analysis",
+
 	
 
 	
-		
-		
-		"Sequence analysis",
+
 	
 
 	
@@ -1634,61 +1625,111 @@ var topics = [
 	
 
 	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 		
 		
 		"Ecology",
 	
 
 	
-
-	
-
-	
-
-	
 		
 		
 		"Ecology",
 	
 
 	
-
+		
+		
+		"Epigenetics",
 	
 
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
+		
+		
+		"Epigenetics",
 	
 
 	
@@ -1740,99 +1781,77 @@ var topics = [
 	
 
 	
-		
-		
-		"Metagenomics",
-	
 
 	
-		
-		
-		"Metagenomics",
+
 	
 
 	
 
 	
-		
-		
-		"Metagenomics",
+
+	
+
+	
+
 	
 
 	
 		
 		
-		"Metagenomics",
+		"Contributing to the Galaxy Training Material",
+	
+
 	
 
 	
 		
 		
-		"Metagenomics",
+		"Contributing to the Galaxy Training Material",
+	
+
+	
+		
+		
+		"Contributing to the Galaxy Training Material",
+	
+
+	
+		
+		
+		"Contributing to the Galaxy Training Material",
+	
+
+	
+		
+		
+		"Contributing to the Galaxy Training Material",
+	
+
+	
+		
+		
+		"Contributing to the Galaxy Training Material",
 	
 
 	
 
 	
-
+		
+		
+		"Contributing to the Galaxy Training Material",
 	
 
 	
-
+		
+		
+		"Contributing to the Galaxy Training Material",
 	
 
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
+		
+		
+		"Contributing to the Galaxy Training Material",
 	
 
 	
@@ -1860,9 +1879,77 @@ var topics = [
 	
 
 	
-		
-		
-		"Genome Annotation",
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
 	
 
 	
@@ -1877,153 +1964,6 @@ var topics = [
 
 	
 
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-		
-		
-		"Epigenetics",
-	
-
-	
-
-	
-
-	
-
-	
-		
-		
-		"Epigenetics",
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-		
-		
-		"Introduction to Galaxy Analyses",
-	
-
-	
-		
-		
-		"Introduction to Galaxy Analyses",
-	
-
-	
-		
-		
-		"Introduction to Galaxy Analyses",
-	
-
-	
-
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-	
-		
-		
-		"Contributing to the Galaxy Training Material",
-	
-
-
-	
-		
-		
-		"Epigenetics",
 	
 
 	
@@ -2037,9 +1977,73 @@ var topics = [
 	
 
 	
+
+	
+
+	
+
+	
 		
 		
-		"Development in Galaxy",
+		"Transcriptomics",
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+		"Transcriptomics",
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+		"Transcriptomics",
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+		"Transcriptomics",
+	
+
+	
+
+	
+
 	
 
 	
@@ -2053,13 +2057,9 @@ var topics = [
 	
 
 	
-
-	
-
-	
 		
 		
-		"Variant Analysis",
+		"Metagenomics",
 	
 
 	
@@ -2067,37 +2067,27 @@ var topics = [
 	
 		
 		
-		"Introduction to Galaxy Analyses",
+		"Metagenomics",
+	
+
 	
 
 	
 		
 		
-		"Contributing to the Galaxy Training Material",
+		"Metagenomics",
 	
 
 	
-
+		
+		
+		"Metagenomics",
 	
 
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
+		
+		
+		"Sequence analysis",
 	
 
 	
@@ -2115,6 +2105,87 @@ var topics = [
 	
 
 	
+		
+		
+		"Genome Annotation",
+	
+
+	
+
+	
+
+	
+
+
+	
+		
+		
+		"Epigenetics",
+	
+
+	
+
+	
+
+	
+		
+		
+		"Introduction to Galaxy Analyses",
+	
+
+	
+		
+		
+		"Development in Galaxy",
+	
+
+	
+
+	
+
+	
+		
+		
+		"Contributing to the Galaxy Training Material",
+	
+
+	
+
+	
+
+	
+		
+		
+		"Variant Analysis",
+	
+
+	
+		
+		
+		"Transcriptomics",
+	
+
+	
+		
+		
+		"Metagenomics",
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 
 	
 
@@ -2127,6 +2198,10 @@ var topics = [
 	
 
 	
+
+	
+
+	
 		
 		
 		"Development in Galaxy",
@@ -2136,20 +2211,6 @@ var topics = [
 		
 		
 		"Development in Galaxy",
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
 	
 
 	
@@ -2219,6 +2280,16 @@ var topics = [
 	
 
 	
+
+	
+
+	
+
+	
+
+	
+
+	
 		
 		
 		"Epigenetics",
@@ -2233,18 +2304,6 @@ var topics = [
 	
 
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
 		
 		
 		"Contributing to the Galaxy Training Material",
@@ -2254,6 +2313,52 @@ var topics = [
 		
 		
 		"Contributing to the Galaxy Training Material",
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+		"Sequence analysis",
+	
+
+	
+
+	
+
+	
+
+	
+
 	
 
 ];
@@ -2327,7 +2432,7 @@ var chart = new Chart(ctx, {
         <p>
     The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/a700b2e0098666a2088137a2587ecfae37219303">a700b2e0098666a2088137a2587ecfae37219303</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/87939a971cd35da9c7f19dca431dc5ff294bee35">87939a971cd35da9c7f19dca431dc5ff294bee35</a></p>
     </div>
 </footer>
 
