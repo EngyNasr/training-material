@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="/training-material/assets/css/academicons.css">
         <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
+        <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
 
         
         
@@ -29,7 +30,7 @@
     </head>
     <body data-spy="scroll" data-target="#toc">
         <header>
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
             <a class="navbar-brand" href="/training-material/">
                 <img src="/training-material/assets/images/GTN-60px.png" height="30" alt="Galaxy Training Network logo">
@@ -42,9 +43,11 @@
             <div class="collapse navbar-collapse" id="top-navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                         <a class="nav-link" href="/training-material/hall-of-fame" title="Hall of Fame">
-                            <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
+                        
+                        <a class="nav-link" href="/training-material/hall-of-fame" title="Hall of Fame">
+                           <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
                         </a>
+                        
                     </li>
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
@@ -63,10 +66,9 @@
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
         
-        <a class="dropdown-item" href="/training-material/topics/galaxy-interface/faqs/" title="Check our FAQs for the  topic">
+        <a class="dropdown-item" href="/training-material/topics/galaxy-interface/faqs/" title="Check our FAQs for the Using Galaxy and Managing your Data topic">
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Topic FAQs
         </a>
-
         
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
             <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
@@ -89,13 +91,19 @@
           <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit on GitHub
         </a>
 
-        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this rrepository">
+        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this repository">
             <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN statistics
         </a>
 
         <a class="dropdown-item" href="https://plausible.galaxyproject.eu/training.galaxyproject.org?period=12mo&page=/training-material/topics/galaxy-interface/" title="Show view statistics of this page">
             <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Page Metrics
         </a>
+
+        
+            <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+            </a>
+        
 
         <div class="dropdown-item">
             <div>
@@ -126,7 +134,7 @@
                 العربية
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2F%2Ftutorials%2F%2Ftutorial.html&edit-text=&act=url" title="">
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2F%2Ftutorial.html&edit-text=&act=url" title="">
                 And more!
                 </a>
             </div>
@@ -188,7 +196,7 @@
 
                     <!-- Search bar-->
                     <li class="nav-item">
-                      <div id="navbarSupportedContent">
+                      <div id="navbarSupportedContent" role="search">
                         <!-- Search form -->
                         <form class="form-inline mr-auto" method="GET" action="/training-material/search">
                           <i class="fas fa-search nav-link" aria-hidden="true"></i>
@@ -204,8 +212,8 @@
     </nav>
 </header>
 
-
-
+        <div class="container main-content" role="main">
+        
 
 
 
@@ -222,21 +230,20 @@
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-<div class="container main-content">
-	<section class="tutorials-list galaxy-interface topic-type-basics">
-        <h1>Using Galaxy and Managing your Data</h1>
-        <p>A collection of microtutorials explaining various features of the Galaxy user interface and manipulating data within Galaxy.</p>
+<section class="tutorials-list galaxy-interface topic-type-basics">
+    <h1>Using Galaxy and Managing your Data</h1>
+    <p>A collection of microtutorials explaining various features of the Galaxy user interface and manipulating data within Galaxy.</p>
 
-        
+    
 
+    
+        <h2 id="material">Material</h2>
         
-            <h2 id="material">Material</h2>
-            
-            
-              
-                <h3 id="st-uploading-data">Uploading Data</h3>
-                These tutorials will help you get data into Galaxy, before you analyse it. </br></br>
-                <table class="table table-responsive table-striped" >
+        
+          
+            <h3 id="st-uploading-data">Uploading Data</h3>
+            These tutorials will help you get data into Galaxy, before you analyse it. </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -284,18 +291,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/galaxy-interface/tutorials/get-data/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/get-data/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/get-data/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fget-data%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fget-data%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -320,11 +328,18 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fget-data%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/get-data/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
  </td>
@@ -332,6 +347,7 @@
             
             
               <td> 
+
 
 
  </td>
@@ -375,8 +391,11 @@
           <div class="">
           
             
+
+
+
 <span class="level intermediate" title="Intermediate Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -396,9 +415,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -409,6 +431,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -444,6 +467,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -461,8 +485,11 @@
           <div class="">
           
             
+
+
+
 <span class="level advanced" title="Advanced Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -482,9 +509,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -495,6 +525,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -528,6 +559,7 @@
             
             
               <td> 
+
 
 
  </td>
@@ -565,18 +597,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/galaxy-interface/tutorials/ncbi-sarf/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/ncbi-sarf/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/ncbi-sarf/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fncbi-sarf%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fncbi-sarf%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -601,11 +634,18 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fncbi-sarf%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/ncbi-sarf/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -616,6 +656,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -651,6 +692,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -674,15 +716,19 @@
 
     
     
+    
+
+    
+    
   </tbody>
 </table>
 
 
 
-              
-                <h3 id="st-galaxy-features">Galaxy Features</h3>
-                Learn how to use Galaxy efficiently </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-galaxy-features">Galaxy Features</h3>
+            Learn how to use Galaxy efficiently </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -732,9 +778,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -745,6 +794,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -778,6 +828,7 @@
             
             
               <td> 
+
 
 
  </td>
@@ -833,8 +884,11 @@
           <div class="">
           
             
+
+
+
 <span class="level introductory" title="Introductory Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -844,9 +898,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -857,6 +914,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -892,12 +950,17 @@
               <td> 
 
 
+
  </td>
             
           
          </tr>
          
        
+    
+    
+
+    
     
     
 
@@ -917,9 +980,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -930,6 +996,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -965,6 +1032,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -989,10 +1057,10 @@
 
 
 
-              
-                <h3 id="st-making-data-manageable">Making Data Manageable</h3>
-                Now that you have data in Galaxy, let's make it easier to work with through collections and structured data. </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-making-data-manageable">Making Data Manageable</h3>
+            Now that you have data in Galaxy, let's make it easier to work with through collections and structured data. </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -1044,9 +1112,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1057,6 +1128,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1092,6 +1164,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -1117,8 +1190,11 @@
           <div class="">
           
             
+
+
+
 <span class="level advanced" title="Advanced Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -1134,9 +1210,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1147,6 +1226,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1182,6 +1262,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -1203,9 +1284,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1216,6 +1300,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1251,12 +1336,17 @@
               <td> 
 
 
+
  </td>
             
           
          </tr>
          
        
+    
+    
+
+    
     
     
 
@@ -1296,8 +1386,11 @@
           <div class="">
           
             
+
+
+
 <span class="level intermediate" title="Intermediate Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -1313,9 +1406,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1326,6 +1422,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1361,6 +1458,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -1377,10 +1475,10 @@
 
 
 
-              
-                <h3 id="st-analysing-data">Analysing Data</h3>
-                Some advanced topics in data analyis. </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-analysing-data">Analysing Data</h3>
+            Some advanced topics in data analyis. </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -1426,9 +1524,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1439,6 +1540,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1472,6 +1574,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -1520,8 +1623,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -1535,10 +1646,6 @@
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
-        
-    
         
     
         
@@ -1614,6 +1721,10 @@
         
     
         
+        <a class="dropdown-item" href="https://usegalaxy.fr/" title="UseGalaxy.fr">
+            UseGalaxy.fr
+        </a>
+        
     
         
     
@@ -1627,6 +1738,8 @@
         <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
             UseGalaxy.org.au
         </a>
+        
+    
         
     
         
@@ -1655,8 +1768,11 @@
           <div class="">
           
             
+
+
+
 <span class="level intermediate" title="Intermediate Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -1672,9 +1788,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1685,6 +1804,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1719,6 +1839,7 @@
             
               <td> 
 
+
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
@@ -1744,11 +1865,11 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
-        
-    
         
     
         
@@ -1778,8 +1899,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -1868,8 +1997,6 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
             NanoGalaxy
         </a>
@@ -1886,12 +2013,6 @@
         
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="http://www.proteore.org/" title="ProteoRE">
-            ProteoRE
         </a>
         
     
@@ -1954,6 +2075,12 @@
         
         <a class="dropdown-item" href="https://virology.usegalaxy.eu/" title="Virology">
             Virology
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://covid19.usegalaxy.fr/" title="covid19.UseGalaxy.fr">
+            covid19.UseGalaxy.fr
         </a>
         
     
@@ -1997,9 +2124,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -2010,6 +2140,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -2044,6 +2175,7 @@
             
               <td> 
 
+
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
@@ -2069,11 +2201,11 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
-        
-    
         
     
         
@@ -2103,8 +2235,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -2189,8 +2329,6 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
             NanoGalaxy
         </a>
@@ -2204,8 +2342,6 @@
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -2266,6 +2402,8 @@
         </a>
         
     
+        
+    
     </ul>
 
 
@@ -2286,13 +2424,22 @@
           <div class="">
           
           
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="interactive-tools">
+              <button class="label label-default tutorial_tag" id="interactive-tools" style="background-color: hsl(29, 80.0%, 85%); color: #333; border: 1px solid hsl(29, 80.0%, 45%)" title="Click to show all tutorials with this tag">interactive-tools</button>
+               </form>
+            
+          
           </div>
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -2303,6 +2450,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -2338,6 +2486,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -2363,13 +2512,22 @@
           <div class="">
           
           
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="interactive-tools">
+              <button class="label label-default tutorial_tag" id="interactive-tools" style="background-color: hsl(29, 80.0%, 85%); color: #333; border: 1px solid hsl(29, 80.0%, 45%)" title="Click to show all tutorials with this tag">interactive-tools</button>
+               </form>
+            
+          
           </div>
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -2380,6 +2538,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -2415,12 +2574,17 @@
               <td> 
 
 
+
  </td>
             
           
          </tr>
          
        
+    
+    
+
+    
     
     
 
@@ -2456,9 +2620,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -2469,6 +2636,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -2504,6 +2672,7 @@
               <td> 
 
 
+
  </td>
             
           
@@ -2525,8 +2694,11 @@
           <div class="">
           
             
+
+
+
 <span class="level intermediate" title="Intermediate Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -2542,9 +2714,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -2555,6 +2730,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -2589,6 +2765,7 @@
             
               <td> 
 
+
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
@@ -2614,11 +2791,11 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
-        
-    
         
     
         
@@ -2648,8 +2825,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -2738,8 +2923,6 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
             NanoGalaxy
         </a>
@@ -2756,12 +2939,6 @@
         
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="http://www.proteore.org/" title="ProteoRE">
-            ProteoRE
         </a>
         
     
@@ -2827,6 +3004,12 @@
         </a>
         
     
+        
+        <a class="dropdown-item" href="https://covid19.usegalaxy.fr/" title="covid19.UseGalaxy.fr">
+            covid19.UseGalaxy.fr
+        </a>
+        
+    
     </ul>
 
 
@@ -2842,10 +3025,10 @@
 
 
 
-              
-                <h3 id="st-download-and-free-up-space">Download and free up space</h3>
-                Once you are done with your analyses in Galaxy, it's time to download your data and free up space. </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-download-and-free-up-space">Download and free up space</h3>
+            Once you are done with your analyses in Galaxy, it's time to download your data and free up space. </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -2881,8 +3064,11 @@
           <div class="">
           
             
+
+
+
 <span class="level introductory" title="Introductory Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -2892,9 +3078,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -2905,6 +3094,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -2938,6 +3128,7 @@
             
             
               <td> 
+
 
 
  </td>
@@ -3011,52 +3202,469 @@
 
     
     
+    
+
+    
+    
   </tbody>
 </table>
 
 
 
-              
+          
 
-              
-              
+          
+          
+          <div id="tutorial_list">
+          <h3> Other </h3>
+          <div class="search_box">
+            <i class="fas fa fa-search" aria-hidden="true"></i><span class="visually-hidden">search</span>
+            <input data-search-type="tutorial_title" class="search" id="tutorial_search" placeholder="Search" />
+            <span id="clear_search" title="Clear filters"> <i class="fas fa-times" aria-hidden="true"></i><span class="visually-hidden">galaxy-cross</span> </span>
+          </div></br>
+          Assorted other tutorials </br></br>
+          <table class="table table-responsive table-striped" >
+  <thead>
+    <tr>
+      <th>Lesson</th>
+      <th>Slides</th>
+      <th>Hands-on</th>
 
+      
+
+      
+      <th>Galaxy instances</th>
+      
+    </tr>
+  </thead>
+  <tbody class="list">
+
+  
+  
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+      
+        <tr>
+          <td class="tutorial_title">
+          Submitting raw sequencing reads to ENA
+          <div class="">
+          
             
 
+
+
+<span class="level intermediate" title="Intermediate Tutorial">
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+</span>
+
+
+          
+          
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="covid19">
+              <button class="label label-default tutorial_tag" id="covid19" style="background-color: hsl(332, 80.0%, 85%); color: #333; border: 1px solid hsl(332, 80.0%, 45%)" title="Click to show all tutorials with this tag">covid19</button>
+               </form>
+            
+          
+          </div>
+          </td>
+          
+            <td> 
+	<a class="visually-hidden" href="/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
+    <span class="btn-group">
+        <a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
         
 
-        <h2 id="topic-faq">Frequently Asked Questions</h2>
-        Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Fslides.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Fslides.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Fslides.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Fslides.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Fslides.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Fslides.html&edit-text=&act=url" title="">
+            And more!
+        </a>
 
-        <h2 id="maintainers">Maintainers</h2>
-        <p>This material is maintained by:</p>
+	<a class="btn btn-default topic-icon" href="/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
+    </ul>
+    
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+ </td>
+            <td> 
+    <span class="btn-group">
+        <a href="/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
         
         
-
- <a href="/training-material/hall-of-fame/jennaj/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jennaj" alt="Jennifer Hillman-Jackson">Jennifer Hillman-Jackson</a> <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a>
-
-
-
-        <p>
-            <em>For any question related to this topic and the content, you can contact them or visit our <a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter channel</a>.</em>
-        </p>
-
-        <h2 id="contributors">Contributors</h2>
-        <p>This material was contributed to by:</p>
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
         
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
         
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fupload-data-to-ena%2Ftutorial.html&edit-text=&act=url" title="">
+            And more!
+        </a>
+    </span>
+
+ </td>
+
+            
+            
+              <td> 
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
+            Galaxy@GenOuest
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.fr/" title="UseGalaxy.fr">
+            UseGalaxy.fr
+        </a>
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+ </td>
+            
+          
+         </tr>
+         
+       
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+  </tbody>
+</table>
+
+
+
+          </div>
+          
+
         
 
- <a href="/training-material/hall-of-fame/simonbray/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/simonbray" alt="Simon Bray">Simon Bray</a> <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Wolfgang Maier">Wolfgang Maier</a> <a href="/training-material/hall-of-fame/mvdbeek/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mvdbeek" alt="Marius van den Beek">Marius van den Beek</a> <a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/slugger70" alt="Simon Gladman">Simon Gladman</a> <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a> <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Dave Clements">Dave Clements</a> <a href="/training-material/hall-of-fame/pajanne/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pajanne" alt="Anne Pajon">Anne Pajon</a> <a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mblue9" alt="Maria Doyle">Maria Doyle</a> <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/shiltemann" alt="Saskia Hiltemann">Saskia Hiltemann</a> <a href="/training-material/hall-of-fame/danielabutano/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/danielabutano" alt="Daniela Butano">Daniela Butano</a> <a href="/training-material/hall-of-fame/yochannah/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/yochannah" alt="Yo Yehudi">Yo Yehudi</a> <a href="/training-material/hall-of-fame/annefou/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annefou" alt="Anne Fouilloux">Anne Fouilloux</a> <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a> <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a> <a href="/training-material/hall-of-fame/fpsom/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/fpsom" alt="Fotis E. Psomopoulos">Fotis E. Psomopoulos</a> <a href="/training-material/hall-of-fame/tobyhodges/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tobyhodges" alt="Toby Hodges">Toby Hodges</a> <a href="/training-material/hall-of-fame/jmchilton/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jmchilton" alt="John Chilton">John Chilton</a> <a href="/training-material/hall-of-fame/jontrow/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jontrow" alt="Jon Trow">Jon Trow</a> <a href="/training-material/hall-of-fame/Arhodes-NCBI/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/Arhodes-NCBI" alt="Adelaide Rhodes">Adelaide Rhodes</a> <a href="/training-material/hall-of-fame/martenson/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/martenson" alt="Martin Čech">Martin Čech</a> <a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/delphine-l" alt="Delphine Lariviere">Delphine Lariviere</a>
+    
+
+    <h2 id="topic-faq">Frequently Asked Questions</h2>
+    Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
+
+    <h2 id="maintainers">Maintainers</h2>
+    <p>This material is maintained by:</p>
+    
+    
+
+ <a href="/training-material/hall-of-fame/jennaj/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jennaj" alt="Avatar">Jennifer Hillman-Jackson</a> <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Avatar">Helena Rasche</a>
 
 
 
+    <p>
+        <em>For any question related to this topic and the content, you can contact them or visit our <a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter channel</a>.</em>
+    </p>
+
+    <h2 id="contributors">Contributors</h2>
+    <p>This material was contributed to by:</p>
+    
+    
+    
+    
+
+ <a href="/training-material/hall-of-fame/simonbray/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/simonbray" alt="Avatar">Simon Bray</a> <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Avatar">Wolfgang Maier</a> <a href="/training-material/hall-of-fame/mvdbeek/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mvdbeek" alt="Avatar">Marius van den Beek</a> <a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/slugger70" alt="Avatar">Simon Gladman</a> <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Avatar">Helena Rasche</a> <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Avatar">Dave Clements</a> <a href="/training-material/hall-of-fame/pajanne/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pajanne" alt="Avatar">Anne Pajon</a> <a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mblue9" alt="Avatar">Maria Doyle</a> <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/shiltemann" alt="Avatar">Saskia Hiltemann</a> <a href="/training-material/hall-of-fame/danielabutano/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/danielabutano" alt="Avatar">Daniela Butano</a> <a href="/training-material/hall-of-fame/yochannah/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/yochannah" alt="Avatar">Yo Yehudi</a> <a href="/training-material/hall-of-fame/annefou/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annefou" alt="Avatar">Anne Fouilloux</a> <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Avatar">Anton Nekrutenko</a> <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Avatar">Bérénice Batut</a> <a href="/training-material/hall-of-fame/fpsom/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/fpsom" alt="Avatar">Fotis E. Psomopoulos</a> <a href="/training-material/hall-of-fame/tobyhodges/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tobyhodges" alt="Avatar">Toby Hodges</a> <a href="/training-material/hall-of-fame/jmchilton/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jmchilton" alt="Avatar">John Chilton</a> <a href="/training-material/hall-of-fame/jontrow/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jontrow" alt="Avatar">Jon Trow</a> <a href="/training-material/hall-of-fame/Arhodes-NCBI/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/Arhodes-NCBI" alt="Avatar">Adelaide Rhodes</a> <a href="/training-material/hall-of-fame/roncoronimiguel/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/roncoronimiguel" alt="Avatar">Miguel Roncoroni</a> <a href="/training-material/hall-of-fame/martenson/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/martenson" alt="Avatar">Martin Čech</a> <a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/delphine-l" alt="Avatar">Delphine Lariviere</a>
+
+
+
+    
+</section>
+
+        </div>
         
-    </section>
-</div>
-
-<footer>
+            <footer>
     <div class="container">
         <br><br>
         <p>
@@ -3064,16 +3672,13 @@
             provides researchers with online training materials, connects them with local trainers, and helps promoting open data analysis practices worldwide.
         </p>
         <p>
-    The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/87939a971cd35da9c7f19dca431dc5ff294bee35">87939a971cd35da9c7f19dca431dc5ff294bee35</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/2efecebf745cacd59dd4d1d7737f399a7d7bc989">2efecebf745cacd59dd4d1d7737f399a7d7bc989</a></p>
     </div>
 </footer>
 
-
-
-
-
+        
     </body>
     <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
     <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>

@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="/training-material/assets/css/academicons.css">
         <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
+        <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
 
         
         
@@ -29,7 +30,7 @@
     </head>
     <body data-spy="scroll" data-target="#toc">
         <header>
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
             <a class="navbar-brand" href="/training-material/">
                 <img src="/training-material/assets/images/GTN-60px.png" height="30" alt="Galaxy Training Network logo">
@@ -42,9 +43,11 @@
             <div class="collapse navbar-collapse" id="top-navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                         <a class="nav-link" href="/training-material/hall-of-fame" title="Hall of Fame">
-                            <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
+                        
+                        <a class="nav-link" href="/training-material/hall-of-fame" title="Hall of Fame">
+                           <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
                         </a>
+                        
                     </li>
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
@@ -63,10 +66,9 @@
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
         
-        <a class="dropdown-item" href="/training-material/topics/transcriptomics/faqs/" title="Check our FAQs for the  topic">
+        <a class="dropdown-item" href="/training-material/topics/transcriptomics/faqs/" title="Check our FAQs for the Transcriptomics topic">
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Topic FAQs
         </a>
-
         
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
             <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
@@ -89,13 +91,19 @@
           <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit on GitHub
         </a>
 
-        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this rrepository">
+        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this repository">
             <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN statistics
         </a>
 
         <a class="dropdown-item" href="https://plausible.galaxyproject.eu/training.galaxyproject.org?period=12mo&page=/training-material/topics/transcriptomics/" title="Show view statistics of this page">
             <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Page Metrics
         </a>
+
+        
+            <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+            </a>
+        
 
         <div class="dropdown-item">
             <div>
@@ -126,7 +134,7 @@
                 العربية
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2F%2Ftutorials%2F%2Ftutorial.html&edit-text=&act=url" title="">
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2F%2Ftutorial.html&edit-text=&act=url" title="">
                 And more!
                 </a>
             </div>
@@ -188,7 +196,7 @@
 
                     <!-- Search bar-->
                     <li class="nav-item">
-                      <div id="navbarSupportedContent">
+                      <div id="navbarSupportedContent" role="search">
                         <!-- Search form -->
                         <form class="form-inline mr-auto" method="GET" action="/training-material/search">
                           <i class="fas fa-search nav-link" aria-hidden="true"></i>
@@ -204,8 +212,8 @@
     </nav>
 </header>
 
-
-
+        <div class="container main-content" role="main">
+        
 
 
 
@@ -222,17 +230,16 @@
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-<div class="container main-content">
-	<section class="tutorials-list transcriptomics topic-type-use">
-        <h1>Transcriptomics</h1>
-        <p>Training material for all kinds of transcriptomics analysis.</p>
+<section class="tutorials-list transcriptomics topic-type-use">
+    <h1>Transcriptomics</h1>
+    <p>Training material for all kinds of transcriptomics analysis.</p>
 
+    
+    <h2 id="requirements">Requirements</h2>
+    <p>Before diving into this topic, we recommend you to have a look at:</p>
+
+    <ul>
         
-        <h2 id="requirements">Requirements</h2>
-        <p>Before diving into this topic, we recommend you to have a look at:</p>
-
-        <ul>
-            
     <li>
     
         
@@ -268,6 +275,8 @@
                             </li>
                         
                     
+                        
+                    
                 
                     
                         
@@ -287,23 +296,25 @@
                     
                         
                     
+                        
+                    
                 
             </ul>
         
     
     </li>
 
-        </ul>
-        
+    </ul>
+    
 
+    
+        <h2 id="material">Material</h2>
         
-            <h2 id="material">Material</h2>
-            
-            
-              
-                <h3 id="st-introduction">Introduction</h3>
-                Start here if you are new to RNA-Seq analysis in Galaxy </br></br>
-                <table class="table table-responsive table-striped" >
+        
+          
+            <h3 id="st-introduction">Introduction</h3>
+            Start here if you are new to RNA-Seq analysis in Galaxy </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -499,9 +510,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -512,6 +526,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -544,26 +559,31 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4541751">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/ref-based/workflows/" title="Workflows" alt="Reference-based RNA-Seq data analysis workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/ref-based/tours/">
-    <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/ref-based/tours/" title="Galaxy interactive tour" >
+    <i class="fas fa-magic" aria-hidden="true"></i>
 </a>
 
  </td>
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -612,8 +632,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -680,13 +708,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -747,6 +771,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -771,9 +797,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -784,6 +813,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -816,32 +846,39 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/254485#.WKODmRIrKRu">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/de-novo/workflows/" title="Workflows" alt="De novo transcriptome reconstruction with RNA-Seq workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/de-novo/tours/">
-    <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/de-novo/tours/" title="Galaxy interactive tour" >
+    <i class="fas fa-magic" aria-hidden="true"></i>
 </a>
 
  </td>
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -890,6 +927,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -960,13 +1003,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -1027,6 +1066,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -1074,10 +1115,10 @@
 
 
 
-              
-                <h3 id="st-end-to-end-analysis">End-to-End Analysis</h3>
-                These tutorials take you from raw sequencing reads to pathway analysis </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-end-to-end-analysis">End-to-End Analysis</h3>
+            These tutorials take you from raw sequencing reads to pathway analysis </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -1127,9 +1168,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1140,6 +1184,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1172,14 +1217,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4249555">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/workflows/" title="Workflows" alt="1: RNA-Seq reads to counts workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -1188,12 +1237,15 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -1242,6 +1294,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -1312,13 +1370,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -1379,6 +1433,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -1417,9 +1473,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1430,6 +1489,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1462,14 +1522,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4273218">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/workflows/" title="Workflows" alt="2: RNA-seq counts to genes workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -1478,6 +1542,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -1526,8 +1591,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -1594,13 +1667,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -1653,6 +1722,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -1683,9 +1754,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -1696,6 +1770,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -1728,14 +1803,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/2596382">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/workflows/" title="Workflows" alt="3: RNA-seq genes to pathways workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -1744,6 +1823,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -1792,8 +1872,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -1860,13 +1948,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -1915,6 +1999,8 @@
         <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
             UseGalaxy.org.au
         </a>
+        
+    
         
     
         
@@ -2050,10 +2136,10 @@
 
 
 
-              
-                <h3 id="st-single-cell-rna-seq">Single-cell RNA-seq</h3>
-                Tutorials about analysis of single-cell RNA-seq data </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-single-cell-rna-seq">Single-cell RNA-seq</h3>
+            Tutorials about analysis of single-cell RNA-seq data </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -2163,18 +2249,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/scrna-intro/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-intro/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-intro/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-intro%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-intro%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -2199,30 +2286,48 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-intro%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-intro/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
-/
-<a class="topic-icon" href="/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-intro/slides">
-    <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
-</a>
-
     </span>
 
+<!-- video slides -->
+
+<span class="btn-group">
+  <!-- add video button -->
+  <a class="btn btn-default topic-icon" href="/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-intro/slides" title="Video">
+    <i class="fas fa-video" aria-hidden="true"></i>
+  </a>
+
+
+  <!-- add dropdown with links to different languages for the video-->
+  
+
+
+
+</span>
  </td>
             <td> 
  </td>
 
             
               <td> 
+
+
  </td>
               <td> 
+
+
  </td>
               <td> 
  </td>
             
             
               <td> 
+
 
 
  </td>
@@ -2260,18 +2365,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-preprocessing%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-preprocessing%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -2296,11 +2402,18 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-preprocessing%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -2311,6 +2424,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -2343,14 +2457,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/3253142">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/workflows/" title="Workflows" alt="Pre-processing of Single-Cell RNA Data workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -2359,12 +2477,15 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -2417,455 +2538,8 @@
         
     
         
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
-            Human Cell Atlas
-        </a>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-        <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
-            Plant Anaylsis Workbench
-        </a>
-        
-    
-        
-    
-        
-    
-        
-        <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
-            Single Cell Omics workbench
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
-            Street Science
-        </a>
-        
-    
-        
-    
-        
-        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
-            UseGalaxy.be
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
-            UseGalaxy.eu
-        </a>
-        
-    
-        
-    
-        
-        <a class="dropdown-item" href="https://usegalaxy.no/" title="UseGalaxy.no">
-            UseGalaxy.no
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="https://usegalaxy.org" title="UseGalaxy.org (Main)">
-            UseGalaxy.org (Main)
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
-            UseGalaxy.org.au
-        </a>
-        
-    
-        
-    
-        
-    
-        
-    
-    </ul>
-
-
- </td>
-            
-          
-         </tr>
-         
-       
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-      
-        <tr>
-          <td class="tutorial_title">
-          Understanding Barcodes
-          <div class="">
-          
-          
-            
-              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="single-cell">
-              <button class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials with this tag">single-cell</button>
-               </form>
-            
-          
-          </div>
-          </td>
-          
-            <td> 
-
-    </span>
-
- </td>
-            <td> 
-    <span class="btn-group">
-        <a href="/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html" class="btn btn-default" title="Follow the tutorial">
-            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
-        </a>
-        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
-            <span class="sr-only">Toggle Dropdown</span>
-        </a>
-        <ul class="dropdown-menu">
-        
-         <div class="dropdown-item"><strong>Automatic translations</strong></div>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
-                Français
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
-                日本語
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
-                Español
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
-                Português
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
-                العربية
-            </a>
-        
-        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
-            And more!
-        </a>
-    </span>
-
- </td>
-
-            
-              <td> 
-<a class="topic-icon" href="https://zenodo.org/record/2573177">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
-</a>
-
- </td>
-              <td> 
- </td>
-              <td> 
- </td>
-            
-            
-              <td> 
-
-
- </td>
-            
-          
-         </tr>
-         
-       
-    
-    
-
-    
-      
-        <tr>
-          <td class="tutorial_title">
-          Plates, Batches, and Barcodes
-          <div class="">
-          
-          
-            
-              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="single-cell">
-              <button class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials with this tag">single-cell</button>
-               </form>
-            
-          
-          </div>
-          </td>
-          
-            <td> 
-    <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
-        </a>
-        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="sr-only">Toggle Dropdown</span>
-        </a>
-        <ul class="dropdown-menu">
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
-                Français
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
-                日本語
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
-                Español
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
-                Português
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
-                العربية
-            </a>
-        
-        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
-            And more!
-        </a>
-    </ul>
-    
-
-/
-<a class="topic-icon" href="/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-plates-batches-barcodes/slides">
-    <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
-</a>
-
-    </span>
-
- </td>
-            <td> 
- </td>
-
-            
-              <td> 
- </td>
-              <td> 
- </td>
-              <td> 
- </td>
-            
-            
-              <td> 
-
-
- </td>
-            
-          
-         </tr>
-         
-       
-    
-    
-
-    
-      
-        <tr>
-          <td class="tutorial_title">
-          Single-cell quality control with scater
-          <div class="">
-          
-          
-            
-              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="single-cell">
-              <button class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials with this tag">single-cell</button>
-               </form>
-            
-          
-          </div>
-          </td>
-          
-            <td> 
-
-    </span>
-
- </td>
-            <td> 
-    <span class="btn-group">
-        <a href="/training-material/topics/transcriptomics/tutorials/scrna-scater-qc/tutorial.html" class="btn btn-default" title="Follow the tutorial">
-            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
-        </a>
-        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
-            <span class="sr-only">Toggle Dropdown</span>
-        </a>
-        <ul class="dropdown-menu">
-        
-         <div class="dropdown-item"><strong>Automatic translations</strong></div>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
-                Français
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
-                日本語
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
-                Español
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
-                Português
-            </a>
-        
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
-                العربية
-            </a>
-        
-        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
-            And more!
-        </a>
-    </span>
-
- </td>
-
-            
-              <td> 
-<a class="topic-icon" href="https://zenodo.org/record/3386291">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
-</a>
-
- </td>
-              <td> 
-    <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-scater-qc/workflows/" title="Workflows" alt="Single-cell quality control with scater workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
-    </a>
-
- </td>
-              <td> 
- </td>
-            
-            
-              <td> 
-
-    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
-        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
-    </a>
-    <ul class="dropdown-menu">
-    
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
-            Galaxy Africa
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -2932,13 +2606,509 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
         
     
+        
+    
+        
+        <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
+            Single Cell Omics workbench
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.no/" title="UseGalaxy.no">
+            UseGalaxy.no
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org" title="UseGalaxy.org (Main)">
+            UseGalaxy.org (Main)
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    </ul>
+
+
+ </td>
+            
+          
+         </tr>
+         
+       
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+      
+        <tr>
+          <td class="tutorial_title">
+          Understanding Barcodes
+          <div class="">
+          
+          
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="single-cell">
+              <button class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials with this tag">single-cell</button>
+               </form>
+            
+          
+          </div>
+          </td>
+          
+            <td> 
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+ </td>
+            <td> 
+    <span class="btn-group">
+        <a href="/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-umis%2Ftutorial.html&edit-text=&act=url" title="">
+            And more!
+        </a>
+    </span>
+
+ </td>
+
+            
+              <td> 
+
+
+<a class="topic-icon" href="https://zenodo.org/record/2573177">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+ </td>
+              <td> 
+
+
+ </td>
+              <td> 
+ </td>
+            
+            
+              <td> 
+
+
+
+ </td>
+            
+          
+         </tr>
+         
+       
+    
+    
+
+    
+      
+        <tr>
+          <td class="tutorial_title">
+          Plates, Batches, and Barcodes
+          <div class="">
+          
+          
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="single-cell">
+              <button class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials with this tag">single-cell</button>
+               </form>
+            
+          
+          </div>
+          </td>
+          
+            <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
+    <span class="btn-group">
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-plates-batches-barcodes%2Fslides.html&edit-text=&act=url" title="">
+            And more!
+        </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
+    </ul>
+    
+    </span>
+
+<!-- video slides -->
+
+<span class="btn-group">
+  <!-- add video button -->
+  <a class="btn btn-default topic-icon" href="/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-plates-batches-barcodes/slides" title="Video">
+    <i class="fas fa-video" aria-hidden="true"></i>
+  </a>
+
+
+  <!-- add dropdown with links to different languages for the video-->
+  
+
+
+
+</span>
+ </td>
+            <td> 
+ </td>
+
+            
+              <td> 
+
+
+ </td>
+              <td> 
+
+
+ </td>
+              <td> 
+ </td>
+            
+            
+              <td> 
+
+
+
+ </td>
+            
+          
+         </tr>
+         
+       
+    
+    
+
+    
+      
+        <tr>
+          <td class="tutorial_title">
+          Single-cell quality control with scater
+          <div class="">
+          
+          
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="single-cell">
+              <button class="label label-default tutorial_tag" id="single-cell" style="background-color: hsl(179, 80.0%, 85%); color: #333; border: 1px solid hsl(179, 80.0%, 45%)" title="Click to show all tutorials with this tag">single-cell</button>
+               </form>
+            
+          
+          </div>
+          </td>
+          
+            <td> 
+    </span>
+
+<!-- video slides -->
+
+
+</span>
+ </td>
+            <td> 
+    <span class="btn-group">
+        <a href="/training-material/topics/transcriptomics/tutorials/scrna-scater-qc/tutorial.html" class="btn btn-default" title="Follow the tutorial">
+            <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
+        </a>
+        <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Follow the tutorial in a different language">
+            <span class="sr-only">Toggle Dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
+        
+        
+         <div class="dropdown-item"><strong>Automatic translations</strong></div>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
+                Français
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
+                日本語
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
+                Español
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
+                Português
+            </a>
+        
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
+                العربية
+            </a>
+        
+        <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scater-qc%2Ftutorial.html&edit-text=&act=url" title="">
+            And more!
+        </a>
+    </span>
+
+ </td>
+
+            
+              <td> 
+
+
+<a class="topic-icon" href="https://zenodo.org/record/3386291">
+    <i class="far fa-copy" aria-hidden="true"></i>
+</a>
+
+ </td>
+              <td> 
+
+
+    <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-scater-qc/workflows/" title="Workflows" alt="Single-cell quality control with scater workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
+    </a>
+
+ </td>
+              <td> 
+ </td>
+            
+            
+              <td> 
+
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
+            Galaxy@GenOuest
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
+            Human Cell Atlas
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
+            Plant Anaylsis Workbench
+        </a>
         
     
         
@@ -2991,6 +3161,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -3021,9 +3193,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -3034,6 +3209,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -3066,14 +3242,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/1511582">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-raceid/workflows/" title="Workflows" alt="Downstream Single-cell RNA analysis with RaceID workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -3082,12 +3262,19 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
+        <a class="dropdown-item" href="http://aspendb.uga.edu:8085/" title="AGEseq @ AspenDB">
+            AGEseq @ AspenDB
+        </a>
+        
     
         
         <a class="dropdown-item" href="http://motherbox.chemeng.ntua.gr/anastasia_dev/" title="ANASTASIA">
@@ -3150,12 +3337,6 @@
         
     
         
-        <a class="dropdown-item" href="https://cpt.tamu.edu/galaxy-public/" title="Center for Phage Technology (CPT)">
-            Center for Phage Technology (CPT)
-        </a>
-        
-    
-        
         <a class="dropdown-item" href="https://vm-chemflow-francegrille.eu/" title="ChemFlow">
             ChemFlow
         </a>
@@ -3192,6 +3373,12 @@
         
     
         
+        <a class="dropdown-item" href="http://cropgalaxy.excellenceinbreeding.org/" title="CropGalaxy">
+            CropGalaxy
+        </a>
+        
+    
+        
         <a class="dropdown-item" href="http://dintor.eurac.edu/" title="Dintor">
             Dintor
         </a>
@@ -3212,6 +3399,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -3282,6 +3475,12 @@
         
     
         
+        <a class="dropdown-item" href="https://galaxy.hyphy.org/" title="HyPhy HIV NGS Tools">
+            HyPhy HIV NGS Tools
+        </a>
+        
+    
+        
         <a class="dropdown-item" href="http://mem.rcees.ac.cn:8081/" title="IDENAP">
             IDENAP
         </a>
@@ -3306,14 +3505,8 @@
         
     
         
-        <a class="dropdown-item" href="http://galaxy.ul.edu.lb/" title="Lebanese University Galaxy">
-            Lebanese University Galaxy
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="http://bimib.disco.unimib.it:5555/" title="MaREA4Galaxy">
-            MaREA4Galaxy
+        <a class="dropdown-item" href="http://galaxy.lappsgrid.org/" title="LAPPS Grid">
+            LAPPS Grid
         </a>
         
     
@@ -3360,12 +3553,6 @@
         
     
         
-        <a class="dropdown-item" href="http://www.mpds-diabetes.in/" title="Molecular Property Diagnostic Suite - Diabetes Mellitus Portal (MPDSDM)">
-            Molecular Property Diagnostic Suite - Diabetes Mellitus Portal (MPDSDM)
-        </a>
-        
-    
-        
         <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
             NanoGalaxy
         </a>
@@ -3386,12 +3573,6 @@
         
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="http://www.proteore.org/" title="ProteoRE">
-            ProteoRE
         </a>
         
     
@@ -3473,6 +3654,12 @@
         </a>
         
     
+        
+        <a class="dropdown-item" href="https://covid19.usegalaxy.fr/" title="covid19.UseGalaxy.fr">
+            covid19.UseGalaxy.fr
+        </a>
+        
+    
     </ul>
 
 
@@ -3507,9 +3694,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -3520,6 +3710,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -3552,14 +3743,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/3457880">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/workflows/" title="Workflows" alt="Pre-processing of 10X Single-Cell RNA Datasets workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -3568,6 +3763,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -3616,8 +3812,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -3684,13 +3888,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -3739,6 +3939,8 @@
         <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
             UseGalaxy.org.au
         </a>
+        
+    
         
     
         
@@ -3781,18 +3983,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scanpy-pbmc3k%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scanpy-pbmc3k%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -3817,11 +4020,18 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fscrna-scanpy-pbmc3k%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -3832,6 +4042,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -3864,14 +4075,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/3581213">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/workflows/" title="Workflows" alt="Clustering 3K PBMCs with Scanpy workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -3880,6 +4095,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -3928,8 +4144,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -3996,13 +4220,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -4051,6 +4271,8 @@
         <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
             UseGalaxy.org.au
         </a>
+        
+    
         
     
         
@@ -4097,9 +4319,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -4110,6 +4335,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -4142,14 +4368,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4597857">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-plant/workflows/" title="Workflows" alt="Analysis of plant scRNA-Seq Data with Scanpy workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -4158,6 +4388,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -4206,8 +4437,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -4274,13 +4513,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -4337,6 +4572,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -4352,10 +4589,10 @@
 
 
 
-              
-                <h3 id="st-single-cell-rna-seq-case-study">Single-cell RNA-seq: Case Study</h3>
-                Tutorials using a single published single-cell RNA-seq dataset for a variety of analyses </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-single-cell-rna-seq-case-study">Single-cell RNA-seq: Case Study</h3>
+            Tutorials using a single published single-cell RNA-seq dataset for a variety of analyses </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -4472,14 +4709,21 @@
               <button class="label label-default tutorial_tag" id="paper-replication" style="background-color: hsl(190, 80.0%, 85%); color: #333; border: 1px solid hsl(190, 80.0%, 45%)" title="Click to show all tutorials with this tag">paper-replication</button>
                </form>
             
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="español">
+              <button class="label label-default tutorial_tag" id="español" style="background-color: hsl(184, 80.0%, 85%); color: #333; border: 1px solid hsl(184, 80.0%, 45%)" title="Click to show all tutorials with this tag">español</button>
+               </form>
+            
           
           </div>
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -4490,6 +4734,16 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
+        
+          <div class="dropdown-item"><strong>Curated translations</strong></div>
+           
+            <a class="dropdown-item" href="/training-material/topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial_ES.html" title="es">
+                Español
+            </a>
+        
+
+          <hr/>
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -4522,14 +4776,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4574153">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/droplet-quantification-preprocessing/workflows/" title="Workflows" alt="Generating a single cell matrix using Alevin workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -4538,12 +4796,17 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
+    
+        
     
         
     
@@ -4613,8 +4876,6 @@
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -4714,14 +4975,25 @@
               <button class="label label-default tutorial_tag" id="paper-replication" style="background-color: hsl(190, 80.0%, 85%); color: #333; border: 1px solid hsl(190, 80.0%, 45%)" title="Click to show all tutorials with this tag">paper-replication</button>
                </form>
             
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="interactive-tools">
+              <button class="label label-default tutorial_tag" id="interactive-tools" style="background-color: hsl(29, 80.0%, 85%); color: #333; border: 1px solid hsl(29, 80.0%, 45%)" title="Click to show all tutorials with this tag">interactive-tools</button>
+               </form>
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="español">
+              <button class="label label-default tutorial_tag" id="español" style="background-color: hsl(184, 80.0%, 85%); color: #333; border: 1px solid hsl(184, 80.0%, 45%)" title="Click to show all tutorials with this tag">español</button>
+               </form>
+            
           
           </div>
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -4732,6 +5004,16 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
+        
+          <div class="dropdown-item"><strong>Curated translations</strong></div>
+           
+            <a class="dropdown-item" href="/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial_ES.html" title="es">
+                Español
+            </a>
+        
+
+          <hr/>
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -4764,14 +5046,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4624461">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/workflows/" title="Workflows" alt="Filter, Plot and Explore Single-cell RNA-seq Data workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -4780,12 +5066,17 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
+    
+        
     
         
     
@@ -4910,12 +5201,14 @@
         
     
         
-    
-        
-    
-        
         <a class="dropdown-item" href="https://usegalaxy.org" title="UseGalaxy.org (Main)">
             UseGalaxy.org (Main)
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
         </a>
         
     
@@ -4972,14 +5265,21 @@
               <button class="label label-default tutorial_tag" id="paper-replication" style="background-color: hsl(190, 80.0%, 85%); color: #333; border: 1px solid hsl(190, 80.0%, 45%)" title="Click to show all tutorials with this tag">paper-replication</button>
                </form>
             
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="interactive-tools">
+              <button class="label label-default tutorial_tag" id="interactive-tools" style="background-color: hsl(29, 80.0%, 85%); color: #333; border: 1px solid hsl(29, 80.0%, 45%)" title="Click to show all tutorials with this tag">interactive-tools</button>
+               </form>
+            
           
           </div>
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -4990,6 +5290,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -5022,18 +5323,23 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4726927">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
  </td>
               <td> 
  </td>
             
             
               <td> 
+
 
 
  </td>
@@ -5076,10 +5382,10 @@
 
 
 
-              
-                <h3 id="st-visualisation">Visualisation</h3>
-                Tutorials covering data visualisation </br></br>
-                <table class="table table-responsive table-striped" >
+          
+            <h3 id="st-visualisation">Visualisation</h3>
+            Tutorials covering data visualisation </br></br>
+            <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -5139,13 +5445,22 @@
           <div class="">
           
           
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="interactive-tools">
+              <button class="label label-default tutorial_tag" id="interactive-tools" style="background-color: hsl(29, 80.0%, 85%); color: #333; border: 1px solid hsl(29, 80.0%, 45%)" title="Click to show all tutorials with this tag">interactive-tools</button>
+               </form>
+            
+          
           </div>
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -5156,6 +5471,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -5188,18 +5504,23 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/3477564/">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
  </td>
               <td> 
  </td>
             
             
               <td> 
+
 
 
  </td>
@@ -5235,18 +5556,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Frna-seq-viz-with-cummerbund%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Frna-seq-viz-with-cummerbund%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -5271,11 +5593,18 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Frna-seq-viz-with-cummerbund%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -5286,6 +5615,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -5318,22 +5648,27 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/1001880">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tours/">
-    <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tours/" title="Galaxy interactive tour" >
+    <i class="fas fa-magic" aria-hidden="true"></i>
 </a>
 
  </td>
             
             
               <td> 
+
 
 
  </td>
@@ -5357,9 +5692,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -5370,6 +5708,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -5402,14 +5741,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/2529926">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/workflows/" title="Workflows" alt="Visualization of RNA-Seq results with heatmap2 workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -5418,6 +5761,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -5470,8 +5814,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -5548,8 +5900,6 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
             NanoGalaxy
         </a>
@@ -5563,8 +5913,6 @@
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -5625,6 +5973,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -5645,8 +5995,11 @@
           <div class="">
           
             
+
+
+
 <span class="level introductory" title="Introductory Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
@@ -5656,9 +6009,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -5669,6 +6025,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -5701,14 +6058,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/2529117">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/workflows/" title="Workflows" alt="Visualization of RNA-Seq results with Volcano Plot workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -5717,6 +6078,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -5769,13 +6131,25 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
         
     
         
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
+        
     
+        
+    
+        
+        <a class="dropdown-item" href="https://test.galaxyproject.org/" title="Galaxy Test">
+            Galaxy Test
+        </a>
         
     
         
@@ -5843,8 +6217,6 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
             NanoGalaxy
         </a>
@@ -5857,12 +6229,6 @@
         
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
-        </a>
-        
-    
-        
-        <a class="dropdown-item" href="http://www.proteore.org/" title="ProteoRE">
-            ProteoRE
         </a>
         
     
@@ -5924,6 +6290,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -5944,20 +6312,32 @@
           <div class="">
           
             
+
+
+
 <span class="level intermediate" title="Intermediate Tutorial">
-  <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span> <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">level</span>
+  <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i> <i class="fas fa-graduation-cap" aria-hidden="true"></i>
 </span>
 
 
           
           
+            
+              <form method="GET" action="/training-material/search" style="display:inline"><input type="hidden" name="query" value="interactive-tools">
+              <button class="label label-default tutorial_tag" id="interactive-tools" style="background-color: hsl(29, 80.0%, 85%); color: #333; border: 1px solid hsl(29, 80.0%, 45%)" title="Click to show all tutorials with this tag">interactive-tools</button>
+               </form>
+            
+          
           </div>
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -5968,6 +6348,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -6000,18 +6381,23 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/2529117">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
  </td>
               <td> 
  </td>
             
             
               <td> 
+
 
 
  </td>
@@ -6090,19 +6476,19 @@
 
 
 
-              
+          
 
-              
-              
-              <div id="tutorial_list">
-              <h3> Other </h3>
-              <div class="search_box">
-                <i class="fas fa fa-search" aria-hidden="true"></i><span class="visually-hidden">search</span>
-                <input data-search-type="tutorial_title" class="search" id="tutorial_search" placeholder="Search" />
-                <span id="clear_search" title="Clear filters"> <i class="fas fa-times" aria-hidden="true"></i><span class="visually-hidden">galaxy-cross</span> </span>
-              </div></br>
-              Assorted other tutorials </br></br>
-              <table class="table table-responsive table-striped" >
+          
+          
+          <div id="tutorial_list">
+          <h3> Other </h3>
+          <div class="search_box">
+            <i class="fas fa fa-search" aria-hidden="true"></i><span class="visually-hidden">search</span>
+            <input data-search-type="tutorial_title" class="search" id="tutorial_search" placeholder="Search" />
+            <span id="clear_search" title="Clear filters"> <i class="fas fa-times" aria-hidden="true"></i><span class="visually-hidden">galaxy-cross</span> </span>
+          </div></br>
+          Assorted other tutorials </br></br>
+          <table class="table table-responsive table-striped" >
   <thead>
     <tr>
       <th>Lesson</th>
@@ -6150,9 +6536,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -6163,6 +6552,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -6195,26 +6585,31 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/1327423">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/clipseq/workflows/" title="Workflows" alt="CLIP-Seq data analysis from pre-processing to motif detection workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/clipseq/tours/">
-    <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/clipseq/tours/" title="Galaxy interactive tour" >
+    <i class="fas fa-magic" aria-hidden="true"></i>
 </a>
 
  </td>
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -6263,13 +6658,17 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
         
     
         
-    
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
+        </a>
         
     
         
@@ -6370,6 +6769,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -6394,9 +6795,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -6407,6 +6811,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -6439,32 +6844,39 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/826906">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/srna/workflows/" title="Workflows" alt="Differential abundance testing of small RNAs workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/srna/tours/">
-    <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/srna/tours/" title="Galaxy interactive tour" >
+    <i class="fas fa-magic" aria-hidden="true"></i>
 </a>
 
  </td>
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -6513,6 +6925,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -6579,13 +6997,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -6646,6 +7060,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -6670,9 +7086,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -6683,6 +7102,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -6715,14 +7135,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/2565417#.XGXUXlz7TIU">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/goenrichment/workflows/" title="Workflows" alt="GO Enrichment Analysis workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -6731,6 +7155,7 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
@@ -6779,8 +7204,16 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -6851,13 +7284,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -6918,6 +7347,8 @@
         </a>
         
     
+        
+    
     </ul>
 
 
@@ -6952,18 +7383,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fnetwork-analysis-with-heinz%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fnetwork-analysis-with-heinz%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -6988,11 +7420,18 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fnetwork-analysis-with-heinz%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -7003,6 +7442,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -7035,32 +7475,39 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://doi.org/10.5281/zenodo.1344105">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/workflows/" title="Workflows" alt="Network analysis with Heinz workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/network-analysis-with-heinz/tours/">
-    <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/transcriptomics/tutorials/network-analysis-with-heinz/tours/" title="Galaxy interactive tour" >
+    <i class="fas fa-magic" aria-hidden="true"></i>
 </a>
 
  </td>
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -7109,6 +7556,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -7175,13 +7628,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -7238,6 +7687,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -7266,9 +7717,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -7279,6 +7733,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -7311,14 +7766,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/3709188">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-interactome/workflows/" title="Workflows" alt="RNA-RNA interactome data analysis workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -7327,12 +7786,15 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -7381,6 +7843,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -7443,13 +7911,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -7498,6 +7962,8 @@
     
         
     
+        
+    
     </ul>
 
 
@@ -7522,18 +7988,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Frna-seq-analysis-with-askomics-it%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Frna-seq-analysis-with-askomics-it%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -7558,11 +8025,18 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Frna-seq-analysis-with-askomics-it%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -7573,6 +8047,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -7605,18 +8080,23 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/3925863">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
  </td>
               <td> 
  </td>
             
             
               <td> 
+
 
 
  </td>
@@ -7640,9 +8120,12 @@
           </td>
           
             <td> 
-
     </span>
 
+<!-- video slides -->
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -7653,6 +8136,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -7685,14 +8169,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/1491876">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/small_ncrna_clustering/workflows/" title="Workflows" alt="Small Non-coding RNA Clustering using BlockClust workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -7701,12 +8189,15 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -7755,6 +8246,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -7821,13 +8318,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -7872,6 +8365,8 @@
         <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
             UseGalaxy.org.au
         </a>
+        
+    
         
     
         
@@ -7930,18 +8425,19 @@
           </td>
           
             <td> 
+	<a class="visually-hidden" href="/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides-plain.html" aria-label="more accessible, plain text slides">plain text</a>
     <span class="btn-group">
-        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html">
-            <i class="fab fa-slideshare" aria-hidden="true"></i><span class="visually-hidden">slides</span>
+        <a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides.html" title="Slides">
+            <i class="fab fa-slideshare" aria-hidden="true"></i>
         </a>
         <a href="#" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
         
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=en&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fmirna-target-finder%2Fslides.html&edit-text=&act=url" title="">
-                English
-            </a>
+        
+
+        <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
             <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fmirna-target-finder%2Fslides.html&edit-text=&act=url" title="">
                 Français
@@ -7966,16 +8462,29 @@
         <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Ftranscriptomics%2Ftutorials%2Fmirna-target-finder%2Fslides.html&edit-text=&act=url" title="">
             And more!
         </a>
+
+	<a class="btn btn-default topic-icon" href="/training-material/topics/transcriptomics/tutorials/mirna-target-finder/slides-plain.html" aria-label="more accessible, plain text slides">
+		<i class="fas fa-file-alt" aria-hidden="true"></i> Plain text slides
+	</a>
     </ul>
     
-
-/
-<a class="topic-icon" href="/training-material/videos/watch.html?v=transcriptomics/tutorials/mirna-target-finder/slides">
-    <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
-</a>
-
     </span>
 
+<!-- video slides -->
+
+<span class="btn-group">
+  <!-- add video button -->
+  <a class="btn btn-default topic-icon" href="/training-material/videos/watch.html?v=transcriptomics/tutorials/mirna-target-finder/slides" title="Video">
+    <i class="fas fa-video" aria-hidden="true"></i>
+  </a>
+
+
+  <!-- add dropdown with links to different languages for the video-->
+  
+
+
+
+</span>
  </td>
             <td> 
     <span class="btn-group">
@@ -7986,6 +8495,7 @@
             <span class="sr-only">Toggle Dropdown</span>
         </a>
         <ul class="dropdown-menu">
+        
         
          <div class="dropdown-item"><strong>Automatic translations</strong></div>
         
@@ -8018,14 +8528,18 @@
 
             
               <td> 
+
+
 <a class="topic-icon" href="https://zenodo.org/record/4710649">
-    <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">zenodo_link</span>
+    <i class="far fa-copy" aria-hidden="true"></i>
 </a>
 
  </td>
               <td> 
+
+
     <a class="topic-icon" href="/training-material/topics/transcriptomics/tutorials/mirna-target-finder/workflows/" title="Workflows" alt="Whole transcriptome analysis of Arabidopsis thaliana workflows">
-        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+        <i class="fas fa-share-alt" aria-hidden="true"></i>
     </a>
 
  </td>
@@ -8034,12 +8548,15 @@
             
             
               <td> 
+
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
         <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
     </a>
     <ul class="dropdown-menu">
     
+    
+        
     
         
     
@@ -8088,6 +8605,12 @@
         
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
+            Galaxy India
         </a>
         
     
@@ -8150,13 +8673,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
-        
-    
         
     
         
@@ -8191,6 +8710,12 @@
         </a>
         
     
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
         
     
         
@@ -8276,139 +8801,140 @@
 
 
 
-              </div>
-              
+          </div>
+          
 
+        
+
+    
+        <h2 id="docker_image">Galaxy instances</h2>
+        <p>You can use a public Galaxy instance which has been tested for the availability of the used tools. They are listed along with the tutorials above.</p>
+        
+            <p>You can also use the following Docker image for these tutorials:</p>
+            <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -p 8080:80 quay.io/galaxy/transcriptomics-training</code></pre></div></div>
+            <p>NOTE: Use the -d flag at the end of the command if you want to automatically download all the data-libraries into the container.</p>
+            <p>It will launch a flavored Galaxy instance available on <a href="http://localhost:8080">http://localhost:8080</a>. This instance will contain all the tools and workflows to follow the tutorials in this topic. Login as <b>admin</b> with password <b>password</b> to access everything.</p>
+        
+    
+
+    <h2 id="topic-faq">Frequently Asked Questions</h2>
+    Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
+
+    <h2 id="maintainers">Maintainers</h2>
+    <p>This material is maintained by:</p>
+    
+    
+
+ <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Avatar">Bérénice Batut</a> <a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mblue9" alt="Avatar">Maria Doyle</a> <a href="/training-material/hall-of-fame/heylf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/heylf" alt="Avatar">Florian Heyl</a> <a href="/training-material/hall-of-fame/nomadscientist/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nomadscientist" alt="Avatar">Wendi Bacon</a>
+
+
+
+    <p>
+        <em>For any question related to this topic and the content, you can contact them or visit our <a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter channel</a>.</em>
+    </p>
+
+    <h2 id="contributors">Contributors</h2>
+    <p>This material was contributed to by:</p>
+    
+    
+    
+    
+
+ <a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mblue9" alt="Avatar">Maria Doyle</a> <a href="/training-material/hall-of-fame/bphipson/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bphipson" alt="Avatar">Belinda Phipson</a> <a href="/training-material/hall-of-fame/hdashnow/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hdashnow" alt="Avatar">Harriet Dashnow</a> <a href="/training-material/hall-of-fame/JovMaksimovic/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/JovMaksimovic" alt="Avatar">Jovana Maksimovic</a> <a href="/training-material/hall-of-fame/annatrigos/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annatrigos" alt="Avatar">Anna Trigos</a> <a href="/training-material/hall-of-fame/mritchie/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mritchie" alt="Avatar">Matt Ritchie</a> <a href="/training-material/hall-of-fame/Shians/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/Shians" alt="Avatar">Shian Su</a> <a href="/training-material/hall-of-fame/charitylaw/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/charitylaw" alt="Avatar">Charity Law</a> <a href="/training-material/hall-of-fame/heylf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/heylf" alt="Avatar">Florian Heyl</a> <a href="/training-material/hall-of-fame/dmaticzka/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/dmaticzka" alt="Avatar">Daniel Maticzka</a> <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Avatar">Bérénice Batut</a> <a href="/training-material/hall-of-fame/malloryfreeberg/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/malloryfreeberg" alt="Avatar">Mallory Freeberg</a> <a href="/training-material/hall-of-fame/igcbioinformatics/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/igcbioinformatics" alt="Avatar">IGC Bioinformatics Unit</a> <a href="/training-material/hall-of-fame/cicozhang/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/cicozhang" alt="Avatar">Chao (Cico) Zhang</a> <a href="/training-material/hall-of-fame/fpsom/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/fpsom" alt="Avatar">Fotis E. Psomopoulos</a> <a href="/training-material/hall-of-fame/tobyhodges/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tobyhodges" alt="Avatar">Toby Hodges</a> <a href="/training-material/hall-of-fame/pavanvidem/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pavanvidem" alt="Avatar">Pavankumar Videm</a> <a href="/training-material/hall-of-fame/xgaia/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/xgaia" alt="Avatar">Xavier Garnier</a> <a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/abretaud" alt="Avatar">Anthony Bretaudeau</a> <a href="/training-material/hall-of-fame/annesiegel/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annesiegel" alt="Avatar">Anne Siegel</a> <a href="/training-material/hall-of-fame/odameron/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/odameron" alt="Avatar">Olivier Dameron</a> <a href="/training-material/hall-of-fame/mboudet/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mboudet" alt="Avatar">Mateo Boudet</a> <a href="/training-material/hall-of-fame/bagnacan/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bagnacan" alt="Avatar">Andrea Bagnacani</a> <a href="/training-material/hall-of-fame/gallardoalba/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/gallardoalba" alt="Avatar">Cristóbal Gallardo</a> <a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/beatrizserrano" alt="Avatar">Beatriz Serrano-Solano</a> <a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/erxleben" alt="Avatar">Anika Erxleben</a> <a href="/training-material/hall-of-fame/mwolfien/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mwolfien" alt="Avatar">Markus Wolfien</a> <a href="/training-material/hall-of-fame/mtekman/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mtekman" alt="Avatar">Mehmet Tekman</a> <a href="/training-material/hall-of-fame/nomadscientist/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nomadscientist" alt="Avatar">Wendi Bacon</a> <a href="/training-material/hall-of-fame/pinin4fjords/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pinin4fjords" alt="Avatar">Jonathan Manning</a> <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Avatar">Wolfgang Maier</a> <a href="/training-material/hall-of-fame/moheydarian/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/moheydarian" alt="Avatar">Mo Heydarian</a> <a href="/training-material/hall-of-fame/blankclemens/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankclemens" alt="Avatar">Clemens Blank</a> <a href="/training-material/hall-of-fame/nsoranzo/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nsoranzo" alt="Avatar">Nicola Soranzo</a> <a href="/training-material/hall-of-fame/pvanheus/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pvanheus" alt="Avatar">Peter van Heusden</a> <a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/astrovsky01" alt="Avatar">Alex Ostrovsky</a> <a href="/training-material/hall-of-fame/ethering/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/ethering" alt="Avatar">Graham Etherington</a> <a href="/training-material/hall-of-fame/hrhotz/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hrhotz" alt="Avatar">Hans-Rudolf Hotz</a> <a href="/training-material/hall-of-fame/blankenberg/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankenberg" alt="Avatar">Daniel Blankenberg</a>
+
+
+
+    
+    <h2 id="references">References</h2>
+    <ul>
+    
+        <li class="citation">
+            <strong>Shirley Pepke et al:</strong> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4121056/">Computation for ChIP-seq and RNA-seq studies</a>
             
-
-        
-            <h2 id="docker_image">Galaxy instances</h2>
-            <p>You can use a public Galaxy instance which has been tested for the availability of the used tools. They are listed along with the tutorials above.</p>
+        </li>
+    
+        <li class="citation">
+            <strong>Paul L. Auer & R. W. Doerge:</strong> <a href="http://www.genetics.org/content/185/2/405">Statistical Design and Analysis of RNA Sequencing Data</a>
             
-                <p>You can also use the following Docker image for these tutorials:</p>
-                <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -p 8080:80 quay.io/galaxy/transcriptomics-training</code></pre></div></div>
-                <p>NOTE: Use the -d flag at the end of the command if you want to automatically download all the data-libraries into the container.</p>
-                <p>It will launch a flavored Galaxy instance available on <a href="http://localhost:8080">http://localhost:8080</a>. This instance will contain all the tools and workflows to follow the tutorials in this topic. Login as <b>admin</b> with password <b>password</b> to access everything.</p>
+            <br><cite>Insights into proper planning of your RNA-seq run! To read before any RNA-seq experiment!</cite>
             
-        
+        </li>
+    
+        <li class="citation">
+            <strong>Ian Korf:</strong> <a href="https://www.ncbi.nlm.nih.gov/pubmed/24296473">Genomics: the state of the art in RNA-seq analysis</a>
+            
+            <br><cite>A refreshingly honest view on the non-trivial aspects of RNA-seq analysis</cite>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Marie-Agnès Dillies et al:</strong> <a href="http://bib.oxfordjournals.org/content/14/6/671">A comprehensive evaluation of normalization methods for Illumina high-throughput RNA sequencing data analysis</a>
+            
+            <br><cite>Systematic comparison of seven representative normalization methods for the differential analysis of RNA-seq data (Total Count, Upper Quartile, Median (Med), DESeq, edgeR, Quantile and Reads Per Kilobase per Million mapped reads (RPKM) normalization)</cite>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Franck  Rapaport et al:</strong> <a href="https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-9-r95">Comprehensive evaluation of differential gene expression analysis methods for RNA-seq data</a>
+            
+            <br><cite>Evaluation of methods for differential gene expression analysis</cite>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Charlotte Soneson & Mauro Delorenzi:</strong> <a href="http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-91">A comparison of methods for differential expression analysis of RNA-seq data</a>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Adam Roberts et al:</strong> <a href="https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-3-r22">Improving RNA-Seq expression estimates by correcting for fragment bias</a>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Manuel Garber et al:</strong> <a href="http://www.nature.com/nmeth/journal/v8/n6/abs/nmeth.1613.html">Computational methods for transcriptome annotation and quantification using RNA-seq</a>
+            
+            <br><cite>Classical paper about the computational aspects of RNA-seq data analysis</cite>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Cole Trapnell et al:</strong> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/">Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks</a>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Zhong Wang et al:</strong> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2949280/">RNA-Seq: a revolutionary tool for transcriptomics</a>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Dittrich, M. T. and Klau, G. W. and Rosenwald, A. and Dandekar, T. and Muller, T.:</strong> <a href="http://dx.doi.org/10.1093/bioinformatics/btn161">Identifying functional modules in protein-protein interaction networks: an integrated exact approach</a>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>May, Ali; Brandt, Bernd W; El-Kebir, Mohammed; Klau, Gunnar W; Zaura, Egija; Crielaard, Wim; Heringa, Jaap; Abeln, Sanne:</strong> <a href="http://dx.doi.org/10.1093/bioinformatics/btv526">metaModules identifies key functional subnetworks in microbiome-related disease</a>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Pavankumar, Videm; Dominic, Rose; Fabrizio, Costa;  Rolf, Backofen:</strong> <a href="doi:10.1093/bioinformatics/btu270">BlockClust: efficient clustering and classification of non-coding RNAs from short read RNA-seq profiles</a>
+            
+        </li>
+    
+        <li class="citation">
+            <strong>Tekman, Mehmet and Batut, Bérénice; Ostrovsky, Alexander; Antoniewski, Christophe; Clements, Dave; Ramirez, Fidel; Etherington, Graham J; Hotz, Hans-Rudolf; Scholtalbers, Jelle; Manning, Jonathan R; Bellenger, Lea; Doyle, Maria A; Heydarian, Mohammad; Huang, Ni; Soranzo, Nicola; Moreno, Pablo; Mautner, Stefan; Papatheodorou, Irene; Nekrutenko, Anton; Taylor, James; Blankenberg, Daniel; Backofen, Rolf; Grüning, Björn;:</strong> <a href="https://doi.org/10.1093/gigascience/giaa102">A single-cell RNA-sequencing training and analysis suite using the Galaxy framework</a>
+            
+        </li>
+    
+    </ul>
+    
+</section>
 
-        <h2 id="topic-faq">Frequently Asked Questions</h2>
-        Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
-
-        <h2 id="maintainers">Maintainers</h2>
-        <p>This material is maintained by:</p>
+        </div>
         
-        
-
- <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a> <a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mblue9" alt="Maria Doyle">Maria Doyle</a> <a href="/training-material/hall-of-fame/heylf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/heylf" alt="Florian Heyl">Florian Heyl</a>
-
-
-
-        <p>
-            <em>For any question related to this topic and the content, you can contact them or visit our <a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter channel</a>.</em>
-        </p>
-
-        <h2 id="contributors">Contributors</h2>
-        <p>This material was contributed to by:</p>
-        
-        
-        
-        
-
- <a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mblue9" alt="Maria Doyle">Maria Doyle</a> <a href="/training-material/hall-of-fame/bphipson/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bphipson" alt="Belinda Phipson">Belinda Phipson</a> <a href="/training-material/hall-of-fame/hdashnow/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hdashnow" alt="Harriet Dashnow">Harriet Dashnow</a> <a href="/training-material/hall-of-fame/JovMaksimovic/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/JovMaksimovic" alt="Jovana Maksimovic">Jovana Maksimovic</a> <a href="/training-material/hall-of-fame/annatrigos/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annatrigos" alt="Anna Trigos">Anna Trigos</a> <a href="/training-material/hall-of-fame/mritchie/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mritchie" alt="Matt Ritchie">Matt Ritchie</a> <a href="/training-material/hall-of-fame/Shians/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/Shians" alt="Shian Su">Shian Su</a> <a href="/training-material/hall-of-fame/charitylaw/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/charitylaw" alt="Charity Law">Charity Law</a> <a href="/training-material/hall-of-fame/heylf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/heylf" alt="Florian Heyl">Florian Heyl</a> <a href="/training-material/hall-of-fame/dmaticzka/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/dmaticzka" alt="Daniel Maticzka">Daniel Maticzka</a> <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a> <a href="/training-material/hall-of-fame/malloryfreeberg/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/malloryfreeberg" alt="Mallory Freeberg">Mallory Freeberg</a> <a href="/training-material/hall-of-fame/igcbioinformatics/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/igcbioinformatics" alt="IGC Bioinformatics Unit">IGC Bioinformatics Unit</a> <a href="/training-material/hall-of-fame/cicozhang/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/cicozhang" alt="Chao (Cico) Zhang">Chao (Cico) Zhang</a> <a href="/training-material/hall-of-fame/fpsom/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/fpsom" alt="Fotis E. Psomopoulos">Fotis E. Psomopoulos</a> <a href="/training-material/hall-of-fame/tobyhodges/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tobyhodges" alt="Toby Hodges">Toby Hodges</a> <a href="/training-material/hall-of-fame/pavanvidem/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pavanvidem" alt="Pavankumar Videm">Pavankumar Videm</a> <a href="/training-material/hall-of-fame/xgaia/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/xgaia" alt="Xavier Garnier">Xavier Garnier</a> <a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/abretaud" alt="Anthony Bretaudeau">Anthony Bretaudeau</a> <a href="/training-material/hall-of-fame/annesiegel/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annesiegel" alt="Anne Siegel">Anne Siegel</a> <a href="/training-material/hall-of-fame/odameron/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/odameron" alt="Olivier Dameron">Olivier Dameron</a> <a href="/training-material/hall-of-fame/mboudet/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mboudet" alt="Mateo Boudet">Mateo Boudet</a> <a href="/training-material/hall-of-fame/bagnacan/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bagnacan" alt="Andrea Bagnacani">Andrea Bagnacani</a> <a href="/training-material/hall-of-fame/gallardoalba/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/gallardoalba" alt="Cristóbal Gallardo">Cristóbal Gallardo</a> <a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/beatrizserrano" alt="Beatriz Serrano-Solano">Beatriz Serrano-Solano</a> <a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/erxleben" alt="Anika Erxleben">Anika Erxleben</a> <a href="/training-material/hall-of-fame/mwolfien/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mwolfien" alt="Markus Wolfien">Markus Wolfien</a> <a href="/training-material/hall-of-fame/mtekman/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mtekman" alt="Mehmet Tekman">Mehmet Tekman</a> <a href="/training-material/hall-of-fame/nomadscientist/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nomadscientist" alt="Wendi Bacon">Wendi Bacon</a> <a href="/training-material/hall-of-fame/pinin4fjords/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pinin4fjords" alt="Jonathan Manning">Jonathan Manning</a> <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Wolfgang Maier">Wolfgang Maier</a> <a href="/training-material/hall-of-fame/moheydarian/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/moheydarian" alt="Mo Heydarian">Mo Heydarian</a> <a href="/training-material/hall-of-fame/blankclemens/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankclemens" alt="Clemens Blank">Clemens Blank</a> <a href="/training-material/hall-of-fame/nsoranzo/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nsoranzo" alt="Nicola Soranzo">Nicola Soranzo</a> <a href="/training-material/hall-of-fame/pvanheus/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pvanheus" alt="Peter van Heusden">Peter van Heusden</a> <a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/astrovsky01" alt="Alex Ostrovsky">Alex Ostrovsky</a> <a href="/training-material/hall-of-fame/ethering/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/ethering" alt="Graham Etherington">Graham Etherington</a> <a href="/training-material/hall-of-fame/hrhotz/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hrhotz" alt="Hans-Rudolf Hotz">Hans-Rudolf Hotz</a> <a href="/training-material/hall-of-fame/blankenberg/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankenberg" alt="Daniel Blankenberg">Daniel Blankenberg</a>
-
-
-
-        
-        <h2 id="references">References</h2>
-        <ul>
-        
-            <li class="citation">
-                <strong>Shirley Pepke et al:</strong> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4121056/">Computation for ChIP-seq and RNA-seq studies</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Paul L. Auer & R. W. Doerge:</strong> <a href="http://www.genetics.org/content/185/2/405">Statistical Design and Analysis of RNA Sequencing Data</a>
-                
-                <br><cite>Insights into proper planning of your RNA-seq run! To read before any RNA-seq experiment!</cite>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Ian Korf:</strong> <a href="https://www.ncbi.nlm.nih.gov/pubmed/24296473">Genomics: the state of the art in RNA-seq analysis</a>
-                
-                <br><cite>A refreshingly honest view on the non-trivial aspects of RNA-seq analysis</cite>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Marie-Agnès Dillies et al:</strong> <a href="http://bib.oxfordjournals.org/content/14/6/671">A comprehensive evaluation of normalization methods for Illumina high-throughput RNA sequencing data analysis</a>
-                
-                <br><cite>Systematic comparison of seven representative normalization methods for the differential analysis of RNA-seq data (Total Count, Upper Quartile, Median (Med), DESeq, edgeR, Quantile and Reads Per Kilobase per Million mapped reads (RPKM) normalization)</cite>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Franck  Rapaport et al:</strong> <a href="https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-9-r95">Comprehensive evaluation of differential gene expression analysis methods for RNA-seq data</a>
-                
-                <br><cite>Evaluation of methods for differential gene expression analysis</cite>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Charlotte Soneson & Mauro Delorenzi:</strong> <a href="http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-91">A comparison of methods for differential expression analysis of RNA-seq data</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Adam Roberts et al:</strong> <a href="https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-3-r22">Improving RNA-Seq expression estimates by correcting for fragment bias</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Manuel Garber et al:</strong> <a href="http://www.nature.com/nmeth/journal/v8/n6/abs/nmeth.1613.html">Computational methods for transcriptome annotation and quantification using RNA-seq</a>
-                
-                <br><cite>Classical paper about the computational aspects of RNA-seq data analysis</cite>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Cole Trapnell et al:</strong> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334321/">Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Zhong Wang et al:</strong> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2949280/">RNA-Seq: a revolutionary tool for transcriptomics</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Dittrich, M. T. and Klau, G. W. and Rosenwald, A. and Dandekar, T. and Muller, T.:</strong> <a href="http://dx.doi.org/10.1093/bioinformatics/btn161">Identifying functional modules in protein-protein interaction networks: an integrated exact approach</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>May, Ali; Brandt, Bernd W; El-Kebir, Mohammed; Klau, Gunnar W; Zaura, Egija; Crielaard, Wim; Heringa, Jaap; Abeln, Sanne:</strong> <a href="http://dx.doi.org/10.1093/bioinformatics/btv526">metaModules identifies key functional subnetworks in microbiome-related disease</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Pavankumar, Videm; Dominic, Rose; Fabrizio, Costa;  Rolf, Backofen:</strong> <a href="doi:10.1093/bioinformatics/btu270">BlockClust: efficient clustering and classification of non-coding RNAs from short read RNA-seq profiles</a>
-                
-            </li>
-        
-            <li class="citation">
-                <strong>Tekman, Mehmet and Batut, Bérénice; Ostrovsky, Alexander; Antoniewski, Christophe; Clements, Dave; Ramirez, Fidel; Etherington, Graham J; Hotz, Hans-Rudolf; Scholtalbers, Jelle; Manning, Jonathan R; Bellenger, Lea; Doyle, Maria A; Heydarian, Mohammad; Huang, Ni; Soranzo, Nicola; Moreno, Pablo; Mautner, Stefan; Papatheodorou, Irene; Nekrutenko, Anton; Taylor, James; Blankenberg, Daniel; Backofen, Rolf; Grüning, Björn;:</strong> <a href="https://doi.org/10.1093/gigascience/giaa102">A single-cell RNA-sequencing training and analysis suite using the Galaxy framework</a>
-                
-            </li>
-        
-        </ul>
-        
-    </section>
-</div>
-
-<footer>
+            <footer>
     <div class="container">
         <br><br>
         <p>
@@ -8416,16 +8942,13 @@
             provides researchers with online training materials, connects them with local trainers, and helps promoting open data analysis practices worldwide.
         </p>
         <p>
-    The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/87939a971cd35da9c7f19dca431dc5ff294bee35">87939a971cd35da9c7f19dca431dc5ff294bee35</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/2efecebf745cacd59dd4d1d7737f399a7d7bc989">2efecebf745cacd59dd4d1d7737f399a7d7bc989</a></p>
     </div>
 </footer>
 
-
-
-
-
+        
     </body>
     <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
     <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
