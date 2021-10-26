@@ -862,7 +862,7 @@ nav input.nicer:focus, nav input.nicer:active { color: white; background: #fff2;
 
 .newslist h3 { margin-top: 1rem; }
 
-.newstable h5 { margin-top: 0px; color: #292b2c !important; }
+.newstable div { margin-top: 0px; color: #292b2c !important; font-weight: bold; }
 
 .newstable a.newstitle { font-color: #292b2c; }
 
@@ -874,7 +874,7 @@ nav input.nicer:focus, nav input.nicer:active { color: white; background: #fff2;
 
 .contributors .carousel-item.active, .contributors .carousel-item-next, .contributors .carousel-item-prev { display: flex; }
 
-.contributors .hall-of-fame-hero { margin: 0; width: 20%; }
+.contributors .hall-of-fame-hero { margin: 0; width: 18%; }
 
 .contributors .hall-of-fame-hero .name { font-size: 0.7em; }
 
@@ -961,6 +961,8 @@ nav[data-toggle='toc'] .nav-link.active:hover { padding-left: 0px; color: #00459
 .contributors-line { color: #555; font-size: 1.2em; display: flex; flex-wrap: wrap; align-content: baseline; line-height: 1.5em; }
 
 .contributors-line .contributor-badge img { height: 1.5em; }
+
+.contributors-line .contributor-badge i { margin-left: 0.5em; margin-right: 0.5em; }
 
 .contributor-badge { /* prevent breaking across lines */ white-space: nowrap; display: inline-flex; flex-direction: row; align-items: center; border-radius: 1em; border: 1px solid #b7daff; padding-right: 0.5em; margin: 0.2em; line-height: 1em; }
 
