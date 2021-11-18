@@ -47,8 +47,44 @@
                         <a class="nav-link" href="/training-material/hall-of-fame" title="Hall of Fame">
                            <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
                         </a>
+
                         
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Languages">
+                            <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Languages
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            
+                              <strong class="dropdown-header">Automatic Translations</strong>
+            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            Français
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            日本語
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            Español
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            Português
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            العربية
+                            </a>
+                            
+                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url" title="">
+                            And more!
+                            </a>
+                        </div>
+                    </li>
+
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
@@ -100,41 +136,6 @@
                 <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
             </a>
         
-
-        <div class="dropdown-item">
-            <div>
-                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
-            </div>
-
-            <div id="lang-selector">
-                
-                <strong>Automatic Translations</strong>
-
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                Français
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                日本語
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                Español
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                Português
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                العربية
-                </a>
-                
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url" title="">
-                And more!
-                </a>
-            </div>
-        </div>
 
         <div class="dropdown-item">
             <div>
@@ -212,9 +213,11 @@
         
 
 
+
 <section class="tutorial faqs">
     <h1 data-toc-skip>Frequently Asked Questions</h1>
-
+<div class="contributors-line">Authors: 
+    </div>
     <div class="container">
         <div class="row">
             <!-- sidebar, which will move to the top on a small screen -->
@@ -282,7 +285,7 @@
 
 
 
-<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>If you would like to run this analysis on your own data, make sure to check which V-region was sequenced. In this tutorial, we sequenced the V4 region, and used a corresponding reference for just this region. If you sequenced another V-region, please use an appropriate reference (either the full SILVA reference, or the SILVA reference specific for your region). Similarly, the <code class="language-plaintext highlighter-rouge">Screen.seqs</code> step after the alignment filtered on start and end coordinates of the alignments. These will have to be adjusted to your V-region.</p>
 
@@ -291,7 +294,7 @@
 
 
 
-<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>If you would like to run this analysis on your own data, make sure to check which V-region was sequenced. In this tutorial, we sequenced the V4 region, and used a corresponding reference for just this region. If you sequenced another V-region, please use an appropriate reference (either the full SILVA reference, or the SILVA reference specific for your region). Similarly, the <code class="language-plaintext highlighter-rouge">Screen.seqs</code> step after the alignment filtered on start and end coordinates of the alignments. These will have to be adjusted to your V-region.</p>
 
@@ -321,6 +324,15 @@ When you get a red dataset in your history, it means something went wrong. But h
 <h3 class="faq-area"> Creating an account <a href="/training-material/faqs/galaxy/creating_account.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 To get access to all features of a <span class="notranslate">Galaxy</span> instance, you need to create an account.
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-creating-an-account"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Creating an account</h3>  <p>To create an account:</p>  <ol>  <li>Click <strong>Login or Register</strong></li>  <li>At the bottom of the form click <strong>Register here</strong></li>  <li>Fill the form and click <strong>Create</strong></li></ol></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> I got slightly different numbers than were in the tutorial <a href="/training-material/topics/introduction/faqs/ucsc.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-got-slightly-different-numbers-than-were-in-the-tutorial"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I got slightly different numbers than were in the tutorial</h3>  <p>This tutorial uses UCSC which is constantly updating it’s data! As a result it gets outdated very quickly before we can update it :( But it’s ok! It’s expected here to get different numbers.</p></blockquote>
 
 
 
@@ -645,6 +657,20 @@ Some datasets can be transformed into a different format. <span class="notransla
 
 
  <br><br> 
+<h2 id="extract tool"> <a href="#extract tool"> Extract tool </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> Are UMIs not actually unique? <a href="/training-material/topics/transcriptomics/faqs/umi.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-are-umis-not-actually-unique"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Are UMIs not actually unique?</h3>  <p>Not strictly, but unique enough. The distribution of UMIs should ideally be uniform so that the chance of any two same UMIs capturing the same transcript (via different amplicons) is small. As barcodes have increased in size, the number of UMIs has also increased allowing for UMIs to reach more or less the same numbers of transcripts.</p></blockquote>
+
+
+
+
+
+ <br><br> 
 <h2 id="features"> <a href="#features"> Features </a></h2>
 <hr/>
 
@@ -682,7 +708,7 @@ Excel is a fantastic tool and a great place to build simple analysis models, but
 
 
 
-<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>This tutorial was adapted from the <a href="https://mothur.org/wiki/miseq_sop/">mothur MiSeq SOP</a> created by the Schloss lab. Here you can find more information about the mothur tools and file formats. Their <a href="https://mothur.org/wiki/frequently_asked_questions/">FAQ page</a> and <a href="https://forum.mothur.org/">Help Forum</a> are also quite useful!</p>
 
@@ -691,7 +717,7 @@ Excel is a fantastic tool and a great place to build simple analysis models, but
 
 
 
-<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>This tutorial was adapted from the <a href="https://mothur.org/wiki/miseq_sop/">mothur MiSeq SOP</a> created by the Schloss lab. Here you can find more information about the mothur tools and file formats. Their <a href="https://mothur.org/wiki/frequently_asked_questions/">FAQ page</a> and <a href="https://forum.mothur.org/">Help Forum</a> are also quite useful!</p>
 
@@ -708,6 +734,38 @@ Excel is a fantastic tool and a great place to build simple analysis models, but
 <h3 class="faq-area"> Install tools via the Admin UI <a href="/training-material/topics/admin/faqs/install_tool.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-install-tools-via-the-admin-ui"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Install tools via the Admin UI</h3>  <ol>  <li>Open <span class="notranslate">Galaxy</span> in your browser and type `` in the tool search box on the left. If “” is among the search results, you can skip the following steps.</li>  <li>Access the Admin menu from the top bar (you need to be logged-in with an email specified in the <code class="language-plaintext highlighter-rouge">admin_users</code> setting)</li>  <li>Click “Install and Uninstall”, which can be found on the left, under “Tool Management”</li>  <li>Enter `` in the search interface</li>  <li>Click on the first hit, having <code class="language-plaintext highlighter-rouge">devteam</code> as owner</li>  <li>Click the “Install” button for the latest revision</li>  <li>Enter “” as the target section and click “OK”.</li></ol></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="gene"> <a href="#gene"> Gene </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> Why do we do dimension reduction and then clustering? Why not just cluster on the actual data? <a href="/training-material/topics/transcriptomics/faqs/dimension_reduction.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-why-do-we-do-dimension-reduction-and-then-clustering-why-not-just-cluster-on-the-actual-data"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Why do we do dimension reduction and then clustering? Why not just cluster on the actual data?</h3>  <p>The actual data has tens of thousands of genes, and so tens of thousands of variables to consider. Even after selecting for the most variable genes and the most high quality genes, we can still be left with &gt; 1000 genes. Performing clustering on a dataset with 1000s of variables is possible, but computationally expensive. It is therefore better to perform dimension reduction to reduce the number of variables to a latent representation of these variables. These latent variables are ideally more than 10 but less than 50 to capture the variability in the data to perform clustering upon.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> What exactly is a ‘Gene profile’? <a href="/training-material/topics/transcriptomics/faqs/gene_profile.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-what-exactly-is-a-gene-profile"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What exactly is a ‘Gene profile’?</h3>  <p>Think of it like a fingerprint that some cells exhibit and others don’t. It’s a small collection of genes which are up or down regulated in relation to one another. Their differences are not absolute, but relative. So if CellA has 100 counts of Gene1 and 50 counts of Gene2, this creates a relation of 2:1 between Gene1 and Gene2. If CellB has a 20 counts of Gene1 and 10 counts of Gene2, then they share the same relation. If CellA and CellB share other relations with other genes than this might be enough to say that they share a Gene profile, and will therefore likely cluster together as they describe the same cell type.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Why do we only consider highly variable genes? <a href="/training-material/topics/transcriptomics/faqs/variable_genes.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-why-do-we-only-consider-highly-variable-genes"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Why do we only consider highly variable genes?</h3>  <p>The non-variable genes are likely housekeeping genes, which are expressed everywhere and are not so useful for distinguishing one cell type from another. However background genes are important to the analysis and are used to generate a background baseline model for measuring the variability of the other genes.</p></blockquote>
 
 
 
@@ -814,17 +872,22 @@ undelete your deleted histories
 
 
  <br><br> 
-<h2 id="igv"> <a href="#igv"> Igv </a></h2>
+<h2 id="history"> <a href="#history"> History </a></h2>
 <hr/>
 
 
 
-<h3 class="faq-area"> Add genome and annotations to IGV from <span class="notranslate">Galaxy</span> <a href="/training-material/topics/assembly/faqs/visualizations_igv_add_genome.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> My jobs are not running / I cannot see the history overview menu <a href="/training-material/topics/introduction/faqs/login.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-add-genome-and-annotations-to-igv-from-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Add genome and annotations to IGV from <span class="notranslate">Galaxy</span></h3>  <ol>  <li>Upload a FASTA file with the reference genome and a GFF3 file with its annotation in the history (if not already there)</li>  <li>Install <a href="https://software.broadinstitute.org/software/igv/download">IGV</a> (if not already installed)</li>  <li>Launch IGV on your computer</li>  <li>Expand the FASTA dataset with the genome in the history</li>  <li>Click on the <code class="language-plaintext highlighter-rouge">local</code> in <code class="language-plaintext highlighter-rouge">display with IGV</code> to load the genome into the IGV browser</li>  <li>Wait until all <strong>Dataset status</strong> are <code class="language-plaintext highlighter-rouge">ok</code></li>  <li>    <p>Close the window</p>    <p>An alert <code class="language-plaintext highlighter-rouge">ERROR Parameter "file" is required</code> may appear. Ignore it.</p>  </li>  <li>Expand the GFF3 dataset with the annotations of the genome in the history</li>  <li>Click on the <code class="language-plaintext highlighter-rouge">local</code> in <code class="language-plaintext highlighter-rouge">display with IGV</code> to load the annotation into the IGV browser</li>  <li>    <p>Switch to the IGV instance</p>    <p>The annotation track should appear. Be careful that all files have the same genome ID</p>  </li></ol></blockquote>
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-my-jobs-are-not-running--i-cannot-see-the-history-overview-menu"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: My jobs are not running / I cannot see the history overview menu</h3>  <p>Please make sure you are logged in. At the top menu bar, you should see a section labeled “User”. If you see “Login/Register” here you are not logged in.</p></blockquote>
 
 
 
+
+
+ <br><br> 
+<h2 id="igv"> <a href="#igv"> Igv </a></h2>
+<hr/>
 
 
 
@@ -837,7 +900,16 @@ undelete your deleted histories
 
 
 
-<h3 class="faq-area"> Add Mapped <span class="notranslate">reads</span> track to IGV from <span class="notranslate">Galaxy</span> <a href="/training-material/topics/assembly/faqs/visualizations_igv_view_mapping.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> Add genome and annotations to IGV from <span class="notranslate">Galaxy</span> <a href="/training-material/topics/assembly/faqs/visualizations_igv_add_genome.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-add-genome-and-annotations-to-igv-from-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Add genome and annotations to IGV from <span class="notranslate">Galaxy</span></h3>  <ol>  <li>Upload a FASTA file with the reference genome and a GFF3 file with its annotation in the history (if not already there)</li>  <li>Install <a href="https://software.broadinstitute.org/software/igv/download">IGV</a> (if not already installed)</li>  <li>Launch IGV on your computer</li>  <li>Expand the FASTA dataset with the genome in the history</li>  <li>Click on the <code class="language-plaintext highlighter-rouge">local</code> in <code class="language-plaintext highlighter-rouge">display with IGV</code> to load the genome into the IGV browser</li>  <li>Wait until all <strong>Dataset status</strong> are <code class="language-plaintext highlighter-rouge">ok</code></li>  <li>    <p>Close the window</p>    <p>An alert <code class="language-plaintext highlighter-rouge">ERROR Parameter "file" is required</code> may appear. Ignore it.</p>  </li>  <li>Expand the GFF3 dataset with the annotations of the genome in the history</li>  <li>Click on the <code class="language-plaintext highlighter-rouge">local</code> in <code class="language-plaintext highlighter-rouge">display with IGV</code> to load the annotation into the IGV browser</li>  <li>    <p>Switch to the IGV instance</p>    <p>The annotation track should appear. Be careful that all files have the same genome ID</p>  </li></ol></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Add Mapped <span class="notranslate">reads</span> track to IGV from <span class="notranslate">Galaxy</span> <a href="/training-material/topics/visualisation/faqs/visualizations_igv_view_mapping.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-add-mapped-reads-track-to-igv-from-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Add Mapped <span class="notranslate">reads</span> track to IGV from <span class="notranslate">Galaxy</span></h3>  <ol>  <li>Install <a href="https://software.broadinstitute.org/software/igv/download">IGV</a> (if not already installed)</li>  <li>Launch IGV on your computer</li>  <li>Check if the reference genome is available on the IGV instance</li>  <li>Expand the BAM dataset with the mapped <span class="notranslate">reads</span> in the history</li>  <li>Click on the <code class="language-plaintext highlighter-rouge">local</code> in <code class="language-plaintext highlighter-rouge">display with IGV</code> to load the <span class="notranslate">reads</span> into the IGV browser</li>  <li>    <p>Switch to the IGV instance</p>    <p>The mapped <span class="notranslate">reads</span> track should appear. Be sure that all files have the same genome ID</p>  </li></ol></blockquote>
 
@@ -846,7 +918,7 @@ undelete your deleted histories
 
 
 
-<h3 class="faq-area"> Add Mapped <span class="notranslate">reads</span> track to IGV from <span class="notranslate">Galaxy</span> <a href="/training-material/topics/visualisation/faqs/visualizations_igv_view_mapping.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> Add Mapped <span class="notranslate">reads</span> track to IGV from <span class="notranslate">Galaxy</span> <a href="/training-material/topics/assembly/faqs/visualizations_igv_view_mapping.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-add-mapped-reads-track-to-igv-from-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Add Mapped <span class="notranslate">reads</span> track to IGV from <span class="notranslate">Galaxy</span></h3>  <ol>  <li>Install <a href="https://software.broadinstitute.org/software/igv/download">IGV</a> (if not already installed)</li>  <li>Launch IGV on your computer</li>  <li>Check if the reference genome is available on the IGV instance</li>  <li>Expand the BAM dataset with the mapped <span class="notranslate">reads</span> in the history</li>  <li>Click on the <code class="language-plaintext highlighter-rouge">local</code> in <code class="language-plaintext highlighter-rouge">display with IGV</code> to load the <span class="notranslate">reads</span> into the IGV browser</li>  <li>    <p>Switch to the IGV instance</p>    <p>The mapped <span class="notranslate">reads</span> track should appear. Be sure that all files have the same genome ID</p>  </li></ol></blockquote>
 
@@ -1060,6 +1132,15 @@ undelete your deleted histories
 
 
 
+<h3 class="faq-area"> How can I create a tutorial skeleton from a <span class="notranslate">Galaxy</span> <span class="notranslate">workflow</span>? <a href="/training-material/topics/contributing/faqs/tutorial_from_workflows.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-how-can-i-create-a-tutorial-skeleton-from-a-galaxy-workflow"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: How can I create a tutorial skeleton from a <span class="notranslate">Galaxy</span> <span class="notranslate">workflow</span>?</h3>  <p>There are two ways to do this:</p>  <ol>  <li>Use <a href="https://planemo.readthedocs.io/en/latest/">planemo</a> on your local machine. Please see the tutorial named <a href="/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html">“Creating a new tutorial”</a> for detailed instructions.</li>  <li>Use our <a href="https://ptdk.herokuapp.com">web service</a></li></ol></blockquote>
+
+
+
+
+
+
 <h3 class="faq-area"> How can I create a tutorial skeleton from a <span class="notranslate">Galaxy</span> <span class="notranslate">workflow</span>? <a href="/training-material/topics/contributing/tutorials/create-new-tutorial-content/faqs/tutorial_from_workflows.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-how-can-i-create-a-tutorial-skeleton-from-a-galaxy-workflow"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: How can I create a tutorial skeleton from a <span class="notranslate">Galaxy</span> <span class="notranslate">workflow</span>?</h3>  <p>There are two ways to do this:</p>  <ol>  <li>Use <a href="https://planemo.readthedocs.io/en/latest/">planemo</a> on your local machine. Please see the tutorial named <a href="/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html">“Creating a new tutorial”</a> for detailed instructions.</li>  <li>Use our <a href="https://ptdk.herokuapp.com">web service</a></li></ol></blockquote>
@@ -1068,10 +1149,96 @@ undelete your deleted histories
 
 
 
+ <br><br> 
+<h2 id="metaproteomics"> <a href="#metaproteomics"> Metaproteomics </a></h2>
+<hr/>
 
-<h3 class="faq-area"> How can I create a tutorial skeleton from a <span class="notranslate">Galaxy</span> <span class="notranslate">workflow</span>? <a href="/training-material/topics/contributing/faqs/tutorial_from_workflows.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-how-can-i-create-a-tutorial-skeleton-from-a-galaxy-workflow"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: How can I create a tutorial skeleton from a <span class="notranslate">Galaxy</span> <span class="notranslate">workflow</span>?</h3>  <p>There are two ways to do this:</p>  <ol>  <li>Use <a href="https://planemo.readthedocs.io/en/latest/">planemo</a> on your local machine. Please see the tutorial named <a href="/training-material/topics/contributing/tutorials/create-new-tutorial/tutorial.html">“Creating a new tutorial”</a> for detailed instructions.</li>  <li>Use our <a href="https://ptdk.herokuapp.com">web service</a></li></ol></blockquote>
+
+<h3 class="faq-area"> How does one compare metaproteomics measurements from two experimental conditions? <a href="/training-material/topics/proteomics/faqs/comparing_measurement.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-how-does-one-compare-metaproteomics-measurements-from-two-experimental-conditions"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: How does one compare metaproteomics measurements from two experimental conditions?</h3>  <p>For comparing taxonomy composition or functional content of two conditions in metaproteomics or metatranscriptomics studies, users are recommended to use metaQuantome. GTN tutorials for metaQuantome are available <a href="/training-material/topics/proteomics/">in the proteomics topic.</a></p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> How does one convert RAW files to MGF peak lists within <span class="notranslate">Galaxy</span>? <a href="/training-material/topics/proteomics/faqs/convert_to_MGF.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-how-does-one-convert-raw-files-to-mgf-peak-lists-within-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: How does one convert RAW files to MGF peak lists within <span class="notranslate">Galaxy</span>?</h3>  <p><span class="notranslate">Galaxy</span> has implemented msconvert tool so that RAW files from Thermo instruments can be converted into MGF or mzML formats.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> I have FASTQ files from metagenomics or metatranscriptomics datasets? How can I convert them into a protein FASTA file for metaproteomics searches? <a href="/training-material/topics/proteomics/faqs/converting_FASTA.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-have-fastq-files-from-metagenomics-or-metatranscriptomics-datasets-how-can-i-convert-them-into-a-protein-fasta-file-for-metaproteomics-searches"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I have FASTQ files from metagenomics or metatranscriptomics datasets? How can I convert them into a protein FASTA file for metaproteomics searches?</h3>  <p><span class="notranslate">Galaxy</span> has a tool named Sixgill that can be used to convert the nucleic acid sequences to ‘metapeptide’ sequences. There are other options available within <span class="notranslate">Galaxy</span> such as the <span class="notranslate">Galaxy</span>Graph approach and Metagenome Binning, Assembly and Annotation <span class="notranslate">Workflow</span>. Please <a href="https://help.galaxyproject.org/">contact us</a>, if you need assistance.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> What software tools are available to determine taxonomic composition from mass spectrometry data? <a href="/training-material/topics/proteomics/faqs/determine_taxonomic_composition.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-what-software-tools-are-available-to-determine-taxonomic-composition-from-mass-spectrometry-data"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What software tools are available to determine taxonomic composition from mass spectrometry data?</h3>  <p>Within the <span class="notranslate">Galaxy</span> framework we recommend the use of Unipept software that uses NCBI taxonomy and UniProt databases to detect unique peptides for taxonomy. Other software tools such as MetaTryp 2.0 (PMID: 32897080) can also be used to determine the taxonomic composition of the metaproteomics datasets.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Why do we do dimension reduction and then clustering? Why not just cluster on the actual data? <a href="/training-material/topics/proteomics/faqs/functional_analysis_tools.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-why-do-we-do-dimension-reduction-and-then-clustering-why-not-just-cluster-on-the-actual-data"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Why do we do dimension reduction and then clustering? Why not just cluster on the actual data?</h3>  <p>Within the <span class="notranslate">Galaxy</span> framework we recommend the use of Unipept software that uses UniProt databases and annotation to detect proteins (EC terms) and functional groups such as GO Ontology and InterPro terms. Other software tools such as <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0241503">EggNOG Mapper</a> are also available within the <span class="notranslate">Galaxy</span> platform. Other software such as MEGAN5, MetaGOmics, MetaProteomeAnalyzer (MPA), ProPHAnE also generate functional outputs.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Can I use these workflows on datasets generated from our laboratory? <a href="/training-material/topics/proteomics/faqs/reusing_workflows.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-can-i-use-these-workflows-on-datasets-generated-from-our-laboratory"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Can I use these workflows on datasets generated from our laboratory?</h3>  <p>Yes, the workflows can be used on other datasets as well. However, you will need to consider data acquisition and sample preparation methods so that the tool parameters can be adjusted accordingly.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Which search algorithms are recommended for searching the metaproteomics data? <a href="/training-material/topics/proteomics/faqs/search_algorithms.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-which-search-algorithms-are-recommended-for-searching-the-metaproteomics-data"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Which search algorithms are recommended for searching the metaproteomics data?</h3>  <p>SearchGUI supports search using nine search algorithms (X! Tandem. MS-GF+. OMSSA, Comet, Tide, MyriMatch, MS_Amanda, DirecTag and Novor). For this tutorial, we have used the first two search algorithms in the list. In our hands, the first four search algorithms have given us the most optimal results.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> I have a really large search database, what search strategies do you recommend for searching my mass spectrometry dataset? <a href="/training-material/topics/proteomics/faqs/search_strategies.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-have-a-really-large-search-database-what-search-strategies-do-you-recommend-for-searching-my-mass-spectrometry-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I have a really large search database, what search strategies do you recommend for searching my mass spectrometry dataset?</h3>  <p>Readers are encouraged to use the database sectioning approach described by <a href="https://pubmed.ncbi.nlm.nih.gov/32396365/">Praveen Kumar et al</a> and available within <span class="notranslate">Galaxy</span>. Readers are also encouraged to consider other approaches such as MetaNovo (not yet available in <span class="notranslate">Galaxy</span>). In absence of any database or taxonomic information about the microbiome dataset, other methods such as COMPIL 2.0  and De novo search methods can also be considered.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> What other methods are available to study the functional state of the microbiome within <span class="notranslate">Galaxy</span>? <a href="/training-material/topics/proteomics/faqs/studying_microbiome_state.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-what-other-methods-are-available-to-study-the-functional-state-of-the-microbiome-within-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What other methods are available to study the functional state of the microbiome within <span class="notranslate">Galaxy</span>?</h3>  <p>Other software such as EggNOG Mapper, MEGAN5, MetaGOmics, MetaProteomeAnalyzer (MPA) and  ProPHAnE also generate <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0241503">functional outputs</a>.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Which version of SearchGUI and PeptideShaker shall I use for this tutorial? <a href="/training-material/topics/proteomics/faqs/tools_versions.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-which-version-of-searchgui-and-peptideshaker-shall-i-use-for-this-tutorial"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Which version of SearchGUI and PeptideShaker shall I use for this tutorial?</h3>  <p>We highly recommend the usage of SearchGUI <span class="notranslate">Galaxy</span> version 3.3.10.1 and PeptideShaker version <span class="notranslate">Galaxy</span> Version 1.16.36.3. The newer versions of SearchGUI and PeptideShaker have not yet been tested for this <span class="notranslate">workflow</span>.</p></blockquote>
 
 
 
@@ -1095,6 +1262,43 @@ undelete your deleted histories
 <h3 class="faq-area"> Sustainability of the training-material and metadata <a href="/training-material/faqs/gtn/gtn_sustainability.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>This repository is hosted on <a href="https://github.com/">GitHub</a> using git as a <a href="https://en.wikipedia.org/wiki/Distributed_version_control">DVCS</a>. Therefore the community is hosting backups of thisrepository in a decentralised way. The repository is self-contained and contains all needed content and all metadata.In addition we mirror snapshops of this repo on <a href="http://zenodo.org">Zenodo</a>.</p>
+
+
+
+
+
+ <br><br> 
+<h2 id="recommended browser"> <a href="#recommended browser"> Recommended browser </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> UCSC - I fetched data from a remote website but now I’m logged out of <span class="notranslate">Galaxy</span> and my data is gone? <a href="/training-material/topics/introduction/faqs/fetched_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-ucsc---i-fetched-data-from-a-remote-website-but-now-im-logged-out-of-galaxy-and-my-data-is-gone"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: UCSC - I fetched data from a remote website but now I’m logged out of <span class="notranslate">Galaxy</span> and my data is gone?</h3>  <p>This is a known bug with Chrome + <span class="notranslate">Galaxy</span>, we’re working on it <a href="https://github.com/galaxyproject/galaxy/issues/11374"><span class="notranslate">galaxy</span>project/<span class="notranslate">galaxy</span>#11374</a>. For now we can recommend using Firefox (known to work) or trying another browser.</p></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="scRNA"> <a href="#scRNA"> Sc<span class="notranslate">rna</span> </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> Why is amplification more of an issue in sc<span class="notranslate">RNA</span>-seq than <span class="notranslate">RNA</span>-seq? <a href="/training-material/topics/transcriptomics/faqs/amplification.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-why-is-amplification-more-of-an-issue-in-scrna-seq-than-rna-seq"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Why is amplification more of an issue in sc<span class="notranslate">RNA</span>-seq than <span class="notranslate">RNA</span>-seq?</h3>  <p>Due to the extremely small amount of starting material, the initial amplification is likely to be uneven due to the first cycle of amplified products being overrepresented in the second cycle of amplification leading to further bias. In Bulk <span class="notranslate">RNA</span>-seq, the larger selection of <span class="notranslate">RNA</span> molecules to amplify, evens out the odds that any one transcript will be amplified more than others.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Can <span class="notranslate">RNA</span>-seq techniques be applied to sc<span class="notranslate">RNA</span>-seq? <a href="/training-material/topics/transcriptomics/faqs/techniques.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-can-rna-seq-techniques-be-applied-to-scrna-seq"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Can <span class="notranslate">RNA</span>-seq techniques be applied to sc<span class="notranslate">RNA</span>-seq?</h3>  <p>The short answer is ‘no, but yes’. At the beginning this was impossible due to the over-prevalence of dropout events (“zeroes”) in the data complicating the normalisation techniques, but this is not so much of a problem any more with newer methods.</p></blockquote>
 
 
 
@@ -1165,6 +1369,29 @@ undelete your deleted histories
 
 
  <br><br> 
+<h2 id="user interface"> <a href="#user interface"> User interface </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> I can’t find the “Analyze Data” button <a href="/training-material/topics/introduction/faqs/analyze_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-cant-find-the-analyze-data-button"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I can’t find the “Analyze Data” button</h3>  <p>The <span class="notranslate">Galaxy</span> interface has changed a bit recently, “Analyze Data” was always the home button, and now looks like a home icon.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> My <span class="notranslate">Galaxy</span> looks different than in the video <a href="/training-material/topics/introduction/faqs/galaxy.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-my-galaxy-looks-different-than-in-the-video"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: My <span class="notranslate">Galaxy</span> looks different than in the video</h3>  <p><span class="notranslate">Galaxy</span> gets frequent updates, different servers will be running different versions. This is nothing to worry about, just let us know if you can’t find how to perform a task in your <span class="notranslate">Galaxy</span>.</p></blockquote>
+
+
+
+
+
+ <br><br> 
 <h2 id="user preferences"> <a href="#user preferences"> User preferences </a></h2>
 <hr/>
 
@@ -1227,7 +1454,7 @@ You can create a <span class="notranslate">Galaxy</span> <span class="notranslat
 
 <h3 class="faq-area"> Extracting a <span class="notranslate">workflow</span> from your history <a href="/training-material/faqs/galaxy/workflows_extract_from_history.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 <span class="notranslate">Galaxy</span> can automatically create a <span class="notranslate">workflow</span> based on the analysis you have performed in a history. This means that once you have done an analysis manually once, you can easily extract a <span class="notranslate">workflow</span> to repeat it on different data.
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-extracting-a-workflow-from-your-history"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Extracting a <span class="notranslate">workflow</span> from your history</h3>  <ol>  <li>Remove any failed or unwanted jobs from your history.</li>  <li>Click on <strong>History options</strong> (gear icon <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span>) at the top of your history panel.</li>  <li>Select <strong>Extract <span class="notranslate">workflow</span></strong></li>  <li>Check the steps, enter a name for your <span class="notranslate">workflow</span>, and press the <strong>Create <span class="notranslate">Workflow</span></strong> button.</li></ol></blockquote>
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-extracting-a-workflow-from-your-history"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Extracting a <span class="notranslate">workflow</span> from your history</h3>  <ol>  <li>    <p><strong>Clean up</strong> your history: remove any failed (red) jobs from your history by clicking on the <i class="fas fa-times" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-cross</span> button.</p>    <p>This will make the creation of the <span class="notranslate">workflow</span> easier.</p>  </li>  <li>    <p>Click on <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> (<strong>History options</strong>) at the top of your history panel and select <strong>Extract <span class="notranslate">workflow</span></strong>.</p>    <p><img src="/training-material/topics/introduction/images/history_menu_extract_workflow.png" alt="`Extract Workflow` entry in the history options menu" /></p>    <p>The central panel will show the content of the history in reverse order (oldest on top), and you will be able to choose which steps to include in the <span class="notranslate">workflow</span>.</p>  </li>  <li>    <p>Replace the <strong><span class="notranslate">Workflow</span> name</strong> to something more descriptive.</p>  </li>  <li>    <p><strong>Rename</strong> each <span class="notranslate">workflow</span> input in the boxes at the top of the second column.</p>  </li>  <li>    <p>If there are any steps that shouldn’t be included in the <span class="notranslate">workflow</span>, you can <strong>uncheck</strong> them in the first column of boxes.</p>  </li>  <li>    <p>Click on the <strong>Create <span class="notranslate">Workflow</span></strong> button near the top.</p>    <p>You will get a message that the <span class="notranslate">workflow</span> was created.</p>  </li></ol></blockquote>
 
 
 
@@ -1323,7 +1550,7 @@ When creating a <span class="notranslate">workflow</span> in <span class="notran
         <p>
 The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/97355bef772df5221fdcbf70d092621022e660d6">97355bef772df5221fdcbf70d092621022e660d6</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/363ddaefd5031c7c060a1357ce1d2c813498c049">363ddaefd5031c7c060a1357ce1d2c813498c049</a></p>
     </div>
 </footer>
 
