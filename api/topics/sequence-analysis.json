@@ -18,6 +18,7 @@
       "gitter": "yvanlebras",
       "orcid": "0000-0002-8504-068X",
       "joined": "2017-09",
+      "elixir_node": "fr",
       "id": "yvanlebras",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json"
     },
@@ -29,6 +30,7 @@
       "gitter": "bebatut",
       "orcid": "0000-0001-9852-1987",
       "joined": "2017-09",
+      "elixir_node": "de",
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
     },
@@ -36,6 +38,7 @@
       "name": "Joachim Wolff",
       "email": "wolffj@informatik.uni-freiburg.de",
       "joined": "2017-09",
+      "elixir_node": "de",
       "id": "joachimwolff",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/joachimwolff.json"
     }
@@ -285,6 +288,7 @@
           "name": "Joachim Wolff",
           "email": "wolffj@informatik.uni-freiburg.de",
           "joined": "2017-09",
+          "elixir_node": "de",
           "id": "joachimwolff",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/joachimwolff.json"
         },
@@ -296,6 +300,7 @@
           "gitter": "bebatut",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
+          "elixir_node": "de",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
         },
@@ -306,17 +311,39 @@
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
+          "elixir_node": "nl",
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
         }
       ],
-      "last_modified_at": "2021-11-15T14:29:48+00:00",
+      "last_modified_at": "18-Oct-22",
       "url": "/topics/sequence-analysis/tutorials/mapping/tutorial.html",
       "topic_name": "sequence-analysis",
       "tutorial_name": "mapping",
       "hands_on": true,
       "slides": true,
-      "workflows": true,
+      "workflows": [
+        {
+          "workflow": "mapping-jbrowse.ga",
+          "tests": false
+        },
+        {
+          "workflow": "mapping.ga",
+          "tests": true
+        }
+      ],
+      "tools": [
+        "toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.4.3.1",
+        "toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.4.1",
+        "toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.4.2+galaxy0",
+        "toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1",
+        "toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.1",
+        "toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2",
+        "toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.1+galaxy0",
+        "toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.11+galaxy0",
+        "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.9",
+        "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.9+galaxy1"
+      ],
       "tours": true,
       "video": false,
       "translations": {
@@ -339,13 +366,14 @@
       "title": "Quality Control",
       "zenodo_link": "https://doi.org/10.5281/zenodo.61771",
       "questions": [
-        "How to perform quality control of NGS raw data (FASTQ)?",
+        "How to perform quality control of NGS raw data?",
         "What are the quality parameters to check for a dataset?",
         "How to improve the quality of a dataset?"
       ],
       "objectives": [
-        "Assess FASTQ quality using FASTQE 🧬😎 and FastQC",
-        "Perform quality correction with Cutadapt",
+        "Assess short reads FASTQ quality using FASTQE 🧬😎 and FastQC",
+        "Assess long reads FASTQ quality using Nanoplot and PycoQC",
+        "Perform quality correction with Cutadapt (short reads)",
         "Summarise quality metrics MultiQC",
         "Process single-end and paired-end data"
       ],
@@ -376,6 +404,7 @@
           "gitter": "bebatut",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
+          "elixir_node": "de",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
         },
@@ -384,15 +413,87 @@
           "joined": "2018-09",
           "id": "mblue9",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+        },
+        {
+          "name": "Alexandre Cormier",
+          "email": "alexandre.cormier@ifremer.fr",
+          "twitter": "allanssx",
+          "orcid": "0000-0002-7775-8413",
+          "joined": "2021-11",
+          "id": "alexcorm",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/alexcorm.json"
+        },
+        {
+          "name": "Anthony Bretaudeau",
+          "email": "anthony.bretaudeau@inra.fr",
+          "twitter": "abretau",
+          "gitter": "abretaud",
+          "orcid": "0000-0003-0914-2470",
+          "joined": "2017-09",
+          "elixir_node": "fr",
+          "id": "abretaud",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+        },
+        {
+          "name": "Laura Leroi",
+          "email": "laura.leroi@ifremer.fr",
+          "orcid": "0000-0003-3748-4179",
+          "joined": "2021-11",
+          "id": "lleroi",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/lleroi.json"
+        },
+        {
+          "name": "Erwan Corre",
+          "email": "erwan.corre@sb-roscoff.fr",
+          "twitter": "r1corre",
+          "orcid": "0000-0001-6354-2278",
+          "joined": "2019-04",
+          "id": "r1corre",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/r1corre.json"
+        },
+        {
+          "name": "Stéphanie Robin",
+          "email": "stephanie.robin@inrae.fr",
+          "twitter": "robinstphanie1",
+          "orcid": "0000-0001-7379-9173",
+          "joined": "2021-11",
+          "id": "stephanierobin",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/stephanierobin.json"
+        },
+        {
+          "name": "Erasmus+ Programme",
+          "joined": "2020-09",
+          "avatar": "https://www.erasmusplus.nl/assets/images/logo.png",
+          "github": false,
+          "funder": true,
+          "funding_id": "2020-1-NL01-KA203-064717",
+          "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
+          "id": "erasmusplus",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
         }
       ],
-      "last_modified_at": "2021-10-28T12:22:53+00:00",
+      "last_modified_at": "18-Oct-22",
       "url": "/topics/sequence-analysis/tutorials/quality-control/tutorial.html",
       "topic_name": "sequence-analysis",
       "tutorial_name": "quality-control",
       "hands_on": true,
       "slides": true,
-      "workflows": true,
+      "workflows": [
+        {
+          "workflow": "quality_control.ga",
+          "tests": true
+        }
+      ],
+      "tools": [
+        "toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1",
+        "toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.73+galaxy0",
+        "toolshed.g2.bx.psu.edu/repos/iuc/fastqe/fastqe/0.2.6+galaxy2",
+        "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.9+galaxy1",
+        "toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1",
+        "toolshed.g2.bx.psu.edu/repos/iuc/pycoqc/pycoqc/2.5.2+galaxy0",
+        "toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.3",
+        "toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/3.4+galaxy2"
+      ],
       "tours": true,
       "video": false,
       "translations": {
@@ -453,17 +554,34 @@
         {
           "name": "Wolfgang Maier",
           "joined": "2017-09",
+          "elixir_node": "de",
           "id": "wm75",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
         }
       ],
-      "last_modified_at": "2021-08-04T11:13:47+00:00",
+      "last_modified_at": "18-Oct-22",
       "url": "/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html",
       "topic_name": "sequence-analysis",
       "tutorial_name": "human-reads-removal",
       "hands_on": true,
       "slides": false,
-      "workflows": true,
+      "workflows": [
+        {
+          "workflow": "human-reads-removal.ga",
+          "tests": false
+        }
+      ],
+      "tools": [
+        "Grep1",
+        "__UNZIP_COLLECTION__",
+        "__ZIP_COLLECTION__",
+        "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2",
+        "toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.2",
+        "toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.9+galaxy1",
+        "toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_subseq/1.3.1",
+        "toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.38.0",
+        "toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.38.1"
+      ],
       "tours": false,
       "video": false,
       "translations": {
