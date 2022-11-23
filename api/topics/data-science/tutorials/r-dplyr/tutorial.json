@@ -68,7 +68,8 @@
   },
   "priority": 3,
   "tags": [
-    "R"
+    "R",
+    "rmarkdown-notebook"
   ],
   "license": "MIT",
   "last_modified_at": "2022-09-28T13:13:58+00:00",
