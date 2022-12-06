@@ -34,7 +34,6 @@
       "teresa-m"
     ]
   },
-  "last_modified_at": "18-Oct-22",
   "url": "/topics/metagenomics/tutorials/beer-data-analysis/tutorial.html",
   "topic_name": "metagenomics",
   "tutorial_name": "beer-data-analysis",
@@ -42,6 +41,7 @@
     {
       "name": "Polina Polunina",
       "gitter": "PlushZ",
+      "orcid": "0000-0002-0507-4602",
       "joined": "2022-03",
       "id": "plushz",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/plushz.json"

@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Creating Galaxy tools from Conda Through Deployment" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:18 +0000" />
+<meta name="DC.date" content="2022-10-20 09:46:55 +0000" />
 <meta name="DC.creator" content="Alex Ostrovsky" />
 <meta name="DC.creator" content="Dave B." />
 <meta name="DC.creator" content="Matthias Bernt" />
@@ -149,13 +149,12 @@
 
         <!-- link to feedback -->
         
-        
-        
-        
-
-            <a class="dropdown-item" href="/training-material/feedback.html#tutorial-tool-from-scratch" title="Show feedback statistics about this tutorial">
-                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Tutorial feedback
-            </a>
+            
+            
+                <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                    <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+                </a>
+            
         
 
         <div class="dropdown-item">
@@ -194,7 +193,6 @@
                 <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
             </div>
 
-            
             <div id="archive-selector">
             
                 <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/topics/dev/tutorials/tool-from-scratch/tutorial.html" title="Version 2021-05-01">2021-05-01</a>
@@ -281,7 +279,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:18 +0000",
+  "dateModified": "2022-10-20 09:46:55 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Creating Galaxy tools from Conda Through Deployment",
   "interactivityType": "mixed",
@@ -335,7 +333,7 @@
   "url": "https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html",
   "timeRequired": "PT3H",
   "keywords": "dev",
-  "description": "The questions this  addresses are:\n - How do you create a conda package used as a dependency in a Galaxy tool wrapper?\n - How do you create a Galaxy tool wrapper and all of its requirements?\n - How do you test a Galaxy tool wrapper after it's written?\n - How do you deploy a Galaxy tool wrapper?\n - How to do you make a Galaxy tool wrapper publicly available?\n\n\\nThe objectives are:\n - Learn how to make and deploy a conda package\n - Understand how to write a Galaxy tool wrapper\n - Be able to use a tool wrapper locally\n - Be able to test the tool wrapper\n - Learn how to add tools to the Galaxy toolshed and make them available to any user\n\n",
+  "description": "The questions this  addresses are:\n - How do you create a conda package used as a dependency in a Galaxy tool wrapper?\n - How do you create a Galaxy tool wrapper and all of its requirements?\n - How do you test a Galaxy tool wrapper after it's written?\n - How do you deploy a Galaxy tool wrapper?\n - How to do you make a Galaxy tool wrapper publicly available?\n\n\nThe objectives are:\n - Learn how to make and deploy a conda package\n - Understand how to write a Galaxy tool wrapper\n - Be able to use a tool wrapper locally\n - Be able to test the tool wrapper\n - Learn how to add tools to the Galaxy toolshed and make them available to any user\n\n",
   "inLanguage": {
     "@type": "Language",
     "name": "English",
@@ -489,19 +487,7 @@
     <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: 
-<a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge contributor-astrovsky01"><img src="https://avatars.githubusercontent.com/astrovsky01?s=27" alt="Avatar">Alex Ostrovsky</a>
-
-
-
-<a href="/training-material/hall-of-fame/davebx/" class="contributor-badge contributor-davebx"><img src="https://avatars.githubusercontent.com/davebx?s=27" alt="Avatar">Dave B.</a>
-
-
-
-<a href="/training-material/hall-of-fame/bernt-matthias/" class="contributor-badge contributor-bernt-matthias"><img src="https://avatars.githubusercontent.com/bernt-matthias?s=27" alt="Avatar">Matthias Bernt</a>
-
-
-
+		Authors: <a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge contributor-astrovsky01"><img src="https://avatars.githubusercontent.com/astrovsky01?s=27" alt="Avatar">Alex Ostrovsky</a><a href="/training-material/hall-of-fame/davebx/" class="contributor-badge contributor-davebx"><img src="https://avatars.githubusercontent.com/davebx?s=27" alt="Avatar">Dave B.</a><a href="/training-material/hall-of-fame/bernt-matthias/" class="contributor-badge contributor-bernt-matthias"><img src="https://avatars.githubusercontent.com/bernt-matthias?s=27" alt="Avatar">Matthias Bernt</a>
 	</div>
 
 </div>
@@ -659,7 +645,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Oct 18, 2022 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Oct 20, 2022 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -902,7 +888,7 @@ homepage, and optionally the github use<span class="notranslate">rna</span>me of
     <p>What does your final file look like?</p>
 
     <blockquote class="solution">
-      <div id="solution" class="box-title"><button type="button" aria-controls="solution-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+      <div id="solution" class="box-title"><button type="button" aria-controls="solution-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
       <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">{</span><span class="err">%</span> <span class="nv">set name = "bellerophon_bis" %</span><span class="pi">}</span>
 <span class="pi">{</span><span class="err">%</span> <span class="nv">set version = "1.0" %</span><span class="pi">}</span>
@@ -1277,6 +1263,7 @@ of the requirement would change the value for <code class="language-plaintext hi
     <span class="nt">&lt;token</span> <span class="na">name=</span><span class="s">"@VERSION_SUFFIX@"</span><span class="nt">&gt;</span>0<span class="nt">&lt;/token&gt;</span>
 <span class="nt">&lt;/macros&gt;</span>
 
+<span class="nt">&lt;import&gt;</span>bellerophon_macros.xml<span class="nt">&lt;/import&gt;</span>
 <span class="nt">&lt;expand</span> <span class="na">macro=</span><span class="s">"bio_tools"</span><span class="nt">/&gt;</span>
 
 </code></pre></div>  </div>
@@ -1326,7 +1313,7 @@ This specifies the</p>
   <p>If you wanted to add a requirement for the Seurat package of version 3.2, what would that look like?</p>
 
   <blockquote class="solution">
-    <div id="solution-1" class="box-title"><button type="button" aria-controls="solution-1-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-1" class="box-title"><button type="button" aria-controls="solution-1-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
     <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">&lt;requirements&gt;</span>
         <span class="nt">&lt;requirement</span> <span class="na">type=</span><span class="s">"package"</span> <span class="na">version=</span><span class="s">"3.2"</span><span class="nt">&gt;</span>seurat<span class="nt">&lt;/requirement&gt;</span>
@@ -1503,7 +1490,7 @@ but not exposed to the user.</p>
     <p>What does your <code class="language-plaintext highlighter-rouge">&lt;inputs/&gt;</code> section look like?</p>
 
     <blockquote class="solution">
-      <div id="solution-2" class="box-title"><button type="button" aria-controls="solution-2-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+      <div id="solution-2" class="box-title"><button type="button" aria-controls="solution-2-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
       <p>To include all of the necessary parameters, then, the inputs section would appear like this</p>
 
       <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;inputs&gt;</span>
@@ -1777,7 +1764,7 @@ of an Arima Genomics tool in association with the Vertebrate Genomes project, th
 
 <h2 id="final-wrapper">Final wrapper</h2>
 
-<p>With all sections complete, the final wrapper for bellerophon can be found <a href="https://github.com/galaxyproject/tools-iuc/blob/master/tools/bellerophon/bellerophon.xml">here</a>.</p>
+<p>With all sections complete, the final wrapper for bellerophon can be found <a href="https://github.com/galaxyproject/tools-iuc/blob/master/tools/bellerophon/bellerophon.xml">in the IUC GitHub repository</a>.</p>
 
 <h2 id="toolshed-file"><span class="notranslate">Toolshed</span> file</h2>
 
@@ -2004,7 +1991,7 @@ to determine the source of the test failure.</p>
 </blockquote>
 
 <blockquote class="tip">
-  <div id="tip-useful-parameters-for-planemo-test" class="box-title"><button type="button" aria-controls="tip-useful-parameters-for-planemo-test-contents" aria-expanded="true" aria-label="Toggle tip box: Useful parameters for `planemo test`"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Useful parameters for `planemo test`<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-useful-parameters-for-planemo-test" class="box-title"><button type="button" aria-controls="tip-useful-parameters-for-planemo-test-contents" aria-expanded="true" aria-label="Toggle tip box: Useful parameters for `planemo test`"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Useful parameters for `planemo test`<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
   <ul>
     <li><code class="language-plaintext highlighter-rouge">--failed</code> Will make <code class="language-plaintext highlighter-rouge">planemo</code> rerun only the tests that failed in the previous execution.</li>
@@ -2014,7 +2001,7 @@ to determine the source of the test failure.</p>
 </blockquote>
 
 <blockquote class="details">
-  <div id="details-understanding-planemo-s-output-in-more-detail" class="box-title"><button type="button" aria-controls="details-understanding-planemo-s-output-in-more-detail-contents" aria-expanded="true" aria-label="Toggle details box: Understanding `planemo`'s output in more detail"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Understanding `planemo`'s output in more detail<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="details-understanding-planemo-s-output-in-more-detail" class="box-title"><button type="button" aria-controls="details-understanding-planemo-s-output-in-more-detail-contents" aria-expanded="true" aria-label="Toggle details box: Understanding `planemo`'s output in more detail"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Understanding `planemo`'s output in more detail<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
   <p>Sometimes it can be helpful to understand the <code class="language-plaintext highlighter-rouge">planemo</code> output in more detail.</p>
 
@@ -2065,7 +2052,7 @@ to determine the source of the test failure.</p>
 </blockquote>
 
 <blockquote class="tip">
-  <div id="tip-useful-parameters-for-planemo-test-1" class="box-title"><button type="button" aria-controls="tip-useful-parameters-for-planemo-test-1-contents" aria-expanded="true" aria-label="Toggle tip box: Useful parameters for `planemo test`"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Useful parameters for `planemo test`<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-useful-parameters-for-planemo-test-1" class="box-title"><button type="button" aria-controls="tip-useful-parameters-for-planemo-test-1-contents" aria-expanded="true" aria-label="Toggle tip box: Useful parameters for `planemo test`"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Useful parameters for `planemo test`<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
   <p>In order to stop <code class="language-plaintext highlighter-rouge">planemo serve</code> just press <kbd>Ctrl-C</kbd></p>
 </blockquote>
@@ -2323,7 +2310,8 @@ Test tools: planemo test – contains the output of <code class="language-plaint
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Alex Ostrovsky, Dave B., Matthias Bernt, 2022 <b>Creating Galaxy tools from Conda Through Deployment (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html">https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">
+                            Alex Ostrovsky, Dave B., Matthias Bernt,  <b>Creating Galaxy tools from Conda Through Deployment (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html">https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -2333,6 +2321,7 @@ Test tools: planemo test – contains the output of <code class="language-plaint
 
                 <!-- collapsible boxcontaining the BibTeX-formatted citation -->
                 <blockquote class="details">
+
                   <div id="citation-bibtex" class="box-title">
                     <button type="button" aria-controls="citation-bibtex" aria-expanded="false" aria-label="Toggle details box: BibTeX for citing this tutorial">
                       <i class="fas fa-info-circle" aria-hidden="true"></i>
@@ -2342,12 +2331,14 @@ Test tools: planemo test – contains the output of <code class="language-plaint
                    <p style="display: none;">
 
                    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight">
+
+
 <code id="citation-code">@misc{dev-tool-from-scratch,
 author = "Alex Ostrovsky and Dave B. and Matthias Bernt",
 title = "Creating Galaxy tools from Conda Through Deployment (Galaxy Training Materials)",
-year = "2022",
-month = "10",
-day = "18"
+year = "",
+month = "",
+day = ""
 url = "\url{https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -2394,39 +2385,39 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
 
         </div>
         
+        <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
+        <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
+
+        <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
+        <script type="text/javascript">
+        var snippets=document.querySelectorAll('div.highlight');
+        [].forEach.call(snippets,function(snippet){
+            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
+        });
+
+        var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
+            target:function(trigger){return trigger.nextElementSibling;
+        }});
+        </script>
+        
+
+        <script type="text/javascript">
+            if(window.location.hostname === "galaxyproject.github.io") {
+                // Redirect
+                var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
+                $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
+
+                window.setTimeout(function(){
+                    window.location.href = redirect;
+                }, 5000)
+
+            }
+        </script>
     </body>
-    <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
-    <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
-    <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript">
-    var snippets=document.querySelectorAll('div.highlight');
-    [].forEach.call(snippets,function(snippet){
-        snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
-    });
-
-    var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
-        target:function(trigger){return trigger.nextElementSibling;
-    }});
-    </script>
-    
-
-    <script type="text/javascript">
-        if(window.location.hostname === "galaxyproject.github.io") {
-            // Redirect
-            var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
-            $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
-
-            window.setTimeout(function(){
-                window.location.href = redirect;
-            }, 5000)
-
-        }
-    </script>
 </html>

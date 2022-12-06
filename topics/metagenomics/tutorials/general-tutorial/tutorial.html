@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Analyses of metagenomics data - The global picture" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:18 +0000" />
+<meta name="DC.date" content="2022-10-20 16:51:14 +0000" />
 <meta name="DC.creator" content="Saskia Hiltemann" />
 <meta name="DC.creator" content="Bérénice Batut" />
 
@@ -148,13 +148,12 @@
 
         <!-- link to feedback -->
         
-        
-        
-        
-
-            <a class="dropdown-item" href="/training-material/feedback.html#tutorial-general-tutorial" title="Show feedback statistics about this tutorial">
-                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Tutorial feedback
-            </a>
+            
+            
+                <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                    <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+                </a>
+            
         
 
         <div class="dropdown-item">
@@ -193,7 +192,6 @@
                 <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
             </div>
 
-            
             <div id="archive-selector">
             
                 <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/topics/metagenomics/tutorials/general-tutorial/tutorial.html" title="Version 2021-05-01">2021-05-01</a>
@@ -280,7 +278,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:18 +0000",
+  "dateModified": "2022-10-20 16:51:14 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Analyses of metagenomics data - The global picture",
   "interactivityType": "mixed",
@@ -334,7 +332,7 @@
   "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html",
   "timeRequired": "PT2H30M",
   "keywords": "metagenomics",
-  "description": "The questions this  addresses are:\n - How to analyze metagenomics data?\n - What information can be extracted of metagenomics data?\n - What is the difference between amplicon and shotgun data?\n - What are the difference in the analyses of amplicon and shotgun data?\n\n\\nThe objectives are:\n - Choosing the best approach to analyze metagenomics data\n - Selection of tools to analyze amplicon data or shotgun data\n - Visualisation of a community structure\n\n",
+  "description": "The questions this  addresses are:\n - How to analyze metagenomics data?\n - What information can be extracted of metagenomics data?\n - What is the difference between amplicon and shotgun data?\n - What are the difference in the analyses of amplicon and shotgun data?\n\n\nThe objectives are:\n - Choosing the best approach to analyze metagenomics data\n - Selection of tools to analyze amplicon data or shotgun data\n - Visualisation of a community structure\n\n",
   "inLanguage": {
     "@type": "Language",
     "name": "English",
@@ -476,15 +474,7 @@
     <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: 
-<a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge contributor-shiltemann"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/shiltemann?s=27" alt="Avatar">Saskia Hiltemann</a>
-
-
-
-<a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a>
-
-
-
+		Authors: <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge contributor-shiltemann"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/shiltemann?s=27" alt="Avatar">Saskia Hiltemann</a><a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a>
 	</div>
 
 </div>
@@ -736,6 +726,8 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
@@ -815,7 +807,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Oct 18, 2022 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Oct 20, 2022 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -844,7 +836,7 @@
 
 <p>In this tutorial, we will introduce the two main types of analyses with their general principles and differences. For a more in-depth look at these analyses, we recommend our detailed tutorials on each analysis.</p>
 
-<p>We will use two datasets (one amplicon and one shotgun) from the same <a href="https://www.ebi.ac.uk/metagenomics/projects/SRP016633">project on the Argentinean agricultural pampean soils</a>. In this project, three different geographic regions that are under different types of land uses and two soil types (bulk and rhizospheric) were analyzed using shotgun and amplicon sequencing. We will focus on data from the Argentina Anguil and Pampas Bulk Soil (the original study included one more geographical regions, <a href="https://doi.org/10.1186/2049-2618-1-21">see</a>).</p>
+<p>We will use two datasets (one amplicon and one shotgun) from the same <a href="https://www.ebi.ac.uk/metagenomics/projects/SRP016633">project on the Argentinean agricultural pampean soils</a>. In this project, three different geographic regions that are under different types of land uses and two soil types (bulk and rhizospheric) were analyzed using shotgun and amplicon sequencing. We will focus on data from the Argentina Anguil and Pampas Bulk Soil (the original study included one more geographical regions <span class="citation"><a href="#Rascovan2013">Rascovan <i>et al.</i> 2013</a></span>.</p>
 
 <blockquote class="agenda">
   <div id="agenda" class="box-title" aria-label="agenda box: ">Agenda</div>
@@ -927,7 +919,7 @@ https://zenodo.org/record/815875/files/SRR651839_anguil.fasta
 </code></pre></div>      </div>
 
       <blockquote class="tip">
-        <div id="tip-importing-data-via-links" class="box-title"><button type="button" aria-controls="tip-importing-data-via-links-contents" aria-expanded="true" aria-label="Toggle tip box: Importing data via links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing data via links<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="tip-importing-data-via-links" class="box-title"><button type="button" aria-controls="tip-importing-data-via-links-contents" aria-expanded="true" aria-label="Toggle tip box: Importing data via links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing data via links<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
         <ul>
           <li>Copy the link location</li>
@@ -939,7 +931,7 @@ https://zenodo.org/record/815875/files/SRR651839_anguil.fasta
       </blockquote>
 
       <blockquote class="tip">
-        <div id="tip-importing-data-from-a-data-library" class="box-title"><button type="button" aria-controls="tip-importing-data-from-a-data-library-contents" aria-expanded="true" aria-label="Toggle tip box: Importing data from a data library"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing data from a data library<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="tip-importing-data-from-a-data-library" class="box-title"><button type="button" aria-controls="tip-importing-data-from-a-data-library-contents" aria-expanded="true" aria-label="Toggle tip box: Importing data from a data library"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing data from a data library<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
         <ul>
           <li>Go into “Shared data” (top panel) then “Data libraries”</li>
@@ -1009,7 +1001,7 @@ and create a <em>group file</em>, indicating which <span class="notranslate">rea
 <blockquote class="comment">
   <div id="comment-note" class="box-title" aria-label="comment box: Note"><i class="far fa-comment-dots" aria-hidden="true"></i><span class="visually-hidden"></span> Comment: Note</div>
 
-  <p>Because we only have a small number of samples, we used the manual specification. If you have hundreds of samples this would quickly become bothersome. The solution? use a collection! To read more about collections in <span class="notranslate">Galaxy</span>, please see <a href="">this</a> tutorial</p>
+  <p>Because we only have a small number of samples, we used the manual specification. If you have hundreds of samples this would quickly become bothersome. The solution? use a collection! To read more about collections in <span class="notranslate">Galaxy</span>, please see <a href="/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html">dedicated collections tutorial</a>.</p>
 </blockquote>
 
 <p>Have a look at the group file. It is a very simple file, it contains two columns: the first contains the read names, the second contains the group (sample) name, in our case <code class="language-plaintext highlighter-rouge">pampa</code> or <code class="language-plaintext highlighter-rouge">anguil</code>.</p>
@@ -1036,7 +1028,7 @@ times, we’ll unique our sequences using the <code class="language-plaintext hi
         <p>How many sequences were unique? How many duplicates were removed?</p>
 
         <blockquote class="solution">
-          <div id="solution" class="box-title"><button type="button" aria-controls="solution-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+          <div id="solution" class="box-title"><button type="button" aria-controls="solution-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
           <p>19,502 unique sequences and 498 duplicates.</p>
 
           <p>This can be determined from the number of lines in the fasta (or names) output, compared to the
@@ -1081,7 +1073,7 @@ read_name7    read_name8
 <blockquote class="comment">
   <div id="comment" class="box-title" aria-label="comment box: "><i class="far fa-comment-dots" aria-hidden="true"></i><span class="visually-hidden"></span> Comment</div>
 
-  <p>For more information on the topic of quality control, please see our training materials <a href="/training-material/topics/sequence-analysis/">here</a>.</p>
+  <p>For more information on the topic of quality control, please see our <a href="/training-material/topics/sequence-analysis/">dedicated training materials</a>.</p>
 </blockquote>
 
 <p>First, let’s get a feel for our data:</p>
@@ -1150,7 +1142,7 @@ Furthermore, at least one read had a homopolymer stretch of 31 bases, this is li
   <p>How many <span class="notranslate">reads</span> were removed in this screening step? (Hint: run the <code class="language-plaintext highlighter-rouge">Summary.seqs</code> tool again)</p>
 
   <blockquote class="solution">
-    <div id="solution-1" class="box-title"><button type="button" aria-controls="solution-1-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-1" class="box-title"><button type="button" aria-controls="solution-1-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>1,804.</p>
 
     <p>This can be determined by looking at the number of lines in bad.accnos output of screen.seqs step or by comparing the total number of seqs between of the summary.seqs log before and after this screening step</p>
@@ -1215,7 +1207,7 @@ total # of seqs:    18178
   </ol>
 
   <blockquote class="solution">
-    <div id="solution-2" class="box-title"><button type="button" aria-controls="solution-2-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-2" class="box-title"><button type="button" aria-controls="solution-2-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
     <ol>
       <li>17,698 are aligned</li>
       <li>From this we can see that most of our <span class="notranslate">reads</span> align nicely to positions <code class="language-plaintext highlighter-rouge">3080-13424</code> on this reference. This corresponds exactly to the V4 target region of the 16S gene.</li>
@@ -1245,7 +1237,7 @@ total # of seqs:    18178
   <div id="question-3" class="box-title" aria-label="question box: "><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Question</div>
   <p>How many sequences were removed in this step?</p>
   <blockquote class="solution">
-    <div id="solution-3" class="box-title"><button type="button" aria-controls="solution-3-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-3" class="box-title"><button type="button" aria-controls="solution-3-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>4,579 sequences were removed. This is the number of lines in the bad.accnos output.</p>
   </blockquote>
 </blockquote>
@@ -1302,7 +1294,7 @@ total # of seqs:    18178
 
     <p>How many unique sequences are we left with after this clustering of highly similar sequences?</p>
     <blockquote class="solution">
-      <div id="solution-4" class="box-title"><button type="button" aria-controls="solution-4-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+      <div id="solution-4" class="box-title"><button type="button" aria-controls="solution-4-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
       <p>10,398</p>
 
       <p>This is the number of lines in the fasta output</p>
@@ -1431,7 +1423,7 @@ SRR531818.61708-G88ZSJI01AVPPR-2    Bacteria(100);Acidobacteria(99);Acidobacteri
   </ol>
 
   <blockquote class="solution">
-    <div id="solution-5" class="box-title"><button type="button" aria-controls="solution-5-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-5" class="box-title"><button type="button" aria-controls="solution-5-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
     <ol>
       <li>2,195 for Anguil and 2,472 for Pampa (“tax.summary”)</li>
       <li>Otu00001 is associated to 929 sequences and to Bacteria (kingdom), Verrucomicrobia (phylum), Spartobacteria (class) in “taxonomy” file</li>
@@ -1496,7 +1488,7 @@ the two samples?</p>
   <div id="question-6" class="box-title" aria-label="question box: "><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Question</div>
   <p>Which soil sample had a higher percentage of Acidobacteria, anguil or pampa? what were the respective percentages?</p>
   <blockquote class="solution">
-    <div id="solution-6" class="box-title"><button type="button" aria-controls="solution-6-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-6" class="box-title"><button type="button" aria-controls="solution-6-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>The anguil sample had a higher proportion of Acidobacteria. The exact percentages can be found by looking at the pie charts at the
 top right-hand corner after clicking on the label Acidobacteria. For anguil the percentage is 36%, for the pampa sample it is 26%.</p>
 
@@ -1628,7 +1620,7 @@ top right-hand corner after clicking on the label Acidobacteria. For anguil the 
   </ol>
 
   <blockquote class="solution">
-    <div id="solution-7" class="box-title"><button type="button" aria-controls="solution-7-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-7" class="box-title"><button type="button" aria-controls="solution-7-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
     <ol>
       <li>We have access to species level</li>
       <li>Pseudomonadales and Solirubrobacterales are found in our sample</li>
@@ -1722,7 +1714,7 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
   <p>How many gene families and pathways have been identified?</p>
 
   <blockquote class="solution">
-    <div id="solution-8" class="box-title"><button type="button" aria-controls="solution-8-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+    <div id="solution-8" class="box-title"><button type="button" aria-controls="solution-8-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>44 gene families but no pathways are identified</p>
   </blockquote>
 </blockquote>
@@ -1751,7 +1743,7 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
     </ol>
 
     <blockquote class="solution">
-      <div id="solution-9" class="box-title"><button type="button" aria-controls="solution-9-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+      <div id="solution-9" class="box-title"><button type="button" aria-controls="solution-9-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
       <ol>
         <li>55% of the sequences have not be assigned to a gene family</li>
         <li>The most abundant gene family with 25% of sequences is a putative secreted protein</li>
@@ -1808,6 +1800,9 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
 
 
                 
+                <h1 id="bibliography">References</h1>
+                <ol class="bibliography"><li id="Rascovan2013">Rascovan, N., B. Carbonetto, S. Revale, M. D. Reinert, R. Alvarez <i>et al.</i>, 2013 <b>The PAMPA datasets: a metagenomic survey of microbial communities in Argentinean pampean soils</b>. Microbiome 1: <a href="https://doi.org/10.1186/2049-2618-1-21">10.1186/2049-2618-1-21</a></li></ol>
+                
 
                 
 
@@ -1847,7 +1842,8 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Saskia Hiltemann, Bérénice Batut, 2022 <b>Analyses of metagenomics data - The global picture (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html">https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">
+                            Saskia Hiltemann, Bérénice Batut,  <b>Analyses of metagenomics data - The global picture (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html">https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -1857,6 +1853,7 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
 
                 <!-- collapsible boxcontaining the BibTeX-formatted citation -->
                 <blockquote class="details">
+
                   <div id="citation-bibtex" class="box-title">
                     <button type="button" aria-controls="citation-bibtex" aria-expanded="false" aria-label="Toggle details box: BibTeX for citing this tutorial">
                       <i class="fas fa-info-circle" aria-hidden="true"></i>
@@ -1866,12 +1863,14 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
                    <p style="display: none;">
 
                    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight">
+
+
 <code id="citation-code">@misc{metagenomics-general-tutorial,
 author = "Saskia Hiltemann and Bérénice Batut",
 title = "Analyses of metagenomics data - The global picture (Galaxy Training Materials)",
-year = "2022",
-month = "10",
-day = "18"
+year = "",
+month = "",
+day = ""
 url = "\url{https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -1918,39 +1917,39 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
 
         </div>
         
+        <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
+        <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
+
+        <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
+        <script type="text/javascript">
+        var snippets=document.querySelectorAll('div.highlight');
+        [].forEach.call(snippets,function(snippet){
+            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
+        });
+
+        var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
+            target:function(trigger){return trigger.nextElementSibling;
+        }});
+        </script>
+        
+
+        <script type="text/javascript">
+            if(window.location.hostname === "galaxyproject.github.io") {
+                // Redirect
+                var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
+                $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
+
+                window.setTimeout(function(){
+                    window.location.href = redirect;
+                }, 5000)
+
+            }
+        </script>
     </body>
-    <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
-    <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
-    <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript">
-    var snippets=document.querySelectorAll('div.highlight');
-    [].forEach.call(snippets,function(snippet){
-        snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
-    });
-
-    var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
-        target:function(trigger){return trigger.nextElementSibling;
-    }});
-    </script>
-    
-
-    <script type="text/javascript">
-        if(window.location.hostname === "galaxyproject.github.io") {
-            // Redirect
-            var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
-            $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
-
-            window.setTimeout(function(){
-                window.location.href = redirect;
-            }, 5000)
-
-        }
-    </script>
 </html>

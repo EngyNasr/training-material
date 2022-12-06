@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Automating Galaxy workflows using the command line" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:18 +0000" />
+<meta name="DC.date" content="2022-10-18 14:23:35 +0000" />
 <meta name="DC.creator" content="Simon Bray" />
 <meta name="DC.creator" content="Wolfgang Maier" />
 
@@ -148,13 +148,12 @@
 
         <!-- link to feedback -->
         
-        
-        
-        
-
-            <a class="dropdown-item" href="/training-material/feedback.html#tutorial-workflow-automation" title="Show feedback statistics about this tutorial">
-                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Tutorial feedback
-            </a>
+            
+            
+                <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                    <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+                </a>
+            
         
 
         <div class="dropdown-item">
@@ -193,7 +192,6 @@
                 <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
             </div>
 
-            
             <div id="archive-selector">
             
                 <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html" title="Version 2021-05-01">2021-05-01</a>
@@ -280,7 +278,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:18 +0000",
+  "dateModified": "2022-10-18 14:23:35 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Automating Galaxy workflows using the command line",
   "interactivityType": "mixed",
@@ -334,7 +332,7 @@
   "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html",
   "timeRequired": "PT2H",
   "keywords": "galaxy-interface, workflows, variant-analysis, covid19",
-  "description": "The questions this  addresses are:\n - How can I schedule and run tens or hundreds of Galaxy workflows easily?\n - How can I automate my analyses when large amounts of data are being produced daily?\n\n\\nThe objectives are:\n - Learn to use the `planemo run` subcommand to run workflows from the command line.\n - Be able to write simple shell scripts for running multiple workflows concurrently or sequentially.\n - Learn how to use Pangolin to assign annotated variants to lineages.\n\n",
+  "description": "The questions this  addresses are:\n - How can I schedule and run tens or hundreds of Galaxy workflows easily?\n - How can I automate my analyses when large amounts of data are being produced daily?\n\n\nThe objectives are:\n - Learn to use the `planemo run` subcommand to run workflows from the command line.\n - Be able to write simple shell scripts for running multiple workflows concurrently or sequentially.\n - Learn how to use Pangolin to assign annotated variants to lineages.\n\n",
   "inLanguage": {
     "@type": "Language",
     "name": "English",
@@ -450,15 +448,7 @@
     <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: 
-<a href="/training-material/hall-of-fame/simonbray/" class="contributor-badge contributor-simonbray"><img src="https://avatars.githubusercontent.com/simonbray?s=27" alt="Avatar">Simon Bray</a>
-
-
-
-<a href="/training-material/hall-of-fame/wm75/" class="contributor-badge contributor-wm75"><img src="https://avatars.githubusercontent.com/wm75?s=27" alt="Avatar">Wolfgang Maier</a>
-
-
-
+		Authors: <a href="/training-material/hall-of-fame/simonbray/" class="contributor-badge contributor-simonbray"><img src="https://avatars.githubusercontent.com/simonbray?s=27" alt="Avatar">Simon Bray</a><a href="/training-material/hall-of-fame/wm75/" class="contributor-badge contributor-wm75"><img src="https://avatars.githubusercontent.com/wm75?s=27" alt="Avatar">Wolfgang Maier</a>
 	</div>
 
 </div>
@@ -674,6 +664,8 @@
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
         
     
         
@@ -998,7 +990,7 @@
 <p>Now we have a simple <span class="notranslate">workflow</span>, we can run it using <code class="language-plaintext highlighter-rouge">planemo run</code>. At this point you need to choose a <span class="notranslate">Galaxy</span> server on which you want the <span class="notranslate">workflow</span> to run. One of the big public servers would be a possible choice. You could also use a local <span class="notranslate">Galaxy</span> instance. Either way, once you’ve chosen a server, the next step is to get your API key.</p>
 
 <!--SNIPPET-->
-<blockquote class="tip">  <div id="tip-getting-your-api-key" class="box-title"><button type="button" aria-controls="tip-getting-your-api-key-contents" aria-expanded="true" aria-label="Toggle tip box: Getting your API key"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Getting your API key<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>  <ol>  <li>In your browser, open your <span class="notranslate">Galaxy</span> homepage</li>  <li>Log in, or register a new account, if it’s the first time you’re logging in</li>  <li>Go to <code class="language-plaintext highlighter-rouge">User -&gt; Preferences</code> in the top menu bar, then click on <code class="language-plaintext highlighter-rouge">Manage API key</code></li>  <li>If there is no current API key available, click on <code class="language-plaintext highlighter-rouge">Create a new key</code> to generate it</li>  <li>Copy your API key to somewhere convenient, you will need it throughout this tutorial</li></ol></blockquote>
+<blockquote class="tip">  <div id="tip-getting-your-api-key" class="box-title"><button type="button" aria-controls="tip-getting-your-api-key-contents" aria-expanded="true" aria-label="Toggle tip box: Getting your API key"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Getting your API key<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>  <ol>  <li>In your browser, open your <span class="notranslate">Galaxy</span> homepage</li>  <li>Log in, or register a new account, if it’s the first time you’re logging in</li>  <li>Go to <code class="language-plaintext highlighter-rouge">User -&gt; Preferences</code> in the top menu bar, then click on <code class="language-plaintext highlighter-rouge">Manage API key</code></li>  <li>If there is no current API key available, click on <code class="language-plaintext highlighter-rouge">Create a new key</code> to generate it</li>  <li>Copy your API key to somewhere convenient, you will need it throughout this tutorial</li></ol></blockquote>
 
 <blockquote class="notranslate hands_on">
   <div id="hands-on-running-our-workflow" class="box-title" aria-label="hands-on box: Running our workflow"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Running our <span class="notranslate">workflow</span></div>
@@ -1172,7 +1164,7 @@
   <ol>
     <li>Create a template job file for the <code class="language-plaintext highlighter-rouge">vcf2lineage.ga</code> <span class="notranslate">workflow</span>.
       <blockquote class="details">
-        <div id="details-solution" class="box-title"><button type="button" aria-controls="details-solution-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="details-solution" class="box-title"><button type="button" aria-controls="details-solution-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <p>We need to run <code class="language-plaintext highlighter-rouge">workflow_job_init</code> on the <code class="language-plaintext highlighter-rouge">vcf2lineage.ga</code> <span class="notranslate">workflow</span>.</p>
         <blockquote class="code-in">
           <div id="code-in-workflow-job-init-1" class="box-title" aria-label="code-in box: workflow_job_init"><i class="far fa-keyboard" aria-hidden="true"></i><span class="visually-hidden"></span> Input: workflow_job_init</div>
@@ -1205,7 +1197,7 @@
       <p>Replace the placeholder values: <code class="language-plaintext highlighter-rouge">Reference genome</code> should point to <code class="language-plaintext highlighter-rouge">data/NC_045512.2_reference_sequence.fasta</code>, <code class="language-plaintext highlighter-rouge">Variant calls</code> should contain all the VCF files in <code class="language-plaintext highlighter-rouge">data/batch1</code>, and <code class="language-plaintext highlighter-rouge">min-AF for consensus variant</code> should be set to <code class="language-plaintext highlighter-rouge">0.7</code>.</p>
 
       <blockquote class="tip">
-        <div id="tip-hint-creating-the-variant-calls-collection" class="box-title"><button type="button" aria-controls="tip-hint-creating-the-variant-calls-collection-contents" aria-expanded="true" aria-label="Toggle tip box: Hint: Creating the `Variant calls` collection"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Hint: Creating the `Variant calls` collection<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="tip-hint-creating-the-variant-calls-collection" class="box-title"><button type="button" aria-controls="tip-hint-creating-the-variant-calls-collection-contents" aria-expanded="true" aria-label="Toggle tip box: Hint: Creating the `Variant calls` collection"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Hint: Creating the `Variant calls` collection<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <p>This is the trickiest part and you should consider writing a script to solve it. The entry in the job file should look something like this at the end:</p>
 
         <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">Variant calls</span><span class="pi">:</span>
@@ -1225,7 +1217,7 @@
       </blockquote>
 
       <blockquote class="details">
-        <div id="details-solution-1" class="box-title"><button type="button" aria-controls="details-solution-1-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="details-solution-1" class="box-title"><button type="button" aria-controls="details-solution-1-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <p>Adding the <code class="language-plaintext highlighter-rouge">Reference genome</code> dataset and <code class="language-plaintext highlighter-rouge">min-AF for consensus variant</code> parameter is straightforward. Modify the <code class="language-plaintext highlighter-rouge">vcf2lineage-job.yml</code> file and save it:</p>
 
         <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">Reference genome</span><span class="pi">:</span>
@@ -1267,7 +1259,7 @@
     </li>
     <li>Now that we have a complete job file, let’s run the <span class="notranslate">workflow</span>.
       <blockquote class="details">
-        <div id="details-solution-2" class="box-title"><button type="button" aria-controls="details-solution-2-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="details-solution-2" class="box-title"><button type="button" aria-controls="details-solution-2-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <blockquote class="code-in">
           <div id="code-in-workflow-job-init-2" class="box-title" aria-label="code-in box: workflow_job_init"><i class="far fa-keyboard" aria-hidden="true"></i><span class="visually-hidden"></span> Input: workflow_job_init</div>
           <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>planemo run vcf2lineage.ga vcf2lineage-job.yml <span class="nt">--profile</span> planemo-tutorial <span class="nt">--history_name</span> <span class="s2">"vcf2lineage test"</span>
@@ -1294,7 +1286,7 @@
       <p>Now let’s create a template job file <code class="language-plaintext highlighter-rouge">vcf2lineage-job-template.yml</code> which we can modify at each invocation as necessary. We can start with the output of <code class="language-plaintext highlighter-rouge">workflow_job_init</code> and add the <code class="language-plaintext highlighter-rouge">Reference genome</code> dataset ID and set <code class="language-plaintext highlighter-rouge">min-AF for consensus variant</code> to <code class="language-plaintext highlighter-rouge">0.7</code> again.</p>
 
       <blockquote class="details">
-        <div id="details-solution-3" class="box-title"><button type="button" aria-controls="details-solution-3-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="details-solution-3" class="box-title"><button type="button" aria-controls="details-solution-3-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <p>We need to run <code class="language-plaintext highlighter-rouge">workflow_job_init</code> on the <code class="language-plaintext highlighter-rouge">vcf2lineage.ga</code> <span class="notranslate">workflow</span>.</p>
         <blockquote class="code-in">
           <div id="code-in-original-output-of-workflow-job-init" class="box-title" aria-label="code-in box: Original output of workflow_job_init"><i class="far fa-keyboard" aria-hidden="true"></i><span class="visually-hidden"></span> Input: Original output of workflow_job_init</div>
@@ -1334,7 +1326,7 @@
       <p>Write a shell script to iterate over all the batches, create a job file and invoke with <code class="language-plaintext highlighter-rouge">planemo run</code>. After execution, move the processed batch to <code class="language-plaintext highlighter-rouge">data/complete</code>.</p>
 
       <blockquote class="details">
-        <div id="details-solution-4" class="box-title"><button type="button" aria-controls="details-solution-4-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="details-solution-4" class="box-title"><button type="button" aria-controls="details-solution-4-contents" aria-expanded="true" aria-label="Toggle details box: Solution"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <p>Once again, there is no single exact solution. Here is one possibility:</p>
 
         <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span>batch <span class="k">in</span> <span class="sb">`</span><span class="nb">ls</span> <span class="nt">-d</span> data/batch<span class="k">*</span><span class="sb">`</span><span class="p">;</span> <span class="k">do
@@ -1355,7 +1347,7 @@
       <p>Run your script. Do you notice any issues? What could be improved?</p>
 
       <blockquote class="tip">
-        <div id="tip-upload-problems" class="box-title"><button type="button" aria-controls="tip-upload-problems-contents" aria-expanded="true" aria-label="Toggle tip box: Upload problems"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Upload problems<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="tip-upload-problems" class="box-title"><button type="button" aria-controls="tip-upload-problems-contents" aria-expanded="true" aria-label="Toggle tip box: Upload problems"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Upload problems<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <p>Uploads can cause several issues:</p>
         <ul>
           <li>The default planemo behavior is to upload datasets one at a time, which ensures the server cannot be overloaded, but is slow. To upload all datasets simultaneously, you could use the <code class="language-plaintext highlighter-rouge">--simultaneous_uploads</code> flag.</li>
@@ -1445,7 +1437,8 @@
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Simon Bray, Wolfgang Maier, 2022 <b>Automating Galaxy workflows using the command line (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html">https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">
+                            Simon Bray, Wolfgang Maier,  <b>Automating Galaxy workflows using the command line (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html">https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -1455,6 +1448,7 @@
 
                 <!-- collapsible boxcontaining the BibTeX-formatted citation -->
                 <blockquote class="details">
+
                   <div id="citation-bibtex" class="box-title">
                     <button type="button" aria-controls="citation-bibtex" aria-expanded="false" aria-label="Toggle details box: BibTeX for citing this tutorial">
                       <i class="fas fa-info-circle" aria-hidden="true"></i>
@@ -1464,12 +1458,14 @@
                    <p style="display: none;">
 
                    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight">
+
+
 <code id="citation-code">@misc{galaxy-interface-workflow-automation,
 author = "Simon Bray and Wolfgang Maier",
 title = "Automating Galaxy workflows using the command line (Galaxy Training Materials)",
-year = "2022",
-month = "10",
-day = "18"
+year = "",
+month = "",
+day = ""
 url = "\url{https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -1516,39 +1512,39 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
 
         </div>
         
+        <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
+        <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
+
+        <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
+        <script type="text/javascript">
+        var snippets=document.querySelectorAll('div.highlight');
+        [].forEach.call(snippets,function(snippet){
+            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
+        });
+
+        var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
+            target:function(trigger){return trigger.nextElementSibling;
+        }});
+        </script>
+        
+
+        <script type="text/javascript">
+            if(window.location.hostname === "galaxyproject.github.io") {
+                // Redirect
+                var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
+                $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
+
+                window.setTimeout(function(){
+                    window.location.href = redirect;
+                }, 5000)
+
+            }
+        </script>
     </body>
-    <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
-    <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
-    <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript">
-    var snippets=document.querySelectorAll('div.highlight');
-    [].forEach.call(snippets,function(snippet){
-        snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
-    });
-
-    var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
-        target:function(trigger){return trigger.nextElementSibling;
-    }});
-    </script>
-    
-
-    <script type="text/javascript">
-        if(window.location.hostname === "galaxyproject.github.io") {
-            // Redirect
-            var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
-            $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
-
-            window.setTimeout(function(){
-                window.location.href = redirect;
-            }, 5000)
-
-        }
-    </script>
 </html>

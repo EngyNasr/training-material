@@ -27,6 +27,8 @@
       "email": "simon.gladman@unimelb.edu.au",
       "joined": "2017-09",
       "elixir_node": "au",
+      "orcid": "0000-0002-6100-4385",
+      "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
       "id": "slugger70",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
     },
@@ -92,7 +94,6 @@
         }
       ],
       "subtopic": "intro",
-      "last_modified_at": "22-Aug-22",
       "url": "/topics/genome-annotation/slides/introduction.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "introduction",
@@ -154,7 +155,6 @@
         "ORF": "Open Reading Frame"
       },
       "priority": 2,
-      "last_modified_at": "28-Sep-22",
       "url": "/topics/genome-annotation/tutorials/gene-centric/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "gene-centric",
@@ -270,7 +270,6 @@
       },
       "subtopic": "eukaryote",
       "priority": 8,
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/crispr-screen/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "crispr-screen",
@@ -361,7 +360,6 @@
       ],
       "subtopic": "prokaryote",
       "priority": 4,
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/tnseq/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "tnseq",
@@ -443,7 +441,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/estebanpw.json"
         }
       ],
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/hpc-for-lsgc/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "hpc-for-lsgc",
@@ -511,7 +508,6 @@
       },
       "subtopic": "eukaryote",
       "priority": 6,
-      "last_modified_at": "28-Sep-22",
       "url": "/topics/genome-annotation/tutorials/functional/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "functional",
@@ -608,7 +604,6 @@
         }
       ],
       "subtopic": "prokaryote",
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/genome-annotation/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "genome-annotation",
@@ -690,7 +685,6 @@
       ],
       "subtopic": "eukaryote",
       "priority": 2,
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/funannotate/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "funannotate",
@@ -830,7 +824,6 @@
       ],
       "subtopic": "eukaryote",
       "priority": 4,
-      "last_modified_at": "22-Aug-22",
       "url": "/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "annotation-with-maker",
@@ -908,7 +901,6 @@
       ],
       "subtopic": "eukaryote",
       "priority": 3,
-      "last_modified_at": "22-Aug-22",
       "url": "/topics/genome-annotation/tutorials/annotation-with-maker-short/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "annotation-with-maker-short",
@@ -987,12 +979,13 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         }
       ],
       "subtopic": "prokaryote",
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "annotation-with-prokka",
@@ -1079,7 +1072,6 @@
       ],
       "subtopic": "eukaryote",
       "priority": 7,
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/lncrna/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "lncrna",
@@ -1241,7 +1233,6 @@
       ],
       "subtopic": "eukaryote",
       "priority": 1,
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/repeatmasker/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "repeatmasker",
@@ -1349,7 +1340,6 @@
       "abbreviations": {
         "OGS": "Official Gene Set"
       },
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/apollo-euk/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "apollo-euk",
@@ -1478,7 +1468,6 @@
       "abbreviations": {
         "OGS": "Official Gene Set"
       },
-      "last_modified_at": "18-Oct-22",
       "url": "/topics/genome-annotation/tutorials/apollo/tutorial.html",
       "topic_name": "genome-annotation",
       "tutorial_name": "apollo",

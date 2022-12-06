@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Python - Subprocess" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:28 +0000" />
+<meta name="DC.date" content="2022-09-28 13:13:58 +0000" />
 <meta name="DC.creator" content="Helena Rasche" />
 <meta name="DC.creator" content="Donny Vrins" />
 <meta name="DC.creator" content="Bazante Sanders" />
@@ -149,12 +149,12 @@
 
         <!-- link to feedback -->
         
-        
-        
-        
-            <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
-                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
-            </a>
+            
+            
+                <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                    <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+                </a>
+            
         
 
         <div class="dropdown-item">
@@ -193,7 +193,6 @@
                 <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
             </div>
 
-            
             <div id="archive-selector">
             
                 <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/topics/data-science/tutorials/python-subprocess/tutorial.html" title="Version 2021-05-01">2021-05-01</a>
@@ -280,7 +279,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:28 +0000",
+  "dateModified": "2022-09-28 13:13:58 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Python - Subprocess",
   "interactivityType": "mixed",
@@ -334,7 +333,7 @@
   "url": "https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-subprocess/tutorial.html",
   "timeRequired": "PT45M",
   "keywords": "data-science, jupyter-notebook",
-  "description": "The questions this  addresses are:\n - How can I run another program?\n\n\\nThe objectives are:\n - Run a command in a subprocess.\n - Learn about `check_call` and `check_output` and when to use each of these.\n - Read it's output.\n\n",
+  "description": "The questions this  addresses are:\n - How can I run another program?\n\n\nThe objectives are:\n - Run a command in a subprocess.\n - Learn about `check_call` and `check_output` and when to use each of these.\n - Read it's output.\n\n",
   "inLanguage": {
     "@type": "Language",
     "name": "English",
@@ -493,19 +492,7 @@
     <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: 
-<a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a>
-
-
-
-<a href="/training-material/hall-of-fame/dirowa/" class="contributor-badge contributor-dirowa"><img src="https://avatars.githubusercontent.com/dirowa?s=27" alt="Avatar">Donny Vrins</a>
-
-
-
-<a href="/training-material/hall-of-fame/bazante1/" class="contributor-badge contributor-bazante1"><img src="https://avatars.githubusercontent.com/bazante1?s=27" alt="Avatar">Bazante Sanders</a>
-
-
-
+		Authors: <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a><a href="/training-material/hall-of-fame/dirowa/" class="contributor-badge contributor-dirowa"><img src="https://avatars.githubusercontent.com/dirowa?s=27" alt="Avatar">Donny Vrins</a><a href="/training-material/hall-of-fame/bazante1/" class="contributor-badge contributor-bazante1"><img src="https://avatars.githubusercontent.com/bazante1?s=27" alt="Avatar">Bazante Sanders</a>
 	</div>
 
 </div>
@@ -721,7 +708,7 @@ Here we’ll give a quick tutorial on how to read and write files within Python.
 </code></pre></div></div>
 
 <blockquote class="tip">
-  <div id="tip-what-do-these-commands-look-like-on-the-cli" class="box-title"><button type="button" aria-controls="tip-what-do-these-commands-look-like-on-the-cli-contents" aria-expanded="true" aria-label="Toggle tip box: What do these commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What do these commands look like on the CLI?<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-what-do-these-commands-look-like-on-the-cli" class="box-title"><button type="button" aria-controls="tip-what-do-these-commands-look-like-on-the-cli-contents" aria-expanded="true" aria-label="Toggle tip box: What do these commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What do these commands look like on the CLI?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://ftp.ncbi.nlm.nih.gov/.... -O "Escherichia virus T4.fna.gz"
 gzip -d "Escherichia virus T4.fna.gz"
 </code></pre></div>  </div>
@@ -766,7 +753,7 @@ gzip -d "Escherichia virus T4.fna.gz"
 </blockquote>
 
 <blockquote class="tip">
-  <div id="tip-exploitation" class="box-title"><button type="button" aria-controls="tip-exploitation-contents" aria-expanded="true" aria-label="Toggle tip box: Exploitation!"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Exploitation!<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-exploitation" class="box-title"><button type="button" aria-controls="tip-exploitation-contents" aria-expanded="true" aria-label="Toggle tip box: Exploitation!"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Exploitation!<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>This is one of the major reasons we don’t use <code class="language-plaintext highlighter-rouge">os.system</code> or older Python interfaces for running commands.
 If you’re processing files, and a user supplies a file with a space, if your program isn’t expecting that space in that filename, then it could do something dangerous!
 Like exploit your system!</p>
@@ -790,7 +777,7 @@ Like exploit your system!</p>
 </code></pre></div></div>
 
 <blockquote class="tip">
-  <div id="tip-what-does-this-commands-look-like-on-the-cli" class="box-title"><button type="button" aria-controls="tip-what-does-this-commands-look-like-on-the-cli-contents" aria-expanded="true" aria-label="Toggle tip box: What does this commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What does this commands look like on the CLI?<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-what-does-this-commands-look-like-on-the-cli" class="box-title"><button type="button" aria-controls="tip-what-does-this-commands-look-like-on-the-cli-contents" aria-expanded="true" aria-label="Toggle tip box: What does this commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What does this commands look like on the CLI?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>augustus --species=E_coli_K12 'Escherichia virus T4.fna' --gff3=on
 </code></pre></div>  </div>
 </blockquote>
@@ -867,7 +854,7 @@ build-icm test.icm &lt; seq.fa
 </code></pre></div></div>
 
 <blockquote class="tip">
-  <div id="tip-what-does-this-commands-look-like-on-the-cli-1" class="box-title"><button type="button" aria-controls="tip-what-does-this-commands-look-like-on-the-cli-1-contents" aria-expanded="true" aria-label="Toggle tip box: What does this commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What does this commands look like on the CLI?<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-what-does-this-commands-look-like-on-the-cli-1" class="box-title"><button type="button" aria-controls="tip-what-does-this-commands-look-like-on-the-cli-1-contents" aria-expanded="true" aria-label="Toggle tip box: What does this commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What does this commands look like on the CLI?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>build-icm test.icm &lt; 'E. Coli CDSs.fna'
 </code></pre></div>  </div>
 </blockquote>
@@ -885,7 +872,7 @@ build-icm test.icm &lt; seq.fa
 </code></pre></div></div>
 
 <blockquote class="tip">
-  <div id="tip-what-does-this-commands-look-like-on-the-cli-2" class="box-title"><button type="button" aria-controls="tip-what-does-this-commands-look-like-on-the-cli-2-contents" aria-expanded="true" aria-label="Toggle tip box: What does this commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What does this commands look like on the CLI?<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-what-does-this-commands-look-like-on-the-cli-2" class="box-title"><button type="button" aria-controls="tip-what-does-this-commands-look-like-on-the-cli-2-contents" aria-expanded="true" aria-label="Toggle tip box: What does this commands look like on the CLI?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What does this commands look like on the CLI?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>glimmer3 'Escherichia virus T4.fna' test.icm t4-genes
 </code></pre></div>  </div>
 </blockquote>
@@ -979,7 +966,8 @@ build-icm test.icm &lt; seq.fa
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Helena Rasche, Donny Vrins, Bazante Sanders, 2022 <b>Python - Subprocess (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-subprocess/tutorial.html">https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-subprocess/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">
+                            Helena Rasche, Donny Vrins, Bazante Sanders,  <b>Python - Subprocess (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-subprocess/tutorial.html">https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-subprocess/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -989,6 +977,7 @@ build-icm test.icm &lt; seq.fa
 
                 <!-- collapsible boxcontaining the BibTeX-formatted citation -->
                 <blockquote class="details">
+
                   <div id="citation-bibtex" class="box-title">
                     <button type="button" aria-controls="citation-bibtex" aria-expanded="false" aria-label="Toggle details box: BibTeX for citing this tutorial">
                       <i class="fas fa-info-circle" aria-hidden="true"></i>
@@ -998,12 +987,14 @@ build-icm test.icm &lt; seq.fa
                    <p style="display: none;">
 
                    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight">
+
+
 <code id="citation-code">@misc{data-science-python-subprocess,
 author = "Helena Rasche and Donny Vrins and Bazante Sanders",
 title = "Python - Subprocess (Galaxy Training Materials)",
-year = "2022",
-month = "09",
-day = "28"
+year = "",
+month = "",
+day = ""
 url = "\url{https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-subprocess/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -1057,39 +1048,39 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
 
         </div>
         
+        <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
+        <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
+
+        <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
+        <script type="text/javascript">
+        var snippets=document.querySelectorAll('div.highlight');
+        [].forEach.call(snippets,function(snippet){
+            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
+        });
+
+        var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
+            target:function(trigger){return trigger.nextElementSibling;
+        }});
+        </script>
+        
+
+        <script type="text/javascript">
+            if(window.location.hostname === "galaxyproject.github.io") {
+                // Redirect
+                var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
+                $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
+
+                window.setTimeout(function(){
+                    window.location.href = redirect;
+                }, 5000)
+
+            }
+        </script>
     </body>
-    <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
-    <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
-    <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript">
-    var snippets=document.querySelectorAll('div.highlight');
-    [].forEach.call(snippets,function(snippet){
-        snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
-    });
-
-    var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
-        target:function(trigger){return trigger.nextElementSibling;
-    }});
-    </script>
-    
-
-    <script type="text/javascript">
-        if(window.location.hostname === "galaxyproject.github.io") {
-            // Redirect
-            var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
-            $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
-
-            window.setTimeout(function(){
-                window.location.href = redirect;
-            }, 5000)
-
-        }
-    </script>
 </html>

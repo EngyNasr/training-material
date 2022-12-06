@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Extracting Workflows from Histories" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:18 +0000" />
+<meta name="DC.date" content="2022-10-18 14:23:35 +0000" />
 <meta name="DC.creator" content="Dave Clements" />
 
         
@@ -147,13 +147,12 @@
 
         <!-- link to feedback -->
         
-        
-        
-        
-
-            <a class="dropdown-item" href="/training-material/feedback.html#tutorial-history-to-workflow" title="Show feedback statistics about this tutorial">
-                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Tutorial feedback
-            </a>
+            
+            
+                <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                    <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+                </a>
+            
         
 
         <div class="dropdown-item">
@@ -192,7 +191,6 @@
                 <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
             </div>
 
-            
             <div id="archive-selector">
             
                 <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html" title="Version 2021-05-01">2021-05-01</a>
@@ -279,7 +277,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:18 +0000",
+  "dateModified": "2022-10-18 14:23:35 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Extracting Workflows from Histories",
   "interactivityType": "mixed",
@@ -333,7 +331,7 @@
   "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html",
   "timeRequired": "PT30M",
   "keywords": "galaxy-interface, workflows",
-  "description": "The questions this  addresses are:\n - What is a workflow?\n - How can I create a workflow based on my analysis history?\n\n\\nThe objectives are:\n - Learn how to extract a workflow from a Galaxy history\n - Learn how to change a workflow using the workflow editor\n\n",
+  "description": "The questions this  addresses are:\n - What is a workflow?\n - How can I create a workflow based on my analysis history?\n\n\nThe objectives are:\n - Learn how to extract a workflow from a Galaxy history\n - Learn how to change a workflow using the workflow editor\n\n",
   "inLanguage": {
     "@type": "Language",
     "name": "English",
@@ -403,11 +401,7 @@
     <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: 
-<a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge contributor-tnabtaf"><img src="https://avatars.githubusercontent.com/tnabtaf?s=27" alt="Avatar">Dave Clements</a>
-
-
-
+		Authors: <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge contributor-tnabtaf"><img src="https://avatars.githubusercontent.com/tnabtaf?s=27" alt="Avatar">Dave Clements</a>
 	</div>
 
 </div>
@@ -525,7 +519,7 @@
 <p><span class="notranslate">Galaxy</span> <em>workflows</em> enable this, and this tutorial shows how you can create one from the analysis you have already done, and then run the analysis exactly as you did before, but on the new datasets.</p>
 
 <blockquote class="tip">
-  <div id="tip-confused-about-i-histories-i-and-i-workflows-i" class="box-title"><button type="button" aria-controls="tip-confused-about-i-histories-i-and-i-workflows-i-contents" aria-expanded="true" aria-label="Toggle tip box: Confused about &lt;i&gt;Histories&lt;/i&gt; and &lt;i&gt;Workflows?&lt;/i&gt;"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Confused about <i>Histories</i> and <i>Workflows?</i><span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-confused-about-i-histories-i-and-i-workflows-i" class="box-title"><button type="button" aria-controls="tip-confused-about-i-histories-i-and-i-workflows-i-contents" aria-expanded="true" aria-label="Toggle tip box: Confused about &lt;i&gt;Histories&lt;/i&gt; and &lt;i&gt;Workflows?&lt;/i&gt;"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Confused about <i>Histories</i> and <i>Workflows?</i><span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
   <p>Well, you are not alone.  This analogy may help.</p>
 
@@ -576,7 +570,7 @@
 </blockquote>
 
 <blockquote class="tip">
-  <div id="tip-always-name-your-histories" class="box-title"><button type="button" aria-controls="tip-always-name-your-histories-contents" aria-expanded="true" aria-label="Toggle tip box: Always name your histories"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Always name your histories<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-always-name-your-histories" class="box-title"><button type="button" aria-controls="tip-always-name-your-histories-contents" aria-expanded="true" aria-label="Toggle tip box: Always name your histories"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Always name your histories<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
   <p>If you just saw multiple <code class="language-plaintext highlighter-rouge">Unnamed history</code> entries in your histories view, then now you know why.</p>
 
@@ -688,7 +682,7 @@
 </blockquote>
 
 <blockquote class="tip">
-  <div id="tip-removing-unnecessary-steps-before-creating-workflow" class="box-title"><button type="button" aria-controls="tip-removing-unnecessary-steps-before-creating-workflow-contents" aria-expanded="true" aria-label="Toggle tip box: Removing unnecessary steps before creating workflow"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Removing unnecessary steps before creating <span class="notranslate">workflow</span><span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-removing-unnecessary-steps-before-creating-workflow" class="box-title"><button type="button" aria-controls="tip-removing-unnecessary-steps-before-creating-workflow-contents" aria-expanded="true" aria-label="Toggle tip box: Removing unnecessary steps before creating workflow"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Removing unnecessary steps before creating <span class="notranslate">workflow</span><span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>You can also delete these steps when you are first extracting the <span class="notranslate">workflow</span> from your history, by unchecking them.  However, it is often easier to identify the steps to drop in the <span class="notranslate">workflow</span> view, where connections and dead-ends are more obvious.</p>
 </blockquote>
 
@@ -855,7 +849,8 @@ Let’s test the <span class="notranslate">workflow</span> by running it on the 
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Dave Clements, 2022 <b>Extracting Workflows from Histories (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html">https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">
+                            Dave Clements,  <b>Extracting Workflows from Histories (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html">https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -865,6 +860,7 @@ Let’s test the <span class="notranslate">workflow</span> by running it on the 
 
                 <!-- collapsible boxcontaining the BibTeX-formatted citation -->
                 <blockquote class="details">
+
                   <div id="citation-bibtex" class="box-title">
                     <button type="button" aria-controls="citation-bibtex" aria-expanded="false" aria-label="Toggle details box: BibTeX for citing this tutorial">
                       <i class="fas fa-info-circle" aria-hidden="true"></i>
@@ -874,12 +870,14 @@ Let’s test the <span class="notranslate">workflow</span> by running it on the 
                    <p style="display: none;">
 
                    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight">
+
+
 <code id="citation-code">@misc{galaxy-interface-history-to-workflow,
 author = "Dave Clements",
 title = "Extracting Workflows from Histories (Galaxy Training Materials)",
-year = "2022",
-month = "10",
-day = "18"
+year = "",
+month = "",
+day = ""
 url = "\url{https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -926,39 +924,39 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
 
         </div>
         
+        <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
+        <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
+
+        <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
+        <script type="text/javascript">
+        var snippets=document.querySelectorAll('div.highlight');
+        [].forEach.call(snippets,function(snippet){
+            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
+        });
+
+        var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
+            target:function(trigger){return trigger.nextElementSibling;
+        }});
+        </script>
+        
+
+        <script type="text/javascript">
+            if(window.location.hostname === "galaxyproject.github.io") {
+                // Redirect
+                var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
+                $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
+
+                window.setTimeout(function(){
+                    window.location.href = redirect;
+                }, 5000)
+
+            }
+        </script>
     </body>
-    <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
-    <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
-    <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript">
-    var snippets=document.querySelectorAll('div.highlight');
-    [].forEach.call(snippets,function(snippet){
-        snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
-    });
-
-    var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
-        target:function(trigger){return trigger.nextElementSibling;
-    }});
-    </script>
-    
-
-    <script type="text/javascript">
-        if(window.location.hostname === "galaxyproject.github.io") {
-            // Redirect
-            var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
-            $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
-
-            window.setTimeout(function(){
-                window.location.href = redirect;
-            }, 5000)
-
-        }
-    </script>
 </html>

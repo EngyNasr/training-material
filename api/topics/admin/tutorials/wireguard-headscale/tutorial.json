@@ -43,7 +43,6 @@
     "wireguard",
     "networking"
   ],
-  "last_modified_at": "28-Sep-22",
   "url": "/topics/admin/tutorials/wireguard-headscale/tutorial.html",
   "topic_name": "admin",
   "tutorial_name": "wireguard-headscale",
@@ -65,6 +64,7 @@
       "twitter": "natefoo",
       "email": "nate@bx.psu.edu",
       "joined": "2017-12",
+      "orcid": "0000-0001-8083-2963",
       "id": "natefoo",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
     }

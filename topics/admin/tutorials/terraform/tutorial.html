@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Deploying a compute cluster in OpenStack via Terraform" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:18 +0000" />
+<meta name="DC.date" content="2022-10-18 14:23:35 +0000" />
 <meta name="DC.creator" content="Helena Rasche" />
 
         
@@ -147,13 +147,12 @@
 
         <!-- link to feedback -->
         
-        
-        
-        
-
-            <a class="dropdown-item" href="/training-material/feedback.html#tutorial-terraform" title="Show feedback statistics about this tutorial">
-                <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Tutorial feedback
-            </a>
+            
+            
+                <a class="dropdown-item" href="/training-material/feedback.html" title="Show feedback statistics about this repository">
+                    <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
+                </a>
+            
         
 
         <div class="dropdown-item">
@@ -192,7 +191,6 @@
                 <i class="fas fa-history" aria-hidden="true"></i><span class="visually-hidden">galaxy-rulebuilder-history</span> Previous Versions
             </div>
 
-            
             <div id="archive-selector">
             
                 <a class="btn btn-warning" href="https://training.galaxyproject.org/archive/2021-05-01/topics/admin/tutorials/terraform/tutorial.html" title="Version 2021-05-01">2021-05-01</a>
@@ -279,7 +277,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:18 +0000",
+  "dateModified": "2022-10-18 14:23:35 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Deploying a compute cluster in OpenStack via Terraform",
   "interactivityType": "mixed",
@@ -333,7 +331,7 @@
   "url": "https://training.galaxyproject.org/training-material/topics/admin/tutorials/terraform/tutorial.html",
   "timeRequired": "PT60M",
   "keywords": "admin, terraform, deploying, cloud",
-  "description": "The questions this  addresses are:\n - What is Terraform?\n - In which situations is it good/bad?\n - How to use it for managing your VM cluster\n\n\\nThe objectives are:\n - Learn Terraform basics\n - Launch a VM with Terraform\n - Launch and tear down a cluster with Terraform\n\n",
+  "description": "The questions this  addresses are:\n - What is Terraform?\n - In which situations is it good/bad?\n - How to use it for managing your VM cluster\n\n\nThe objectives are:\n - Learn Terraform basics\n - Launch a VM with Terraform\n - Launch and tear down a cluster with Terraform\n\n",
   "inLanguage": {
     "@type": "Language",
     "name": "English",
@@ -407,11 +405,7 @@
     <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: 
-<a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a>
-
-
-
+		Authors: <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a>
 	</div>
 
 </div>
@@ -604,7 +598,7 @@ Knowing that your infrastructure is exactly what you expect it to be can simplif
 <p>We will start small, by managing a single VM in our cloud account. Make sure you have your OpenStack credentials available.</p>
 
 <blockquote class="tip">
-  <div id="tip-obtaining-credentials-from-openstack-dashboard" class="box-title"><button type="button" aria-controls="tip-obtaining-credentials-from-openstack-dashboard-contents" aria-expanded="true" aria-label="Toggle tip box: Obtaining credentials from OpenStack dashboard"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Obtaining credentials from OpenStack dashboard<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="tip-obtaining-credentials-from-openstack-dashboard" class="box-title"><button type="button" aria-controls="tip-obtaining-credentials-from-openstack-dashboard-contents" aria-expanded="true" aria-label="Toggle tip box: Obtaining credentials from OpenStack dashboard"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Obtaining credentials from OpenStack dashboard<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
   <p>You can download the environment file with the credentials from the OpenStack dashboard.</p>
 
@@ -654,7 +648,7 @@ Knowing that your infrastructure is exactly what you expect it to be can simplif
         <p>What did the output look like?</p>
 
         <blockquote class="solution">
-          <div id="solution" class="box-title"><button type="button" aria-controls="solution-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+          <div id="solution" class="box-title"><button type="button" aria-controls="solution-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
           <p>If this is not the first time you’ve run it, you will see Terraform download any missing providers:</p>
 
@@ -740,7 +734,7 @@ commands will detect it and remind you to do so if necessary.
         <p>What does the output look like? Did it execute successfully?</p>
 
         <blockquote class="solution">
-          <div id="solution-1" class="box-title"><button type="button" aria-controls="solution-1-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+          <div id="solution-1" class="box-title"><button type="button" aria-controls="solution-1-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
           <p>If you have not sourced your OpenStack credentials file, you will see something like the following:</p>
 
@@ -1264,7 +1258,7 @@ Do you want to perform these actions?
         <p>What did the output look like?</p>
 
         <blockquote class="solution">
-          <div id="solution-2" class="box-title"><button type="button" aria-controls="solution-2-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+          <div id="solution-2" class="box-title"><button type="button" aria-controls="solution-2-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
           <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openstack_compute_instance_v2.nfs: Creation complete after 2m55s (ID: 421f0899-f2c1-43c9-8bbe-9b0415c8f4f4)
 openstack_compute_instance_v2.exec[0]: Creation complete after 2m57s (ID: 1ae02775-a0ff-47a5-907f-513190a8548e)
@@ -1285,7 +1279,7 @@ Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
 <p><a href="https://cloud-init.io/"><code class="language-plaintext highlighter-rouge">cloud-init</code></a> is used for this process, it allows for injecting files and executing commands as part of the boot process.</p>
 
 <blockquote class="details">
-  <div id="details-other-actions" class="box-title"><button type="button" aria-controls="details-other-actions-contents" aria-expanded="true" aria-label="Toggle details box: Other actions"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Other actions<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+  <div id="details-other-actions" class="box-title"><button type="button" aria-controls="details-other-actions-contents" aria-expanded="true" aria-label="Toggle details box: Other actions"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Other actions<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>cloud-init allows for many more actions to be executed as well, you can read about them in <a href="https://cloudinit.readthedocs.io/en/latest/">the documentation</a>.</p>
 </blockquote>
 
@@ -1426,7 +1420,7 @@ EOF
       <p>Compare your final configuration against ours:</p>
 
       <blockquote class="solution">
-        <div id="solution-final-configuration" class="box-title"><button type="button" aria-controls="solution-final-configuration-contents" aria-expanded="true" aria-label="Toggle solution box: Final Configuration"><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution: Final Configuration<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+        <div id="solution-final-configuration" class="box-title"><button type="button" aria-controls="solution-final-configuration-contents" aria-expanded="true" aria-label="Toggle solution box: Final Configuration"><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution: Final Configuration<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
         <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>resource "openstack_compute_keypair_v2" "my-cloud-key" {
   name       = "my-key"
   public_key = "ssh-rsa AAAAB3..."
@@ -1622,7 +1616,7 @@ Do you want to perform these actions?
         <p>What does the output look like? How many executor nodes do you see?</p>
 
         <blockquote class="solution">
-          <div id="solution-3" class="box-title"><button type="button" aria-controls="solution-3-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+          <div id="solution-3" class="box-title"><button type="button" aria-controls="solution-3-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
           <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[centos@central-manager share]$ condor_status
 Name                   OpSys      Arch   State     Activity LoadAv Mem   ActvtyTime
 
@@ -1702,7 +1696,7 @@ sleep 1
         <p>What did the output look like?</p>
 
         <blockquote class="solution">
-          <div id="solution-4" class="box-title"><button type="button" aria-controls="solution-4-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-plus-square"></span></button></div>
+          <div id="solution-4" class="box-title"><button type="button" aria-controls="solution-4-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
           <figure id="figure-1"><img src="../../images/graph.png" alt="A simple graph. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 1:</span> A simple graph showing the structure of the infrastructure in this lesson</figcaption></figure>
         </blockquote>
       </blockquote>
@@ -1878,7 +1872,8 @@ condor_drain <span class="si">$(</span><span class="nb">hostname</span><span cla
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Helena Rasche, 2022 <b>Deploying a compute cluster in OpenStack via Terraform (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/admin/tutorials/terraform/tutorial.html">https://training.galaxyproject.org/training-material/topics/admin/tutorials/terraform/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">
+                            Helena Rasche,  <b>Deploying a compute cluster in OpenStack via Terraform (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/admin/tutorials/terraform/tutorial.html">https://training.galaxyproject.org/training-material/topics/admin/tutorials/terraform/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -1888,6 +1883,7 @@ condor_drain <span class="si">$(</span><span class="nb">hostname</span><span cla
 
                 <!-- collapsible boxcontaining the BibTeX-formatted citation -->
                 <blockquote class="details">
+
                   <div id="citation-bibtex" class="box-title">
                     <button type="button" aria-controls="citation-bibtex" aria-expanded="false" aria-label="Toggle details box: BibTeX for citing this tutorial">
                       <i class="fas fa-info-circle" aria-hidden="true"></i>
@@ -1897,12 +1893,14 @@ condor_drain <span class="si">$(</span><span class="nb">hostname</span><span cla
                    <p style="display: none;">
 
                    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight">
+
+
 <code id="citation-code">@misc{admin-terraform,
 author = "Helena Rasche",
 title = "Deploying a compute cluster in OpenStack via Terraform (Galaxy Training Materials)",
-year = "2022",
-month = "10",
-day = "18"
+year = "",
+month = "",
+day = ""
 url = "\url{https://training.galaxyproject.org/training-material/topics/admin/tutorials/terraform/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -1949,39 +1947,39 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
 
         </div>
         
+        <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
+        <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
+
+        <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
+        <script type="text/javascript">
+        var snippets=document.querySelectorAll('div.highlight');
+        [].forEach.call(snippets,function(snippet){
+            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
+        });
+
+        var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
+            target:function(trigger){return trigger.nextElementSibling;
+        }});
+        </script>
+        
+
+        <script type="text/javascript">
+            if(window.location.hostname === "galaxyproject.github.io") {
+                // Redirect
+                var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
+                $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
+
+                window.setTimeout(function(){
+                    window.location.href = redirect;
+                }, 5000)
+
+            }
+        </script>
     </body>
-    <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
-    <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-    <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
-    <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript">
-    var snippets=document.querySelectorAll('div.highlight');
-    [].forEach.call(snippets,function(snippet){
-        snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
-    });
-
-    var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{
-        target:function(trigger){return trigger.nextElementSibling;
-    }});
-    </script>
-    
-
-    <script type="text/javascript">
-        if(window.location.hostname === "galaxyproject.github.io") {
-            // Redirect
-            var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;
-            $('div.container.main-content').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href=\"" + redirect + "\">" + redirect + "</a>, which you will be redirected to in 5 seconds.</div>");
-
-            window.setTimeout(function(){
-                window.location.href = redirect;
-            }, 5000)
-
-        }
-    </script>
 </html>
