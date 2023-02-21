@@ -11,7 +11,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "wm75",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
     }
   ],
   "gitter": "galaxyproject/sars-cov-2",
@@ -54,12 +55,14 @@
           "joined": "2019-05",
           "elixir_node": "de",
           "id": "simonbray",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         }
       ],
       "url": "/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "covid19-docking",
+      "dir": "topics/computational-chemistry/tutorials/covid19-docking",
       "id": "computational-chemistry/covid19-docking",
       "video_library": {
         "tutorial": null,
@@ -73,7 +76,8 @@
       "workflows": [
         {
           "workflow": "workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/workflows/workflow.ga"
         }
       ],
       "tools": [
@@ -158,12 +162,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "url": "/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html",
       "topic_name": "sequence-analysis",
       "tutorial_name": "human-reads-removal",
+      "dir": "topics/sequence-analysis/tutorials/human-reads-removal",
       "id": "sequence-analysis/human-reads-removal",
       "video_library": {
         "tutorial": {
@@ -198,7 +204,8 @@
       "workflows": [
         {
           "workflow": "human-reads-removal.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/workflows/human-reads-removal.ga"
         }
       ],
       "tools": [
@@ -283,12 +290,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "url": "/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html",
       "topic_name": "assembly",
       "tutorial_name": "assembly-with-preprocessing",
+      "dir": "topics/assembly/tutorials/assembly-with-preprocessing",
       "id": "assembly/assembly-with-preprocessing",
       "video_library": {
         "tutorial": null,
@@ -335,11 +344,13 @@
       "workflows": [
         {
           "workflow": "assembly_with_preprocessing.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/workflows/assembly_with_preprocessing.ga"
         },
         {
           "workflow": "assembly_with_preprocessing_and_sra_download.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/workflows/assembly_with_preprocessing_and_sra_download.ga"
         }
       ],
       "tools": [
@@ -407,7 +418,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         },
         {
           "name": "Bérénice Batut",
@@ -419,7 +431,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
       "tags": [
@@ -428,6 +441,7 @@
       "url": "/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "sars-cov-2-variant-discovery",
+      "dir": "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery",
       "id": "variant-analysis/sars-cov-2-variant-discovery",
       "video_library": {
         "tutorial": {
@@ -513,13 +527,16 @@
           "name": "Marius van den Beek",
           "joined": "2018-06",
           "id": "mvdbeek",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mvdbeek/"
         },
         {
           "name": "Dave Clements",
           "joined": "2017-09",
+          "orcid": "0000-0002-9970-6657",
           "id": "tnabtaf",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/tnabtaf.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/tnabtaf.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tnabtaf/"
         },
         {
           "name": "Daniel Blankenberg",
@@ -527,19 +544,22 @@
           "orcid": "0000-0002-6833-9049",
           "joined": "2018-07",
           "id": "blankenberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/"
         },
         {
           "name": "Anton Nekrutenko",
           "email": "anton@nekrut.org",
           "joined": "2017-09",
           "id": "nekrut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/sars-cov-2/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "sars-cov-2",
+      "dir": "topics/variant-analysis/tutorials/sars-cov-2",
       "id": "variant-analysis/sars-cov-2",
       "video_library": {
         "tutorial": null,
@@ -553,7 +573,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -625,7 +646,8 @@
           "joined": "2019-05",
           "elixir_node": "de",
           "id": "simonbray",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         },
         {
           "name": "Wolfgang Maier",
@@ -633,13 +655,15 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "subtopic": "workflows",
       "url": "/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "workflow-automation",
+      "dir": "topics/galaxy-interface/tutorials/workflow-automation",
       "id": "galaxy-interface/workflow-automation",
       "video_library": {
         "tutorial": null,
@@ -688,7 +712,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -760,7 +785,8 @@
           "joined": "2021-08",
           "email": "miguel.roncoroni@elixir-belgium.org",
           "id": "roncoronimiguel",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/roncoronimiguel.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/roncoronimiguel.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/roncoronimiguel/"
         },
         {
           "name": "Bert Droesbeke",
@@ -770,12 +796,14 @@
           "joined": "2019-12",
           "elixir_node": "be",
           "id": "bedroesb",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bedroesb.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bedroesb.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bedroesb/"
         }
       ],
       "url": "/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "upload-data-to-ena",
+      "dir": "topics/galaxy-interface/tutorials/upload-data-to-ena",
       "id": "galaxy-interface/upload-data-to-ena",
       "video_library": {
         "tutorial": null,
@@ -789,7 +817,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -842,13 +871,15 @@
           "joined": "2021-05",
           "github": false,
           "id": "jontrow",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jontrow.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jontrow.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jontrow/"
         },
         {
           "name": "Adelaide Rhodes",
           "joined": "2021-05",
           "id": "RareSeas",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/RareSeas.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/RareSeas.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/RareSeas/"
         }
       ],
       "requirements": [
@@ -863,6 +894,7 @@
       "url": "/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "ncbi-sarf",
+      "dir": "topics/galaxy-interface/tutorials/ncbi-sarf",
       "id": "galaxy-interface/ncbi-sarf",
       "video_library": {
         "tutorial": {

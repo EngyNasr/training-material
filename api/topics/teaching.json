@@ -31,7 +31,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     }
   ],
   "materials": [
@@ -57,12 +58,14 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
       "url": "/topics/teaching/tutorials/workshop-intro/slides-plain.html",
       "topic_name": "teaching",
       "tutorial_name": "workshop-intro",
+      "dir": "topics/teaching/tutorials/workshop-intro",
       "id": "teaching/workshop-intro",
       "video_library": {
         "tutorial": null,
@@ -115,6 +118,7 @@
       "url": "/topics/teaching/tutorials/gtn-for-instructors/slides-plain.html",
       "topic_name": "teaching",
       "tutorial_name": "gtn-for-instructors",
+      "dir": "topics/teaching/tutorials/gtn-for-instructors",
       "id": "teaching/gtn-for-instructors",
       "video_library": {
         "tutorial": null,
@@ -142,14 +146,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "urls": {
@@ -182,7 +187,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Björn Grüning",
@@ -194,7 +200,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         },
         {
           "name": "Saskia Hiltemann",
@@ -208,23 +215,26 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "url": "/topics/teaching/tutorials/running-workshop/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "running-workshop",
+      "dir": "topics/teaching/tutorials/running-workshop",
       "id": "teaching/running-workshop",
       "video_library": {
         "tutorial": null,
@@ -300,6 +310,7 @@
       "url": "/topics/teaching/tutorials/assessment/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "assessment",
+      "dir": "topics/teaching/tutorials/assessment",
       "id": "teaching/assessment",
       "video_library": {
         "tutorial": null,
@@ -370,7 +381,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -382,25 +394,29 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Allegra Via",
           "joined": "2022-09",
           "id": "allegravia",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/allegravia.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/allegravia.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/allegravia/"
         },
         {
           "name": "Patricia Palagi",
           "joined": "2022-09",
           "id": "ppalagi",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/ppalagi.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/ppalagi.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/ppalagi/"
         },
         {
           "name": "ELIXIR Goblet Train the Trainers",
           "joined": "2022-09",
           "id": "elixir-goblet-ttt",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/elixir-goblet-ttt/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -411,7 +427,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
@@ -423,7 +440,7 @@
       "layout": "tutorial_hands_on",
       "title": "Hybrid training",
       "subtopic": "practises",
-      "enable": false,
+      "draft": true,
       "time_estimation": "1h",
       "questions": [
         "What is hybrid training?",
@@ -450,6 +467,7 @@
       "url": "/topics/teaching/tutorials/hybrid-training/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "hybrid-training",
+      "dir": "topics/teaching/tutorials/hybrid-training",
       "id": "teaching/hybrid-training",
       "video_library": {
         "tutorial": null,
@@ -489,7 +507,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -501,7 +520,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -512,7 +532,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
@@ -524,7 +545,7 @@
       "layout": "tutorial_hands_on",
       "title": "Live Coding is a Skill",
       "subtopic": "practises",
-      "enable": false,
+      "draft": true,
       "time_estimation": "1h",
       "questions": [
         "Why do we teach programming using participatory live coding?"
@@ -550,7 +571,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -562,18 +584,21 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         }
       ],
       "url": "/topics/teaching/tutorials/live-coding/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "live-coding",
+      "dir": "topics/teaching/tutorials/live-coding",
       "id": "teaching/live-coding",
       "video_library": {
         "tutorial": null,
@@ -635,23 +660,26 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "url": "/topics/teaching/tutorials/organize-workshop/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "organize-workshop",
+      "dir": "topics/teaching/tutorials/organize-workshop",
       "id": "teaching/organize-workshop",
       "video_library": {
         "tutorial": null,
@@ -705,14 +733,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "tags": [
@@ -721,6 +750,7 @@
       "url": "/topics/teaching/tutorials/setup-tiaas-for-training/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "setup-tiaas-for-training",
+      "dir": "topics/teaching/tutorials/setup-tiaas-for-training",
       "id": "teaching/setup-tiaas-for-training",
       "video_library": {
         "tutorial": null,
@@ -786,7 +816,8 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Bérénice Batut",
@@ -798,12 +829,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
       "url": "/topics/teaching/tutorials/setup-galaxy-for-training/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "setup-galaxy-for-training",
+      "dir": "topics/teaching/tutorials/setup-galaxy-for-training",
       "id": "teaching/setup-galaxy-for-training",
       "video_library": {
         "tutorial": null,
@@ -875,6 +908,7 @@
       "url": "/topics/teaching/tutorials/motivation_demotivation/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "motivation_demotivation",
+      "dir": "topics/teaching/tutorials/motivation_demotivation",
       "id": "teaching/motivation_demotivation",
       "video_library": {
         "tutorial": null,
@@ -929,7 +963,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -941,25 +976,29 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Allegra Via",
           "joined": "2022-09",
           "id": "allegravia",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/allegravia.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/allegravia.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/allegravia/"
         },
         {
           "name": "Patricia Palagi",
           "joined": "2022-09",
           "id": "ppalagi",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/ppalagi.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/ppalagi.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/ppalagi/"
         },
         {
           "name": "ELIXIR Goblet Train the Trainers",
           "joined": "2022-09",
           "id": "elixir-goblet-ttt",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/elixir-goblet-ttt/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -970,7 +1009,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
@@ -1023,6 +1063,7 @@
       "url": "/topics/teaching/tutorials/learner_participation_engagement/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "learner_participation_engagement",
+      "dir": "topics/teaching/tutorials/learner_participation_engagement",
       "id": "teaching/learner_participation_engagement",
       "video_library": {
         "tutorial": null,
@@ -1101,7 +1142,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -1113,25 +1155,29 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Allegra Via",
           "joined": "2022-09",
           "id": "allegravia",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/allegravia.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/allegravia.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/allegravia/"
         },
         {
           "name": "Patricia Palagi",
           "joined": "2022-09",
           "id": "ppalagi",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/ppalagi.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/ppalagi.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/ppalagi/"
         },
         {
           "name": "ELIXIR Goblet Train the Trainers",
           "joined": "2022-09",
           "id": "elixir-goblet-ttt",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/elixir-goblet-ttt/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1142,7 +1188,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
@@ -1185,19 +1232,21 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "url": "/topics/teaching/tutorials/galaxy-admin-training/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "galaxy-admin-training",
+      "dir": "topics/teaching/tutorials/galaxy-admin-training",
       "id": "teaching/galaxy-admin-training",
       "video_library": {
         "tutorial": null,
@@ -1232,7 +1281,7 @@
       "layout": "tutorial_hands_on",
       "title": "Teaching online",
       "subtopic": "practises",
-      "enable": false,
+      "draft": true,
       "time_estimation": "1h",
       "questions": [
         "What are the different ways of teaching online?",
@@ -1257,6 +1306,7 @@
       "url": "/topics/teaching/tutorials/teaching-online/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "teaching-online",
+      "dir": "topics/teaching/tutorials/teaching-online",
       "id": "teaching/teaching-online",
       "video_library": {
         "tutorial": null,
@@ -1296,7 +1346,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -1308,7 +1359,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1319,7 +1371,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
@@ -1356,7 +1409,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -1368,12 +1422,14 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         }
       ],
       "url": "/topics/teaching/tutorials/experiences/tutorial.html",
       "topic_name": "teaching",
       "tutorial_name": "experiences",
+      "dir": "topics/teaching/tutorials/experiences",
       "id": "teaching/experiences",
       "video_library": {
         "tutorial": null,

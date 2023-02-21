@@ -13,14 +13,15 @@
   "contributors": [
     {
       "name": "Helena Rasche",
-      "email": "helena.rasche@gmail.com",
+      "email": "hexylena@galaxians.org",
       "orcid": "0000-0001-9760-8992",
       "maintainer_contact": "gitter",
       "gitter": "hexylena",
       "joined": "2017-09",
       "elixir_node": "nl",
       "id": "hexylena",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     },
     {
       "name": "Saskia Hiltemann",
@@ -34,12 +35,14 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "id": "shiltemann",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
     }
   ],
   "url": "/topics/visualisation/tutorials/introduction/slides-plain.html",
   "topic_name": "visualisation",
   "tutorial_name": "introduction",
+  "dir": "topics/visualisation/tutorials/introduction",
   "id": "visualisation/introduction",
   "video_library": {
     "tutorial": null,

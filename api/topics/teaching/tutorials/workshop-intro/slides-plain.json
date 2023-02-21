@@ -20,12 +20,14 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "id": "shiltemann",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
     }
   ],
   "url": "/topics/teaching/tutorials/workshop-intro/slides-plain.html",
   "topic_name": "teaching",
   "tutorial_name": "workshop-intro",
+  "dir": "topics/teaching/tutorials/workshop-intro",
   "id": "teaching/workshop-intro",
   "video_library": {
     "tutorial": null,

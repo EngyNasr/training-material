@@ -3,6 +3,7 @@
   "type": "data-science",
   "title": "Foundations of Data Science",
   "summary": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
+  "edam_ontology": "topic_3372",
   "subtopics": [
     {
       "id": "bash",
@@ -38,14 +39,15 @@
   "maintainers": [
     {
       "name": "Helena Rasche",
-      "email": "helena.rasche@gmail.com",
+      "email": "hexylena@galaxians.org",
       "orcid": "0000-0001-9760-8992",
       "maintainer_contact": "gitter",
       "gitter": "hexylena",
       "joined": "2017-09",
       "elixir_node": "nl",
       "id": "hexylena",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     },
     {
       "name": "Saskia Hiltemann",
@@ -59,7 +61,8 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "id": "shiltemann",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
     },
     {
       "name": "Fotis E. Psomopoulos",
@@ -71,7 +74,8 @@
       "joined": "2019-03",
       "elixir_node": "gr",
       "id": "fpsom",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
     },
     {
       "name": "Bérénice Batut",
@@ -83,7 +87,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Yvan Le Bras",
@@ -94,7 +99,8 @@
       "joined": "2017-09",
       "elixir_node": "fr",
       "id": "yvanlebras",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/"
     }
   ],
   "materials": [
@@ -136,18 +142,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Avans Hogeschool",
@@ -155,7 +163,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "subtopic": "sql",
@@ -170,6 +179,7 @@
       "url": "/topics/data-science/tutorials/sql-python/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-python",
+      "dir": "topics/data-science/tutorials/sql-python",
       "id": "data-science/sql-python",
       "video_library": {
         "tutorial": null,
@@ -227,14 +237,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -242,18 +253,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 1,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -261,6 +275,7 @@
       "url": "/topics/data-science/tutorials/python-math/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-math",
+      "dir": "topics/data-science/tutorials/python-math",
       "id": "data-science/python-math",
       "video_library": {
         "tutorial": null,
@@ -338,18 +353,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Avans Hogeschool",
@@ -357,7 +374,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "subtopic": "sql",
@@ -373,6 +391,7 @@
       "url": "/topics/data-science/tutorials/sql-r/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-r",
+      "dir": "topics/data-science/tutorials/sql-r",
       "id": "data-science/sql-r",
       "video_library": {
         "tutorial": null,
@@ -464,6 +483,7 @@
       "url": "/topics/data-science/tutorials/bash-git/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "bash-git",
+      "dir": "topics/data-science/tutorials/bash-git",
       "id": "data-science/bash-git",
       "video_library": {
         "tutorial": null,
@@ -496,7 +516,8 @@
           "orcid": "0000-0002-4833-4726",
           "joined": "2022-05",
           "id": "Sofokli5",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/Sofokli5.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/Sofokli5.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/Sofokli5/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -508,7 +529,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Saskia Hiltemann",
@@ -522,24 +544,27 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -550,7 +575,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
@@ -582,7 +608,8 @@
           "orcid": "0000-0002-4833-4726",
           "joined": "2022-05",
           "id": "Sofokli5",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/Sofokli5.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/Sofokli5.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/Sofokli5/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -594,7 +621,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Saskia Hiltemann",
@@ -608,29 +636,33 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         }
       ],
       "url": "/topics/data-science/tutorials/bash-variant-calling/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "bash-variant-calling",
+      "dir": "topics/data-science/tutorials/bash-variant-calling",
       "id": "data-science/bash-variant-calling",
       "video_library": {
         "tutorial": null,
@@ -701,14 +733,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -719,7 +752,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "tags": [
@@ -730,6 +764,7 @@
       "url": "/topics/data-science/tutorials/cli-bashcrawl/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "cli-bashcrawl",
+      "dir": "topics/data-science/tutorials/cli-bashcrawl",
       "id": "data-science/cli-bashcrawl",
       "video_library": {
         "tutorial": null,
@@ -823,18 +858,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -842,13 +879,15 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "Avans Hogeschool",
@@ -856,7 +895,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "subtopic": "sql",
@@ -873,6 +913,7 @@
       "url": "/topics/data-science/tutorials/sql-basic/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-basic",
+      "dir": "topics/data-science/tutorials/sql-basic",
       "id": "data-science/sql-basic",
       "video_library": {
         "tutorial": null,
@@ -993,24 +1034,27 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1021,7 +1065,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         },
         {
           "name": "Avans Hogeschool",
@@ -1029,7 +1074,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "tags": [
@@ -1039,6 +1085,7 @@
       "url": "/topics/data-science/tutorials/cli-advanced/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "cli-advanced",
+      "dir": "topics/data-science/tutorials/cli-advanced",
       "id": "data-science/cli-advanced",
       "video_library": {
         "tutorial": null,
@@ -1157,18 +1204,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Avans Hogeschool",
@@ -1176,7 +1225,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "subtopic": "sql",
@@ -1193,6 +1243,7 @@
       "url": "/topics/data-science/tutorials/sql-advanced/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-advanced",
+      "dir": "topics/data-science/tutorials/sql-advanced",
       "id": "data-science/sql-advanced",
       "video_library": {
         "tutorial": null,
@@ -1270,6 +1321,7 @@
       "url": "/topics/data-science/tutorials/git-cli/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "git-cli",
+      "dir": "topics/data-science/tutorials/git-cli",
       "id": "data-science/git-cli",
       "video_library": {
         "tutorial": null,
@@ -1298,14 +1350,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "urls": {
@@ -1354,20 +1407,22 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "Donny Vrins",
@@ -1375,7 +1430,8 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Avans Hogeschool",
@@ -1383,7 +1439,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "abbreviations": {
@@ -1393,6 +1450,7 @@
       "url": "/topics/data-science/tutorials/snakemake/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "snakemake",
+      "dir": "topics/data-science/tutorials/snakemake",
       "id": "data-science/snakemake",
       "video_library": {
         "tutorial": null,
@@ -1459,20 +1517,22 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "NU Knight Lab",
           "joined": "2021-10",
           "id": "NUKnightLab",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/NUKnightLab.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/NUKnightLab.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/NUKnightLab/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1483,7 +1543,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         },
         {
           "name": "Avans Hogeschool",
@@ -1491,7 +1552,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "tags": [
@@ -1502,6 +1564,7 @@
       "url": "/topics/data-science/tutorials/sql-game/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-game",
+      "dir": "topics/data-science/tutorials/sql-game",
       "id": "data-science/sql-game",
       "video_library": {
         "tutorial": null,
@@ -1592,6 +1655,7 @@
       "url": "/topics/data-science/tutorials/r-basics/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "r-basics",
+      "dir": "topics/data-science/tutorials/r-basics",
       "id": "data-science/r-basics",
       "video_library": {
         "tutorial": {
@@ -1654,7 +1718,8 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Bérénice Batut",
@@ -1666,7 +1731,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -1678,7 +1744,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Toby Hodges",
@@ -1687,7 +1754,8 @@
           "orcid": "0000-0003-1766-456X",
           "joined": "2019-07",
           "id": "tobyhodges",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/tobyhodges.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/tobyhodges.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tobyhodges/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1698,7 +1766,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
@@ -1783,24 +1852,27 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1811,7 +1883,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         },
         {
           "name": "Avans Hogeschool",
@@ -1819,7 +1892,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "tags": [
@@ -1829,6 +1903,7 @@
       "url": "/topics/data-science/tutorials/cli-basics/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "cli-basics",
+      "dir": "topics/data-science/tutorials/cli-basics",
       "id": "data-science/cli-basics",
       "video_library": {
         "tutorial": null,
@@ -1894,7 +1969,8 @@
           "joined": "2021-09",
           "elixir_node": "gr",
           "id": "mcmaniou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mcmaniou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mcmaniou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mcmaniou/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -1906,13 +1982,15 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1923,7 +2001,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "priority": 1,
@@ -1937,6 +2016,7 @@
       "url": "/topics/data-science/tutorials/python-basics/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-basics",
+      "dir": "topics/data-science/tutorials/python-basics",
       "id": "data-science/python-basics",
       "video_library": {
         "tutorial": null,
@@ -2003,7 +2083,8 @@
           "joined": "2021-09",
           "elixir_node": "gr",
           "id": "mcmaniou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mcmaniou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mcmaniou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mcmaniou/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -2015,13 +2096,15 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -2032,7 +2115,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "priority": 2,
@@ -2046,6 +2130,7 @@
       "url": "/topics/data-science/tutorials/python-advanced-np-pd/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-advanced-np-pd",
+      "dir": "topics/data-science/tutorials/python-advanced-np-pd",
       "id": "data-science/python-advanced-np-pd",
       "video_library": {
         "tutorial": null,
@@ -2114,18 +2199,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -2133,18 +2220,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 2,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "abbreviations": {
         "DRY": "Don't Repeat Yourself"
@@ -2155,6 +2245,7 @@
       "url": "/topics/data-science/tutorials/python-functions/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-functions",
+      "dir": "topics/data-science/tutorials/python-functions",
       "id": "data-science/python-functions",
       "video_library": {
         "tutorial": null,
@@ -2242,7 +2333,8 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Bérénice Batut",
@@ -2254,7 +2346,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -2266,7 +2359,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Toby Hodges",
@@ -2275,7 +2369,8 @@
           "orcid": "0000-0003-1766-456X",
           "joined": "2019-07",
           "id": "tobyhodges",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/tobyhodges.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/tobyhodges.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tobyhodges/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -2286,7 +2381,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "tags": [
@@ -2295,6 +2391,7 @@
       "url": "/topics/data-science/tutorials/r-advanced/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "r-advanced",
+      "dir": "topics/data-science/tutorials/r-advanced",
       "id": "data-science/r-advanced",
       "video_library": {
         "tutorial": {
@@ -2392,18 +2489,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -2411,18 +2510,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 3,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -2430,6 +2532,7 @@
       "url": "/topics/data-science/tutorials/python-types/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-types",
+      "dir": "topics/data-science/tutorials/python-types",
       "id": "data-science/python-types",
       "video_library": {
         "tutorial": null,
@@ -2495,14 +2598,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -2513,7 +2617,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         },
         {
           "name": "Avans Hogeschool",
@@ -2521,7 +2626,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "subtopic": "r",
@@ -2538,6 +2644,7 @@
       "url": "/topics/data-science/tutorials/r-dplyr/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "r-dplyr",
+      "dir": "topics/data-science/tutorials/r-dplyr",
       "id": "data-science/r-dplyr",
       "video_library": {
         "tutorial": null,
@@ -2603,7 +2710,8 @@
           "joined": "2021-09",
           "elixir_node": "gr",
           "id": "mcmaniou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mcmaniou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mcmaniou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mcmaniou/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -2615,13 +2723,15 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -2632,7 +2742,8 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "priority": 3,
@@ -2646,6 +2757,7 @@
       "url": "/topics/data-science/tutorials/python-plotting/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-plotting",
+      "dir": "topics/data-science/tutorials/python-plotting",
       "id": "data-science/python-plotting",
       "video_library": {
         "tutorial": null,
@@ -2712,18 +2824,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -2731,18 +2845,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 4,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -2750,6 +2867,7 @@
       "url": "/topics/data-science/tutorials/python-iterables/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-iterables",
+      "dir": "topics/data-science/tutorials/python-iterables",
       "id": "data-science/python-iterables",
       "video_library": {
         "tutorial": null,
@@ -2814,18 +2932,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -2833,18 +2953,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 5,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -2852,6 +2975,7 @@
       "url": "/topics/data-science/tutorials/python-flow/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-flow",
+      "dir": "topics/data-science/tutorials/python-flow",
       "id": "data-science/python-flow",
       "video_library": {
         "tutorial": null,
@@ -2924,18 +3048,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -2943,18 +3069,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 6,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -2962,6 +3091,7 @@
       "url": "/topics/data-science/tutorials/python-loops/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-loops",
+      "dir": "topics/data-science/tutorials/python-loops",
       "id": "data-science/python-loops",
       "video_library": {
         "tutorial": null,
@@ -3024,14 +3154,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -3039,18 +3170,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 7,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -3058,6 +3192,7 @@
       "url": "/topics/data-science/tutorials/python-files/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-files",
+      "dir": "topics/data-science/tutorials/python-files",
       "id": "data-science/python-files",
       "video_library": {
         "tutorial": null,
@@ -3118,14 +3253,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -3133,18 +3269,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 8,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -3152,6 +3291,7 @@
       "url": "/topics/data-science/tutorials/python-exceptions/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-exceptions",
+      "dir": "topics/data-science/tutorials/python-exceptions",
       "id": "data-science/python-exceptions",
       "video_library": {
         "tutorial": null,
@@ -3220,14 +3360,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -3235,18 +3376,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 9,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "abbreviations": {
         "ORF": "Open Reading Frame"
@@ -3257,6 +3401,7 @@
       "url": "/topics/data-science/tutorials/python-basics-recap/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-basics-recap",
+      "dir": "topics/data-science/tutorials/python-basics-recap",
       "id": "data-science/python-basics-recap",
       "video_library": {
         "tutorial": null,
@@ -3334,6 +3479,7 @@
       "url": "/topics/data-science/tutorials/python-argparse/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-argparse",
+      "dir": "topics/data-science/tutorials/python-argparse",
       "id": "data-science/python-argparse",
       "video_library": {
         "tutorial": null,
@@ -3362,20 +3508,22 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "Donny Vrins",
@@ -3383,7 +3531,8 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Avans Hogeschool",
@@ -3391,7 +3540,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "urls": {
@@ -3445,7 +3595,8 @@
       },
       "priority": 10,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -3453,6 +3604,7 @@
       "url": "/topics/data-science/tutorials/python-testing/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-testing",
+      "dir": "topics/data-science/tutorials/python-testing",
       "id": "data-science/python-testing",
       "video_library": {
         "tutorial": null,
@@ -3483,18 +3635,20 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -3502,19 +3656,22 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Avans Hogeschool",
@@ -3522,7 +3679,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "urls": {
@@ -3571,7 +3729,8 @@
       },
       "priority": 10,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -3579,6 +3738,7 @@
       "url": "/topics/data-science/tutorials/python-typing/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-typing",
+      "dir": "topics/data-science/tutorials/python-typing",
       "id": "data-science/python-typing",
       "video_library": {
         "tutorial": null,
@@ -3607,20 +3767,22 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Marius van den Beek",
           "joined": "2018-06",
           "id": "mvdbeek",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mvdbeek/"
         },
         {
           "name": "Peter van Heusden",
@@ -3629,7 +3791,8 @@
           "joined": "2017-09",
           "bio": "Research at the South African National Bioinformatics Institute",
           "id": "pvanheus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/pvanheus/"
         },
         {
           "name": "Donny Vrins",
@@ -3637,13 +3800,15 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "Avans Hogeschool",
@@ -3651,7 +3816,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "urls": {
@@ -3709,6 +3875,7 @@
       "url": "/topics/data-science/tutorials/python-conda/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-conda",
+      "dir": "topics/data-science/tutorials/python-conda",
       "id": "data-science/python-conda",
       "video_library": {
         "tutorial": null,
@@ -3739,24 +3906,27 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Avans Hogeschool",
@@ -3764,7 +3934,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "urls": {
@@ -3821,6 +3992,7 @@
       "url": "/topics/data-science/tutorials/python-venv/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-venv",
+      "dir": "topics/data-science/tutorials/python-venv",
       "id": "data-science/python-venv",
       "video_library": {
         "tutorial": null,
@@ -3851,24 +4023,27 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Avans Hogeschool",
@@ -3876,7 +4051,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "urls": {
@@ -3909,14 +4085,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -3924,18 +4101,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 11,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -3943,6 +4123,7 @@
       "url": "/topics/data-science/tutorials/python-glob/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-glob",
+      "dir": "topics/data-science/tutorials/python-glob",
       "id": "data-science/python-glob",
       "video_library": {
         "tutorial": null,
@@ -4003,14 +4184,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -4018,18 +4200,21 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         }
       ],
       "priority": 12,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "tags": [
         "jupyter-notebook"
@@ -4037,6 +4222,7 @@
       "url": "/topics/data-science/tutorials/python-subprocess/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-subprocess",
+      "dir": "topics/data-science/tutorials/python-subprocess",
       "id": "data-science/python-subprocess",
       "video_library": {
         "tutorial": null,
@@ -4122,6 +4308,7 @@
       "url": "/topics/data-science/tutorials/python-linting/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-linting",
+      "dir": "topics/data-science/tutorials/python-linting",
       "id": "data-science/python-linting",
       "video_library": {
         "tutorial": null,
@@ -4152,24 +4339,27 @@
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "The Carpentries",
           "joined": "2021-09",
           "id": "carpentries",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
         },
         {
           "name": "Avans Hogeschool",
@@ -4177,7 +4367,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "urls": {
@@ -4222,7 +4413,8 @@
       },
       "priority": 20,
       "notebook": {
-        "language": "python"
+        "language": "python",
+        "pyolite": true
       },
       "abbreviations": {
         "GIL": "Global Interpreter Lock"
@@ -4233,6 +4425,7 @@
       "url": "/topics/data-science/tutorials/python-multiprocessing/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-multiprocessing",
+      "dir": "topics/data-science/tutorials/python-multiprocessing",
       "id": "data-science/python-multiprocessing",
       "video_library": {
         "tutorial": null,
@@ -4261,14 +4454,15 @@
       "contributors": [
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Donny Vrins",
@@ -4276,13 +4470,15 @@
           "linkedin": "Donny Vrins",
           "email": "D.vrins@live.nl",
           "id": "dirowa",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
         },
         {
           "name": "Bazante Sanders",
           "joined": "2020-12",
           "id": "bazante1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
         },
         {
           "name": "Avans Hogeschool",
@@ -4290,7 +4486,8 @@
           "funder": true,
           "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
           "id": "avans-atgm",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
         }
       ],
       "urls": {

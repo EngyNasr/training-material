@@ -30,20 +30,25 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Maria Doyle",
       "joined": "2018-09",
+      "orcid": "0000-0003-4847-8436",
       "id": "mblue9",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
     },
     {
       "name": "Florian Heyl",
       "joined": "2018-08",
       "elixir_node": "de",
+      "orcid": "0000-0002-3651-5685",
       "id": "heylf",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/heylf.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/heylf.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/heylf/"
     }
   ],
   "subtopics": [
@@ -164,8 +169,10 @@
         {
           "name": "Maria Doyle",
           "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
           "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
         }
       ],
       "requirements": [
@@ -189,6 +196,7 @@
       "url": "/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-viz-with-volcanoplot",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot",
       "id": "transcriptomics/rna-seq-viz-with-volcanoplot",
       "video_library": {
         "tutorial": {
@@ -233,7 +241,8 @@
       "workflows": [
         {
           "workflow": "rna-seq-viz-with-volcanoplot.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/workflows/rna-seq-viz-with-volcanoplot.ga"
         }
       ],
       "tools": [
@@ -287,51 +296,60 @@
         {
           "name": "Maria Doyle",
           "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
           "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
         },
         {
           "name": "Belinda Phipson",
           "joined": "2018-09",
           "id": "bphipson",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bphipson.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bphipson.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bphipson/"
         },
         {
           "name": "Jovana Maksimovic",
           "joined": "2019-04",
           "id": "JovMaksimovic",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/JovMaksimovic.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/JovMaksimovic.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/JovMaksimovic/"
         },
         {
           "name": "Anna Trigos",
           "github": false,
           "joined": "2018-09",
           "id": "annatrigos",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annatrigos.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annatrigos.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annatrigos/"
         },
         {
           "name": "Matt Ritchie",
           "joined": "2018-09",
           "id": "mritchie",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mritchie.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mritchie.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mritchie/"
         },
         {
           "name": "Harriet Dashnow",
           "joined": "2018-09",
           "id": "hdashnow",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hdashnow.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hdashnow.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hdashnow/"
         },
         {
           "name": "Shian Su",
           "joined": "2019-02",
           "id": "Shians",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/Shians.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/Shians.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/Shians/"
         },
         {
           "name": "Charity Law",
           "joined": "2018-09",
           "id": "charitylaw",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/charitylaw.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/charitylaw.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/charitylaw/"
         }
       ],
       "requirements": [
@@ -358,6 +376,7 @@
       "url": "/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-counts-to-genes",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-counts-to-genes",
       "id": "transcriptomics/rna-seq-counts-to-genes",
       "video_library": {
         "tutorial": null,
@@ -371,7 +390,8 @@
       "workflows": [
         {
           "workflow": "rna-seq-counts-to-genes.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/workflows/rna-seq-counts-to-genes.ga"
         }
       ],
       "tools": [
@@ -422,12 +442,14 @@
           "name": "Mallory Freeberg",
           "joined": "2017-09",
           "id": "malloryfreeberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/malloryfreeberg.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/malloryfreeberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/srna/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "srna",
+      "dir": "topics/transcriptomics/tutorials/srna",
       "id": "transcriptomics/srna",
       "video_library": {
         "tutorial": null,
@@ -441,11 +463,13 @@
       "workflows": [
         {
           "workflow": "sRNA_seq_Step_2_Salmon_and_DESeq2.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/srna/workflows/sRNA_seq_Step_2_Salmon_and_DESeq2.ga"
         },
         {
           "workflow": "sRNA_seq_Step_1_Read_preprocessing_and_removal_of_artifacts.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/srna/workflows/sRNA_seq_Step_1_Read_preprocessing_and_removal_of_artifacts.ga"
         }
       ],
       "tools": [
@@ -500,12 +524,14 @@
           "name": "Pavankumar Videm",
           "joined": "2017-09",
           "id": "pavanvidem",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/small_ncrna_clustering/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "small_ncrna_clustering",
+      "dir": "topics/transcriptomics/tutorials/small_ncrna_clustering",
       "id": "transcriptomics/small_ncrna_clustering",
       "video_library": {
         "tutorial": null,
@@ -519,7 +545,8 @@
       "workflows": [
         {
           "workflow": "blockclust_clustering.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/small_ncrna_clustering/workflows/blockclust_clustering.ga"
         }
       ],
       "tools": [
@@ -570,19 +597,23 @@
         {
           "name": "Maria Doyle",
           "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
           "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
         },
         {
           "name": "Belinda Phipson",
           "joined": "2018-09",
           "id": "bphipson",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bphipson.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bphipson.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bphipson/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-genes-to-pathways",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-genes-to-pathways",
       "id": "transcriptomics/rna-seq-genes-to-pathways",
       "video_library": {
         "tutorial": null,
@@ -596,7 +627,8 @@
       "workflows": [
         {
           "workflow": "rna-seq-genes-to-pathways.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/workflows/rna-seq-genes-to-pathways.ga"
         }
       ],
       "tools": [
@@ -655,14 +687,17 @@
           "name": "Cristóbal Gallardo",
           "joined": "2020-11",
           "elixir_node": "de",
+          "orcid": "0000-0002-5752-2155",
           "id": "gallardoalba",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/gallardoalba.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/gallardoalba.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/"
         },
         {
           "name": "Pavankumar Videm",
           "joined": "2017-09",
           "id": "pavanvidem",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/"
         },
         {
           "name": "Beatriz Serrano-Solano",
@@ -673,12 +708,14 @@
           "orcid": "0000-0002-5862-6132",
           "joined": "2020-07",
           "id": "beatrizserrano",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/beatrizserrano.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/beatrizserrano.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "mirna-target-finder",
+      "dir": "topics/transcriptomics/tutorials/mirna-target-finder",
       "id": "transcriptomics/mirna-target-finder",
       "video_library": {
         "tutorial": {
@@ -767,7 +804,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -824,13 +862,16 @@
         {
           "name": "Maria Doyle",
           "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
           "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-viz-with-heatmap2",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2",
       "id": "transcriptomics/rna-seq-viz-with-heatmap2",
       "video_library": {
         "tutorial": null,
@@ -844,7 +885,8 @@
       "workflows": [
         {
           "workflow": "rna-seq-viz-with-heatmap2.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/workflows/rna-seq-viz-with-heatmap2.ga"
         }
       ],
       "tools": [
@@ -899,12 +941,14 @@
           "twitter": "CicoCN",
           "joined": "2018-08",
           "id": "cicozhang",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/cicozhang.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/cicozhang.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cicozhang/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "network-analysis-with-heinz",
+      "dir": "topics/transcriptomics/tutorials/network-analysis-with-heinz",
       "id": "transcriptomics/network-analysis-with-heinz",
       "video_library": {
         "tutorial": null,
@@ -918,7 +962,8 @@
       "workflows": [
         {
           "workflow": "Galaxy-Workflow-Heinz.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/workflows/Galaxy-Workflow-Heinz.ga"
         }
       ],
       "tools": [
@@ -971,12 +1016,14 @@
           "name": "Pavankumar Videm",
           "joined": "2017-09",
           "id": "pavanvidem",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/rna-interactome/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-interactome",
+      "dir": "topics/transcriptomics/tutorials/rna-interactome",
       "id": "transcriptomics/rna-interactome",
       "video_library": {
         "tutorial": null,
@@ -990,7 +1037,8 @@
       "workflows": [
         {
           "workflow": "rna-rna-interactome-data-analysis-chira.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/workflows/rna-rna-interactome-data-analysis-chira.ga"
         }
       ],
       "tools": [
@@ -1022,7 +1070,7 @@
     },
     {
       "layout": "tutorial_hands_on",
-      "enable": false,
+      "draft": true,
       "title": "De novo transcriptome assembly, annotation, and differential expression analysis",
       "zenodo_link": "https://zenodo.org/record/3541678",
       "questions": [
@@ -1050,14 +1098,16 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "abretaud",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
         },
         {
           "name": "Gildas Le Corguillé",
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "lecorguille",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/lecorguille.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/lecorguille.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lecorguille/"
         },
         {
           "name": "Erwan Corre",
@@ -1066,19 +1116,22 @@
           "orcid": "0000-0001-6354-2278",
           "joined": "2019-04",
           "id": "r1corre",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/r1corre.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/r1corre.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/r1corre/"
         },
         {
           "name": "Xi Liu",
           "github": false,
           "joined": "2019-11",
           "id": "xiliu",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/xiliu.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/xiliu.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/xiliu/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/full-de-novo/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "full-de-novo",
+      "dir": "topics/transcriptomics/tutorials/full-de-novo",
       "id": "transcriptomics/full-de-novo",
       "video_library": {
         "tutorial": null,
@@ -1092,7 +1145,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/full-de-novo/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -1154,18 +1208,22 @@
           "name": "IGC Bioinformatics Unit",
           "joined": "2018-12",
           "id": "igcbioinformatics",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/igcbioinformatics.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/igcbioinformatics.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/igcbioinformatics/"
         },
         {
           "name": "Maria Doyle",
           "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
           "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/goenrichment/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "goenrichment",
+      "dir": "topics/transcriptomics/tutorials/goenrichment",
       "id": "transcriptomics/goenrichment",
       "video_library": {
         "tutorial": null,
@@ -1179,7 +1237,8 @@
       "workflows": [
         {
           "workflow": "goenrichment-workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/goenrichment/workflows/goenrichment-workflow.ga"
         }
       ],
       "tools": [
@@ -1233,14 +1292,17 @@
           "name": "Florian Heyl",
           "joined": "2018-08",
           "elixir_node": "de",
+          "orcid": "0000-0002-3651-5685",
           "id": "heylf",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/heylf.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/heylf.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/heylf/"
         },
         {
           "name": "Daniel Maticzka",
           "joined": "2018-08",
           "id": "dmaticzka",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dmaticzka.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dmaticzka.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dmaticzka/"
         },
         {
           "name": "Bérénice Batut",
@@ -1252,12 +1314,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/clipseq/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "clipseq",
+      "dir": "topics/transcriptomics/tutorials/clipseq",
       "id": "transcriptomics/clipseq",
       "video_library": {
         "tutorial": null,
@@ -1271,7 +1335,8 @@
       "workflows": [
         {
           "workflow": "init_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/clipseq/workflows/init_workflow.ga"
         }
       ],
       "tools": [
@@ -1348,20 +1413,24 @@
         {
           "name": "Maria Doyle",
           "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
           "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
         },
         {
           "name": "Belinda Phipson",
           "joined": "2018-09",
           "id": "bphipson",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bphipson.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bphipson.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bphipson/"
         },
         {
           "name": "Harriet Dashnow",
           "joined": "2018-09",
           "id": "hdashnow",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hdashnow.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hdashnow.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hdashnow/"
         }
       ],
       "requirements": [
@@ -1393,6 +1462,7 @@
       "url": "/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-reads-to-counts",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-reads-to-counts",
       "id": "transcriptomics/rna-seq-reads-to-counts",
       "video_library": {
         "tutorial": null,
@@ -1406,11 +1476,13 @@
       "workflows": [
         {
           "workflow": "rna-seq-reads-to-counts.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/workflows/rna-seq-reads-to-counts.ga"
         },
         {
           "workflow": "qc_report.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/workflows/qc_report.ga"
         }
       ],
       "tools": [
@@ -1487,7 +1559,8 @@
           "email": "xavier.garnier@irisa.fr",
           "joined": "2020-07",
           "id": "xgaia",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/xgaia.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/xgaia.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/xgaia/"
         },
         {
           "name": "Anthony Bretaudeau",
@@ -1498,19 +1571,22 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "abretaud",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
         },
         {
           "name": "Anne Siegel",
           "joined": "2020-07",
           "id": "annesiegel",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annesiegel.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annesiegel.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annesiegel/"
         },
         {
           "name": "Olivier Dameron",
           "joined": "2020-07",
           "id": "odameron",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/odameron.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/odameron.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/odameron/"
         },
         {
           "name": "Mateo Boudet",
@@ -1519,12 +1595,14 @@
           "joined": "2021-05",
           "elixir_node": "fr",
           "id": "mboudet",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mboudet.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mboudet.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mboudet/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-analysis-with-askomics-it",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it",
       "id": "transcriptomics/rna-seq-analysis-with-askomics-it",
       "video_library": {
         "tutorial": null,
@@ -1575,7 +1653,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Anika Erxleben",
@@ -1584,18 +1663,21 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "erxleben",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erxleben.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erxleben.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erxleben/"
         },
         {
           "name": "Markus Wolfien",
           "joined": "2017-09",
           "id": "mwolfien",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mwolfien.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mwolfien.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mwolfien/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/introduction/slides-plain.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "introduction",
+      "dir": "topics/transcriptomics/tutorials/introduction",
       "id": "transcriptomics/introduction",
       "video_library": {
         "tutorial": null,
@@ -1684,12 +1766,14 @@
           "email": "andrea.bagnacani@gmail.com",
           "joined": "2017-10",
           "id": "bagnacan",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bagnacan.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bagnacan.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bagnacan/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-viz-with-cummerbund",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund",
       "id": "transcriptomics/rna-seq-viz-with-cummerbund",
       "video_library": {
         "tutorial": null,
@@ -1744,8 +1828,10 @@
         {
           "name": "Maria Doyle",
           "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
           "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
         }
       ],
       "requirements": [
@@ -1776,6 +1862,7 @@
       "url": "/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-viz-with-volcanoplot-r",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r",
       "id": "transcriptomics/rna-seq-viz-with-volcanoplot-r",
       "video_library": {
         "tutorial": {
@@ -1893,7 +1980,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Fotis E. Psomopoulos",
@@ -1905,7 +1993,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Toby Hodges",
@@ -1914,7 +2003,8 @@
           "orcid": "0000-0003-1766-456X",
           "joined": "2019-07",
           "id": "tobyhodges",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/tobyhodges.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/tobyhodges.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tobyhodges/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1925,12 +2015,14 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rna-seq-counts-to-viz-in-r",
+      "dir": "topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r",
       "id": "transcriptomics/rna-seq-counts-to-viz-in-r",
       "video_library": {
         "tutorial": {
@@ -1997,7 +2089,7 @@
       "layout": "tutorial_hands_on",
       "title": "Reference-based RNAseq data analysis (long)",
       "zenodo_link": "",
-      "enable": false,
+      "draft": true,
       "questions": [
         "How to perform analysis of RNAseq data when reference genome is available?"
       ],
@@ -2012,12 +2104,14 @@
           "email": "anton@nekrut.org",
           "joined": "2017-09",
           "id": "nekrut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
         }
       ],
       "url": "/topics/transcriptomics/tutorials/rb-rnaseq/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "rb-rnaseq",
+      "dir": "topics/transcriptomics/tutorials/rb-rnaseq",
       "id": "transcriptomics/rb-rnaseq",
       "video_library": {
         "tutorial": null,
@@ -2100,93 +2194,27 @@
           ]
         }
       ],
-      "contributors": [
-        {
-          "name": "Bérénice Batut",
-          "email": "berenice.batut@gmail.com",
-          "twitter": "bebatut",
-          "linkedin": "berenicebatut",
-          "gitter": "bebatut",
-          "orcid": "0000-0001-9852-1987",
-          "joined": "2017-09",
-          "elixir_node": "de",
-          "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
-        },
-        {
-          "name": "Mallory Freeberg",
-          "joined": "2017-09",
-          "id": "malloryfreeberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/malloryfreeberg.json"
-        },
-        {
-          "name": "Mo Heydarian",
-          "email": "mheydarian@gmail.com",
-          "joined": "2017-09",
-          "id": "moheydarian",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/moheydarian.json"
-        },
-        {
-          "name": "Anika Erxleben",
-          "email": "anikaerxleben@gmail.com",
-          "orcid": "0000-0002-7427-6478",
-          "joined": "2017-09",
-          "elixir_node": "de",
-          "id": "erxleben",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erxleben.json"
-        },
-        {
-          "name": "Pavankumar Videm",
-          "joined": "2017-09",
-          "id": "pavanvidem",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json"
-        },
-        {
-          "name": "Clemens Blank",
-          "email": "blankclemens@gmail.com",
-          "joined": "2017-09",
-          "elixir_node": "de",
-          "id": "blankclemens",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankclemens.json"
-        },
-        {
-          "name": "Maria Doyle",
-          "joined": "2018-09",
-          "id": "mblue9",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json"
-        },
-        {
-          "name": "Nicola Soranzo",
-          "gitter": "nsoranzo",
-          "orcid": "0000-0003-3627-5340",
-          "twitter": "NicolaSoranzo",
-          "joined": "2017-09",
-          "elixir_node": "uk",
-          "id": "nsoranzo",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json"
-        },
-        {
-          "name": "Peter van Heusden",
-          "twitter": "pvanheus",
-          "orcid": "0000-0001-6553-5274",
-          "joined": "2017-09",
-          "bio": "Research at the South African National Bioinformatics Institute",
-          "id": "pvanheus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json"
-        },
-        {
-          "name": "Lucille Delisle",
-          "email": "lucille.delisle@epfl.ch",
-          "orcid": "0000-0002-1964-4960",
-          "joined": "2019-08",
-          "elixir_node": "ch",
-          "id": "lldelisle",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/lldelisle.json"
-        }
-      ],
+      "contributions": {
+        "authorship": [
+          "bebatut",
+          "malloryfreeberg",
+          "moheydarian",
+          "erxleben",
+          "pavanvidem",
+          "blankclemens",
+          "mblue9",
+          "nsoranzo",
+          "pvanheus",
+          "lldelisle"
+        ],
+        "editing": [
+          "hexylena"
+        ]
+      },
       "url": "/topics/transcriptomics/tutorials/ref-based/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "ref-based",
+      "dir": "topics/transcriptomics/tutorials/ref-based",
       "id": "transcriptomics/ref-based",
       "video_library": {
         "tutorial": {
@@ -2231,15 +2259,18 @@
       "workflows": [
         {
           "workflow": "qc-mapping-counting.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/workflows/qc-mapping-counting.ga"
         },
         {
           "workflow": "qc-mapping-counting-paired-and-single.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/workflows/qc-mapping-counting-paired-and-single.ga"
         },
         {
           "workflow": "deg-analysis.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/workflows/deg-analysis.ga"
         }
       ],
       "tools": [
@@ -2294,6 +2325,113 @@
         "video": false
       },
       "type": "tutorial",
+      "contributors": [
+        {
+          "name": "Bérénice Batut",
+          "email": "berenice.batut@gmail.com",
+          "twitter": "bebatut",
+          "linkedin": "berenicebatut",
+          "gitter": "bebatut",
+          "orcid": "0000-0001-9852-1987",
+          "joined": "2017-09",
+          "elixir_node": "de",
+          "id": "bebatut",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
+        },
+        {
+          "name": "Mallory Freeberg",
+          "joined": "2017-09",
+          "id": "malloryfreeberg",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/malloryfreeberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/"
+        },
+        {
+          "name": "Mo Heydarian",
+          "email": "mheydarian@gmail.com",
+          "joined": "2017-09",
+          "id": "moheydarian",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/moheydarian.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/moheydarian/"
+        },
+        {
+          "name": "Anika Erxleben",
+          "email": "anikaerxleben@gmail.com",
+          "orcid": "0000-0002-7427-6478",
+          "joined": "2017-09",
+          "elixir_node": "de",
+          "id": "erxleben",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erxleben.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erxleben/"
+        },
+        {
+          "name": "Pavankumar Videm",
+          "joined": "2017-09",
+          "id": "pavanvidem",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/pavanvidem.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/"
+        },
+        {
+          "name": "Clemens Blank",
+          "email": "blankclemens@gmail.com",
+          "joined": "2017-09",
+          "elixir_node": "de",
+          "id": "blankclemens",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankclemens.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankclemens/"
+        },
+        {
+          "name": "Maria Doyle",
+          "joined": "2018-09",
+          "orcid": "0000-0003-4847-8436",
+          "id": "mblue9",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mblue9.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
+        },
+        {
+          "name": "Nicola Soranzo",
+          "gitter": "nsoranzo",
+          "orcid": "0000-0003-3627-5340",
+          "twitter": "NicolaSoranzo",
+          "joined": "2017-09",
+          "elixir_node": "uk",
+          "id": "nsoranzo",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/"
+        },
+        {
+          "name": "Peter van Heusden",
+          "twitter": "pvanheus",
+          "orcid": "0000-0001-6553-5274",
+          "joined": "2017-09",
+          "bio": "Research at the South African National Bioinformatics Institute",
+          "id": "pvanheus",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/pvanheus/"
+        },
+        {
+          "name": "Lucille Delisle",
+          "email": "lucille.delisle@epfl.ch",
+          "orcid": "0000-0002-1964-4960",
+          "joined": "2019-08",
+          "elixir_node": "ch",
+          "id": "lldelisle",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/lldelisle.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lldelisle/"
+        },
+        {
+          "name": "Helena Rasche",
+          "email": "hexylena@galaxians.org",
+          "orcid": "0000-0001-9760-8992",
+          "maintainer_contact": "gitter",
+          "gitter": "hexylena",
+          "joined": "2017-09",
+          "elixir_node": "nl",
+          "id": "hexylena",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
+        }
+      ],
       "urls": {
         "hands_on": "https://training.galaxyproject.org/training-material/api/topics//transcriptomics/tutorials/ref-based/tutorial.json",
         "slides": "https://training.galaxyproject.org/training-material/api/topics//transcriptomics/tutorials/ref-based/tutorial.json"
@@ -2332,6 +2470,7 @@
       "url": "/topics/transcriptomics/tutorials/de-novo/tutorial.html",
       "topic_name": "transcriptomics",
       "tutorial_name": "de-novo",
+      "dir": "topics/transcriptomics/tutorials/de-novo",
       "id": "transcriptomics/de-novo",
       "video_library": {
         "tutorial": {
@@ -2386,7 +2525,8 @@
       "workflows": [
         {
           "workflow": "transcriptomics-denovo-workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/de-novo/workflows/transcriptomics-denovo-workflow.ga"
         }
       ],
       "tools": [
@@ -2418,21 +2558,24 @@
           "name": "Mallory Freeberg",
           "joined": "2017-09",
           "id": "malloryfreeberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/malloryfreeberg.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/malloryfreeberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/"
         },
         {
           "name": "Mo Heydarian",
           "email": "mheydarian@gmail.com",
           "joined": "2017-09",
           "id": "moheydarian",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/moheydarian.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/moheydarian.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/moheydarian/"
         },
         {
           "name": "James Taylor",
           "joined": "2018-06",
           "in_memoriam": "<a href=\"https://galaxyproject.org/jxtx/\">James Taylor, a leader of the Galaxy Project, and one of its original members, passed away on April 2, 2020.</a>\n\nHis impacts on the Galaxy community, have been incredible, and his loss is keenly felt.",
           "id": "jxtx",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jxtx.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jxtx.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jxtx/"
         }
       ],
       "urls": {

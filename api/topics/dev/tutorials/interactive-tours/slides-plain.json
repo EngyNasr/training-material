@@ -28,7 +28,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Björn Grüning",
@@ -40,13 +41,15 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bgruening",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
     }
   ],
   "subtopic": "advanced",
   "url": "/topics/dev/tutorials/interactive-tours/slides-plain.html",
   "topic_name": "dev",
   "tutorial_name": "interactive-tours",
+  "dir": "topics/dev/tutorials/interactive-tours",
   "id": "dev/interactive-tours",
   "video_library": {
     "tutorial": null,

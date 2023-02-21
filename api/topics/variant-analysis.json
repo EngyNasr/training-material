@@ -30,7 +30,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Wolfgang Maier",
@@ -38,7 +39,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "wm75",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
     },
     {
       "name": "Björn Grüning",
@@ -50,14 +52,16 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bgruening",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
     },
     {
       "name": "Anton Nekrutenko",
       "email": "anton@nekrut.org",
       "joined": "2017-09",
       "id": "nekrut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
     }
   ],
   "references": [
@@ -131,19 +135,22 @@
           "email": "anton@nekrut.org",
           "joined": "2017-09",
           "id": "nekrut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
         },
         {
           "name": "Alex Ostrovsky",
           "email": "a.ostrovsky@mac.com",
           "joined": "2019-06",
           "id": "astrovsky01",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/astrovsky01.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/astrovsky01.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/astrovsky01/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/non-dip/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "non-dip",
+      "dir": "topics/variant-analysis/tutorials/non-dip",
       "id": "variant-analysis/non-dip",
       "video_library": {
         "tutorial": null,
@@ -157,7 +164,8 @@
       "workflows": [
         {
           "workflow": "Calling_variants_in_non-diploid_systems.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/non-dip/workflows/Calling_variants_in_non-diploid_systems.ga"
         }
       ],
       "tools": [
@@ -195,7 +203,7 @@
       "layout": "tutorial_hands_on",
       "title": "Calling very rare variants",
       "zenodo_link": "",
-      "enable": false,
+      "draft": true,
       "questions": [
         "What frequency of variants is so low that it is obscured by sequencing error rate?",
         "What are the different types of consensus sequences produced from duplex sequencing?"
@@ -215,19 +223,22 @@
           "email": "anton@nekrut.org",
           "joined": "2017-09",
           "id": "nekrut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
         },
         {
           "name": "Nick Stoler",
           "twitter": "NickStoler",
           "joined": "2018-07",
           "id": "NickSto",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/NickSto.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/NickSto.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/NickSto/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/dunovo/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "dunovo",
+      "dir": "topics/variant-analysis/tutorials/dunovo",
       "id": "variant-analysis/dunovo",
       "video_library": {
         "tutorial": null,
@@ -241,11 +252,13 @@
       "workflows": [
         {
           "workflow": "variant-calling.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/dunovo/workflows/variant-calling.ga"
         },
         {
           "workflow": "dunovo.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/dunovo/workflows/dunovo.ga"
         }
       ],
       "tools": [
@@ -305,7 +318,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         },
         {
           "name": "Bérénice Batut",
@@ -317,14 +331,16 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Torsten Houwaart",
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "torhou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/torhou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/torhou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/torhou/"
         },
         {
           "name": "Anika Erxleben",
@@ -333,7 +349,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "erxleben",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erxleben.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erxleben.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erxleben/"
         },
         {
           "name": "Björn Grüning",
@@ -345,12 +362,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/exome-seq/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "exome-seq",
+      "dir": "topics/variant-analysis/tutorials/exome-seq",
       "id": "variant-analysis/exome-seq",
       "video_library": {
         "tutorial": null,
@@ -364,11 +383,13 @@
       "workflows": [
         {
           "workflow": "workflow_exome_seq_from_premapped.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/exome-seq/workflows/workflow_exome_seq_from_premapped.ga"
         },
         {
           "workflow": "workflow_exome_seq_full.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/exome-seq/workflows/workflow_exome_seq_full.ga"
         }
       ],
       "tools": [
@@ -425,7 +446,8 @@
           "email": "anton@nekrut.org",
           "joined": "2017-09",
           "id": "nekrut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
         },
         {
           "name": "Nicola Soranzo",
@@ -435,12 +457,14 @@
           "joined": "2017-09",
           "elixir_node": "uk",
           "id": "nsoranzo",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/dip/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "dip",
+      "dir": "topics/variant-analysis/tutorials/dip",
       "id": "variant-analysis/dip",
       "video_library": {
         "tutorial": null,
@@ -454,7 +478,8 @@
       "workflows": [
         {
           "workflow": "diploid.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/dip/workflows/diploid.ga"
         }
       ],
       "tools": [
@@ -511,7 +536,8 @@
           "joined": "2022-04",
           "elixir_node": "nl",
           "id": "JasperO98",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/JasperO98.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/JasperO98.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/JasperO98/"
         },
         {
           "name": "Wolfgang Maier",
@@ -519,18 +545,20 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         },
         {
           "name": "Saskia Hiltemann",
@@ -544,7 +572,8 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
       "tags": [
@@ -554,6 +583,7 @@
       "url": "/topics/variant-analysis/tutorials/trio-analysis/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "trio-analysis",
+      "dir": "topics/variant-analysis/tutorials/trio-analysis",
       "id": "variant-analysis/trio-analysis",
       "video_library": {
         "tutorial": null,
@@ -567,7 +597,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/trio-analysis/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -629,7 +660,8 @@
           "joined": "2017-09",
           "bio": "Research at the South African National Bioinformatics Institute",
           "id": "pvanheus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/pvanheus/"
         },
         {
           "name": "Simon Gladman",
@@ -639,18 +671,21 @@
           "orcid": "0000-0002-6100-4385",
           "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/slugger70/"
         },
         {
           "name": "Thoba Lose",
           "joined": "2019-11",
           "id": "thobalose",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/thobalose.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/thobalose.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/thobalose/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "tb-variant-analysis",
+      "dir": "topics/variant-analysis/tutorials/tb-variant-analysis",
       "id": "variant-analysis/tb-variant-analysis",
       "video_library": {
         "tutorial": {
@@ -732,7 +767,8 @@
       "workflows": [
         {
           "workflow": "tb-variant-analysis.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/workflows/tb-variant-analysis.ga"
         }
       ],
       "tools": [
@@ -799,7 +835,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         },
         {
           "name": "Bérénice Batut",
@@ -811,7 +848,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
       "tags": [
@@ -820,6 +858,7 @@
       "url": "/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "sars-cov-2-variant-discovery",
+      "dir": "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery",
       "id": "variant-analysis/sars-cov-2-variant-discovery",
       "video_library": {
         "tutorial": {
@@ -909,7 +948,8 @@
           "name": "Anna Syme",
           "joined": "2017-09",
           "id": "annasyme",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annasyme.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annasyme.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annasyme/"
         },
         {
           "name": "Simon Gladman",
@@ -919,19 +959,22 @@
           "orcid": "0000-0002-6100-4385",
           "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/slugger70/"
         },
         {
           "name": "Torsten Seemann",
           "joined": "2018-06",
           "elixir_node": "au",
           "id": "tseemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/tseemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/tseemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tseemann/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/microbial-variants/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "microbial-variants",
+      "dir": "topics/variant-analysis/tutorials/microbial-variants",
       "id": "variant-analysis/microbial-variants",
       "video_library": {
         "tutorial": null,
@@ -945,7 +988,8 @@
       "workflows": [
         {
           "workflow": "microbial_variant_calling.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/microbial-variants/workflows/microbial_variant_calling.ga"
         }
       ],
       "tools": [
@@ -993,13 +1037,15 @@
           "email": "k.jumah@bradford.ac.uk",
           "joined": "2022-09",
           "id": "Khaled196",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/Khaled196.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/Khaled196.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/Khaled196/"
         },
         {
           "name": "Katarzyna Murat",
           "joined": "2018-08",
           "id": "kpbioteam",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/kpbioteam.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/kpbioteam.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kpbioteam/"
         },
         {
           "name": "Wolfgang Maier",
@@ -1007,13 +1053,15 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         },
         {
           "name": "David Salgado",
           "joined": "2022-10",
           "id": "d-salgado",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/d-salgado.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/d-salgado.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/d-salgado/"
         },
         {
           "name": "Krzysztof Poterlowicz",
@@ -1022,12 +1070,14 @@
           "joined": "2017-09",
           "elixir_node": "uk",
           "id": "kpoterlowicz",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/kpoterlowicz.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/kpoterlowicz.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kpoterlowicz/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/somatic-variant-discovery/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "somatic-variant-discovery",
+      "dir": "topics/variant-analysis/tutorials/somatic-variant-discovery",
       "id": "variant-analysis/somatic-variant-discovery",
       "video_library": {
         "tutorial": null,
@@ -1041,7 +1091,8 @@
       "workflows": [
         {
           "workflow": "Control-FREEC_MIRACUM_-_somatic_variant_discovery_from_WES_data.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variant-discovery/workflows/Control-FREEC_MIRACUM_-_somatic_variant_discovery_from_WES_data.ga"
         }
       ],
       "tools": [
@@ -1108,13 +1159,16 @@
           "name": "Marius van den Beek",
           "joined": "2018-06",
           "id": "mvdbeek",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mvdbeek/"
         },
         {
           "name": "Dave Clements",
           "joined": "2017-09",
+          "orcid": "0000-0002-9970-6657",
           "id": "tnabtaf",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/tnabtaf.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/tnabtaf.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tnabtaf/"
         },
         {
           "name": "Daniel Blankenberg",
@@ -1122,19 +1176,22 @@
           "orcid": "0000-0002-6833-9049",
           "joined": "2018-07",
           "id": "blankenberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/"
         },
         {
           "name": "Anton Nekrutenko",
           "email": "anton@nekrut.org",
           "joined": "2017-09",
           "id": "nekrut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/sars-cov-2/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "sars-cov-2",
+      "dir": "topics/variant-analysis/tutorials/sars-cov-2",
       "id": "variant-analysis/sars-cov-2",
       "video_library": {
         "tutorial": null,
@@ -1148,7 +1205,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -1210,12 +1268,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/somatic-variants/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "somatic-variants",
+      "dir": "topics/variant-analysis/tutorials/somatic-variants",
       "id": "variant-analysis/somatic-variants",
       "video_library": {
         "tutorial": null,
@@ -1229,7 +1289,8 @@
       "workflows": [
         {
           "workflow": "somatic_variants_tutorial_workflow.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/workflows/somatic_variants_tutorial_workflow.ga"
         }
       ],
       "tools": [
@@ -1291,12 +1352,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/mapping-by-sequencing/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "mapping-by-sequencing",
+      "dir": "topics/variant-analysis/tutorials/mapping-by-sequencing",
       "id": "variant-analysis/mapping-by-sequencing",
       "video_library": {
         "tutorial": null,
@@ -1310,7 +1373,8 @@
       "workflows": [
         {
           "workflow": "workflow-arabidopsis.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/mapping-by-sequencing/workflows/workflow-arabidopsis.ga"
         }
       ],
       "tools": [
@@ -1359,7 +1423,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Yvan Le Bras",
@@ -1370,12 +1435,14 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "yvanlebras",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/introduction/slides-plain.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "introduction",
+      "dir": "topics/variant-analysis/tutorials/introduction",
       "id": "variant-analysis/introduction",
       "video_library": {
         "tutorial": null,
@@ -1409,7 +1476,7 @@
     {
       "layout": "tutorial_hands_on",
       "title": "Avian influenza viral strain analysis from gene segment sequencing data",
-      "enable": false,
+      "draft": true,
       "level": "Intermediate",
       "questions": [
         "With reassortment of gene segments being a common event in avian influenza virus (AIV) evolution, does it make sense to use a reference-based mapping approach for constructing consensus genome sequences for AIV samples?",
@@ -1436,7 +1503,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "tags": [
@@ -1447,6 +1515,7 @@
       "url": "/topics/variant-analysis/tutorials/aiv-analysis/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "aiv-analysis",
+      "dir": "topics/variant-analysis/tutorials/aiv-analysis",
       "id": "variant-analysis/aiv-analysis",
       "video_library": {
         "tutorial": null,

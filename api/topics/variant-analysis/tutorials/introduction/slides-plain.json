@@ -17,7 +17,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Yvan Le Bras",
@@ -28,12 +29,14 @@
       "joined": "2017-09",
       "elixir_node": "fr",
       "id": "yvanlebras",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/"
     }
   ],
   "url": "/topics/variant-analysis/tutorials/introduction/slides-plain.html",
   "topic_name": "variant-analysis",
   "tutorial_name": "introduction",
+  "dir": "topics/variant-analysis/tutorials/introduction",
   "id": "variant-analysis/introduction",
   "video_library": {
     "tutorial": null,

@@ -3,6 +3,7 @@
   "type": "admin-dev",
   "title": "Development in Galaxy",
   "summary": "Galaxy is an open-source project. Everyone can contribute to its development with core Galaxy development, integration of softwares in Galaxy environment, ...",
+  "edam_ontology": "topic_3372",
   "docker_image": "quay.io/galaxy/dev-training",
   "requirements": null,
   "maintainers": [
@@ -11,7 +12,8 @@
       "joined": "2017-09",
       "elixir_node": "fr",
       "id": "lecorguille",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/lecorguille.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/lecorguille.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lecorguille/"
     },
     {
       "name": "Bérénice Batut",
@@ -23,18 +25,20 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Helena Rasche",
-      "email": "helena.rasche@gmail.com",
+      "email": "hexylena@galaxians.org",
       "orcid": "0000-0001-9760-8992",
       "maintainer_contact": "gitter",
       "gitter": "hexylena",
       "joined": "2017-09",
       "elixir_node": "nl",
       "id": "hexylena",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     }
   ],
   "gitter": "galaxyproject/dev",
@@ -101,7 +105,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Björn Grüning",
@@ -113,13 +118,15 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
       "subtopic": "advanced",
       "url": "/topics/dev/tutorials/interactive-tours/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "interactive-tours",
+      "dir": "topics/dev/tutorials/interactive-tours",
       "id": "dev/interactive-tours",
       "video_library": {
         "tutorial": null,
@@ -200,7 +207,8 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Bérénice Batut",
@@ -212,7 +220,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Anthony Bretaudeau",
@@ -223,7 +232,8 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "abretaud",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
         },
         {
           "name": "John Chilton",
@@ -233,7 +243,8 @@
           "gitter": "jmchilton",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/"
         },
         {
           "name": "Nicola Soranzo",
@@ -243,7 +254,8 @@
           "joined": "2017-09",
           "elixir_node": "uk",
           "id": "nsoranzo",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/"
         },
         {
           "name": "Björn Grüning",
@@ -255,19 +267,22 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         },
         {
           "name": "Gildas Le Corguillé",
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "lecorguille",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/lecorguille.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/lecorguille.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lecorguille/"
         }
       ],
       "url": "/topics/dev/tutorials/tool-integration/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "tool-integration",
+      "dir": "topics/dev/tutorials/tool-integration",
       "id": "dev/tool-integration",
       "video_library": {
         "tutorial": null,
@@ -301,7 +316,7 @@
       "layout": "slides-plain",
       "logo": "GTN",
       "title": "Galaxy Interactive Environments",
-      "enable": false,
+      "draft": true,
       "questions": [
         "What are Galaxy Interactive Environments (GIEs)?",
         "How to enable GIEs in Galaxy?",
@@ -334,7 +349,8 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Björn Grüning",
@@ -346,24 +362,27 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "subtopic": "advanced",
       "url": "/topics/dev/tutorials/interactive-environments/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "interactive-environments",
+      "dir": "topics/dev/tutorials/interactive-environments",
       "id": "dev/interactive-environments",
       "video_library": {
         "tutorial": null,
@@ -441,6 +460,7 @@
       "url": "/topics/dev/tutorials/bioblend-api/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "bioblend-api",
+      "dir": "topics/dev/tutorials/bioblend-api",
       "id": "dev/bioblend-api",
       "video_library": {
         "tutorial": null,
@@ -475,31 +495,35 @@
           "joined": "2017-09",
           "elixir_node": "uk",
           "id": "nsoranzo",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/"
         },
         {
           "name": "Clare Sloggett",
           "joined": "2018-07",
           "elixir_node": "au",
           "id": "claresloggett",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/claresloggett.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/claresloggett.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/claresloggett/"
         },
         {
           "name": "Nitesh Turaga",
           "joined": "2017-09",
           "id": "nturaga",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nturaga.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nturaga.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nturaga/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "urls": {
@@ -569,23 +593,26 @@
           "joined": "2021-02",
           "elixir_node": "au",
           "id": "fubar2",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fubar2.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fubar2.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fubar2/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "url": "/topics/dev/tutorials/tool-generators/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "tool-generators",
+      "dir": "topics/dev/tutorials/tool-generators",
       "id": "dev/tool-generators",
       "video_library": {
         "tutorial": {
@@ -670,14 +697,16 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "blankclemens",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankclemens.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankclemens.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankclemens/"
         },
         {
           "name": "Martin Čech",
           "email": "marten@bx.psu.edu",
           "joined": "2017-09",
           "id": "martenson",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/martenson/"
         },
         {
           "name": "Björn Grüning",
@@ -689,13 +718,15 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
       "subtopic": "advanced",
       "url": "/topics/dev/tutorials/webhooks/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "webhooks",
+      "dir": "topics/dev/tutorials/webhooks",
       "id": "dev/webhooks",
       "video_library": {
         "tutorial": null,
@@ -756,18 +787,21 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "abretaud",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
         },
         {
           "name": "Cyril Monjeaud",
           "joined": "2017-09",
           "id": "cmonjeau",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/cmonjeau.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/cmonjeau.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cmonjeau/"
         }
       ],
       "url": "/topics/dev/tutorials/conda_sys/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "conda_sys",
+      "dir": "topics/dev/tutorials/conda_sys",
       "id": "dev/conda_sys",
       "video_library": {
         "tutorial": null,
@@ -844,7 +878,8 @@
           "joined": "2017-09",
           "elixir_node": "uk",
           "id": "nsoranzo",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/"
         },
         {
           "name": "John Chilton",
@@ -854,7 +889,8 @@
           "gitter": "jmchilton",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/"
         },
         {
           "name": "Björn Grüning",
@@ -866,19 +902,22 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         },
         {
           "name": "Hervé Ménager",
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "hmenager",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hmenager.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hmenager.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hmenager/"
         }
       ],
       "url": "/topics/dev/tutorials/conda/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "conda",
+      "dir": "topics/dev/tutorials/conda",
       "id": "dev/conda",
       "video_library": {
         "tutorial": null,
@@ -937,13 +976,15 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Youri Hoogstrate",
           "joined": "2017-09",
           "id": "yhoogstrate",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/yhoogstrate.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/yhoogstrate.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yhoogstrate/"
         },
         {
           "name": "Björn Grüning",
@@ -955,24 +996,28 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         },
         {
           "name": "Aysam Guerler",
           "joined": "2017-09",
           "id": "guerler",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/guerler.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/guerler.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/guerler/"
         },
         {
           "name": "Dannon Baker",
           "joined": "2017-09",
           "id": "dannon",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dannon.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dannon.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dannon/"
         }
       ],
       "url": "/topics/dev/tutorials/visualization-charts/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "visualization-charts",
+      "dir": "topics/dev/tutorials/visualization-charts",
       "id": "dev/visualization-charts",
       "video_library": {
         "tutorial": null,
@@ -1034,19 +1079,22 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "abretaud",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
         },
         {
           "name": "Loraine Guéguen",
           "joined": "2017-09",
           "id": "loraine-gueguen",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/loraine-gueguen.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/loraine-gueguen.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/loraine-gueguen/"
         },
         {
           "name": "Stéphanie Legras",
           "joined": "2017-09",
           "id": "slegras",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/slegras.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/slegras.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/slegras/"
         },
         {
           "name": "Bérénice Batut",
@@ -1058,12 +1106,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
       "url": "/topics/dev/tutorials/toolshed/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "toolshed",
+      "dir": "topics/dev/tutorials/toolshed",
       "id": "dev/toolshed",
       "video_library": {
         "tutorial": null,
@@ -1131,18 +1181,21 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Youri Hoogstrate",
           "joined": "2017-09",
           "id": "yhoogstrate",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/yhoogstrate.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/yhoogstrate.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yhoogstrate/"
         }
       ],
       "url": "/topics/dev/tutorials/visualization-generic/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "visualization-generic",
+      "dir": "topics/dev/tutorials/visualization-generic",
       "id": "dev/visualization-generic",
       "video_library": {
         "tutorial": null,
@@ -1213,7 +1266,8 @@
           "gitter": "jmchilton",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/"
         },
         {
           "name": "Björn Grüning",
@@ -1225,12 +1279,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
       "url": "/topics/dev/tutorials/containers/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "containers",
+      "dir": "topics/dev/tutorials/containers",
       "id": "dev/containers",
       "video_library": {
         "tutorial": null,
@@ -1293,7 +1349,8 @@
           "gitter": "jmchilton",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/"
         },
         {
           "name": "Björn Grüning",
@@ -1305,12 +1362,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
       "url": "/topics/dev/tutorials/architecture/slides-plain.html",
       "topic_name": "dev",
       "tutorial_name": "architecture",
+      "dir": "topics/dev/tutorials/architecture",
       "id": "dev/architecture",
       "video_library": {
         "tutorial": null,
@@ -1403,12 +1462,14 @@
           "joined": "2021-02",
           "elixir_node": "au",
           "id": "fubar2",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fubar2.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fubar2.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fubar2/"
         }
       ],
       "url": "/topics/dev/tutorials/tool-generators-advanced/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "tool-generators-advanced",
+      "dir": "topics/dev/tutorials/tool-generators-advanced",
       "id": "dev/tool-generators-advanced",
       "video_library": {
         "tutorial": {
@@ -1490,7 +1551,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Saskia Hiltemann",
@@ -1504,7 +1566,8 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "id": "shiltemann",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         },
         {
           "name": "Gianmauro Cuccuru",
@@ -1512,18 +1575,20 @@
           "elixir_node": "de",
           "orcid": "0000-0002-5335-545X",
           "id": "gmauro",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/gmauro.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/gmauro.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gmauro/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "key_points": [
@@ -1535,6 +1600,7 @@
       "url": "/topics/dev/tutorials/data-source-integration/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "data-source-integration",
+      "dir": "topics/dev/tutorials/data-source-integration",
       "id": "dev/data-source-integration",
       "video_library": {
         "tutorial": null,
@@ -1586,7 +1652,8 @@
           "gitter": "jmchilton",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/"
         },
         {
           "name": "John Davis",
@@ -1594,7 +1661,8 @@
           "joined": "2019-06",
           "orcid": "0000-0002-1363-1245",
           "id": "jdavcs",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jdavcs/"
         }
       ],
       "key_points": [
@@ -1622,6 +1690,7 @@
       "url": "/topics/dev/tutorials/core-contributing/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "core-contributing",
+      "dir": "topics/dev/tutorials/core-contributing",
       "id": "dev/core-contributing",
       "video_library": {
         "tutorial": null,
@@ -1682,25 +1751,29 @@
           "email": "a.ostrovsky@mac.com",
           "joined": "2019-06",
           "id": "astrovsky01",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/astrovsky01.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/astrovsky01.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/astrovsky01/"
         },
         {
           "name": "Dave B.",
           "joined": "2021-06",
           "id": "davebx",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/davebx.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/davebx.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/davebx/"
         },
         {
           "name": "Matthias Bernt",
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bernt-matthias",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bernt-matthias.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bernt-matthias.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bernt-matthias/"
         }
       ],
       "url": "/topics/dev/tutorials/tool-from-scratch/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "tool-from-scratch",
+      "dir": "topics/dev/tutorials/tool-from-scratch",
       "id": "dev/tool-from-scratch",
       "video_library": {
         "tutorial": {
@@ -1816,14 +1889,16 @@
           "name": "Erik Schill",
           "joined": "2021-05",
           "id": "rikeshi",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/rikeshi.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/rikeshi.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/rikeshi/"
         },
         {
           "name": "Simon Bray",
           "joined": "2019-05",
           "elixir_node": "de",
           "id": "simonbray",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         }
       ],
       "abbreviations": {
@@ -1837,6 +1912,7 @@
       "url": "/topics/dev/tutorials/bioblend-dev/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "bioblend-dev",
+      "dir": "topics/dev/tutorials/bioblend-dev",
       "id": "dev/bioblend-dev",
       "video_library": {
         "tutorial": null,
@@ -1914,7 +1990,8 @@
           "joined": "2021-01",
           "elixir_node": "fr",
           "id": "eancelet",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/eancelet.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/eancelet.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/eancelet/"
         },
         {
           "name": "Yvan Le Bras",
@@ -1925,7 +2002,8 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "yvanlebras",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/"
         },
         {
           "name": "Cameron Hyde",
@@ -1934,7 +2012,8 @@
           "joined": "2022-02",
           "elixir_node": "au",
           "id": "neoformit",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/neoformit.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/neoformit.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/neoformit/"
         },
         {
           "name": "Lain Pavot",
@@ -1942,7 +2021,8 @@
           "joined": "2022-02",
           "elixir_node": "fr",
           "id": "Lain-inrae",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/Lain-inrae.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/Lain-inrae.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/Lain-inrae/"
         },
         {
           "name": "Anthony Bretaudeau",
@@ -1953,23 +2033,26 @@
           "joined": "2017-09",
           "elixir_node": "fr",
           "id": "abretaud",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
         },
         {
           "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
+          "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
           "gitter": "hexylena",
           "joined": "2017-09",
           "elixir_node": "nl",
           "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "url": "/topics/dev/tutorials/interactive-tools/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "interactive-tools",
+      "dir": "topics/dev/tutorials/interactive-tools",
       "id": "dev/interactive-tools",
       "video_library": {
         "tutorial": null,
@@ -2026,7 +2109,8 @@
           "joined": "2019-06",
           "orcid": "0000-0002-1363-1245",
           "id": "jdavcs",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jdavcs/"
         },
         {
           "name": "John Chilton",
@@ -2036,7 +2120,8 @@
           "gitter": "jmchilton",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/"
         }
       ],
       "requirements": [
@@ -2064,6 +2149,7 @@
       "url": "/topics/dev/tutorials/writing_tests/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "writing_tests",
+      "dir": "topics/dev/tutorials/writing_tests",
       "id": "dev/writing_tests",
       "video_library": {
         "tutorial": null,
@@ -2125,7 +2211,8 @@
           "email": "assuntad23@gmail.com",
           "joined": "2021-05",
           "id": "assuntad23",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/assuntad23.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/assuntad23.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/assuntad23/"
         },
         {
           "name": "John Davis",
@@ -2133,7 +2220,8 @@
           "joined": "2019-06",
           "orcid": "0000-0002-1363-1245",
           "id": "jdavcs",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jdavcs/"
         },
         {
           "name": "John Chilton",
@@ -2143,7 +2231,8 @@
           "gitter": "jmchilton",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/"
         }
       ],
       "requirements": [
@@ -2171,6 +2260,7 @@
       "url": "/topics/dev/tutorials/debugging/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "debugging",
+      "dir": "topics/dev/tutorials/debugging",
       "id": "dev/debugging",
       "video_library": {
         "tutorial": null,

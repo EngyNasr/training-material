@@ -17,7 +17,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Saskia Hiltemann",
@@ -31,12 +32,14 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "id": "shiltemann",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
     }
   ],
   "url": "/topics/metagenomics/tutorials/introduction/slides-plain.html",
   "topic_name": "metagenomics",
   "tutorial_name": "introduction",
+  "dir": "topics/metagenomics/tutorials/introduction",
   "id": "metagenomics/introduction",
   "video_library": {
     "tutorial": null,

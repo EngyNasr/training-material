@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=2">
         <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/training-material/assets/css/academicons.css">
-        <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
         <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
         <link rel="canonical" href="https://training.galaxyproject.org/training-material/topics/genome-annotation/" />
@@ -30,15 +29,17 @@
         
         
         
-        
         <meta name="description" content="Genome annotation is a multi-level process that includes ..." />
         <meta property="og:site_name" content="Galaxy Training Network" />
         <meta property="og:title" content="Galaxy Training: Genome Annotation" />
         <meta property="og:description" content="Genome annotation is a multi-level process that includes ..." />
-        <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png" />
+        
+        <meta property="og:image" content="/training-material/assets/images/gga.png" />
 
+        
     </head>
     <body data-spy="scroll" data-target="#toc">
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -163,27 +164,14 @@
             </div>
 
             <div id="theme-selector" data-toggle="buttons">
-                <label data-value="default" class="btn btn-secondary">
-                    <input type="radio" name="options" id="default" autocomplete="off"> Default
-                </label>
-                <label data-value="night" class="btn btn-secondary">
-                    <input type="radio" name="options" id="night" autocomplete="off"> Night
-                </label>
-                <label data-value="midnight" class="btn btn-secondary">
-                    <input type="radio" name="options" id="midnight" autocomplete="off"> Midnight
-                </label>
-                <label data-value="rainbow" class="btn btn-secondary">
-                    <input type="radio" name="options" id="rainbow" autocomplete="off"> Rainbow
-                </label>
-                <label data-value="progress" class="btn btn-secondary">
-                    <input type="radio" name="options" id="progress" autocomplete="off">🏳️‍🌈
-                </label>
-                <label data-value="halloween" class="btn btn-secondary">
-                    <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
-                </label>
-                <label data-value="straya" class="btn btn-secondary">
-                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
-                </label>
+                    <button class="btn" data-theme="default">Default</button>
+                    <button class="btn" data-theme="night">Night</button>
+                    <button class="btn" data-theme="midnight">Midnight</button>
+                    <button class="btn" data-theme="rainbow">Rainbow</button>
+                    <button class="btn" data-theme="blm">✊🏿</button>
+                    <button class="btn" data-theme="progress" >🏳️‍🌈</button>
+                    <button class="btn" data-theme="halloween">🎃</button>
+                    <button class="btn" data-theme="straya">🇦🇺</button>
             </div>
 
         </div>
@@ -561,6 +549,9 @@ sequences, transposons and other mobile elements.
 
   
   
+        <!-- MAT: genome-annotation/genome-annotation -->
+      
+    
         <!-- MAT: genome-annotation/annotation-with-prokka -->
       
 
@@ -588,7 +579,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="background-color: hsl(271, 80.0%, 85%); color: #333; border: 1px solid hsl(271, 80.0%, 45%)" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
+              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="--color-primary: #beb2ff; --color-darker: #aa99ff; --color-dimmed: #b4a5ff;" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
               
             
             </div>
@@ -884,9 +875,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -1263,9 +1260,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -1379,7 +1382,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="background-color: hsl(271, 80.0%, 85%); color: #333; border: 1px solid hsl(271, 80.0%, 45%)" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
+              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="--color-primary: #beb2ff; --color-darker: #aa99ff; --color-dimmed: #b4a5ff;" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
               
             
             </div>
@@ -1618,6 +1621,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
             Galaxy India
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -2014,6 +2023,12 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -2055,9 +2070,6 @@ sequences, transposons and other mobile elements.
          </tr>
        
     
-        <!-- MAT: genome-annotation/genome-annotation -->
-      
-    
         <!-- MAT: genome-annotation/tnseq -->
       
 
@@ -2075,11 +2087,11 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=bacteria" class="label label-default tutorial_tag" id="bacteria" style="background-color: hsl(55, 80.0%, 85%); color: #333; border: 1px solid hsl(55, 80.0%, 45%)" title="Click to show all tutorials tagged bacteria">bacteria</a>
+              <a href="/training-material/search?query=bacteria" class="label label-default tutorial_tag" id="bacteria" style="--color-primary: #f1b000; --color-darker: #d79d00; --color-dimmed: #e4a700;" title="Click to show all tutorials tagged bacteria">bacteria</a>
               
-              <a href="/training-material/search?query=tnseq" class="label label-default tutorial_tag" id="tnseq" style="background-color: hsl(19, 80.0%, 85%); color: #333; border: 1px solid hsl(19, 80.0%, 45%)" title="Click to show all tutorials tagged tnseq">tnseq</a>
+              <a href="/training-material/search?query=tnseq" class="label label-default tutorial_tag" id="tnseq" style="--color-primary: #ffa397; --color-darker: #ff836d; --color-dimmed: #ff9483;" title="Click to show all tutorials tagged tnseq">tnseq</a>
               
-              <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="background-color: hsl(6, 80.0%, 85%); color: #333; border: 1px solid hsl(6, 80.0%, 45%)" title="Click to show all tutorials tagged essential genes">essential genes</a>
+              <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="--color-primary: #ffa1ac; --color-darker: #ff7f90; --color-dimmed: #ff919e;" title="Click to show all tutorials tagged essential genes">essential genes</a>
               
             
             </div>
@@ -2322,9 +2334,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -2640,9 +2658,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -2784,7 +2808,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
             
             </div>
@@ -3011,9 +3035,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -3325,9 +3355,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -3445,7 +3481,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
             
             </div>
@@ -3633,6 +3669,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -3915,6 +3957,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -4042,7 +4090,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
             
             </div>
@@ -4198,6 +4246,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -4436,6 +4490,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -4551,7 +4611,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
             
             </div>
@@ -4754,9 +4814,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -5036,9 +5102,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -5148,7 +5220,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
             
             </div>
@@ -5312,6 +5384,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -5570,6 +5648,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -5697,9 +5781,9 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
-              <a href="/training-material/search?query=cyoa" class="label label-default tutorial_tag" id="cyoa" style="background-color: hsl(322, 80.0%, 85%); color: #333; border: 1px solid hsl(322, 80.0%, 45%)" title="Click to show all tutorials tagged cyoa">cyoa</a>
+              <a href="/training-material/search?query=cyoa" class="label label-default tutorial_tag" id="cyoa" style="--color-primary: #ff9ae5; --color-darker: #ff71df; --color-dimmed: #ff87e2;" title="Click to show all tutorials tagged cyoa">cyoa</a>
               
             
             </div>
@@ -5920,7 +6004,7 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
             
             </div>
@@ -6108,6 +6192,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -6421,6 +6511,12 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://plants.usegalaxy.eu/" title="Plant Anaylsis Workbench">
             Plant Anaylsis Workbench
         </a>
@@ -6507,13 +6603,13 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=genome editing" class="label label-default tutorial_tag" id="genome editing" style="background-color: hsl(216, 80.0%, 85%); color: #333; border: 1px solid hsl(216, 80.0%, 45%)" title="Click to show all tutorials tagged genome editing">genome editing</a>
+              <a href="/training-material/search?query=genome editing" class="label label-default tutorial_tag" id="genome editing" style="--color-primary: #00cded; --color-darker: #00b7d4; --color-dimmed: #00c2e1;" title="Click to show all tutorials tagged genome editing">genome editing</a>
               
-              <a href="/training-material/search?query=CRISPR" class="label label-default tutorial_tag" id="CRISPR" style="background-color: hsl(201, 80.0%, 85%); color: #333; border: 1px solid hsl(201, 80.0%, 45%)" title="Click to show all tutorials tagged CRISPR">CRISPR</a>
+              <a href="/training-material/search?query=CRISPR" class="label label-default tutorial_tag" id="CRISPR" style="--color-primary: #00cfdb; --color-darker: #00b9c3; --color-dimmed: #00c4cf;" title="Click to show all tutorials tagged CRISPR">CRISPR</a>
               
-              <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="background-color: hsl(6, 80.0%, 85%); color: #333; border: 1px solid hsl(6, 80.0%, 45%)" title="Click to show all tutorials tagged essential genes">essential genes</a>
+              <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="--color-primary: #ffa1ac; --color-darker: #ff7f90; --color-dimmed: #ff919e;" title="Click to show all tutorials tagged essential genes">essential genes</a>
               
-              <a href="/training-material/search?query=cell line" class="label label-default tutorial_tag" id="cell line" style="background-color: hsl(136, 80.0%, 85%); color: #333; border: 1px solid hsl(136, 80.0%, 45%)" title="Click to show all tutorials tagged cell line">cell line</a>
+              <a href="/training-material/search?query=cell line" class="label label-default tutorial_tag" id="cell line" style="--color-primary: #00d767; --color-darker: #00c05b; --color-dimmed: #00cc61;" title="Click to show all tutorials tagged cell line">cell line</a>
               
             
             </div>
@@ -6752,6 +6848,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
             Galaxy India
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -7095,6 +7197,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
             Galaxy India
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -7493,9 +7601,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -7795,9 +7909,15 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
+        
+    
         
     
         
@@ -7881,17 +8001,17 @@ sequences, transposons and other mobile elements.
             
             
               
-              <a href="/training-material/search?query=evolution" class="label label-default tutorial_tag" id="evolution" style="background-color: hsl(342, 80.0%, 85%); color: #333; border: 1px solid hsl(342, 80.0%, 45%)" title="Click to show all tutorials tagged evolution">evolution</a>
+              <a href="/training-material/search?query=evolution" class="label label-default tutorial_tag" id="evolution" style="--color-primary: #ff9eca; --color-darker: #ff79bc; --color-dimmed: #ff8cc3;" title="Click to show all tutorials tagged evolution">evolution</a>
               
-              <a href="/training-material/search?query=annotation" class="label label-default tutorial_tag" id="annotation" style="background-color: hsl(120, 80.0%, 85%); color: #333; border: 1px solid hsl(120, 80.0%, 45%)" title="Click to show all tutorials tagged annotation">annotation</a>
+              <a href="/training-material/search?query=annotation" class="label label-default tutorial_tag" id="annotation" style="--color-primary: #66d400; --color-darker: #5abd00; --color-dimmed: #60c800;" title="Click to show all tutorials tagged annotation">annotation</a>
               
-              <a href="/training-material/search?query=vgp" class="label label-default tutorial_tag" id="vgp" style="background-color: hsl(322, 80.0%, 85%); color: #333; border: 1px solid hsl(322, 80.0%, 45%)" title="Click to show all tutorials tagged vgp">vgp</a>
+              <a href="/training-material/search?query=vgp" class="label label-default tutorial_tag" id="vgp" style="--color-primary: #ff9ae5; --color-darker: #ff71df; --color-dimmed: #ff87e2;" title="Click to show all tutorials tagged vgp">vgp</a>
               
-              <a href="/training-material/search?query=cookbook" class="label label-default tutorial_tag" id="cookbook" style="background-color: hsl(158, 80.0%, 85%); color: #333; border: 1px solid hsl(158, 80.0%, 45%)" title="Click to show all tutorials tagged cookbook">cookbook</a>
+              <a href="/training-material/search?query=cookbook" class="label label-default tutorial_tag" id="cookbook" style="--color-primary: #00d4a4; --color-darker: #00bd92; --color-dimmed: #00c99b;" title="Click to show all tutorials tagged cookbook">cookbook</a>
               
-              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #4ad700; --color-darker: #41bf00; --color-dimmed: #45cb00;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
               
-              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="background-color: hsl(271, 80.0%, 85%); color: #333; border: 1px solid hsl(271, 80.0%, 45%)" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
+              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="--color-primary: #beb2ff; --color-darker: #aa99ff; --color-dimmed: #b4a5ff;" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
               
             
             </div>
@@ -8059,6 +8179,12 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
+        
+    
+        
+    
+        
+    
         
     
         
@@ -8364,6 +8490,12 @@ sequences, transposons and other mobile elements.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -8442,7 +8574,7 @@ sequences, transposons and other mobile elements.
     <h2 id="contributors">Contributors</h2>
     <p>This material was contributed to by:</p>
     
-    <a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge contributor-slugger70"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/slugger70?s=27" alt="Avatar">Simon Gladman</a><a href="/training-material/hall-of-fame/tseemann/" class="contributor-badge contributor-tseemann"><img src="https://avatars.githubusercontent.com/tseemann?s=27" alt="Avatar">Torsten Seemann</a><a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge contributor-abretaud"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/abretaud?s=27" alt="Avatar">Anthony Bretaudeau</a><a href="/training-material/hall-of-fame/estebanpw/" class="contributor-badge contributor-estebanpw"><img src="https://avatars.githubusercontent.com/estebanpw?s=27" alt="Avatar">Esteban Perez-Wohlfeil</a><a href="/training-material/hall-of-fame/mboudet/" class="contributor-badge contributor-mboudet"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/mboudet?s=27" alt="Avatar">Mateo Boudet</a><a href="/training-material/hall-of-fame/lleroi/" class="contributor-badge contributor-lleroi"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/lleroi?s=27" alt="Avatar">Laura Leroi</a><a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge contributor-nekrut"><img src="https://avatars.githubusercontent.com/nekrut?s=27" alt="Avatar">Anton Nekrutenko</a><a href="/training-material/hall-of-fame/nathandunn/" class="contributor-badge contributor-nathandunn"><img src="https://avatars.githubusercontent.com/nathandunn?s=27" alt="Avatar">Nathan Dunn</a><a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge contributor-bgruening"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bgruening?s=27" alt="Avatar">Björn Grüning</a><a href="/training-material/hall-of-fame/r1corre/" class="contributor-badge contributor-r1corre"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/r1corre?s=27" alt="Avatar">Erwan Corre</a><a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge contributor-erxleben"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/erxleben?s=27" alt="Avatar">Anika Erxleben</a><a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge contributor-mblue9"><img src="https://avatars.githubusercontent.com/mblue9?s=27" alt="Avatar">Maria Doyle</a><a href="/training-material/hall-of-fame/twishigulati/" class="contributor-badge contributor-twishigulati"><img src="https://avatars.githubusercontent.com/twishigulati?s=27" alt="Avatar">Twishi Gulati</a><a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge contributor-annasyme"><img src="https://avatars.githubusercontent.com/annasyme?s=27" alt="Avatar">Anna Syme</a><a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a><a href="/training-material/hall-of-fame/stephanierobin/" class="contributor-badge contributor-stephanierobin"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/stephanierobin?s=27" alt="Avatar">Stéphanie Robin</a><a href="/training-material/hall-of-fame/erasmusplus/" class="contributor-badge contributor-erasmusplus"><img src="https://avatars.githubusercontent.com/erasmusplus?s=27" alt="Avatar">Erasmus+ Programme</a><a href="/training-material/hall-of-fame/alexcorm/" class="contributor-badge contributor-alexcorm"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/alexcorm?s=27" alt="Avatar">Alexandre Cormier</a><a href="/training-material/hall-of-fame/kenjifujihara/" class="contributor-badge contributor-kenjifujihara"><img src="https://avatars.githubusercontent.com/kenjifujihara?s=27" alt="Avatar">Kenji Fujihara</a><a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge contributor-delphine-l"><img src="https://avatars.githubusercontent.com/delphine-l?s=27" alt="Avatar">Delphine Lariviere</a><a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a><a href="/training-material/hall-of-fame/jkreplak/" class="contributor-badge contributor-jkreplak"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/jkreplak?s=27" alt="Avatar">Jonathan Kreplak</a>
+    <a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge contributor-annasyme"><img src="https://avatars.githubusercontent.com/annasyme?s=27" alt="Avatar">Anna Syme</a><a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge contributor-nekrut"><img src="https://avatars.githubusercontent.com/nekrut?s=27" alt="Avatar">Anton Nekrutenko</a><a href="/training-material/hall-of-fame/estebanpw/" class="contributor-badge contributor-estebanpw"><img src="https://avatars.githubusercontent.com/estebanpw?s=27" alt="Avatar">Esteban Perez-Wohlfeil</a><a href="/training-material/hall-of-fame/stephanierobin/" class="contributor-badge contributor-stephanierobin"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/stephanierobin?s=27" alt="Avatar">Stéphanie Robin</a><a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge contributor-slugger70"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/slugger70?s=27" alt="Avatar">Simon Gladman</a><a href="/training-material/hall-of-fame/nathandunn/" class="contributor-badge contributor-nathandunn"><img src="https://avatars.githubusercontent.com/nathandunn?s=27" alt="Avatar">Nathan Dunn</a><a href="/training-material/hall-of-fame/mboudet/" class="contributor-badge contributor-mboudet"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/mboudet?s=27" alt="Avatar">Mateo Boudet</a><a href="/training-material/hall-of-fame/twishigulati/" class="contributor-badge contributor-twishigulati"><img src="https://avatars.githubusercontent.com/twishigulati?s=27" alt="Avatar">Twishi Gulati</a><a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge contributor-mblue9"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/mblue9?s=27" alt="Avatar">Maria Doyle</a><a href="/training-material/hall-of-fame/jkreplak/" class="contributor-badge contributor-jkreplak"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/jkreplak?s=27" alt="Avatar">Jonathan Kreplak</a><a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge contributor-abretaud"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/abretaud?s=27" alt="Avatar">Anthony Bretaudeau</a><a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge contributor-delphine-l"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/delphine-l?s=27" alt="Avatar">Delphine Lariviere</a><a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a><a href="/training-material/hall-of-fame/lleroi/" class="contributor-badge contributor-lleroi"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/lleroi?s=27" alt="Avatar">Laura Leroi</a><a href="/training-material/hall-of-fame/r1corre/" class="contributor-badge contributor-r1corre"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/r1corre?s=27" alt="Avatar">Erwan Corre</a><a href="/training-material/hall-of-fame/alexcorm/" class="contributor-badge contributor-alexcorm"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/alexcorm?s=27" alt="Avatar">Alexandre Cormier</a><a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a><a href="/training-material/hall-of-fame/erasmusplus/" class="contributor-badge contributor-erasmusplus"><img src="https://avatars.githubusercontent.com/erasmusplus?s=27" alt="Avatar">Erasmus+ Programme</a><a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge contributor-bgruening"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bgruening?s=27" alt="Avatar">Björn Grüning</a><a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge contributor-erxleben"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/erxleben?s=27" alt="Avatar">Anika Erxleben</a><a href="/training-material/hall-of-fame/kenjifujihara/" class="contributor-badge contributor-kenjifujihara"><img src="https://avatars.githubusercontent.com/kenjifujihara?s=27" alt="Avatar">Kenji Fujihara</a><a href="/training-material/hall-of-fame/tseemann/" class="contributor-badge contributor-tseemann"><img src="https://avatars.githubusercontent.com/tseemann?s=27" alt="Avatar">Torsten Seemann</a>
 
     
 </section>
@@ -8460,7 +8592,7 @@ sequences, transposons and other mobile elements.
         The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
         </p>
 
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/2fd480cf8b1385e7e109c34055a67f0cba652c4d">2fd480cf8b1385e7e109c34055a67f0cba652c4d</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/210c8d1a88846336af52320505e3fd76ae0dd4f9">210c8d1a88846336af52320505e3fd76ae0dd4f9</a></p>
     </div>
 </footer>
 
@@ -8472,8 +8604,6 @@ sequences, transposons and other mobile elements.
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
         <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
         <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
         <script type="text/javascript">
         var snippets=document.querySelectorAll('div.highlight');

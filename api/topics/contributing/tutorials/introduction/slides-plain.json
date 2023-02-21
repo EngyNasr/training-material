@@ -17,12 +17,14 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     }
   ],
   "url": "/topics/contributing/tutorials/introduction/slides-plain.html",
   "topic_name": "contributing",
   "tutorial_name": "introduction",
+  "dir": "topics/contributing/tutorials/introduction",
   "id": "contributing/introduction",
   "video_library": {
     "tutorial": null,

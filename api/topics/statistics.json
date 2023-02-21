@@ -17,7 +17,8 @@
       "email": "mac78@psu.edu",
       "joined": "2018-02",
       "id": "marziacremona",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/marziacremona.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/marziacremona.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/marziacremona/"
     },
     {
       "name": "Fabio Cumbo",
@@ -28,7 +29,8 @@
       "orcid": "0000-0003-2920-5838",
       "joined": "2018-02",
       "id": "cumbof",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/cumbof.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/cumbof.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cumbof/"
     },
     {
       "name": "Anup Kumar",
@@ -37,7 +39,8 @@
       "joined": "2018-08",
       "elixir_node": "de",
       "id": "anuprulez",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
     }
   ],
   "materials": [
@@ -71,7 +74,8 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         },
         {
           "name": "Bérénice Batut",
@@ -83,12 +87,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
       "url": "/topics/statistics/tutorials/classification_regression/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "classification_regression",
+      "dir": "topics/statistics/tutorials/classification_regression",
       "id": "statistics/classification_regression",
       "video_library": {
         "tutorial": null,
@@ -102,11 +108,13 @@
       "workflows": [
         {
           "workflow": "regression_GradientBoosting.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/workflows/regression_GradientBoosting.ga"
         },
         {
           "workflow": "classification_LSVC.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/workflows/classification_LSVC.ga"
         }
       ],
       "tools": [
@@ -159,7 +167,8 @@
           "orcid": "0000-0001-6811-9196",
           "joined": "2019-07",
           "id": "khanteymoori",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/khanteymoori/"
         },
         {
           "name": "Anup Kumar",
@@ -168,12 +177,14 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
       "url": "/topics/statistics/tutorials/clustering_machinelearning/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "clustering_machinelearning",
+      "dir": "topics/statistics/tutorials/clustering_machinelearning",
       "id": "statistics/clustering_machinelearning",
       "video_library": {
         "tutorial": null,
@@ -187,7 +198,8 @@
       "workflows": [
         {
           "workflow": "clustering.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/clustering_machinelearning/workflows/clustering.ga"
         }
       ],
       "tools": [
@@ -239,12 +251,14 @@
           "email": "kxk302@gmail.com",
           "joined": "2021-02",
           "id": "kxk302",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
       "url": "/topics/statistics/tutorials/fruit_360/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "fruit_360",
+      "dir": "topics/statistics/tutorials/fruit_360",
       "id": "statistics/fruit_360",
       "video_library": {
         "tutorial": null,
@@ -291,7 +305,8 @@
       "workflows": [
         {
           "workflow": "fruit_360.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/fruit_360/workflows/fruit_360.ga"
         }
       ],
       "tools": [
@@ -351,7 +366,8 @@
           "orcid": "0000-0001-6811-9196",
           "joined": "2019-07",
           "id": "khanteymoori",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/khanteymoori/"
         },
         {
           "name": "Anup Kumar",
@@ -360,19 +376,22 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         },
         {
           "name": "Simon Bray",
           "joined": "2019-05",
           "elixir_node": "de",
           "id": "simonbray",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         }
       ],
       "url": "/topics/statistics/tutorials/classification_machinelearning/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "classification_machinelearning",
+      "dir": "topics/statistics/tutorials/classification_machinelearning",
       "id": "statistics/classification_machinelearning",
       "video_library": {
         "tutorial": {
@@ -422,7 +441,8 @@
       "workflows": [
         {
           "workflow": "ml_classification.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/workflows/ml_classification.ga"
         }
       ],
       "tools": [
@@ -485,12 +505,14 @@
           "email": "kxk302@gmail.com",
           "joined": "2021-02",
           "id": "kxk302",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
       "url": "/topics/statistics/tutorials/CNN/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "CNN",
+      "dir": "topics/statistics/tutorials/CNN",
       "id": "statistics/CNN",
       "video_library": {
         "tutorial": null,
@@ -539,7 +561,8 @@
       "workflows": [
         {
           "workflow": "Intro_To_CNN.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/workflows/Intro_To_CNN.ga"
         }
       ],
       "tools": [
@@ -592,7 +615,8 @@
           "orcid": "0000-0001-6811-9196",
           "joined": "2019-07",
           "id": "khanteymoori",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/khanteymoori/"
         },
         {
           "name": "Anup Kumar",
@@ -601,19 +625,22 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         },
         {
           "name": "Simon Bray",
           "joined": "2019-05",
           "elixir_node": "de",
           "id": "simonbray",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         }
       ],
       "url": "/topics/statistics/tutorials/regression_machinelearning/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "regression_machinelearning",
+      "dir": "topics/statistics/tutorials/regression_machinelearning",
       "id": "statistics/regression_machinelearning",
       "video_library": {
         "tutorial": {
@@ -662,7 +689,8 @@
       "workflows": [
         {
           "workflow": "regression.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/workflows/regression.ga"
         }
       ],
       "tools": [
@@ -738,12 +766,14 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
       "url": "/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "gpu_jupyter_lab",
+      "dir": "topics/statistics/tutorials/gpu_jupyter_lab",
       "id": "statistics/gpu_jupyter_lab",
       "video_library": {
         "tutorial": null,
@@ -757,7 +787,8 @@
       "workflows": [
         {
           "workflow": "gpu_jupyterlab_as_jupytool.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/gpu_jupyter_lab/workflows/gpu_jupyterlab_as_jupytool.ga"
         }
       ],
       "tools": [
@@ -822,12 +853,14 @@
           "email": "kxk302@gmail.com",
           "joined": "2021-02",
           "id": "kxk302",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
       "url": "/topics/statistics/tutorials/FNN/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "FNN",
+      "dir": "topics/statistics/tutorials/FNN",
       "id": "statistics/FNN",
       "video_library": {
         "tutorial": null,
@@ -876,7 +909,8 @@
       "workflows": [
         {
           "workflow": "Intro_To_FNN.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/FNN/workflows/Intro_To_FNN.ga"
         }
       ],
       "tools": [
@@ -934,7 +968,8 @@
           "email": "mac78@psu.edu",
           "joined": "2018-02",
           "id": "marziacremona",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/marziacremona.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/marziacremona.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/marziacremona/"
         },
         {
           "name": "Fabio Cumbo",
@@ -945,12 +980,14 @@
           "orcid": "0000-0003-2920-5838",
           "joined": "2018-02",
           "id": "cumbof",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/cumbof.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/cumbof.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cumbof/"
         }
       ],
       "url": "/topics/statistics/tutorials/iwtomics/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "iwtomics",
+      "dir": "topics/statistics/tutorials/iwtomics",
       "id": "statistics/iwtomics",
       "video_library": {
         "tutorial": null,
@@ -964,7 +1001,8 @@
       "workflows": [
         {
           "workflow": "IWTomics_Workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/iwtomics/workflows/IWTomics_Workflow.ga"
         }
       ],
       "tools": [
@@ -1021,12 +1059,14 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
       "url": "/topics/statistics/tutorials/machinelearning/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "machinelearning",
+      "dir": "topics/statistics/tutorials/machinelearning",
       "id": "statistics/machinelearning",
       "video_library": {
         "tutorial": null,
@@ -1040,7 +1080,8 @@
       "workflows": [
         {
           "workflow": "machine_learning.ga",
-          "tests": true
+          "tests": true,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/machinelearning/workflows/machine_learning.ga"
         }
       ],
       "tools": [
@@ -1085,7 +1126,8 @@
           "name": "Vijay",
           "joined": "2018-07",
           "id": "nvk747",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nvk747.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nvk747.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nvk747/"
         },
         {
           "name": "Daniel Blankenberg",
@@ -1093,7 +1135,8 @@
           "orcid": "0000-0002-6833-9049",
           "joined": "2018-07",
           "id": "blankenberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/"
         }
       ],
       "tags": [
@@ -1105,6 +1148,7 @@
       "url": "/topics/statistics/tutorials/aberrant_pi3k_pathway_analysis/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "aberrant_pi3k_pathway_analysis",
+      "dir": "topics/statistics/tutorials/aberrant_pi3k_pathway_analysis",
       "id": "statistics/aberrant_pi3k_pathway_analysis",
       "video_library": {
         "tutorial": null,
@@ -1118,7 +1162,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/aberrant_pi3k_pathway_analysis/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -1192,12 +1237,14 @@
           "email": "kxk302@gmail.com",
           "joined": "2021-02",
           "id": "kxk302",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/kxk302.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
       "url": "/topics/statistics/tutorials/RNN/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "RNN",
+      "dir": "topics/statistics/tutorials/RNN",
       "id": "statistics/RNN",
       "video_library": {
         "tutorial": null,
@@ -1246,7 +1293,8 @@
       "workflows": [
         {
           "workflow": "Intro_To_RNN.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/RNN/workflows/Intro_To_RNN.ga"
         }
       ],
       "tools": [
@@ -1304,14 +1352,16 @@
           "orcid": "0000-0002-4217-5277",
           "joined": "2021-03",
           "id": "mgramm1",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mgramm1.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mgramm1.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mgramm1/"
         },
         {
           "name": "Dennis Lal group",
           "email": "dennislal.group@gmail.com",
           "joined": "2021-03",
           "id": "dlalgroup",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/dlalgroup.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/dlalgroup.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dlalgroup/"
         },
         {
           "name": "Daniel Blankenberg",
@@ -1319,12 +1369,14 @@
           "orcid": "0000-0002-6833-9049",
           "joined": "2018-07",
           "id": "blankenberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/"
         }
       ],
       "url": "/topics/statistics/tutorials/text-mining_simtext/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "text-mining_simtext",
+      "dir": "topics/statistics/tutorials/text-mining_simtext",
       "id": "statistics/text-mining_simtext",
       "video_library": {
         "tutorial": null,
@@ -1338,7 +1390,8 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/text-mining_simtext/workflows/main_workflow.ga"
         }
       ],
       "tools": [
@@ -1386,7 +1439,8 @@
           "name": "Ekaterina Polkh",
           "joined": "2017-09",
           "id": "polkhe",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/polkhe.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/polkhe.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/polkhe/"
         },
         {
           "name": "Anup Kumar",
@@ -1395,12 +1449,14 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
       "url": "/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "age-prediction-with-ml",
+      "dir": "topics/statistics/tutorials/age-prediction-with-ml",
       "id": "statistics/age-prediction-with-ml",
       "video_library": {
         "tutorial": null,
@@ -1414,11 +1470,13 @@
       "workflows": [
         {
           "workflow": "age-prediction-dnam.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/age-prediction-with-ml/workflows/age-prediction-dnam.ga"
         },
         {
           "workflow": "age-prediction-rna.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/age-prediction-with-ml/workflows/age-prediction-rna.ga"
         }
       ],
       "tools": [
@@ -1473,7 +1531,8 @@
           "joined": "2018-08",
           "elixir_node": "de",
           "id": "anuprulez",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/anuprulez.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         },
         {
           "name": "Alireza Khanteymoori",
@@ -1481,12 +1540,14 @@
           "orcid": "0000-0001-6811-9196",
           "joined": "2019-07",
           "id": "khanteymoori",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/khanteymoori.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/khanteymoori/"
         }
       ],
       "url": "/topics/statistics/tutorials/intro_deep_learning/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "intro_deep_learning",
+      "dir": "topics/statistics/tutorials/intro_deep_learning",
       "id": "statistics/intro_deep_learning",
       "video_library": {
         "tutorial": null,
@@ -1500,7 +1561,8 @@
       "workflows": [
         {
           "workflow": "Intro_To_Deep_Learning.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/intro_deep_learning/workflows/Intro_To_Deep_Learning.ga"
         }
       ],
       "tools": [
@@ -1591,7 +1653,8 @@
           "joined": "2019-03",
           "elixir_node": "gr",
           "id": "fpsom",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
           "name": "Erasmus+ Programme",
@@ -1602,12 +1665,14 @@
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "url": "/topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html",
       "topic_name": "statistics",
       "tutorial_name": "intro-to-ml-with-r",
+      "dir": "topics/statistics/tutorials/intro-to-ml-with-r",
       "id": "statistics/intro-to-ml-with-r",
       "video_library": {
         "tutorial": {

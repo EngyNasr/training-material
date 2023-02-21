@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=2">
         <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/training-material/assets/css/academicons.css">
-        <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
         <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
         <link rel="canonical" href="https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-conda/tutorial.html" />
@@ -32,15 +31,122 @@
         
         
         
-        
         <meta name="description" content="These lessons will help you get your feet in data science..." />
         <meta property="og:site_name" content="Galaxy Training Network" />
         <meta property="og:title" content="Galaxy Training: Conda Environments For Software Development" />
         <meta property="og:description" content="These lessons will help you get your feet in data science..." />
+        
         <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png" />
 
+        
+        <script type="application/ld+json">
+            
+
+
+{
+  "@context": "http://schema.org",
+  "@type": "LearningResource",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "audience": {
+    "@type": "EducationalAudience",
+    "educationalRole": "Students"
+  },
+  "citation": {
+    "@type": "CreativeWork",
+    "name": "Community-Driven Data Analysis Training for Biology",
+    "url": "https://doi.org/10.1016/j.cels.2018.05.012"
+  },
+  "copyrightHolder": {
+    "@type": "Organization",
+    "email": "galaxytrainingnetwork@gmail.com",
+    "name": "Galaxy Training Network",
+    "url": "https://galaxyproject.org/teach/gtn/"
+  },
+  "dateModified": "2022-11-03 13:03:24 +0000",
+  "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
+  "headline": "Conda Environments For Software Development",
+  "interactivityType": "mixed",
+  "isAccessibleForFree": true,
+  "isFamilyFriendly": true,
+  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "producer": {
+    "@type": "Organization",
+    "email": "galaxytrainingnetwork@gmail.com",
+    "name": "Galaxy Training Network",
+    "url": "https://galaxyproject.org/teach/gtn/"
+  },
+  "provider": {
+    "@type": "Organization",
+    "email": "galaxytrainingnetwork@gmail.com",
+    "name": "Galaxy Training Network",
+    "url": "https://galaxyproject.org/teach/gtn/"
+  },
+  "sourceOrganization": {
+    "@type": "Organization",
+    "email": "galaxytrainingnetwork@gmail.com",
+    "name": "Galaxy Training Network",
+    "url": "https://galaxyproject.org/teach/gtn/"
+  },
+  "identifier": "https://github.com/galaxyproject/training-material",
+  "accessMode": [
+    "textual",
+    "visual"
+  ],
+  "accessModeSufficient": [
+    "textual",
+    "visual"
+  ],
+  "accessibilityControl": [
+    "fullKeyboardControl",
+    "fullMouseControl"
+  ],
+  "accessibilityFeature": [
+    "alternativeText",
+    "tableOfContents"
+  ],
+  "accessibilitySummary": "The text aims to be as accessible as possible. Image descriptions will vary per tutorial, from images being completely inaccessible, to images with good descriptions for non-visual users.",
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Foundations of Data Science",
+    "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
+    "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
+  },
+  "learningResourceType": "hands-on tutorial",
+  "name": "Hands-on for 'Conda Environments For Software Development' tutorial",
+  "url": "https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-conda/tutorial.html",
+  "timeRequired": "PT30M",
+  "keywords": "data-science, conda, jupyter-notebook",
+  "description": "The questions this  addresses are:\n - What are Conda environments in software development and why you should use them?\n - How can we manage Conda environments and external (third-party) libraries via Conda?\n\n\nThe objectives are:\n - Set up a Conda environment for our software project using `conda`.\n - Run our software from the command line.\n\n",
+  "inLanguage": {
+    "@type": "Language",
+    "name": "English",
+    "alternateName": "en"
+  },
+  "about": [
+    {
+      "@type": "CreativeWork",
+      "name": "Foundations of Data Science",
+      "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
+      "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://edamontology.org/topic_3372",
+      "inDefinedTermSet": "http://edamontology.org",
+      "termCode": "topic_3372",
+      "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic_3372"
+    }
+  ],
+  "educationalLevel": "Intermediate"
+}
+        </script>
+        
     </head>
     <body data-spy="scroll" data-target="#toc">
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -164,27 +270,14 @@
             </div>
 
             <div id="theme-selector" data-toggle="buttons">
-                <label data-value="default" class="btn btn-secondary">
-                    <input type="radio" name="options" id="default" autocomplete="off"> Default
-                </label>
-                <label data-value="night" class="btn btn-secondary">
-                    <input type="radio" name="options" id="night" autocomplete="off"> Night
-                </label>
-                <label data-value="midnight" class="btn btn-secondary">
-                    <input type="radio" name="options" id="midnight" autocomplete="off"> Midnight
-                </label>
-                <label data-value="rainbow" class="btn btn-secondary">
-                    <input type="radio" name="options" id="rainbow" autocomplete="off"> Rainbow
-                </label>
-                <label data-value="progress" class="btn btn-secondary">
-                    <input type="radio" name="options" id="progress" autocomplete="off">🏳️‍🌈
-                </label>
-                <label data-value="halloween" class="btn btn-secondary">
-                    <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
-                </label>
-                <label data-value="straya" class="btn btn-secondary">
-                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
-                </label>
+                    <button class="btn" data-theme="default">Default</button>
+                    <button class="btn" data-theme="night">Night</button>
+                    <button class="btn" data-theme="midnight">Midnight</button>
+                    <button class="btn" data-theme="rainbow">Rainbow</button>
+                    <button class="btn" data-theme="blm">✊🏿</button>
+                    <button class="btn" data-theme="progress" >🏳️‍🌈</button>
+                    <button class="btn" data-theme="halloween">🎃</button>
+                    <button class="btn" data-theme="straya">🇦🇺</button>
             </div>
 
         </div>
@@ -253,104 +346,6 @@
   };
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-<script type="application/ld+json">
-    
-
-
-{
-  "@context": "http://schema.org",
-  "@type": "LearningResource",
-  "http://purl.org/dc/terms/conformsTo": {
-    "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
-    "@type": "CreativeWork"
-  },
-  "audience": {
-    "@type": "EducationalAudience",
-    "educationalRole": "Students"
-  },
-  "citation": {
-    "@type": "CreativeWork",
-    "name": "Community-Driven Data Analysis Training for Biology",
-    "url": "https://doi.org/10.1016/j.cels.2018.05.012"
-  },
-  "copyrightHolder": {
-    "@type": "Organization",
-    "email": "galaxytrainingnetwork@gmail.com",
-    "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
-  },
-  "dateModified": "2022-11-03 13:03:24 +0000",
-  "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
-  "headline": "Conda Environments For Software Development",
-  "interactivityType": "mixed",
-  "isAccessibleForFree": true,
-  "isFamilyFriendly": true,
-  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
-  "producer": {
-    "@type": "Organization",
-    "email": "galaxytrainingnetwork@gmail.com",
-    "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
-  },
-  "provider": {
-    "@type": "Organization",
-    "email": "galaxytrainingnetwork@gmail.com",
-    "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
-  },
-  "sourceOrganization": {
-    "@type": "Organization",
-    "email": "galaxytrainingnetwork@gmail.com",
-    "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
-  },
-  "identifier": "https://github.com/galaxyproject/training-material",
-  "accessMode": [
-    "textual",
-    "visual"
-  ],
-  "accessModeSufficient": [
-    "textual",
-    "visual"
-  ],
-  "accessibilityControl": [
-    "fullKeyboardControl",
-    "fullMouseControl"
-  ],
-  "accessibilityFeature": [
-    "alternativeText",
-    "tableOfContents"
-  ],
-  "accessibilitySummary": "The text aims to be as accessible as possible. Image descriptions will vary per tutorial, from images being completely inaccessible, to images with good descriptions for non-visual users.",
-  "isPartOf": {
-    "@type": "CreativeWork",
-    "name": "Foundations of Data Science",
-    "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
-    "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
-  },
-  "learningResourceType": "hands-on tutorial",
-  "name": "Hands-on for 'Conda Environments For Software Development' tutorial",
-  "url": "https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-conda/tutorial.html",
-  "timeRequired": "PT30M",
-  "keywords": "data-science, conda, jupyter-notebook",
-  "description": "The questions this  addresses are:\n - What are Conda environments in software development and why you should use them?\n - How can we manage Conda environments and external (third-party) libraries via Conda?\n\n\nThe objectives are:\n - Set up a Conda environment for our software project using `conda`.\n - Run our software from the command line.\n\n",
-  "inLanguage": {
-    "@type": "Language",
-    "name": "English",
-    "alternateName": "en"
-  },
-  "about": [
-    {
-      "@type": "CreativeWork",
-      "name": "Foundations of Data Science",
-      "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
-      "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
-    }
-  ],
-  "educationalLevel": "Intermediate"
-}
-</script>
 
 <section class="tutorial topic-data-science">
     <h1 data-toc-skip>Conda Environments For Software Development</h1>
@@ -548,7 +543,7 @@
                 <p>Conda environments, like Python Virtual Environments allow you to easily manage your installed packages and prevent conflicts between different project’s dependencies. This tutorial follows an identical structure to the virtualenv tutorial, but with conda.</p>
 
 <blockquote class="comment">
-  <div id="comment" class="box-title" aria-label="comment box: "><i class="far fa-comment-dots" aria-hidden="true"></i><span class="visually-hidden"></span> Comment</div>
+  <div class="box-title comment-title" id="comment" aria-label="comment box: "><i class="far fa-comment-dots" aria-hidden="true"></i><span class="visually-hidden"></span> Comment</div>
 
   <p>This tutorial is significantly based on <a href="https://carpentries.org">the Carpentries</a> lesson <a href="https://carpentries-incubator.github.io/python-intermediate-development/">“Intermediate Research Software Development”</a>.</p>
 
@@ -587,7 +582,7 @@ additional exte<span class="notranslate">rna</span>l libraries.</p>
 to set up an environment to develop our code and manage our exte<span class="notranslate">rna</span>l dependencies.</p>
 
 <blockquote class="agenda">
-  <div id="agenda" class="box-title" aria-label="agenda box: ">Agenda</div>
+  <div class="box-title agenda-title" id="agenda" aria-label="agenda box: ">Agenda</div>
 
   <p>In this tutorial, we will cover:</p>
 
@@ -638,7 +633,7 @@ Conda environments enable you to always use the latest available version without
 They also enable you to use a specific older version of a package for your project, should you need to.</p>
 
 <blockquote class="tip">
-  <div id="tip-a-specific-package-version-is-only-ever-installed-once" class="box-title"><button type="button" aria-controls="tip-a-specific-package-version-is-only-ever-installed-once-contents" aria-expanded="true" aria-label="Toggle tip box: A Specific Package Version is Only Ever Installed Once"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: A Specific Package Version is Only Ever Installed Once<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
+  <div class="box-title tip-title" id="tip-a-specific-package-version-is-only-ever-installed-once"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-a-specific-package-version-is-only-ever-installed-once-contents" aria-expanded="true" aria-label="Toggle tip box: A Specific Package Version is Only Ever Installed Once"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: A Specific Package Version is Only Ever Installed Once<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>Note that you will not have a separate package installations for each of your projects - they will only
 ever be installed once on your system (in <code class="language-plaintext highlighter-rouge">$CONDA/pkgs</code>) but will be referenced from different environments.</p>
 </blockquote>
@@ -664,7 +659,7 @@ on your system. The Conda command (<code class="language-plaintext highlighter-r
  and obtains the packages from one or more Conda repositories (e.g. Conda Forge, BioConda, etc.)</p>
 
 <blockquote class="tip">
-  <div id="tip-a-note-on-anaconda-and-conda" class="box-title"><button type="button" aria-controls="tip-a-note-on-anaconda-and-conda-contents" aria-expanded="true" aria-label="Toggle tip box: A Note on Anaconda and `conda`"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: A Note on Anaconda and `conda`<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
+  <div class="box-title tip-title" id="tip-a-note-on-anaconda-and-conda"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-a-note-on-anaconda-and-conda-contents" aria-expanded="true" aria-label="Toggle tip box: A Note on Anaconda and `conda`"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: A Note on Anaconda and `conda`<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>Anaconda is an open source Python
 distribution commonly used for scientific programming - it conveniently installs Python, package and environment management <code class="language-plaintext highlighter-rouge">conda</code>, and a 
 number of commonly used scientific computing packages so you do not have to obtain them separately. 
@@ -691,7 +686,7 @@ too to which your knowledge can be ported).</p>
 <p>We will use Miniconda, a minimal conda installer that is commonly used, in place of the larger and slower to download full anaconda distribution.</p>
 
 <blockquote class="notranslate hands_on">
-  <div id="hands-on-installing-conda-via-miniconda" class="box-title" aria-label="hands-on box: Installing Conda via Miniconda"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Installing Conda via Miniconda</div>
+  <div class="box-title hands-on-title" id="hands-on-installing-conda-via-miniconda" aria-label="hands-on box: Installing Conda via Miniconda"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Installing Conda via Miniconda</div>
   <ol>
     <li>Go to the <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda installation page</a> and find the appropriate installer for your system.</li>
     <li>Download and run the script.</li>
@@ -712,7 +707,7 @@ bash Miniconda3-latest-Linux-x86_64.sh <span class="nt">-b</span>
 </code></pre></div></div>
 
 <blockquote class="tip">
-  <div id="tip-reopen-shell-restart-jupyter-kernel" class="box-title"><button type="button" aria-controls="tip-reopen-shell-restart-jupyter-kernel-contents" aria-expanded="true" aria-label="Toggle tip box: Reopen Shell / Restart Jupyter Kernel"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Reopen Shell / Restart Jupyter Kernel<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
+  <div class="box-title tip-title" id="tip-reopen-shell-restart-jupyter-kernel"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-reopen-shell-restart-jupyter-kernel-contents" aria-expanded="true" aria-label="Toggle tip box: Reopen Shell / Restart Jupyter Kernel"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Reopen Shell / Restart Jupyter Kernel<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>Here you will need to restart your kernel, or if you’re in a desktop environment, restart your terminal.</p>
 </blockquote>
 
@@ -724,7 +719,7 @@ bash Miniconda3-latest-Linux-x86_64.sh <span class="nt">-b</span>
 </code></pre></div></div>
 
 <blockquote class="tip">
-  <div id="tip-does-it-get-stuck" class="box-title"><button type="button" aria-controls="tip-does-it-get-stuck-contents" aria-expanded="true" aria-label="Toggle tip box: Does it get stuck?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Does it get stuck?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
+  <div class="box-title tip-title" id="tip-does-it-get-stuck"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-does-it-get-stuck-contents" aria-expanded="true" aria-label="Toggle tip box: Does it get stuck?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Does it get stuck?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>This step we have sometimes seen get “stuck”, it will finish executing the transaction and hang, despite successfully installing the software. You can restart the kernel if this happens.</p>
 </blockquote>
 
@@ -770,7 +765,7 @@ conda config <span class="nt">--add</span> channels conda-forge
 <p>You’ll notice that there is a <code class="language-plaintext highlighter-rouge">base</code> environment created by default, where you can install packages and play around with Conda. We do not recommend installing things into the <code class="language-plaintext highlighter-rouge">base</code> environment, if at all possible. Create a new environment for each tool you need to install</p>
 
 <blockquote class="tip">
-  <div id="tip-why-separate-environments" class="box-title"><button type="button" aria-controls="tip-why-separate-environments-contents" aria-expanded="true" aria-label="Toggle tip box: Why separate environments?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Why separate environments?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
+  <div class="box-title tip-title" id="tip-why-separate-environments"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-why-separate-environments-contents" aria-expanded="true" aria-label="Toggle tip box: Why separate environments?"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Why separate environments?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>Conda’s package resolution takes into account every other package installed in an environment. Especially if you use R packages, this can result in environments taking an inreasing amount to time to install new packages and resolve all of the dependencies.</p>
 
   <p>Thus by using isolated environments, you can be sure package resolution is quite fast.</p>
@@ -872,7 +867,7 @@ accordingly by re-issuing <code class="language-plaintext highlighter-rouge">con
 via your code sharing platform (e.g. GitHub).</p>
 
 <blockquote class="tip">
-  <div id="tip-official-documentation" class="box-title"><button type="button" aria-controls="tip-official-documentation-contents" aria-expanded="true" aria-label="Toggle tip box: Official Documentation"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Official Documentation<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
+  <div class="box-title tip-title" id="tip-official-documentation"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-official-documentation-contents" aria-expanded="true" aria-label="Toggle tip box: Official Documentation"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Official Documentation<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
   <p>For a full list of options and commands, consult the <a href="https://docs.conda.io/projects/conda/en/latest/commands.html">official <code class="language-plaintext highlighter-rouge">conda</code> documentation</a></p>
 </blockquote>
 
@@ -1082,8 +1077,6 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
         <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
         <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
         <script type="text/javascript">
         var snippets=document.querySelectorAll('div.highlight');

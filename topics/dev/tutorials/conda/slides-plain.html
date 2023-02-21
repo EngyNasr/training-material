@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=2">
         <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/training-material/assets/css/academicons.css">
-        <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
         <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
         <link rel="canonical" href="https://training.galaxyproject.org/training-material/topics/dev/tutorials/conda/slides-plain.html" />
@@ -24,7 +23,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Tool Dependencies and Conda" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="2023-02-21 01:12:40 +0000" />
+<meta name="DC.date" content="2023-02-21 08:45:31 +0000" />
 <meta name="DC.creator" content="Nicola Soranzo" />
 <meta name="DC.creator" content="John Chilton" />
 <meta name="DC.creator" content="Björn Grüning" />
@@ -34,15 +33,17 @@
         
         
         
-        
         <meta name="description" content="Galaxy is an open-source project. Everyone can contribute..." />
         <meta property="og:site_name" content="Galaxy Training Network" />
         <meta property="og:title" content="Galaxy Training: Tool Dependencies and Conda" />
         <meta property="og:description" content="Galaxy is an open-source project. Everyone can contribute..." />
+        
         <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png" />
 
+        
     </head>
     <body data-spy="scroll" data-target="#toc">
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -164,27 +165,14 @@
             </div>
 
             <div id="theme-selector" data-toggle="buttons">
-                <label data-value="default" class="btn btn-secondary">
-                    <input type="radio" name="options" id="default" autocomplete="off"> Default
-                </label>
-                <label data-value="night" class="btn btn-secondary">
-                    <input type="radio" name="options" id="night" autocomplete="off"> Night
-                </label>
-                <label data-value="midnight" class="btn btn-secondary">
-                    <input type="radio" name="options" id="midnight" autocomplete="off"> Midnight
-                </label>
-                <label data-value="rainbow" class="btn btn-secondary">
-                    <input type="radio" name="options" id="rainbow" autocomplete="off"> Rainbow
-                </label>
-                <label data-value="progress" class="btn btn-secondary">
-                    <input type="radio" name="options" id="progress" autocomplete="off">🏳️‍🌈
-                </label>
-                <label data-value="halloween" class="btn btn-secondary">
-                    <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
-                </label>
-                <label data-value="straya" class="btn btn-secondary">
-                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
-                </label>
+                    <button class="btn" data-theme="default">Default</button>
+                    <button class="btn" data-theme="night">Night</button>
+                    <button class="btn" data-theme="midnight">Midnight</button>
+                    <button class="btn" data-theme="rainbow">Rainbow</button>
+                    <button class="btn" data-theme="blm">✊🏿</button>
+                    <button class="btn" data-theme="progress" >🏳️‍🌈</button>
+                    <button class="btn" data-theme="halloween">🎃</button>
+                    <button class="btn" data-theme="straya">🇦🇺</button>
             </div>
 
         </div>
@@ -778,20 +766,20 @@ The following line indicates the seqtk package was found:
 
 ---
 
-&lt;div id="hands-on-hands-on" class="box-title" aria-label="hands-on box: Hands-on"&gt;&lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;&lt;/span&gt; Hands-on: Hands-on&lt;/div&gt;
+&lt;div class="box-title hands-on-title" id="hands-on-hands-on" aria-label="hands-on box: Hands-on"&gt;&lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;&lt;/span&gt; Hands-on: Hands-on&lt;/div&gt;
 
 &lt;img src="../../images/exercise.png" alt="Cartoon of people jumping."  loading="lazy"&gt;
 
 ---
 
-&lt;div id="hands-on-hands-on-1" class="box-title" aria-label="hands-on box: Hands-on"&gt;&lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;&lt;/span&gt; Hands-on: Hands-on&lt;/div&gt;
+&lt;div class="box-title hands-on-title" id="hands-on-hands-on-1" aria-label="hands-on box: Hands-on"&gt;&lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;&lt;/span&gt; Hands-on: Hands-on&lt;/div&gt;
 
 #### The Goal
 - Use the Planemo commands `conda_install`, `conda_env`, and `test` to practice the Galaxy tool dependency development lifecycle.
 
 ---
 
-&lt;div id="hands-on-hands-on-2" class="box-title" aria-label="hands-on box: Hands-on"&gt;&lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;&lt;/span&gt; Hands-on: Hands-on&lt;/div&gt;
+&lt;div class="box-title hands-on-title" id="hands-on-hands-on-2" aria-label="hands-on box: Hands-on"&gt;&lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;&lt;/span&gt; Hands-on: Hands-on&lt;/div&gt;
 
 #### Steps
 
@@ -861,13 +849,13 @@ only one that will be used by Galaxy by default.</p>
 
 <hr />
 
-<div id="hands-on-hands-on-3" class="box-title" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
+<div class="box-title hands-on-title" id="hands-on-hands-on-3" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
 
 <p><img src="../../images/exercise.png" alt="Cartoon of people jumping." loading="lazy" /></p>
 
 <hr />
 
-<div id="hands-on-hands-on-4" class="box-title" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
+<div class="box-title hands-on-title" id="hands-on-hands-on-4" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
 
 <h4 id="the-goal">The Goal</h4>
 <ul>
@@ -877,7 +865,7 @@ only one that will be used by Galaxy by default.</p>
 
 <hr />
 
-<div id="hands-on-hands-on-5" class="box-title" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
+<div class="box-title hands-on-title" id="hands-on-hands-on-5" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
 
 <h4 id="steps">Steps</h4>
 
@@ -1162,13 +1150,13 @@ cache.</p>
 
 <hr />
 
-<div id="hands-on-hands-on-6" class="box-title" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
+<div class="box-title hands-on-title" id="hands-on-hands-on-6" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
 
 <p><img src="../../images/exercise.png" alt="Cartoon of people jumping." loading="lazy" /></p>
 
 <hr />
 
-<div id="hands-on-hands-on-7" class="box-title" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
+<div class="box-title hands-on-title" id="hands-on-hands-on-7" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
 
 <h4 id="the-goal-1">The Goal</h4>
 <ul>
@@ -1180,7 +1168,7 @@ cache.</p>
 
 <p>class: left</p>
 
-<div id="hands-on-hands-on-8" class="box-title" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
+<div class="box-title hands-on-title" id="hands-on-hands-on-8" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
 
 <h4 id="before">Before</h4>
 
@@ -1197,7 +1185,7 @@ cache.</p>
 
 <p>class: left</p>
 
-<div id="hands-on-hands-on-9" class="box-title" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
+<div class="box-title hands-on-title" id="hands-on-hands-on-9" aria-label="hands-on box: Hands-on"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Hands-on</div>
 
 <h4 id="steps-1">Steps</h4>
 
@@ -1588,7 +1576,7 @@ This material is licensed under the <a rel="license" href="https://creativecommo
         The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
         </p>
 
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/2fd480cf8b1385e7e109c34055a67f0cba652c4d">2fd480cf8b1385e7e109c34055a67f0cba652c4d</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/210c8d1a88846336af52320505e3fd76ae0dd4f9">210c8d1a88846336af52320505e3fd76ae0dd4f9</a></p>
     </div>
 </footer>
 
@@ -1600,8 +1588,6 @@ This material is licensed under the <a rel="license" href="https://creativecommo
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
         <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
         <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
         <script type="text/javascript">
         var snippets=document.querySelectorAll('div.highlight');
