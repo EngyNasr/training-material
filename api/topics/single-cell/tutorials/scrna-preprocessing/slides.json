@@ -65,14 +65,14 @@
   "slides": true,
   "workflows": [
     {
-      "workflow": "scrna_pp_celseq.ga",
-      "tests": false,
-      "url": "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-preprocessing/workflows/scrna_pp_celseq.ga"
-    },
-    {
       "workflow": "scrna_mp_celseq.ga",
       "tests": false,
       "url": "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-preprocessing/workflows/scrna_mp_celseq.ga"
+    },
+    {
+      "workflow": "scrna_pp_celseq.ga",
+      "tests": false,
+      "url": "https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-preprocessing/workflows/scrna_pp_celseq.ga"
     }
   ],
   "tools": [
