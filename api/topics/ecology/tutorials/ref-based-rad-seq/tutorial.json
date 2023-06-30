@@ -52,14 +52,14 @@
   "slides": false,
   "workflows": [
     {
-      "workflow": "workflow.ga",
-      "tests": false,
-      "url": "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ref-based-rad-seq/workflows/workflow.ga"
-    },
-    {
       "workflow": "Galaxy-Workflow-Workflow_constructed_from_history__STACKS_RAD__population_genomics_with_reference_genome_.ga",
       "tests": false,
       "url": "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ref-based-rad-seq/workflows/Galaxy-Workflow-Workflow_constructed_from_history__STACKS_RAD__population_genomics_with_reference_genome_.ga"
+    },
+    {
+      "workflow": "workflow.ga",
+      "tests": false,
+      "url": "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ref-based-rad-seq/workflows/workflow.ga"
     }
   ],
   "tools": [
