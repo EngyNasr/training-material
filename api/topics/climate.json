@@ -26,7 +26,7 @@
     {
       "layout": "tutorial_hands_on",
       "title": "Getting your hands-on climate data",
-      "zenodo_link": "https://doi.org/10.5281/zenodo.3776499",
+      "zenodo_link": "https://zenodo.org/record/3776500",
       "questions": [
         "What is climate?",
         "What type of data is available?"
@@ -54,6 +54,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
+      "short_id": "T00041",
       "url": "/topics/climate/tutorials/climate-101/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "climate-101",
@@ -72,9 +73,23 @@
         {
           "workflow": "climate_101_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/workflows/climate_101_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/workflows/climate_101_workflow.ga",
+          "path": "topics/climate/tutorials/climate-101/workflows/climate_101_workflow.ga",
+          "wfid": "climate-climate-101",
+          "wfname": "climate_101_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-climate-101/versions/climate_101_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-1784-2920",
+              "name": "Anne Fouilloux"
+            }
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/climate-101/tutorial.json",
       "tools": [
         "Grep1",
         "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/1.1.1",
@@ -84,6 +99,78 @@
         "toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0",
         "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy1"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+          {
+            "url": "https://usegalaxy.no/",
+            "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          }
+        ]
+      },
+      "topic_name_human": "Climate",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "text_processing",
+            "owner": "bgruening",
+            "revisions": "9ff72e942410",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "cds_essential_variability",
+            "owner": "climate",
+            "revisions": "9ee8db6ffba3",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "climate_stripes",
+            "owner": "climate",
+            "revisions": "c6f2435d680b",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "psy_maps",
+            "owner": "climate",
+            "revisions": "706666d912d5",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "datamash_ops",
+            "owner": "iuc",
+            "revisions": "562f3c677828",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "ggplot2_point",
+            "owner": "iuc",
+            "revisions": "9cec81e1b90e",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: 9ff72e942410\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: cds_essential_variability\n  owner: climate\n  revisions: 9ee8db6ffba3\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: climate_stripes\n  owner: climate\n  revisions: c6f2435d680b\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: psy_maps\n  owner: climate\n  revisions: 706666d912d5\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: datamash_ops\n  owner: iuc\n  revisions: 562f3c677828\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ggplot2_point\n  owner: iuc\n  revisions: 9cec81e1b90e\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -97,8 +184,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/climate-101/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/climate-101/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/climate-101/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/climate-101/tutorial.json"
       }
     },
     {
@@ -143,6 +230,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
+      "short_id": "T00044",
       "url": "/topics/climate/tutorials/pangeo/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "pangeo",
@@ -191,9 +279,24 @@
         {
           "workflow": "main_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo/workflows/main_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo/workflows/main_workflow.ga",
+          "path": "topics/climate/tutorials/pangeo/workflows/main_workflow.ga",
+          "wfid": "climate-pangeo",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-pangeo/versions/main_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "0000-0002-1784-2920",
+              "name": "Anne Fouilloux",
+              "url": "https://github.com/annefou"
+            }
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo/tutorial.json",
       "tools": [
         "__EXTRACT_DATASET__",
         "__MERGE_COLLECTION__",
@@ -207,6 +310,100 @@
         "toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1",
         "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Climate",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "graphicsmagick_image_montage",
+            "owner": "bgruening",
+            "revisions": "39881709807e",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "climate_stripes",
+            "owner": "climate",
+            "revisions": "c6f2435d680b",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "xarray_coords_info",
+            "owner": "ecology",
+            "revisions": "6015f30a7258",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "xarray_mapplot",
+            "owner": "ecology",
+            "revisions": "d7479b6dfbe8",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "xarray_metadata_info",
+            "owner": "ecology",
+            "revisions": "e8650cdf092f",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "xarray_netcdf2netcdf",
+            "owner": "ecology",
+            "revisions": "1a91e551f3a9",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "xarray_select",
+            "owner": "ecology",
+            "revisions": "6baac361495b",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "regex_find_replace",
+            "owner": "galaxyp",
+            "revisions": "ae8c4b2488e7",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "ggplot2_point",
+            "owner": "iuc",
+            "revisions": "e3a675da7fd0",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: graphicsmagick_image_montage\n  owner: bgruening\n  revisions: 39881709807e\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: climate_stripes\n  owner: climate\n  revisions: c6f2435d680b\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: xarray_coords_info\n  owner: ecology\n  revisions: 6015f30a7258\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: xarray_mapplot\n  owner: ecology\n  revisions: d7479b6dfbe8\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: xarray_metadata_info\n  owner: ecology\n  revisions: e8650cdf092f\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: xarray_netcdf2netcdf\n  owner: ecology\n  revisions: 1a91e551f3a9\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: xarray_select\n  owner: ecology\n  revisions: 6baac361495b\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: regex_find_replace\n  owner: galaxyp\n  revisions: ae8c4b2488e7\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ggplot2_point\n  owner: iuc\n  revisions: e3a675da7fd0\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": true,
       "translations": {
@@ -220,8 +417,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo/tutorial.json"
       }
     },
     {
@@ -311,6 +508,7 @@
         "language": "python",
         "snippet": "topics/climate/tutorials/pangeo-notebook/preamble.md"
       },
+      "short_id": "T00045",
       "url": "/topics/climate/tutorials/pangeo-notebook/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "pangeo-notebook",
@@ -359,12 +557,49 @@
         {
           "workflow": "main_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo-notebook/workflows/main_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo-notebook/workflows/main_workflow.ga",
+          "path": "topics/climate/tutorials/pangeo-notebook/workflows/main_workflow.ga",
+          "wfid": "climate-pangeo-notebook",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-pangeo-notebook/versions/main_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-1784-2920",
+              "name": "Anne Fouilloux",
+              "url": "https://github.com/annefou"
+            }
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo-notebook/tutorial.json",
       "tools": [
         "interactive_tool_pangeo_notebook"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Climate",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": true,
       "translations": {
@@ -378,8 +613,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo-notebook/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo-notebook/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo-notebook/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo-notebook/tutorial.json"
       }
     },
     {
@@ -447,6 +682,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/huitang-earth/"
         }
       ],
+      "short_id": "T00042",
       "url": "/topics/climate/tutorials/fates/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "fates",
@@ -532,9 +768,23 @@
         {
           "workflow": "CLM-FATES_ALP1_simulation_5years.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/workflows/CLM-FATES_ALP1_simulation_5years.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/workflows/CLM-FATES_ALP1_simulation_5years.ga",
+          "path": "topics/climate/tutorials/fates/workflows/CLM-FATES_ALP1_simulation_5years.ga",
+          "wfid": "climate-fates",
+          "wfname": "clm-fates_alp1_simulation_5years",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-fates/versions/clm-fates_alp1_simulation_5years",
+          "license": "Apache-2.0",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-1784-2920",
+              "name": "Anne Fouilloux"
+            }
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates/tutorial.json",
       "tools": [
         "__EXTRACT_DATASET__",
         "interactive_tool_panoply",
@@ -544,6 +794,67 @@
         "toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/0.15.1",
         "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy2"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Climate",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "text_processing",
+            "owner": "bgruening",
+            "revisions": "f46f0e4f75c4",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "ctsm_fates",
+            "owner": "climate",
+            "revisions": "b525b88bc941",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "xarray_metadata_info",
+            "owner": "ecology",
+            "revisions": "e8650cdf092f",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "xarray_select",
+            "owner": "ecology",
+            "revisions": "6baac361495b",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "ggplot2_point",
+            "owner": "iuc",
+            "revisions": "e3a675da7fd0",
+            "tool_panel_section_label": "Climate",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: f46f0e4f75c4\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ctsm_fates\n  owner: climate\n  revisions: b525b88bc941\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: xarray_metadata_info\n  owner: ecology\n  revisions: e8650cdf092f\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: xarray_select\n  owner: ecology\n  revisions: 6baac361495b\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ggplot2_point\n  owner: iuc\n  revisions: e3a675da7fd0\n  tool_panel_section_label: Climate\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": true,
       "translations": {
@@ -557,8 +868,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates/tutorial.json"
       }
     },
     {
@@ -567,7 +878,9 @@
       "priority": 1,
       "title": "Introduction to climate data",
       "redirect_from": [
-        "/topics/climate/slides/introduction"
+        "/topics/climate/slides/introduction",
+        "/short/climate/introduction/slides",
+        "/short/S00037"
       ],
       "video": true,
       "contributors": [
@@ -589,6 +902,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/j34ni/"
         }
       ],
+      "short_id": "S00037",
       "url": "/topics/climate/tutorials/introduction/slides.html",
       "topic_name": "climate",
       "tutorial_name": "introduction",
@@ -603,9 +917,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/introduction/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Climate",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "translations": {
         "tutorial": [
@@ -618,8 +965,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/introduction/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/introduction/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/introduction/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/introduction/slides.json"
       }
     },
     {
@@ -658,6 +1005,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
+      "short_id": "T00046",
       "url": "/topics/climate/tutorials/panoply/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "panoply",
@@ -672,9 +1020,37 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/panoply/tutorial.json",
       "tools": [
         "interactive_tool_panoply"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Climate",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -688,8 +1064,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/panoply/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/panoply/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/panoply/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/panoply/tutorial.json"
       }
     },
     {
@@ -761,6 +1137,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
+      "short_id": "T00043",
       "url": "/topics/climate/tutorials/fates-jupyterlab/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "fates-jupyterlab",
@@ -775,9 +1152,52 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates-jupyterlab/tutorial.json",
       "tools": [
         "interactive_tool_jupyter_notebook"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Climate",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -791,8 +1211,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates-jupyterlab/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates-jupyterlab/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates-jupyterlab/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates-jupyterlab/tutorial.json"
       }
     }
   ]

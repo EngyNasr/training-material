@@ -28,9 +28,9 @@
       "martenson",
       "jmchilton",
       "davebx",
-      "nsoranzo",
       "lecorguille",
-      "abretaud"
+      "abretaud",
+      "lldelisle"
     ],
     "testing": [
       "mira-miracoli"
@@ -52,12 +52,18 @@
     },
     {
       "type": "none",
-      "title": "A VM with at least 2 vCPUs and 4 GB RAM, preferably running Ubuntu 18.04 - 20.04."
+      "title": "A VM with at least 2 vCPUs and 4 GB RAM, preferably running Ubuntu 20.04 - 22.04."
     }
   ],
   "abbreviations": {
     "DVCS": "Distributed Version Control System"
   },
+  "edam_ontology": [
+    "topic_3489",
+    "topic_0605",
+    "topic_3071"
+  ],
+  "short_id": "T00001",
   "url": "/topics/admin/tutorials/ansible-galaxy/tutorial.html",
   "topic_name": "admin",
   "tutorial_name": "ansible-galaxy",
@@ -146,9 +152,42 @@
   },
   "hands_on": true,
   "slides": true,
+  "api": "https://training.galaxyproject.org/training-material/api/topics/admin/tutorials/ansible-galaxy/tutorial.json",
   "tools": [
 
   ],
+  "supported_servers": {
+    "exact": [
+
+    ],
+    "inexact": [
+      {
+        "name": "UseGalaxy.eu",
+        "url": "https://usegalaxy.eu",
+        "usegalaxy": true
+      },
+      {
+        "name": "UseGalaxy.org",
+        "url": "https://usegalaxy.org",
+        "usegalaxy": true
+      },
+      {
+        "name": "UseGalaxy.org.au",
+        "url": "https://usegalaxy.org.au",
+        "usegalaxy": true
+      }
+    ]
+  },
+  "topic_name_human": "Galaxy Server administration",
+  "admin_install": {
+    "install_tool_dependencies": true,
+    "install_repository_dependencies": true,
+    "install_resolver_dependencies": true,
+    "tools": [
+
+    ]
+  },
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
   "tours": false,
   "video": true,
   "translations": {
@@ -167,16 +206,24 @@
       "email": "hexylena@galaxians.org",
       "orcid": "0000-0001-9760-8992",
       "maintainer_contact": "gitter",
-      "gitter": "hexylena",
+      "matrix": "hexylena:matrix.org",
       "joined": "2017-09",
       "elixir_node": "nl",
+      "fediverse": "https://galaxians.garden/hexylena",
+      "fediverse_flavor": "akkoma",
+      "contact_for_training": false,
+      "location": {
+        "country": "NL",
+        "lat": 51.91,
+        "lon": 4.46
+      },
       "id": "hexylena",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     },
     {
       "name": "Nate Coraor",
-      "gitter": "natefoo",
+      "matrix": "natefoo:matrix.org",
       "twitter": "natefoo",
       "email": "nate@bx.psu.edu",
       "joined": "2017-12",
@@ -202,18 +249,24 @@
       "email": "saskia.hiltemann@gmail.com",
       "twitter": "shiltemann",
       "linkedin": "shiltemann",
-      "gitter": "shiltemann",
+      "matrix": "shiltemann:matrix.org",
       "orcid": "0000-0003-3803-468X",
       "joined": "2017-09",
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
+      "contact_for_training": true,
+      "location": {
+        "country": "NL",
+        "lat": 51.912,
+        "lon": 4.462
+      },
       "id": "shiltemann",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
     },
     {
       "name": "Nicola Soranzo",
-      "gitter": "nsoranzo",
+      "matrix": "nsoranzo:matrix.org",
       "orcid": "0000-0003-3627-5340",
       "twitter": "NicolaSoranzo",
       "joined": "2017-09",
@@ -241,6 +294,17 @@
     {
       "name": "Martin Čech",
       "email": "marten@bx.psu.edu",
+      "matrix": "martenson:matrix.org",
+      "orcid": "0000-0002-9318-1781",
+      "elixir_node": "cz",
+      "contact_for_training": true,
+      "location": {
+        "country": "USA",
+        "lat": 37.0,
+        "lon": -122.0
+      },
+      "fediverse": "https://mastodon.world/@martenson",
+      "fediverse_flavor": "mastodon",
       "joined": "2017-09",
       "id": "martenson",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json",
@@ -251,7 +315,7 @@
       "email": "jmchilton@gmail.com",
       "joined": "2017-09",
       "twitter": "jmchilton",
-      "gitter": "jmchilton",
+      "matrix": "jmchilton:matrix.org",
       "orcid": "0000-0002-6794-0756",
       "id": "jmchilton",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -265,17 +329,6 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/davebx/"
     },
     {
-      "name": "Nicola Soranzo",
-      "gitter": "nsoranzo",
-      "orcid": "0000-0003-3627-5340",
-      "twitter": "NicolaSoranzo",
-      "joined": "2017-09",
-      "elixir_node": "uk",
-      "id": "nsoranzo",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json",
-      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/"
-    },
-    {
       "name": "Gildas Le Corguillé",
       "joined": "2017-09",
       "elixir_node": "fr",
@@ -285,26 +338,50 @@
     },
     {
       "name": "Anthony Bretaudeau",
-      "email": "anthony.bretaudeau@inra.fr",
+      "email": "anthony.bretaudeau@inrae.fr",
       "twitter": "abretau",
-      "gitter": "abretaud",
+      "matrix": "abretaud:matrix.org",
       "orcid": "0000-0003-0914-2470",
       "joined": "2017-09",
       "elixir_node": "fr",
+      "contact_for_training": true,
+      "location": {
+        "country": "FR",
+        "lat": 48.11,
+        "lon": -1.64
+      },
+      "fediverse": "https://genomic.social/@abretaud",
+      "fediverse_flavor": "mastodon",
       "id": "abretaud",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
     },
     {
+      "name": "Lucille Delisle",
+      "email": "lucille.delisle@epfl.ch",
+      "orcid": "0000-0002-1964-4960",
+      "joined": "2019-08",
+      "elixir_node": "ch",
+      "contact_for_training": true,
+      "location": {
+        "country": "CH",
+        "lat": 46.52,
+        "lon": 6.56
+      },
+      "id": "lldelisle",
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/lldelisle.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lldelisle/"
+    },
+    {
       "name": "Mira Kuntz",
+      "orcid": "0000-0003-4302-5091",
+      "matrix": "mira-miracoli:matrix.org",
+      "email": "kuntzm@informatik.uni-freiburg.de",
       "joined": "2022-07",
+      "elixir_node": "de",
       "id": "mira-miracoli",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/mira-miracoli.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mira-miracoli/"
     }
-  ],
-  "urls": {
-    "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/ansible-galaxy/tutorial.json",
-    "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/ansible-galaxy/tutorial.json"
-  }
+  ]
 }

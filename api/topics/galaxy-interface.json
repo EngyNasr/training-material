@@ -42,11 +42,17 @@
       "name": "Jennifer Hillman-Jackson",
       "maintainer_contact": "https://help.galaxyproject.org/",
       "email": "jen@galaxyproject.org",
-      "gitter": "jennaj",
+      "matrix": "jennaj:matrix.org",
       "twitter": "jennaj_io",
       "linkedin": "jennifer.hillman.jackson",
       "orcid": "0000-0003-4012-8116",
       "joined": "2018-06",
+      "contact_for_training": true,
+      "location": {
+        "country": "US",
+        "lat": 36.969918,
+        "lon": -122.0226576
+      },
       "id": "jennaj",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/jennaj.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jennaj/"
@@ -56,9 +62,17 @@
       "email": "hexylena@galaxians.org",
       "orcid": "0000-0001-9760-8992",
       "maintainer_contact": "gitter",
-      "gitter": "hexylena",
+      "matrix": "hexylena:matrix.org",
       "joined": "2017-09",
       "elixir_node": "nl",
+      "fediverse": "https://galaxians.garden/hexylena",
+      "fediverse_flavor": "akkoma",
+      "contact_for_training": false,
+      "location": {
+        "country": "NL",
+        "lat": 51.91,
+        "lon": 4.46
+      },
       "id": "hexylena",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
@@ -110,14 +124,18 @@
         {
           "name": "Wolfgang Maier",
           "orcid": "0000-0002-9464-6640",
+          "matrix": "wm75:matrix.org",
           "joined": "2017-09",
           "elixir_node": "de",
+          "fediverse": "https://scholar.social/@zerodivision",
+          "fediverse_flavor": "mastodon",
           "id": "wm75",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "subtopic": "workflows",
+      "short_id": "T00162",
       "url": "/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "workflow-automation",
@@ -171,9 +189,23 @@
         {
           "workflow": "main_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga",
+          "path": "topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga",
+          "wfid": "galaxy-interface-workflow-automation",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-workflow-automation/versions/main_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-9464-6640",
+              "name": "Wolfgang Maier"
+            }
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-automation/tutorial.json",
       "tools": [
         "toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/bcftools_consensus/1.10",
         "toolshed.g2.bx.psu.edu/repos/iuc/compose_text_param/compose_text_param/0.1.1",
@@ -181,6 +213,86 @@
         "toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_filter/4.3+t.galaxy1",
         "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "bcftools_consensus",
+            "owner": "iuc",
+            "revisions": "e522022137f6",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "compose_text_param",
+            "owner": "iuc",
+            "revisions": "e188c9826e0f",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "pangolin",
+            "owner": "iuc",
+            "revisions": "b6abccb1f25b",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "snpsift",
+            "owner": "iuc",
+            "revisions": "5fab4f81391d",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "collapse_collections",
+            "owner": "nml",
+            "revisions": "830961c48e42",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: bcftools_consensus\n  owner: iuc\n  revisions: e522022137f6\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: compose_text_param\n  owner: iuc\n  revisions: e188c9826e0f\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: pangolin\n  owner: iuc\n  revisions: b6abccb1f25b\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: snpsift\n  owner: iuc\n  revisions: 5fab4f81391d\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: collapse_collections\n  owner: nml\n  revisions: 830961c48e42\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -194,8 +306,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-automation/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-automation/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-automation/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-automation/tutorial.json"
       }
     },
     {
@@ -241,6 +353,7 @@
       },
       "level": "Intermediate",
       "subtopic": "workflows",
+      "short_id": "T00165",
       "url": "/topics/galaxy-interface/tutorials/workflow-reports/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "workflow-reports",
@@ -288,14 +401,33 @@
         {
           "workflow": "galaxy-101-everyone.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-reports/workflows/galaxy-101-everyone.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-reports/workflows/galaxy-101-everyone.ga",
+          "path": "topics/galaxy-interface/tutorials/workflow-reports/workflows/galaxy-101-everyone.ga",
+          "wfid": "galaxy-interface-workflow-reports",
+          "wfname": "galaxy-101-everyone",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-workflow-reports/versions/galaxy-101-everyone",
+          "license": null,
+          "creators": [
+
+          ],
+          "test_results": null
         },
         {
           "workflow": "workflow_reports_final_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-reports/workflows/workflow_reports_final_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-reports/workflows/workflow_reports_final_workflow.ga",
+          "path": "topics/galaxy-interface/tutorials/workflow-reports/workflows/workflow_reports_final_workflow.ga",
+          "wfid": "galaxy-interface-workflow-reports",
+          "wfname": "workflow_reports_final_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-workflow-reports/versions/workflow_reports_final_workflow",
+          "license": null,
+          "creators": [
+
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-reports/tutorial.json",
       "tools": [
         "Cut1",
         "Grouping1",
@@ -306,6 +438,72 @@
         "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.3.5+galaxy0",
         "upload1"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.no/",
+            "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+          {
+            "url": "https://galaxy.mesocentre.uca.fr",
+            "name": "Galaxy@AuBi",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "text_processing",
+            "owner": "bgruening",
+            "revisions": "d698c222f354",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "datamash_ops",
+            "owner": "iuc",
+            "revisions": "562f3c677828",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "ggplot2_point",
+            "owner": "iuc",
+            "revisions": "1acf88921176",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: datamash_ops\n  owner: iuc\n  revisions: 562f3c677828\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ggplot2_point\n  owner: iuc\n  revisions: 1acf88921176\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -325,11 +523,17 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
@@ -339,9 +543,17 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
@@ -351,7 +563,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -377,22 +589,25 @@
           "avatar": "https://www.erasmusplus.nl/assets/images/logo.png",
           "github": false,
           "funder": true,
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
           "funding_id": "2020-1-NL01-KA203-064717",
+          "funding_system": "erasmusplus",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-reports/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-reports/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-reports/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-reports/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-ui/tutorials/workflow-parameters/tutorial"
+        "/topics/galaxy-ui/tutorials/workflow-parameters/tutorial",
+        "/short/galaxy-interface/workflow-parameters",
+        "/short/T00164"
       ],
       "title": "Using Workflow Parameters",
       "tags": [
@@ -424,9 +639,17 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
@@ -434,6 +657,7 @@
       ],
       "level": "Intermediate",
       "subtopic": "workflows",
+      "short_id": "T00164",
       "url": "/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "workflow-parameters",
@@ -481,12 +705,100 @@
         {
           "workflow": "cut_n_lines.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-parameters/workflows/cut_n_lines.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-parameters/workflows/cut_n_lines.ga",
+          "path": "topics/galaxy-interface/tutorials/workflow-parameters/workflows/cut_n_lines.ga",
+          "wfid": "galaxy-interface-workflow-parameters",
+          "wfname": "cut_n_lines",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-workflow-parameters/versions/cut_n_lines",
+          "license": null,
+          "creators": [
+
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.json",
       "tools": [
         "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_head_tool/1.1.0"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.mesocentre.uca.fr",
+            "name": "Galaxy@AuBi",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://galaxytrakr.org/",
+            "name": "GalaxyTrakr",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://galaxy.hyphy.org/",
+            "name": "HyPhy HIV NGS Tools",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "http://pepsimili.e-nios.com:8080/",
+            "name": "PepSimili",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.no/",
+            "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "text_processing",
+            "owner": "bgruening",
+            "revisions": "d698c222f354",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -500,8 +812,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-parameters/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-parameters/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.json"
       }
     },
     {
@@ -538,6 +850,7 @@
       ],
       "level": "Intermediate",
       "subtopic": "workflows",
+      "short_id": "T00163",
       "url": "/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "workflow-editor",
@@ -556,19 +869,106 @@
         {
           "workflow": "main_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/workflows/main_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/workflows/main_workflow.ga",
+          "path": "topics/galaxy-interface/tutorials/workflow-editor/workflows/main_workflow.ga",
+          "wfid": "galaxy-interface-workflow-editor",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-workflow-editor/versions/main_workflow",
+          "license": null,
+          "creators": [
+
+          ],
+          "test_results": null
         },
         {
           "workflow": "subworkflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/workflows/subworkflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/workflows/subworkflow.ga",
+          "path": "topics/galaxy-interface/tutorials/workflow-editor/workflows/subworkflow.ga",
+          "wfid": "galaxy-interface-workflow-editor",
+          "wfname": "subworkflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-workflow-editor/versions/subworkflow",
+          "license": null,
+          "creators": [
+
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-editor/tutorial.json",
       "tools": [
         "Paste1",
         "Show beginning1",
         "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tac/1.1.0"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.mesocentre.uca.fr",
+            "name": "Galaxy@AuBi",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "http://pepsimili.e-nios.com:8080/",
+            "name": "PepSimili",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.no/",
+            "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "text_processing",
+            "owner": "bgruening",
+            "revisions": "d698c222f354",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -582,8 +982,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-editor/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-editor/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-editor/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-editor/tutorial.json"
       }
     },
     {
@@ -616,6 +1016,7 @@
         }
       ],
       "subtopic": "analyse",
+      "short_id": "T00152",
       "url": "/topics/galaxy-interface/tutorials/intermine/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "intermine",
@@ -634,13 +1035,71 @@
         {
           "workflow": "main_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/intermine/workflows/main_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/intermine/workflows/main_workflow.ga",
+          "path": "topics/galaxy-interface/tutorials/intermine/workflows/main_workflow.ga",
+          "wfid": "galaxy-interface-intermine",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-intermine/versions/main_workflow",
+          "license": null,
+          "creators": [
+
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/intermine/tutorial.json",
       "tools": [
         "intermine",
         "toolshed.g2.bx.psu.edu/repos/iuc/intermine_galaxy_exchange/galaxy_intermine_exchange/0.0.1"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.no/",
+            "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "intermine_galaxy_exchange",
+            "owner": "iuc",
+            "revisions": "c24014d80001",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: intermine_galaxy_exchange\n  owner: iuc\n  revisions: c24014d80001\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -654,8 +1113,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/intermine/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/intermine/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/intermine/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/intermine/tutorial.json"
       }
     },
     {
@@ -709,7 +1168,7 @@
         {
           "name": "Bert Droesbeke",
           "email": "bedro@psb.ugent.be",
-          "gitter": "bedroesb",
+          "matrix": "bedroesb:matrix.org",
           "orcid": "0000-0003-0522-5674",
           "joined": "2019-12",
           "elixir_node": "be",
@@ -718,6 +1177,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bedroesb/"
         }
       ],
+      "short_id": "T00159",
       "url": "/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "upload-data-to-ena",
@@ -736,14 +1196,55 @@
         {
           "workflow": "main_workflow.ga",
           "tests": false,
-          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/workflows/main_workflow.ga"
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/workflows/main_workflow.ga",
+          "path": "topics/galaxy-interface/tutorials/upload-data-to-ena/workflows/main_workflow.ga",
+          "wfid": "galaxy-interface-upload-data-to-ena",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-upload-data-to-ena/versions/main_workflow",
+          "license": null,
+          "creators": [
+
+          ],
+          "test_results": null
         }
       ],
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.json",
       "tools": [
         "toolshed.g2.bx.psu.edu/repos/ieguinoa/ena_webin_cli/ena_webin_cli/7d751b5943b0",
         "toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/0.3.2",
         "toolshed.g2.bx.psu.edu/repos/iuc/ena_upload/ena_upload/0.6.1"
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "ena_upload",
+            "owner": "iuc",
+            "revisions": "9e2df763086c",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "ena_upload",
+            "owner": "iuc",
+            "revisions": "a62c4a11a67d",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: ena_upload\n  owner: iuc\n  revisions: 9e2df763086c\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ena_upload\n  owner: iuc\n  revisions: a62c4a11a67d\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -757,15 +1258,17 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-data-to-ena/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-data-to-ena/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.json"
       }
     },
     {
       "layout": "tutorial_slides",
       "logo": "GTN",
       "redirect_from": [
-        "/topics/galaxy-data-manipulation/tutorials/get-data/slides"
+        "/topics/galaxy-data-manipulation/tutorials/get-data/slides",
+        "/short/galaxy-interface/get-data/slides",
+        "/short/S00062"
       ],
       "title": "Getting data into Galaxy",
       "zenodo_link": "",
@@ -806,17 +1309,24 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
       "subtopic": "upload",
+      "short_id": "S00062",
       "url": "/topics/galaxy-interface/tutorials/get-data/slides.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "get-data",
@@ -831,9 +1341,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/get-data/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -847,8 +1390,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/get-data/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/get-data/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/get-data/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/get-data/slides.json"
       }
     },
     {
@@ -899,6 +1442,7 @@
           ]
         }
       ],
+      "short_id": "T00155",
       "url": "/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "ncbi-sarf",
@@ -985,6 +1529,7 @@
       },
       "hands_on": true,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.json",
       "tools": [
         "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
         "toolshed.g2.bx.psu.edu/repos/devteam/fastqtofasta/fastq_to_fasta_python/1.1.5",
@@ -994,6 +1539,100 @@
         "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.11.0+galaxy0",
         "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fastq_dump/2.11.0+galaxy0"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.no/",
+            "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "text_processing",
+            "owner": "bgruening",
+            "revisions": "ddf54b12c295",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "fastqtofasta",
+            "owner": "devteam",
+            "revisions": "297962e79f39",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "jq",
+            "owner": "iuc",
+            "revisions": "5ff75eb1a893",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "query_tabular",
+            "owner": "iuc",
+            "revisions": "33d61c89fb8d",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "snpeff_sars_cov_2",
+            "owner": "iuc",
+            "revisions": "2a3a00c1fa0a",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "sra_tools",
+            "owner": "iuc",
+            "revisions": "69ebb7f46e45",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "sra_tools",
+            "owner": "iuc",
+            "revisions": "83c7d564b128",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: ddf54b12c295\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: fastqtofasta\n  owner: devteam\n  revisions: 297962e79f39\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: jq\n  owner: iuc\n  revisions: 5ff75eb1a893\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: query_tabular\n  owner: iuc\n  revisions: 33d61c89fb8d\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: snpeff_sars_cov_2\n  owner: iuc\n  revisions: 2a3a00c1fa0a\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sra_tools\n  owner: iuc\n  revisions: 69ebb7f46e45\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sra_tools\n  owner: iuc\n  revisions: 83c7d564b128\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1007,8 +1646,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/ncbi-sarf/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/ncbi-sarf/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.json"
       }
     },
     {
@@ -1057,6 +1696,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/afgane/"
         }
       ],
+      "short_id": "S00061",
       "url": "/topics/galaxy-interface/tutorials/galaxy-on-dockstore/slides.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "galaxy-on-dockstore",
@@ -1071,9 +1711,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/galaxy-on-dockstore/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1087,14 +1760,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/galaxy-on-dockstore/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/galaxy-on-dockstore/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/galaxy-on-dockstore/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/galaxy-on-dockstore/slides.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-data-manipulation/tutorials/name-tags/tutorial"
+        "/topics/galaxy-data-manipulation/tutorials/name-tags/tutorial",
+        "/short/galaxy-interface/name-tags",
+        "/short/T00154"
       ],
       "title": "Name tags for following complex histories",
       "zenodo_link": "",
@@ -1117,15 +1792,24 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "subtopic": "manage",
+      "short_id": "T00154",
       "url": "/topics/galaxy-interface/tutorials/name-tags/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "name-tags",
@@ -1140,9 +1824,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/name-tags/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1156,14 +1873,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/name-tags/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/name-tags/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/name-tags/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/name-tags/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-data-manipulation/tutorials/collections/tutorial"
+        "/topics/galaxy-data-manipulation/tutorials/collections/tutorial",
+        "/short/galaxy-interface/collections",
+        "/short/T00146"
       ],
       "title": "Using dataset collections",
       "zenodo_link": "https://doi.org/10.5281/zenodo.5119008",
@@ -1195,6 +1914,7 @@
         }
       ],
       "subtopic": "manage",
+      "short_id": "T00146",
       "url": "/topics/galaxy-interface/tutorials/collections/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "collections",
@@ -1250,12 +1970,101 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/collections/tutorial.json",
       "tools": [
         "toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1",
         "toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy1",
         "toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_extractFields/4.3+t.galaxy0",
         "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+          {
+            "url": "https://galaxytrakr.org/",
+            "name": "GalaxyTrakr",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://galaxy.hyphy.org/",
+            "name": "HyPhy HIV NGS Tools",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.no/",
+            "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+          {
+            "name": "bwa",
+            "owner": "devteam",
+            "revisions": "3fe632431b68",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "lofreq_call",
+            "owner": "iuc",
+            "revisions": "e1461b5c52a0",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "snpsift",
+            "owner": "iuc",
+            "revisions": "5fab4f81391d",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          },
+          {
+            "name": "collapse_collections",
+            "owner": "nml",
+            "revisions": "25136a2b0cfe",
+            "tool_panel_section_label": "Using Galaxy and Managing your Data",
+            "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
+          }
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: bwa\n  owner: devteam\n  revisions: 3fe632431b68\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: lofreq_call\n  owner: iuc\n  revisions: e1461b5c52a0\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: snpsift\n  owner: iuc\n  revisions: 5fab4f81391d\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: collapse_collections\n  owner: nml\n  revisions: 25136a2b0cfe\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1269,8 +2078,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/collections/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/collections/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/collections/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/collections/tutorial.json"
       }
     },
     {
@@ -1306,7 +2115,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -1317,15 +2126,24 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "subtopic": "upload",
+      "short_id": "T00161",
       "url": "/topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "upload-rules-advanced",
@@ -1340,9 +2158,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1356,14 +2207,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-rules-advanced/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-rules-advanced/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-data-manipulation/tutorials/processing-many-samples-at-once/tutorial"
+        "/topics/galaxy-data-manipulation/tutorials/processing-many-samples-at-once/tutorial",
+        "/short/galaxy-interface/processing-many-samples-at-once",
+        "/short/T00156"
       ],
       "title": "Multisample Analysis",
       "tags": [
@@ -1393,6 +2246,7 @@
         }
       ],
       "subtopic": "manage",
+      "short_id": "T00156",
       "url": "/topics/galaxy-interface/tutorials/processing-many-samples-at-once/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "processing-many-samples-at-once",
@@ -1407,9 +2261,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/processing-many-samples-at-once/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1423,14 +2310,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/processing-many-samples-at-once/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/processing-many-samples-at-once/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/processing-many-samples-at-once/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/processing-many-samples-at-once/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-ui/tutorials/history/tutorial"
+        "/topics/galaxy-ui/tutorials/history/tutorial",
+        "/short/galaxy-interface/history",
+        "/short/T00150"
       ],
       "title": "Understanding Galaxy history system",
       "zenodo_link": "",
@@ -1465,6 +2354,7 @@
         ]
       },
       "subtopic": "histories",
+      "short_id": "T00150",
       "url": "/topics/galaxy-interface/tutorials/history/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "history",
@@ -1507,9 +2397,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/history/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1541,6 +2464,17 @@
         {
           "name": "Martin Čech",
           "email": "marten@bx.psu.edu",
+          "matrix": "martenson:matrix.org",
+          "orcid": "0000-0002-9318-1781",
+          "elixir_node": "cz",
+          "contact_for_training": true,
+          "location": {
+            "country": "USA",
+            "lat": 37.0,
+            "lon": -122.0
+          },
+          "fediverse": "https://mastodon.world/@martenson",
+          "fediverse_flavor": "mastodon",
           "joined": "2017-09",
           "id": "martenson",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json",
@@ -1561,11 +2495,17 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
@@ -1575,10 +2515,18 @@
           "email": "berenice.batut@gmail.com",
           "twitter": "bebatut",
           "linkedin": "berenicebatut",
-          "gitter": "bebatut",
+          "matrix": "bebatut:matrix.org",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
           "elixir_node": "de",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 45.77,
+            "lon": 3.08
+          },
+          "fediverse": "https://piaille.fr/@bebatut",
+          "fediverse_flavor": "mastodon",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -1587,7 +2535,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -1601,23 +2551,33 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/history/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/history/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/history/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/history/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-ui/tutorials/rstudio/tutorial"
+        "/topics/galaxy-ui/tutorials/rstudio/tutorial",
+        "/short/galaxy-interface/rstudio",
+        "/short/T00157"
       ],
       "title": "RStudio in Galaxy",
       "zenodo_link": "",
@@ -1649,10 +2609,18 @@
           "email": "berenice.batut@gmail.com",
           "twitter": "bebatut",
           "linkedin": "berenicebatut",
-          "gitter": "bebatut",
+          "matrix": "bebatut:matrix.org",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
           "elixir_node": "de",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 45.77,
+            "lon": 3.08
+          },
+          "fediverse": "https://piaille.fr/@bebatut",
+          "fediverse_flavor": "mastodon",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -1661,7 +2629,7 @@
           "name": "Fotis E. Psomopoulos",
           "email": "fpsom@certh.gr",
           "twitter": "fopsom",
-          "gitter": "fpsom",
+          "matrix": "fpsom:matrix.org",
           "orcid": "0000-0002-0222-4273",
           "linkedin": "fpsom",
           "joined": "2019-03",
@@ -1686,14 +2654,16 @@
           "avatar": "https://www.erasmusplus.nl/assets/images/logo.png",
           "github": false,
           "funder": true,
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
           "funding_id": "2020-1-NL01-KA203-064717",
+          "funding_system": "erasmusplus",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />",
           "id": "erasmusplus",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/erasmusplus.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/erasmusplus/"
         }
       ],
       "subtopic": "analyse",
+      "short_id": "T00157",
       "url": "/topics/galaxy-interface/tutorials/rstudio/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "rstudio",
@@ -1708,9 +2678,47 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/rstudio/tutorial.json",
       "tools": [
         "interactive_tool_rstudio"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1724,14 +2732,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/rstudio/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/rstudio/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/rstudio/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/rstudio/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-data-manipulation/tutorials/group-tags/tutorial"
+        "/topics/galaxy-data-manipulation/tutorials/group-tags/tutorial",
+        "/short/galaxy-interface/group-tags",
+        "/short/T00149"
       ],
       "title": "Group tags for complex experimental designs",
       "zenodo_link": "",
@@ -1757,6 +2767,7 @@
         }
       ],
       "subtopic": "manage",
+      "short_id": "T00149",
       "url": "/topics/galaxy-interface/tutorials/group-tags/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "group-tags",
@@ -1771,9 +2782,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/group-tags/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1787,14 +2831,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/group-tags/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/group-tags/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/group-tags/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/group-tags/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-ui/tutorials/history-to-workflow/tutorial"
+        "/topics/galaxy-ui/tutorials/history-to-workflow/tutorial",
+        "/short/galaxy-interface/history-to-workflow",
+        "/short/T00151"
       ],
       "title": "Extracting Workflows from Histories",
       "tags": [
@@ -1828,6 +2874,7 @@
         }
       ],
       "subtopic": "workflows",
+      "short_id": "T00151",
       "url": "/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "history-to-workflow",
@@ -1842,9 +2889,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1858,14 +2938,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/history-to-workflow/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/history-to-workflow/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-data-manipulation/tutorials/upload-rules/tutorial"
+        "/topics/galaxy-data-manipulation/tutorials/upload-rules/tutorial",
+        "/short/galaxy-interface/upload-rules",
+        "/short/T00160"
       ],
       "title": "Rule Based Uploader",
       "zenodo_link": "",
@@ -1906,7 +2988,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -1917,15 +2999,24 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "subtopic": "upload",
+      "short_id": "T00160",
       "url": "/topics/galaxy-interface/tutorials/upload-rules/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "upload-rules",
@@ -1973,9 +3064,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-rules/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1989,14 +3113,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-rules/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-rules/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-rules/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-rules/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-ui/tutorials/jupyterlab/tutorial"
+        "/topics/galaxy-ui/tutorials/jupyterlab/tutorial",
+        "/short/galaxy-interface/jupyterlab",
+        "/short/T00153"
       ],
       "title": "JupyterLab in Galaxy",
       "zenodo_link": "",
@@ -2030,6 +3156,7 @@
         ]
       },
       "subtopic": "analyse",
+      "short_id": "T00153",
       "url": "/topics/galaxy-interface/tutorials/jupyterlab/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "jupyterlab",
@@ -2044,9 +3171,52 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/jupyterlab/tutorial.json",
       "tools": [
         "interactive_tool_jupyter_notebook"
       ],
+      "supported_servers": {
+        "exact": [
+          {
+            "url": "https://galaxy.genouest.org",
+            "name": "Galaxy@GenOuest",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.fr/",
+            "name": "UseGalaxy.fr",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org",
+            "name": "UseGalaxy.org (Main)",
+            "usegalaxy": "true"
+          }
+        ],
+        "inexact": [
+
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2075,23 +3245,33 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/jupyterlab/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/jupyterlab/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/jupyterlab/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/jupyterlab/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-ui/tutorials/galaxy-intro-jupyter/tutorial"
+        "/topics/galaxy-ui/tutorials/galaxy-intro-jupyter/tutorial",
+        "/short/galaxy-interface/galaxy-intro-jupyter",
+        "/short/T00148"
       ],
       "title": "Use Jupyter notebooks in Galaxy",
       "zenodo_link": "https://zenodo.org/record/1185122/files/GSM461176_untreat_single.counts",
@@ -2121,6 +3301,7 @@
         }
       ],
       "subtopic": "analyse",
+      "short_id": "T00148",
       "url": "/topics/galaxy-interface/tutorials/galaxy-intro-jupyter/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "galaxy-intro-jupyter",
@@ -2135,9 +3316,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/galaxy-intro-jupyter/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2151,14 +3365,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/galaxy-intro-jupyter/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/galaxy-intro-jupyter/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/galaxy-intro-jupyter/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/galaxy-intro-jupyter/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "redirect_from": [
-        "/topics/galaxy-data-manipulation/tutorials/download-delete-data/tutorial"
+        "/topics/galaxy-data-manipulation/tutorials/download-delete-data/tutorial",
+        "/short/galaxy-interface/download-delete-data",
+        "/short/T00147"
       ],
       "title": "Downloading and Deleting Data in Galaxy",
       "zenodo_link": "",
@@ -2193,15 +3409,24 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "subtopic": "cleanup",
+      "short_id": "T00147",
       "url": "/topics/galaxy-interface/tutorials/download-delete-data/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "download-delete-data",
@@ -2216,9 +3441,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/download-delete-data/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2232,8 +3490,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/download-delete-data/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/download-delete-data/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/download-delete-data/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/download-delete-data/tutorial.json"
       }
     },
     {
@@ -2260,9 +3518,17 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
@@ -2277,6 +3543,7 @@
         }
       ],
       "subtopic": "histories",
+      "short_id": "T00158",
       "url": "/topics/galaxy-interface/tutorials/search/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "search",
@@ -2291,9 +3558,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/search/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Using Galaxy and Managing your Data",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2307,8 +3607,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/search/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/search/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/search/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/search/tutorial.json"
       }
     }
   ]

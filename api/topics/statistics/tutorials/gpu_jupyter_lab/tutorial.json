@@ -50,6 +50,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
     }
   ],
+  "short_id": "T00266",
   "url": "/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.html",
   "topic_name": "statistics",
   "tutorial_name": "gpu_jupyter_lab",
@@ -68,14 +69,46 @@
     {
       "workflow": "gpu_jupyterlab_as_jupytool.ga",
       "tests": false,
-      "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/gpu_jupyter_lab/workflows/gpu_jupyterlab_as_jupytool.ga"
+      "url": "https://training.galaxyproject.org/training-material/topics/statistics/tutorials/gpu_jupyter_lab/workflows/gpu_jupyterlab_as_jupytool.ga",
+      "path": "topics/statistics/tutorials/gpu_jupyter_lab/workflows/gpu_jupyterlab_as_jupytool.ga",
+      "wfid": "statistics-gpu_jupyter_lab",
+      "wfname": "gpu_jupyterlab_as_jupytool",
+      "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/statistics-gpu_jupyter_lab/versions/gpu_jupyterlab_as_jupytool",
+      "license": null,
+      "creators": [
+
+      ],
+      "test_results": null
     }
   ],
+  "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.json",
   "tools": [
     "Cut1",
     "Filter1",
     "interactive_tool_ml_jupyter_notebook"
   ],
+  "supported_servers": {
+    "exact": [
+      {
+        "url": "https://usegalaxy.eu",
+        "name": "UseGalaxy.eu",
+        "usegalaxy": "true"
+      }
+    ],
+    "inexact": [
+
+    ]
+  },
+  "topic_name_human": "Statistics and machine learning",
+  "admin_install": {
+    "install_tool_dependencies": true,
+    "install_repository_dependencies": true,
+    "install_resolver_dependencies": true,
+    "tools": [
+
+    ]
+  },
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
   "tours": false,
   "video": false,
   "translations": {
@@ -87,9 +120,5 @@
     ],
     "video": false
   },
-  "type": "tutorial",
-  "urls": {
-    "hands_on": "https://training.galaxyproject.org/training-material/api/topics//statistics/tutorials/gpu_jupyter_lab/tutorial.json",
-    "slides": "https://training.galaxyproject.org/training-material/api/topics//statistics/tutorials/gpu_jupyter_lab/tutorial.json"
-  }
+  "type": "tutorial"
 }

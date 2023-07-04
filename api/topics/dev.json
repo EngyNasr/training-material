@@ -3,7 +3,9 @@
   "type": "admin-dev",
   "title": "Development in Galaxy",
   "summary": "Galaxy is an open-source project. Everyone can contribute to its development with core Galaxy development, integration of softwares in Galaxy environment, ...",
-  "edam_ontology": "topic_3372",
+  "edam_ontology": [
+    "topic_3372"
+  ],
   "docker_image": "quay.io/galaxy/dev-training",
   "requirements": null,
   "maintainers": [
@@ -20,10 +22,18 @@
       "email": "berenice.batut@gmail.com",
       "twitter": "bebatut",
       "linkedin": "berenicebatut",
-      "gitter": "bebatut",
+      "matrix": "bebatut:matrix.org",
       "orcid": "0000-0001-9852-1987",
       "joined": "2017-09",
       "elixir_node": "de",
+      "contact_for_training": true,
+      "location": {
+        "country": "FR",
+        "lat": 45.77,
+        "lon": 3.08
+      },
+      "fediverse": "https://piaille.fr/@bebatut",
+      "fediverse_flavor": "mastodon",
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -33,9 +43,17 @@
       "email": "hexylena@galaxians.org",
       "orcid": "0000-0001-9760-8992",
       "maintainer_contact": "gitter",
-      "gitter": "hexylena",
+      "matrix": "hexylena:matrix.org",
       "joined": "2017-09",
       "elixir_node": "nl",
+      "fediverse": "https://galaxians.garden/hexylena",
+      "fediverse_flavor": "akkoma",
+      "contact_for_training": false,
+      "location": {
+        "country": "NL",
+        "lat": 51.91,
+        "lon": 4.46
+      },
       "id": "hexylena",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
@@ -115,7 +133,7 @@
       "contributors": [
         {
           "name": "Nicola Soranzo",
-          "gitter": "nsoranzo",
+          "matrix": "nsoranzo:matrix.org",
           "orcid": "0000-0003-3627-5340",
           "twitter": "NicolaSoranzo",
           "joined": "2017-09",
@@ -129,7 +147,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -139,7 +157,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -157,6 +177,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hmenager/"
         }
       ],
+      "short_id": "S00045",
       "url": "/topics/dev/tutorials/conda/slides.html",
       "topic_name": "dev",
       "tutorial_name": "conda",
@@ -171,9 +192,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/conda/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -187,8 +241,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/conda/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/conda/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/conda/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/conda/slides.json"
       }
     },
     {
@@ -214,12 +268,20 @@
       "contributors": [
         {
           "name": "Anthony Bretaudeau",
-          "email": "anthony.bretaudeau@inra.fr",
+          "email": "anthony.bretaudeau@inrae.fr",
           "twitter": "abretau",
-          "gitter": "abretaud",
+          "matrix": "abretaud:matrix.org",
           "orcid": "0000-0003-0914-2470",
           "joined": "2017-09",
           "elixir_node": "fr",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 48.11,
+            "lon": -1.64
+          },
+          "fediverse": "https://genomic.social/@abretaud",
+          "fediverse_flavor": "mastodon",
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -232,6 +294,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cmonjeau/"
         }
       ],
+      "short_id": "S00046",
       "url": "/topics/dev/tutorials/conda_sys/slides.html",
       "topic_name": "dev",
       "tutorial_name": "conda_sys",
@@ -246,9 +309,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/conda_sys/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -262,8 +358,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/conda_sys/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/conda_sys/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/conda_sys/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/conda_sys/slides.json"
       }
     },
     {
@@ -304,6 +400,7 @@
       "notebook": {
         "language": "python"
       },
+      "short_id": "T00111",
       "url": "/topics/dev/tutorials/bioblend-api/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "bioblend-api",
@@ -318,9 +415,42 @@
       },
       "hands_on": true,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/bioblend-api/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": true,
       "translations": {
@@ -336,7 +466,7 @@
       "contributors": [
         {
           "name": "Nicola Soranzo",
-          "gitter": "nsoranzo",
+          "matrix": "nsoranzo:matrix.org",
           "orcid": "0000-0003-3627-5340",
           "twitter": "NicolaSoranzo",
           "joined": "2017-09",
@@ -365,17 +495,25 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/bioblend-api/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/bioblend-api/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/bioblend-api/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/bioblend-api/tutorial.json"
       }
     },
     {
@@ -403,10 +541,18 @@
           "email": "berenice.batut@gmail.com",
           "twitter": "bebatut",
           "linkedin": "berenicebatut",
-          "gitter": "bebatut",
+          "matrix": "bebatut:matrix.org",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
           "elixir_node": "de",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 45.77,
+            "lon": 3.08
+          },
+          "fediverse": "https://piaille.fr/@bebatut",
+          "fediverse_flavor": "mastodon",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -415,7 +561,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -426,6 +574,7 @@
         }
       ],
       "subtopic": "advanced",
+      "short_id": "S00049",
       "url": "/topics/dev/tutorials/interactive-tours/slides.html",
       "topic_name": "dev",
       "tutorial_name": "interactive-tours",
@@ -440,9 +589,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-tours/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -456,8 +638,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/interactive-tours/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/interactive-tours/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-tours/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-tours/slides.json"
       }
     },
     {
@@ -482,6 +664,7 @@
         {
           "name": "Clemens Blank",
           "email": "blankclemens@gmail.com",
+          "orcid": "0000-0002-1726-2256",
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "blankclemens",
@@ -491,6 +674,17 @@
         {
           "name": "Martin Čech",
           "email": "marten@bx.psu.edu",
+          "matrix": "martenson:matrix.org",
+          "orcid": "0000-0002-9318-1781",
+          "elixir_node": "cz",
+          "contact_for_training": true,
+          "location": {
+            "country": "USA",
+            "lat": 37.0,
+            "lon": -122.0
+          },
+          "fediverse": "https://mastodon.world/@martenson",
+          "fediverse_flavor": "mastodon",
           "joined": "2017-09",
           "id": "martenson",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json",
@@ -500,7 +694,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -511,6 +707,7 @@
         }
       ],
       "subtopic": "advanced",
+      "short_id": "T00122",
       "url": "/topics/dev/tutorials/webhooks/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "webhooks",
@@ -525,9 +722,42 @@
       },
       "hands_on": true,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/webhooks/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -541,8 +771,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/webhooks/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/webhooks/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/webhooks/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/webhooks/tutorial.json"
       }
     },
     {
@@ -582,7 +812,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -592,7 +822,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -602,6 +834,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
+      "short_id": "S00047",
       "url": "/topics/dev/tutorials/containers/slides.html",
       "topic_name": "dev",
       "tutorial_name": "containers",
@@ -616,9 +849,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/containers/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -632,8 +898,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/containers/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/containers/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/containers/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/containers/slides.json"
       }
     },
     {
@@ -660,12 +926,20 @@
       "contributors": [
         {
           "name": "Anthony Bretaudeau",
-          "email": "anthony.bretaudeau@inra.fr",
+          "email": "anthony.bretaudeau@inrae.fr",
           "twitter": "abretau",
-          "gitter": "abretaud",
+          "matrix": "abretaud:matrix.org",
           "orcid": "0000-0003-0914-2470",
           "joined": "2017-09",
           "elixir_node": "fr",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 48.11,
+            "lon": -1.64
+          },
+          "fediverse": "https://genomic.social/@abretaud",
+          "fediverse_flavor": "mastodon",
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -689,15 +963,24 @@
           "email": "berenice.batut@gmail.com",
           "twitter": "bebatut",
           "linkedin": "berenicebatut",
-          "gitter": "bebatut",
+          "matrix": "bebatut:matrix.org",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
           "elixir_node": "de",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 45.77,
+            "lon": 3.08
+          },
+          "fediverse": "https://piaille.fr/@bebatut",
+          "fediverse_flavor": "mastodon",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
+      "short_id": "S00052",
       "url": "/topics/dev/tutorials/toolshed/slides.html",
       "topic_name": "dev",
       "tutorial_name": "toolshed",
@@ -712,9 +995,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/toolshed/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -728,8 +1044,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/toolshed/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/toolshed/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/toolshed/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/toolshed/slides.json"
       }
     },
     {
@@ -763,11 +1079,17 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
@@ -780,6 +1102,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yhoogstrate/"
         }
       ],
+      "short_id": "T00121",
       "url": "/topics/dev/tutorials/visualization-generic/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "visualization-generic",
@@ -794,9 +1117,42 @@
       },
       "hands_on": true,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/visualization-generic/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -810,8 +1166,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/visualization-generic/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/visualization-generic/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/visualization-generic/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/visualization-generic/tutorial.json"
       }
     },
     {
@@ -836,11 +1192,17 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
@@ -856,7 +1218,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -880,6 +1244,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dannon/"
         }
       ],
+      "short_id": "T00120",
       "url": "/topics/dev/tutorials/visualization-charts/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "visualization-charts",
@@ -894,9 +1259,42 @@
       },
       "hands_on": true,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/visualization-charts/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -910,23 +1308,23 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/visualization-charts/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/visualization-charts/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/visualization-charts/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/visualization-charts/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "title": "ToolFactory: Generating Tools From Simple Scripts",
       "key_points": [
-        "The ToolFactory is a fully automated Galaxy tool generator for scientists and developers who routinely write command line scripts.",
+        "The ToolFactory is an automated Galaxy tool generator for scientists and developers who routinely write command line scripts.",
         "It can turn a working command line script into a proper Galaxy tool with a test in a few minutes.",
         "It automatically generates simple, complete Galaxy tools from information provided by filling in a normal Galaxy form in the familiar UI.",
-        "It is installed as a docker-galaxy-stable flavour - the ToolFactory Appliance.",
-        "The Appliance is a Galaxy server running in Docker, suited to any modern Linux workstation or high-end laptop.",
+        "It is installed as a self-configuring development code clone.",
+        "The Galaxy server is suited any modern Linux workstation or high-end laptop.",
         "Useful for learning about system administration or framework code, and for developing tools - all on your own private pop-up server."
       ],
       "objectives": [
-        "Learn why you might want to use the ToolFactory Appliance",
+        "Learn why you might want to use the ToolFactory development server",
         "Watch a video demonstration and explore the generated code - Hello Galaxy Training Network!",
         "Run it locally in Docker.",
         "Install and explore the simple examples provided.",
@@ -936,7 +1334,6 @@
       "questions": [
         "What options exist for new-to-Galaxy developers to convert functioning command line scripts into Galaxy tools?",
         "Can any command line script I've written be wrapped as a Galaxy tool?",
-        "Can I make a tool from a script developed in a Galaxy Interactive Environment notebook?",
         "How can I get the ToolFactory working locally, since you tell me it should never be exposed on a public server?",
         "What is the difference between a hand-crafted tool and a ToolFactory generated one?"
       ],
@@ -984,14 +1381,23 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "short_id": "T00118",
       "url": "/topics/dev/tutorials/tool-generators/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "tool-generators",
@@ -1035,9 +1441,42 @@
       },
       "hands_on": true,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-generators/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": true,
       "translations": {
@@ -1051,8 +1490,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-generators/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-generators/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-generators/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-generators/tutorial.json"
       }
     },
     {
@@ -1084,7 +1523,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -1094,7 +1533,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -1104,6 +1545,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
+      "short_id": "S00043",
       "url": "/topics/dev/tutorials/architecture/slides.html",
       "topic_name": "dev",
       "tutorial_name": "architecture",
@@ -1132,9 +1574,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/architecture/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1148,8 +1623,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/architecture/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/architecture/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/architecture/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/architecture/slides.json"
       }
     },
     {
@@ -1183,11 +1658,17 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
@@ -1196,7 +1677,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -1210,15 +1693,24 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
       "subtopic": "advanced",
+      "short_id": "S00048",
       "url": "/topics/dev/tutorials/interactive-environments/slides.html",
       "topic_name": "dev",
       "tutorial_name": "interactive-environments",
@@ -1233,9 +1725,42 @@
       },
       "hands_on": false,
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-environments/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1252,8 +1777,8 @@
         "work-in-progress"
       ],
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/interactive-environments/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/interactive-environments/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-environments/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-environments/slides.json"
       }
     },
     {
@@ -1281,7 +1806,7 @@
         "Use Planemo",
         "Use Conda",
         "Use GitHub",
-        "Use Travis",
+        "Use GitHub Actions",
         "No more excuse to develop crappy Galaxy tools"
       ],
       "follow_up_training": [
@@ -1300,11 +1825,17 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
@@ -1314,22 +1845,38 @@
           "email": "berenice.batut@gmail.com",
           "twitter": "bebatut",
           "linkedin": "berenicebatut",
-          "gitter": "bebatut",
+          "matrix": "bebatut:matrix.org",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
           "elixir_node": "de",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 45.77,
+            "lon": 3.08
+          },
+          "fediverse": "https://piaille.fr/@bebatut",
+          "fediverse_flavor": "mastodon",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         },
         {
           "name": "Anthony Bretaudeau",
-          "email": "anthony.bretaudeau@inra.fr",
+          "email": "anthony.bretaudeau@inrae.fr",
           "twitter": "abretau",
-          "gitter": "abretaud",
+          "matrix": "abretaud:matrix.org",
           "orcid": "0000-0003-0914-2470",
           "joined": "2017-09",
           "elixir_node": "fr",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 48.11,
+            "lon": -1.64
+          },
+          "fediverse": "https://genomic.social/@abretaud",
+          "fediverse_flavor": "mastodon",
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -1339,7 +1886,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -1347,7 +1894,7 @@
         },
         {
           "name": "Nicola Soranzo",
-          "gitter": "nsoranzo",
+          "matrix": "nsoranzo:matrix.org",
           "orcid": "0000-0003-3627-5340",
           "twitter": "NicolaSoranzo",
           "joined": "2017-09",
@@ -1360,7 +1907,9 @@
           "name": "Björn Grüning",
           "email": "bjoern.gruening@gmail.com",
           "twitter": "bjoerngruening",
-          "gitter": "bgruening",
+          "fediverse": "https://fosstodon.org/@bgruening",
+          "fediverse_flavor": "mastodon",
+          "matrix": "bgruening:matrix.org",
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
@@ -1378,6 +1927,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lecorguille/"
         }
       ],
+      "short_id": "S00051",
       "url": "/topics/dev/tutorials/tool-integration/slides.html",
       "topic_name": "dev",
       "tutorial_name": "tool-integration",
@@ -1391,9 +1941,42 @@
         "session": null
       },
       "slides": true,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-integration/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1407,8 +1990,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-integration/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-integration/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-integration/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-integration/slides.json"
       }
     },
     {
@@ -1445,7 +2028,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -1474,6 +2057,7 @@
         }
       ],
       "subtopic": "core",
+      "short_id": "T00123",
       "url": "/topics/dev/tutorials/writing_tests/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "writing_tests",
@@ -1488,9 +2072,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/writing_tests/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1504,16 +2121,16 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/writing_tests/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/writing_tests/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/writing_tests/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/writing_tests/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "title": "ToolFactory: Generating Tools From More Complex Scripts",
       "key_points": [
-        "The ToolFactory Appliance includes an automated form driven tool generator available as a pop-up Docker appliance.",
-        "It runs in a flavour of docker-galaxy-stable and produces new tools as Toolshed ready archives",
+        "The ToolFactory Appliance includes an automated form driven tool generator.",
+        "It produces new tools as Toolshed ready archives",
         "It was designed for scientists and developers who routinely write scripts for their analyses.",
         "It can quickly turn a working command line script into a working Galaxy tool.",
         "It generates tools from information entered on a Galaxy form in the familiar UI.",
@@ -1560,6 +2177,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fubar2/"
         }
       ],
+      "short_id": "T00119",
       "url": "/topics/dev/tutorials/tool-generators-advanced/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "tool-generators-advanced",
@@ -1604,9 +2222,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-generators-advanced/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1620,8 +2271,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-generators-advanced/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-generators-advanced/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-generators-advanced/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-generators-advanced/tutorial.json"
       }
     },
     {
@@ -1672,7 +2323,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -1701,6 +2352,7 @@
         }
       ],
       "subtopic": "core",
+      "short_id": "T00115",
       "url": "/topics/dev/tutorials/debugging/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "debugging",
@@ -1715,9 +2367,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/debugging/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1731,8 +2416,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/debugging/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/debugging/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/debugging/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/debugging/tutorial.json"
       }
     },
     {
@@ -1763,6 +2448,7 @@
         {
           "name": "Alex Ostrovsky",
           "email": "a.ostrovsky@mac.com",
+          "orcid": "0000-0002-7901-7109",
           "joined": "2019-06",
           "id": "astrovsky01",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/astrovsky01.json",
@@ -1784,6 +2470,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bernt-matthias/"
         }
       ],
+      "short_id": "T00117",
       "url": "/topics/dev/tutorials/tool-from-scratch/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "tool-from-scratch",
@@ -1857,9 +2544,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-from-scratch/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1873,8 +2593,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-from-scratch/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/tool-from-scratch/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-from-scratch/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/tool-from-scratch/tutorial.json"
       }
     },
     {
@@ -1937,6 +2657,7 @@
         "API": "Application Programming Interface",
         "PR": "Pull Request"
       },
+      "short_id": "T00112",
       "url": "/topics/dev/tutorials/bioblend-dev/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "bioblend-dev",
@@ -1951,9 +2672,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/bioblend-dev/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1967,8 +2721,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/bioblend-dev/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/bioblend-dev/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/bioblend-dev/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/bioblend-dev/tutorial.json"
       }
     },
     {
@@ -2025,7 +2779,7 @@
           "name": "Yvan Le Bras",
           "email": "yvan.le-bras@mnhn.fr",
           "twitter": "Yvan2935",
-          "gitter": "yvanlebras",
+          "matrix": "yvanlebras:matrix.org",
           "orcid": "0000-0002-8504-068X",
           "joined": "2017-09",
           "elixir_node": "fr",
@@ -2054,12 +2808,20 @@
         },
         {
           "name": "Anthony Bretaudeau",
-          "email": "anthony.bretaudeau@inra.fr",
+          "email": "anthony.bretaudeau@inrae.fr",
           "twitter": "abretau",
-          "gitter": "abretaud",
+          "matrix": "abretaud:matrix.org",
           "orcid": "0000-0003-0914-2470",
           "joined": "2017-09",
           "elixir_node": "fr",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 48.11,
+            "lon": -1.64
+          },
+          "fediverse": "https://genomic.social/@abretaud",
+          "fediverse_flavor": "mastodon",
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -2069,14 +2831,23 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "short_id": "T00116",
       "url": "/topics/dev/tutorials/interactive-tools/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "interactive-tools",
@@ -2091,9 +2862,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-tools/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2107,8 +2911,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/interactive-tools/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/interactive-tools/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-tools/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/interactive-tools/tutorial.json"
       }
     },
     {
@@ -2129,7 +2933,7 @@
           "email": "jmchilton@gmail.com",
           "joined": "2017-09",
           "twitter": "jmchilton",
-          "gitter": "jmchilton",
+          "matrix": "jmchilton:matrix.org",
           "orcid": "0000-0002-6794-0756",
           "id": "jmchilton",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json",
@@ -2167,6 +2971,7 @@
           ]
         }
       ],
+      "short_id": "T00113",
       "url": "/topics/dev/tutorials/core-contributing/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "core-contributing",
@@ -2181,9 +2986,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/core-contributing/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2197,8 +3035,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/core-contributing/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/core-contributing/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/core-contributing/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/core-contributing/tutorial.json"
       }
     },
     {
@@ -2217,10 +3055,18 @@
           "email": "berenice.batut@gmail.com",
           "twitter": "bebatut",
           "linkedin": "berenicebatut",
-          "gitter": "bebatut",
+          "matrix": "bebatut:matrix.org",
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
           "elixir_node": "de",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 45.77,
+            "lon": 3.08
+          },
+          "fediverse": "https://piaille.fr/@bebatut",
+          "fediverse_flavor": "mastodon",
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -2231,11 +3077,17 @@
           "email": "saskia.hiltemann@gmail.com",
           "twitter": "shiltemann",
           "linkedin": "shiltemann",
-          "gitter": "shiltemann",
+          "matrix": "shiltemann:matrix.org",
           "orcid": "0000-0003-3803-468X",
           "joined": "2017-09",
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
+          "contact_for_training": true,
+          "location": {
+            "country": "NL",
+            "lat": 51.912,
+            "lon": 4.462
+          },
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
@@ -2254,9 +3106,17 @@
           "email": "hexylena@galaxians.org",
           "orcid": "0000-0001-9760-8992",
           "maintainer_contact": "gitter",
-          "gitter": "hexylena",
+          "matrix": "hexylena:matrix.org",
           "joined": "2017-09",
           "elixir_node": "nl",
+          "fediverse": "https://galaxians.garden/hexylena",
+          "fediverse_flavor": "akkoma",
+          "contact_for_training": false,
+          "location": {
+            "country": "NL",
+            "lat": 51.91,
+            "lon": 4.46
+          },
           "id": "hexylena",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
@@ -2268,6 +3128,7 @@
         "Data flows from the external data resource to the Galaxy server without the need of \"downloading\" the data"
       ],
       "subtopic": "advanced",
+      "short_id": "T00114",
       "url": "/topics/dev/tutorials/data-source-integration/tutorial.html",
       "topic_name": "dev",
       "tutorial_name": "data-source-integration",
@@ -2282,9 +3143,42 @@
       },
       "hands_on": true,
       "slides": false,
+      "api": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/data-source-integration/tutorial.json",
       "tools": [
 
       ],
+      "supported_servers": {
+        "exact": [
+
+        ],
+        "inexact": [
+          {
+            "name": "UseGalaxy.eu",
+            "url": "https://usegalaxy.eu",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org",
+            "url": "https://usegalaxy.org",
+            "usegalaxy": true
+          },
+          {
+            "name": "UseGalaxy.org.au",
+            "url": "https://usegalaxy.org.au",
+            "usegalaxy": true
+          }
+        ]
+      },
+      "topic_name_human": "Development in Galaxy",
+      "admin_install": {
+        "install_tool_dependencies": true,
+        "install_repository_dependencies": true,
+        "install_resolver_dependencies": true,
+        "tools": [
+
+        ]
+      },
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools: []\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2298,8 +3192,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/data-source-integration/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//dev/tutorials/data-source-integration/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/data-source-integration/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/dev/tutorials/data-source-integration/tutorial.json"
       }
     }
   ]
